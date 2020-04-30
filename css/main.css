@@ -297,3 +297,10 @@ video {
 #navbar a:hover {
 	background-color: rgb(119,156,200);
 }
+
+.loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10em;
+}
