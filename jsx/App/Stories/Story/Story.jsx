@@ -1,7 +1,7 @@
 import { Sidebar } from './Sidebar/Sidebar.jsx';
 import { CenterPanel } from './Display/CenterPanel.jsx';
 import { Video } from './Sidebar/Video.jsx';
-import { setupTextSync } from '../../../../js/txt_sync';
+import { setupTextSync } from './lib/txt_sync';
 import { Loader } from '../Loader.jsx';
 
 export class Story extends React.Component {
@@ -10,7 +10,7 @@ export class Story extends React.Component {
         this.state = { story: null };
       }
     async componentDidMount() {
-        const storyJSON = await import(`../../../../data/json_files/${this.props.storyID}.json`);
+        const storyJSON = await import(`~./data/json_files/${this.props.storyID}.json`);
         this.setState({ story: storyJSON.default });
 
         // If there is a footer, i.e., if audio exists:
@@ -59,5 +59,5 @@ export class Story extends React.Component {
 }
 
 export function getMediaFilePath(mediaFilename) {
-    return mediaFilename.toLowerCase().startsWith('https://drive.google.com') ? mediaFilename : `data/media_files/${mediaFilename}`;
+    return /^(\w)+:\/\//i.test(mediaFilename) ? mediaFilename : `data/media_files/${mediaFilename}`;
 }

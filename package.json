@@ -26,17 +26,21 @@
   "devDependencies": {
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "css-loader": "^3.5.2",
-    "node-fetch": "^2.6.0",
+    "fetch-retry": "^3.1.0",
+    "isomorphic-fetch": "^2.2.1",
     "style-loader": "^1.1.4",
+    "sync-rpc": "^1.3.6",
     "url-loader": "^4.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fetch-remote-media-index": "node preprocessing/fetch_remote_media_index.js",
     "rebuild-db-online": "MISSING_MEDIA=link node preprocessing/rebuild.js",
-    "rebuild-db-offline": "MISSING_MEDIA=download node preprocessing/rebuild.js",
+    "rebuild-db-offline": "MISSING_MEDIA=ignore node preprocessing/rebuild.js",
     "webpack": "webpack --config webpack.config.js",
-    "bundle": "rm -rf dist/ && mkdir dist/ && mkdir dist/media_files/ && cp --recursive index.html js/ css/ images/ data/media_files/ dist/"
+    "webpack-watch": "npm run webpack -- --watch --progress",
+    "bundle": "rm -rf bundle/ && mkdir -p bundle/media_files/ && cp --recursive index.html build/ css/ data/media_files/ images/ bundle/",
+    "quick-build-online": "npm run fetch-remote-media-index && npm run rebuild-db-online && npm run webpack && echo \"Done! index.html is ready. To bundle LingView, run \"npm run bundle\".\"",
+    "quick-build-offline": "npm run fetch-remote-media-index && npm run rebuild-db-offline && npm run webpack && echo \"Done! index.html is ready. To bundle LingView, run \"npm run bundle\".\""
   },
   "repository": {
     "type": "git",

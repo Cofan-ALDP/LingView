@@ -11,7 +11,7 @@ export class Stories extends React.Component {
     this.state = { index: null };
   }
   componentDidMount() {
-    import('../../../data/index.json').then(i => {
+    import('~./data/index.json').then(i => {
       console.log(i);
       this.setState({ index: i.default })
     });

@@ -2,8 +2,8 @@
 
 const fs = require('fs');
 const parseXml = require('xml2js').parseString;
-const flex = require('./preprocess_flex');
-const elan = require('./preprocess_eaf');
+const flex = require('./lib/preprocess_flex');
+const elan = require('./lib/preprocess_eaf');
 const db = require('./build_database');
 
 const flexFilesDir = "data/flex_files/";

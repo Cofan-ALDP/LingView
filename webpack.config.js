@@ -5,8 +5,8 @@ module.exports = {
   entry: './jsx/AppContainer.jsx',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'js'),
-    publicPath: './js/'
+    path: path.resolve(__dirname, 'build'),
+    publicPath: './build/'
   },
   mode: 'production',
   module: {
@@ -25,6 +25,11 @@ module.exports = {
       test: /\.(png|jpg)$/,
       loader: 'url-loader'
     }]
+  },
+  resolve: {
+    alias: {
+      '~.': path.resolve(__dirname),
+    }
   },
   optimization: {
     splitChunks: {

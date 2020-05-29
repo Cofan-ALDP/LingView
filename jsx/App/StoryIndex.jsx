@@ -1,14 +1,14 @@
 import React from 'react';
-import id from 'shortid';
-import { Link } from 'react-router-dom';
-import ReactDOMServer from 'react-dom/server';
+// import id from 'shortid';
+// import { Link } from 'react-router-dom';
+// import ReactDOMServer from 'react-dom/server';
 
 require('datatables.net-dt');
 import 'datatables.net-dt/css/jquery.dataTables.css';
 
 export class StoryIndex extends React.Component {
     async componentDidMount() {
-        const index = (await import('../../data/index.json')).default;
+        const index = (await import('~./data/index.json')).default;
         let storyList = [];
         for (const story in index) {
             if (index.hasOwnProperty(story)) {
