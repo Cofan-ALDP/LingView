@@ -51,9 +51,8 @@ export function setupTextSync() {
     // Status: untested
     function jumpToTime(t) {
         try {
-            t = t + 2;
-            media = document.querySelectorAll("[data-live='true']")[0];
-            media.currentTime = t/1000;
+            const media = $("[data-live='true']").get(0);
+            media.currentTime = (t + 2) / 1000;
         }
         catch(err) {
             console.log(err);

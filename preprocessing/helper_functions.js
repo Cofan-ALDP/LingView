@@ -150,31 +150,27 @@ function updateMediaMetadata(filename, storyID, metadata, linkedMediaPaths) {
   if (hasWorkingAudio && hasWorkingVideo) {
     return;
   }
-  let needsAudio = false;
-  let needsVideo = false;
-  let audioFiles = [];
-  let videoFiles = [];
+  const audioFiles = [];
+  const videoFiles = [];
   for (const mediaPath of linkedMediaPaths) {
     const mediaFilename = getFilenameFromPath(mediaPath);
     const fileExtension = mediaFilename.substring(mediaFilename.lastIndexOf('.')).toLowerCase();
     if (fileExtension === '.mp3' || fileExtension === '.wav') {
       audioFiles.push(mediaFilename);
-      needsAudio = true;
     } else if (fileExtension === '.mp4') {
       videoFiles.push(mediaFilename);
-      needsVideo = true;
     }
   }
   
   // Media search
-  if (needsAudio && !hasWorkingAudio) {
+  if (!hasWorkingAudio) {
     const audioFile = mediaSearch(filename, "audio", audioFiles, ".mp3");
     if (audioFile != null) {
       hasWorkingAudio = true;
       metadata['media']['audio'] = audioFile;
     }
   }
-  if (needsVideo && !hasWorkingVideo) {
+  if (!hasWorkingVideo) {
     const videoFile = mediaSearch(filename, "video", videoFiles, ".mp4");
     if (videoFile != null) {
       hasWorkingVideo = true;
@@ -222,7 +218,7 @@ function improveFLExIndexData(path, storyID, itext) {
   if (metadata == null) { // file not in index previously
   
     let defaultTitle = getTitleFromFilename(getFilenameFromPath(path));
-    console.log(32332, path, defaultTitle);
+    // console.log(32332, path, defaultTitle);
     // Uncomment the three lines below to use a particular language title 
     // (in this case "es", Spanish) as the main title for newly added documents. 
     // if (titles["es"] != null && titles["es"] != "") {
