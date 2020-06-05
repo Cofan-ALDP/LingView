@@ -84,7 +84,8 @@ td {
 		Timed */
 
 #video {
-	width: calc(100% + 1px);
+	width: 40vw; /* an attempt to avoid flickering scrollbar glitch */
+    outline: none;
 }
 
 #centerPanel {
