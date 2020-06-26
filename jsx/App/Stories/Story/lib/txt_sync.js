@@ -50,6 +50,7 @@ export function setupTextSync() {
     // O/P: the player updates to the given time
     // Status: untested
     function jumpToTime(t) {
+        updateTimestampQuery(t);
         try {
             const media = $("[data-live='true']").get(0);
             media.currentTime = (t + 2) / 1000;
@@ -62,5 +63,36 @@ export function setupTextSync() {
 
     $(".timeStamp").click(function() {
         jumpToTime($(this).data('start_time'));
+        // document.location.search = $(this).data('start_time');
     });
+
+    // Jump to timestamp:
+    // Source: http://snydersoft.com/blog/2009/11/14/get-parameters-to-html-page-with-javascript/
+    $( document ).ready(function() {
+        let query_index = document.URL.indexOf("?");
+        let startTime = Number(document.URL.substr(query_index+1));
+        if (isFinite(startTime)) {
+            // startTime = startTime + 3 // do not remove (result of hacky solution further up in this file)
+            // const media = $("[data-live='true']").get(0);
+            
+            // let hasRun = false;
+            // media.oncanplay = function () {
+            //     if (hasRun) return;
+            //     hasRun = true;
+            //     this.currentTime = startTime / 1000;
+            // }
+            //console.log(startTime);
+            //jumpToTime(startTime);
+            //console.log(document.getElementById(startTime));
+            jumpToTime(startTime + 1);
+        }
+    });
+
+    function updateTimestampQuery(newTimestamp) {
+        if (window.history.replaceState) {
+            // const newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + window.location.hash.replace(/\?.*$/, ''); // hacky...
+            const newurl = window.location.href.replace(/\?.*$/,'') + `?${newTimestamp-1}`; // hacky...
+            window.history.replaceState({ path: newurl }, '', newurl);
+        }
+    }
 }

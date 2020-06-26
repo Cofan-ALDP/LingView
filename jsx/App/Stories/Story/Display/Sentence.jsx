@@ -81,3 +81,43 @@ export function Sentence({ sentence }) {
 	// rowList = rowList.concat(rowList2);
 	return <table className="gloss"><tbody>{rowList}</tbody></table>;
 }
+
+
+export function SearchSentence({ sentence }) {
+	// I/P: sentence, a sentence
+	// O/P: displayed rows, along with a link to corresponding story
+	// Status: tested, working
+	let rowList = []; // to be output
+	const numSlots = sentence['num_slots'];
+    const title = sentence['title'];
+	//if (sentence['noTopRow'] == null || sentence['noTopRow'] === 'false') {
+	//	rowList.push(
+	//	  <tr data-tier={sentence['tier']}>
+	//	    <td colSpan={numSlots} className="topRow">{sentence['text']}</td>
+	//	  </tr>
+	//	);
+	//}
+	const dependents = sentence['dependents'];
+	// Add each dependent tier to the row list:
+	for (const tier of Object.keys(dependents)) {
+        if (dependents[tier][0] == undefined) {
+            // row is top row
+            rowList.push(
+              <tr data-tier={sentence['tier']}>
+                <td colSpan={numSlots} className="topRow">{sentence['text']}</td>
+              </tr>
+            );
+        } else {
+            // row is not top row
+            rowList.push(<Row key={id.generate()} numSlots={numSlots} values={dependents[tier]} tier={tier} />);
+        }
+	}
+
+	// Get URL:
+	const at = document.URL.indexOf("search");
+	let url = document.URL.substring(0,at);
+	url += ("story/" + sentence["story ID"] + "?" + sentence.start_time_ms);
+
+    // hacky way to introduce a line break (extra <tr> of height 12px)
+	return <div className="searchSentence"><table className="gloss"><thead><tr><td><b> Story</b>: {title}</td></tr><tr style={{"height": "12px"}}></tr></thead><tbody>{rowList}</tbody></table><div class="storyLink"><a href={url}>View Story</a></div></div>;
+}

@@ -312,7 +312,7 @@ function preprocessText(jsonIn, jsonFilesDir, fileName, isoDict, callback) {
   let metadata = helper.improveFLExIndexData(fileName, storyID, jsonIn);
   const speakerReg = new speakerRegistry();
   metadata['speakers'] = speakerReg.getSpeakersList();
-  updateIndex(metadata, "data/index.json", storyID);
+  // updateIndex(metadata, "data/index.json", storyID);
 
   const jsonOut = {
     "metadata": metadata,
@@ -332,6 +332,9 @@ function preprocessText(jsonIn, jsonFilesDir, fileName, isoDict, callback) {
   }
 
   jsonOut.metadata['tier IDs'] = tierReg.getTiersJson();
+
+  updateIndex(jsonOut.metadata, "data/index.json", storyID);
+
   jsonOut.metadata['speaker IDs'] = speakerReg.getSpeakersJson();
 
   const prettyString = JSON.stringify(jsonOut, null, 2);

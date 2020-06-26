@@ -29,10 +29,12 @@ export class Video extends React.Component {
 		// Match times:
 		var audio = document.getElementById('audio');
 		var video = document.getElementById('video');
+
 		if (!audio.paused) {
 			audio.pause();
 			video.play();
 		}
+
 		video.currentTime = audio.currentTime;
 	}
 

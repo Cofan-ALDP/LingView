@@ -6,6 +6,7 @@ function LabeledSentence({ sentence }) {
 	// O/P: glossed sentence with speaker label
 	// Status: tested, working
 	const label = sentence['speaker'];
+	// console.log(sentence);
 	return (
 		<div className="labeledSentence">
 			<span className="speakerLabel">{label}: </span>
@@ -57,10 +58,8 @@ function LabeledTimeBlock({ sentences, timestamp }) {
 	}
 	return (
 		<div className="labeledTimeBlock" data-start_time={minStart} data-end_time={maxEnd}>
-			<span className="timeStampContainer">
-				<a href="javascript:void(0)" data-start_time={minStart} className="timeStamp">
-					{timestamp}
-				</a>
+			<span className="timeStampContainer timeStamp" id={minStart} data-start_time={minStart}>
+				{timestamp}
 			</span>
 			<TimeBlock sentences={sentences} />
 		</div>

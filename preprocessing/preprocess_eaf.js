@@ -97,8 +97,8 @@ function stretchSlots(anotID, prevStretch, tiersToConstraints,
 function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
   const storyID = eafUtils.getDocID(adocIn);
   const indexMetadata = helper.improveElanIndexData(xmlFileName, storyID, adocIn);
-  updateIndex(indexMetadata, "data/index.json", storyID);
-  updateIndex(indexMetadata, "data/index.json", storyID);
+  // updateIndex(indexMetadata, "data/index.json", storyID);
+  // updateIndex(indexMetadata, "data/index.json", storyID); // TODO does this need to be run twice?
   const jsonOut = {
     "metadata": indexMetadata,
     "sentences": []
@@ -113,14 +113,14 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
   // give each tier an ID
   let tierIDsFromNames = {};
   for (let i = 0; i < tiers.length; i++) {
-    const newID = "T" + (i + 1).toString();
+    // const newID = "T" + (i + 1).toString();
     const tier = tiers[i];
     const tierName = eafUtils.getTierName(tier);
-    jsonOut.metadata["tier IDs"][newID] = {
+    jsonOut.metadata["tier IDs"][tierName] = {
       name: tierName,
       subdivided: eafUtils.isTierSubdivided(tierName, tiers),
     };
-    tierIDsFromNames[tierName] = newID;
+    tierIDsFromNames[tierName] = tierName;
   }
   
   // TODO glom morphs if coming from FLEx?
@@ -489,6 +489,9 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
       delete jsonOut.metadata["tier IDs"][tier];
     }
   }
+
+  updateIndex(jsonOut.metadata, "data/index.json", storyID);
+  updateIndex(jsonOut.metadata, "data/index.json", storyID); // TODO does this need to be run twice?
   
   const jsonPath = jsonFilesDir + storyID + ".json";
   fs.writeFileSync(jsonPath, JSON.stringify(jsonOut, null, 2));
