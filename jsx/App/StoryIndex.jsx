@@ -20,6 +20,17 @@ export class StoryIndex extends React.Component {
                     mainTitle = index[story]['title']['_default'];
                 }
 
+                /////////////////////
+                // Translated Title
+                /////////////////////
+                let translatedTitle = '';
+                if (index[story]['title'].hasOwnProperty('es') && index[story]['title']['es'] != '') {
+                    translatedTitle = index[story]['title']['es'];
+                }
+                if (index[story]['title'].hasOwnProperty('en') && index[story]['title']['en'] != '') {
+                    translatedTitle = index[story]['title']['en'];
+                }
+
                 let timed = '';
                 if (index[story]['timed']) {
                     if (index[story]['media']['audio'] != '') {
@@ -33,8 +44,11 @@ export class StoryIndex extends React.Component {
                 }
                 // React Router link:
                 const link = `<a href='#/story/${index[story]['story ID']}'>${mainTitle}</a>`;
+
+                const speakers = index[story]['speakers'].join(', ').trim();
+                const dateCreated = index[story]['date_created'];
                 
-                storyList.push([link, index[story]['author'], timed]);
+                storyList.push([link, translatedTitle, speakers, index[story]['author'], dateCreated, timed]);
             }
         }
 
@@ -42,8 +56,11 @@ export class StoryIndex extends React.Component {
             $('#indexTable').DataTable( {
                 data: storyList,
                 columns: [
-                    { title: "Title" },
+                    { title: "Title (A'ingae)" },
+                    { title: "Title (English)" },
+                    { title: "Speakers" },
                     { title: "Author" },
+                    { title: "Date" },
                     { title: "Media" }
                 ]
             });
