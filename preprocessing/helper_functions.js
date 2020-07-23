@@ -55,16 +55,20 @@ function findValidMedia(filenames) {
   return null;
 }
 
-function mediaSearch(filename, mediaType, mediaFiles, extension) {
+function mediaSearch(filename, mediaType, mediaFiles, extensions) {
   // I/P: filename, the name of the ELAN or FLEx file
   // I/P: mediaType, which is either "video" or "audio", for printing to the command line
   // I/P: mediaFiles, a list of the media files that were linked in the ELAN or FLEx file
-  // I/P: extension, file extension for media files, including the leading period
+  // I/P: extensions, file extensions for media files, including the leading period (some iterable type, e.g. array or set)
   // O/P: the filename of the first valid media that was found, or null if none exists
   console.log("🚨  WARN: " + filename + " is missing correctly linked " + mediaType + ". Attemping to find link...");
   const shortFilename = filename.substring(0, filename.lastIndexOf('.'));
   const shortestFilename = filename.substring(0, filename.indexOf('.')); // more possible matches for .postflex.flextext files
-  const filenamesToTry = mediaFiles.concat([shortFilename + extension, shortestFilename + extension]);
+  const filenamesToTry = mediaFiles;
+  for (const extension of extensions) {
+    filenamesToTry.push(shortFilename + extension);
+    filenamesToTry.push(shortestFilename + extension);
+  }
   
   let mediaFile = findValidMedia(filenamesToTry);
   if (mediaFile != null) {
@@ -124,6 +128,10 @@ function remoteMediaSearch(filenamesToTry) {
   return { filename: null, remoteUrl: null };
 }
 
+const TARGET_MEDIA_FILE_EXTENSIONS = {
+  audio: new Set(['.mp3', '.wav']),
+  video: new Set(['.mp4']),
+};
 function updateMediaMetadata(filename, storyID, metadata, linkedMediaPaths) {
   // Only call this function if the file contains timestamps.
   // I/P: filename, of the FLEx or ELAN file
@@ -155,23 +163,23 @@ function updateMediaMetadata(filename, storyID, metadata, linkedMediaPaths) {
   for (const mediaPath of linkedMediaPaths) {
     const mediaFilename = getFilenameFromPath(mediaPath);
     const fileExtension = mediaFilename.substring(mediaFilename.lastIndexOf('.')).toLowerCase();
-    if (fileExtension === '.mp3' || fileExtension === '.wav') {
+    if (TARGET_MEDIA_FILE_EXTENSIONS.audio.has(fileExtension)) {
       audioFiles.push(mediaFilename);
-    } else if (fileExtension === '.mp4') {
+    } else if (TARGET_MEDIA_FILE_EXTENSIONS.video.has(fileExtension)) {
       videoFiles.push(mediaFilename);
     }
   }
   
   // Media search
   if (!hasWorkingAudio) {
-    const audioFile = mediaSearch(filename, "audio", audioFiles, ".mp3");
+    const audioFile = mediaSearch(filename, "audio", audioFiles, TARGET_MEDIA_FILE_EXTENSIONS.audio);
     if (audioFile != null) {
       hasWorkingAudio = true;
       metadata['media']['audio'] = audioFile;
     }
   }
   if (!hasWorkingVideo) {
-    const videoFile = mediaSearch(filename, "video", videoFiles, ".mp4");
+    const videoFile = mediaSearch(filename, "video", videoFiles, TARGET_MEDIA_FILE_EXTENSIONS.video);
     if (videoFile != null) {
       hasWorkingVideo = true;
       metadata['media']['video'] = videoFile;

@@ -5,5 +5,4 @@ bundle-online/
 bundle-offline/
 build/
 data/json_files/
-data/index.json
 data/search_index.json

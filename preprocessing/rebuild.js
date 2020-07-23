@@ -33,6 +33,7 @@ global.missingMediaFiles = [];
 
 const indexPath = path.resolve(__dirname, '..', indexFileName);
 if (!fs.existsSync(indexPath)) {
+  console.warn("The index database (data/index.json) does not yet exist; creating a fresh one.");
   fs.writeFileSync(indexPath, '{}', 'utf8');
 }
 
