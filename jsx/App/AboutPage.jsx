@@ -46,23 +46,23 @@ export function AboutPage() {
 			scott_anderbois at brown.edu</p>
 			<p>Scott is an Associate Professor in the Department of Cognitive, Linguistic, and Psychological Sciences (CLPS) at Brown University. His research is focused on issues in semantics and pragmatics, especially those concerning non-truth conditional meanings and the way they interact with sentence type. Beyond A’ingae, his work has explored these issues through primary fieldwork on Yucatec Maya (Mayan, Mexico) and Tagalog (Austronesian, Philippines). Additionally, he co-directs with Miguel Oscar Chan Dzul (Universidad de Oriente) <a href="https://yucatecmaya.github.io/LingView/#/">U koorpusil maaya t'aan</a>, a multipurpose digital corpus of Yucatec Maya.</p>
 
-			<h5>Wilson Silva</h5>
+			<p><b>Wilson Silva</b><br />
 			wdelimasilva at email.arizona.edu</p>
 			<p>Wilson is an Assistant Professor in the Department of Linguistics at the University of Arizona. He is a field linguist with formal training in theoretical linguistics and language documentation & revitalization. Beyond A’ingae, he has conducted research in Desano and Siriano; two endangered Eastern Tukanoan languages spoken in the Vaupés Region of Brazil and Colombia.</p>
 
 
 			<h4>Community partners</h4>
 
-			<h5>Hugo Lucitante</h5>
+			<p><b>Hugo Lucitante</b></p>
 			<p>Hugo Lucitante is a PhD student in Anthropology at UT San Antonio and a Brown University graduate from Zábalo, a small Cofán community in Ecuador. He received the Royce Fellowship in 2016 and developed the. Hugo's work was immensely important in starting this project.</p>
 
-			<h5>Sadie Lucitante</h5>
+			<p><b>Sadie Lucitante</b></p>
 
-			<h5>Shen Aguinda</h5>
+			<p><b>Shen Aguinda</b></p>
 
-			<h5>Leidy Quenamá</h5>
+			<p><b>Leidy Quenamá</b></p>
 
-			<h5>Jorge Mendua</h5>
+			<p><b>Jorge Mendua</b></p>
 
 
 			<h4>Other outside collaborators</h4>
