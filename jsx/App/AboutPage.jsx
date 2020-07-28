@@ -87,7 +87,7 @@ export function AboutPage() {
 			<p><b>Jorge Mendua</b></p>
 
 
-			<h4>Other outside collaborators</h4>
+			<h3>Other outside collaborators</h3>
 
 			<p style={{marginBottom: "-.7em"}}><b>Chelsea Sanker, PhD</b><br />
 			<a href="https://www.chelseasanker.com/">chelseasanker.com</a><br />
