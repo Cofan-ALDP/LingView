@@ -37,32 +37,32 @@ export function AboutPage() {
 
 
 
-			<h3>Members</h3>
+			<h2>Members</h2>
 
-			<h4>Co-directors</h4>
+			<h3>Co-directors</h3>
 
-			<h5>Scott anderBois</h5>
-			<p><a href="http://research.clps.brown.edu/anderbois/">research.clps.brown.edu/anderbois</a><br />
+			<p style={{marginBottom: ".5em"}}><b>Scott anderBois</b><br />
+			<a href="http://research.clps.brown.edu/anderbois/">research.clps.brown.edu/anderbois</a><br />
 			scott_anderbois at brown.edu</p>
 			<p>Scott is an Associate Professor in the Department of Cognitive, Linguistic, and Psychological Sciences (CLPS) at Brown University. His research is focused on issues in semantics and pragmatics, especially those concerning non-truth conditional meanings and the way they interact with sentence type. Beyond A’ingae, his work has explored these issues through primary fieldwork on Yucatec Maya (Mayan, Mexico) and Tagalog (Austronesian, Philippines). Additionally, he co-directs with Miguel Oscar Chan Dzul (Universidad de Oriente) <a href="https://yucatecmaya.github.io/LingView/#/">U koorpusil maaya t'aan</a>, a multipurpose digital corpus of Yucatec Maya.</p>
 
-			<p><b>Wilson Silva</b><br />
+			<p style={{marginBottom: ".5em"}}><b>Wilson Silva</b><br />
 			wdelimasilva at email.arizona.edu</p>
 			<p>Wilson is an Assistant Professor in the Department of Linguistics at the University of Arizona. He is a field linguist with formal training in theoretical linguistics and language documentation & revitalization. Beyond A’ingae, he has conducted research in Desano and Siriano; two endangered Eastern Tukanoan languages spoken in the Vaupés Region of Brazil and Colombia.</p>
 
 
-			<h4>Community partners</h4>
+			<h3>Community partners</h3>
 
-			<p><b>Hugo Lucitante</b></p>
+			<p style={{marginBottom: ".5em"}}><b>Hugo Lucitante</b></p>
 			<p>Hugo Lucitante is a PhD student in Anthropology at UT San Antonio and a Brown University graduate from Zábalo, a small Cofán community in Ecuador. He received the Royce Fellowship in 2016 and developed the. Hugo's work was immensely important in starting this project.</p>
 
-			<p><b>Sadie Lucitante</b></p>
+			<p style={{marginBottom: ".5em"}}><b>Sadie Lucitante</b></p>
 
-			<p><b>Shen Aguinda</b></p>
+			<p style={{marginBottom: ".5em"}}><b>Shen Aguinda</b></p>
 
-			<p><b>Leidy Quenamá</b></p>
+			<p style={{marginBottom: ".5em"}}><b>Leidy Quenamá</b></p>
 
-			<p><b>Jorge Mendua</b></p>
+			<p style={{marginBottom: ".5em"}}><b>Jorge Mendua</b></p>
 
 
 			<h4>Other outside collaborators</h4>
