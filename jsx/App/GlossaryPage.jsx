@@ -97,7 +97,7 @@ second person subject
 <td>
 2.PL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ke'i
 </td>
 <td>
@@ -116,7 +116,7 @@ second person plural
 <td>
 2.SG
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ke
 </td>
 <td>
@@ -135,7 +135,7 @@ second person singular
 <td>
 3
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =tsû
 </td>
 <td>
@@ -152,7 +152,7 @@ third person subject
 <td>
 3.PL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 tise'pa
 </td>
 <td>
@@ -171,7 +171,7 @@ third person plural
 <td>
 3.SG
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 tise
 </td>
 <td>
@@ -190,7 +190,7 @@ third person singular
 <td>
 ABL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ne
 </td>
 <td>
@@ -207,7 +207,7 @@ ABL, SO
 <td>
 ACC
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =e
 </td>
 <td>
@@ -226,7 +226,7 @@ ACC1
 <td>
 ACC2
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ve
 </td>
 <td>
@@ -243,7 +243,7 @@ ACC2
 <td>
 ADD
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =khe
 </td>
 <td>
@@ -260,7 +260,7 @@ ADD
 <td>
 ADJ
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =tshi
 </td>
 <td>
@@ -279,7 +279,7 @@ QUAL
 <td>
 ADJ.ADV
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='tshe
 </td>
 <td>
@@ -298,7 +298,7 @@ QUAL.ADVR
 <td>
 ADN
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =a
 </td>
 <td>
@@ -317,7 +317,7 @@ ADJR
 <td>
 ADV
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =e
 </td>
 <td>
@@ -336,7 +336,7 @@ ADVR
 <td>
 ANA
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 tsa
 </td>
 <td>
@@ -355,7 +355,7 @@ ANA
 <td>
 ANA.ATTR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 tse'sû
 </td>
 <td>
@@ -373,7 +373,7 @@ anaphoric attributive
 <td>
 ANA.LOC
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 tse
 </td>
 <td>
@@ -392,7 +392,7 @@ ANA.LOC
 <td>
 ANA.PLH
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 tsendekhû
 </td>
 <td>
@@ -410,7 +410,7 @@ anaphoric human plural
 <td>
 AND
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -'nga
 </td>
 <td>
@@ -429,7 +429,7 @@ TRANS
 <td>
 APPR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =sa'ne
 </td>
 <td>
@@ -446,7 +446,7 @@ NEGPURP
 <td>
 ASSC
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =pa
 </td>
 <td>
@@ -463,7 +463,7 @@ ASSC, ASSOC
 <td>
 ATTN
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =fa'u
 </td>
 <td>
@@ -481,7 +481,7 @@ attenuative marker
 <td>
 ATTR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='sû
 </td>
 <td>
@@ -500,7 +500,7 @@ ATTR
 <td>
 AUG
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='u
 </td>
 <td>
@@ -517,7 +517,7 @@ AUG
 <td>
 BEN
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =mbe
 </td>
 <td>
@@ -536,7 +536,7 @@ BEN
 <td>
 CAUS
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -ña
 </td>
 <td>
@@ -555,7 +555,7 @@ CAUS
 <td>
 CL.DRN
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ki
 </td>
 <td>
@@ -573,7 +573,7 @@ diurnal classifier
 <td>
 CL.LOC
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='thi
 </td>
 <td>
@@ -592,7 +592,7 @@ LOC.NR
 <td>
 CL.PRD
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ite
 </td>
 <td>
@@ -611,7 +611,7 @@ TEMP.NR
 <td>
 CMP
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='kan
 </td>
 <td>
@@ -628,7 +628,7 @@ CMP
 <td>
 CNTR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ja
 </td>
 <td>
@@ -645,7 +645,7 @@ CONTR
 <td>
 COLL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =nakhû
 </td>
 <td>
@@ -664,7 +664,7 @@ COLL
 <td>
 DAT
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =nga
 </td>
 <td>
@@ -683,7 +683,7 @@ DAT
 <td>
 DIST
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ju
 </td>
 <td>
@@ -702,7 +702,7 @@ DIST
 <td>
 DIST.ATTR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ju'sû
 </td>
 <td>
@@ -720,7 +720,7 @@ distal attributive
 <td>
 DIST.PL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ju'e
 </td>
 <td>
@@ -738,7 +738,7 @@ distal plural
 <td>
 DIST2
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 juva
 </td>
 <td>
@@ -757,7 +757,7 @@ DIST
 <td>
 DMN
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -'kha
 </td>
 <td>
@@ -776,7 +776,7 @@ DIM
 <td>
 DS
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =si
 </td>
 <td>
@@ -795,7 +795,7 @@ DS
 <td>
 EMPH
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -/
 </td>
 <td>
@@ -812,7 +812,7 @@ DUR
 <td>
 ELAT
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ye
 </td>
 <td>
@@ -831,7 +831,7 @@ ELAT
 <td>
 EXCL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =yi
 </td>
 <td>
@@ -848,7 +848,7 @@ EXCL
 <td>
 FRST
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='ma
 </td>
 <td>
@@ -865,7 +865,7 @@ CNTR
 <td>
 HAB
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =khe'sû
 </td>
 <td>
@@ -884,7 +884,7 @@ HAB
 <td>
 HES
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 da
 </td>
 <td>
@@ -903,7 +903,7 @@ and
 <td>
 HONR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='ye
 </td>
 <td>
@@ -922,7 +922,7 @@ NPST
 <td>
 HORT
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 jinge
 </td>
 <td>
@@ -941,7 +941,7 @@ ADHORT
 <td>
 HORT2
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 jingesû
 </td>
 <td>
@@ -960,7 +960,7 @@ HORT
 <td>
 IMP
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ja
 </td>
 <td>
@@ -979,7 +979,7 @@ IMP
 <td>
 IMP2
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =kha
 </td>
 <td>
@@ -998,7 +998,7 @@ MIT
 <td>
 IMP3
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='se
 </td>
 <td>
@@ -1016,7 +1016,7 @@ imperative mood 3
 <td>
 IMPV
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -'je
 </td>
 <td>
@@ -1033,7 +1033,7 @@ IMPF, IMPV
 <td>
 INF
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ye
 </td>
 <td>
@@ -1052,7 +1052,7 @@ POST
 <td>
 INST
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =i'khû
 </td>
 <td>
@@ -1071,7 +1071,7 @@ INS
 <td>
 INT
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ti
 </td>
 <td>
@@ -1088,7 +1088,7 @@ INT
 <td>
 IRR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ya
 </td>
 <td>
@@ -1107,7 +1107,7 @@ IRR
 <td>
 ITER
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -CV
 </td>
 <td>
@@ -1126,7 +1126,7 @@ ITER
 <td>
 LAUD
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='vi
 </td>
 <td>
@@ -1144,7 +1144,7 @@ approbative marker
 <td>
 LIM
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =pi
 </td>
 <td>
@@ -1163,7 +1163,7 @@ LIM
 <td>
 LOC
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ni
 </td>
 <td>
@@ -1182,7 +1182,7 @@ LOC
 <td>
 MANN
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ngae
 </td>
 <td>
@@ -1201,7 +1201,7 @@ MANN
 <td>
 MVM
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -in
 </td>
 <td>
@@ -1220,7 +1220,7 @@ SIM
 <td>
 N
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -'pa
 </td>
 <td>
@@ -1239,7 +1239,7 @@ NR
 <td>
 NEG
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =mbi
 </td>
 <td>
@@ -1258,7 +1258,7 @@ NEG
 <td>
 NEG.ADV
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =mbe
 </td>
 <td>
@@ -1275,7 +1275,7 @@ NEG, NEG.ADVR
 <td>
 NEG.HAB
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ma'sia
 </td>
 <td>
@@ -1294,7 +1294,7 @@ NEG.HAB
 <td>
 NEW
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ta
 </td>
 <td>
@@ -1329,7 +1329,7 @@ onomatopoeic interjection
 <td>
 PASS
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -ye
 </td>
 <td>
@@ -1348,7 +1348,7 @@ PASS
 <td>
 PLC
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =e
 </td>
 <td>
@@ -1367,7 +1367,7 @@ PLACE
 <td>
 PLH
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ndekhû
 </td>
 <td>
@@ -1386,7 +1386,7 @@ HUM.PL
 <td>
 PLS
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='fa
 </td>
 <td>
@@ -1403,7 +1403,7 @@ PL, PLS
 <td>
 PLV
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -'-
 </td>
 <td>
@@ -1421,7 +1421,7 @@ verbal plurality
 <td>
 PRCM
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -ji
 </td>
 <td>
@@ -1440,7 +1440,7 @@ PRECUL
 <td>
 PRHB
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =jama
 </td>
 <td>
@@ -1459,7 +1459,7 @@ PROH
 <td>
 PRSP
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -yi, -ña
 </td>
 <td>
@@ -1476,7 +1476,7 @@ PROSP
 <td>
 PRV
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 me
 </td>
 <td>
@@ -1493,7 +1493,7 @@ NEGP
 <td>
 PRX
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 va
 </td>
 <td>
@@ -1512,7 +1512,7 @@ PROX
 <td>
 PRX.ATTR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 va'sû
 </td>
 <td>
@@ -1530,7 +1530,7 @@ proximal attributive
 <td>
 PRX.PL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 va'e
 </td>
 <td>
@@ -1548,7 +1548,7 @@ proximal plural
 <td>
 PRX.PLH
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 vandekhû
 </td>
 <td>
@@ -1566,7 +1566,7 @@ proximal human plural
 <td>
 PSTE
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='the
 </td>
 <td>
@@ -1601,7 +1601,7 @@ RECP
 <td>
 RCUR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =se
 </td>
 <td>
@@ -1619,7 +1619,7 @@ recursive marker
 <td>
 RFLX
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 tisû
 </td>
 <td>
@@ -1638,7 +1638,7 @@ REFL
 <td>
 RFLX.PL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 tisû'pa
 </td>
 <td>
@@ -1657,7 +1657,7 @@ REFL.PL
 <td>
 RPRT
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =te
 </td>
 <td>
@@ -1674,7 +1674,7 @@ RPT
 <td>
 SBRD
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='chu
 </td>
 <td>
@@ -1691,7 +1691,7 @@ NR, SR, SUB
 <td>
 SENS
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ya
 </td>
 <td>
@@ -1710,7 +1710,7 @@ SENS
 <td>
 SH.ANG
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='khu
 </td>
 <td>
@@ -1729,7 +1729,7 @@ SH.ANG
 <td>
 SH.DLM
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =khû
 </td>
 <td>
@@ -1748,7 +1748,7 @@ SH.DEL
 <td>
 SH.FLT
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =je
 </td>
 <td>
@@ -1767,7 +1767,7 @@ SH.FLT
 <td>
 SH.FRC
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =fu'chu
 </td>
 <td>
@@ -1786,7 +1786,7 @@ SH.SCT
 <td>
 SH.LAT
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='fa
 </td>
 <td>
@@ -1805,7 +1805,7 @@ SH.LAT
 <td>
 SH.LIN
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ki
 </td>
 <td>
@@ -1824,7 +1824,7 @@ SH.LNR
 <td>
 SH.LRG
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =jin
 </td>
 <td>
@@ -1843,7 +1843,7 @@ SH.LRG
 <td>
 SH.RND
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='chu
 </td>
 <td>
@@ -1862,7 +1862,7 @@ SH.RND
 <td>
 SH.SFC
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='jû
 </td>
 <td>
@@ -1880,7 +1880,7 @@ surface shape
 <td>
 SH.SHR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =fi'ndi
 </td>
 <td>
@@ -1897,7 +1897,7 @@ SH.SPL, SH.BITS
 <td>
 SH.SPN
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =si
 </td>
 <td>
@@ -1916,7 +1916,7 @@ SH.SPN
 <td>
 SH.TLL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =jiun
 </td>
 <td>
@@ -1934,7 +1934,7 @@ tall shape
 <td>
 SMFC
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -'ñakha
 </td>
 <td>
@@ -1953,7 +1953,7 @@ REP
 <td>
 SML
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =khia
 </td>
 <td>
@@ -1972,7 +1972,7 @@ SIMIL
 <td>
 SRCN
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 kûintsû
 </td>
 <td>
@@ -1991,7 +1991,7 @@ SWR.CNJ
 <td>
 SS
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =pa
 </td>
 <td>
@@ -2010,7 +2010,7 @@ SS
 <td>
 THUS
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 khen
 </td>
 <td>
@@ -2029,7 +2029,7 @@ thus
 <td>
 VEN
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -'ngi
 </td>
 <td>
@@ -2048,7 +2048,7 @@ CIS
 <td>
 VER
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ='ya
 </td>
 <td>
@@ -2067,7 +2067,7 @@ ASS
 <td>
 WH.DEG
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 mi
 </td>
 <td>
@@ -2085,7 +2085,7 @@ wh-interrogative of degree
 <td>
 WH.SBS
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 jungae
 </td>
 <td>
@@ -2103,7 +2103,7 @@ wh-interrogative of substance
 <td>
 WH.SEL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ma
 </td>
 <td>
