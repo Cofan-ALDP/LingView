@@ -2,7 +2,7 @@ import React from 'react';
 
 export function GlossaryPage() {
   return (
-      <div style={{margin: "0.5in"}}>
+      <div style={{margin: "0.25in"}}>
       <h2>Glossing conventions</h2>
 <table>
 <tr>
