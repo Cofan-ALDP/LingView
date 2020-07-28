@@ -84,7 +84,7 @@ export function AboutPage() {
 			<p style={{marginBottom: "-.7em"}}><b>Sadie Lucitante</b></p>
 			<p style={{marginBottom: "-.7em"}}><b>Shen Aguinda</b></p>
 			<p style={{marginBottom: "-.7em"}}><b>Leidy Quenamá</b></p>
-			<p style={{marginBottom: "-.7em"}}><b>Jorge Mendua</b></p>
+			<p><b>Jorge Mendua</b></p>
 
 
 			<h4>Other outside collaborators</h4>
@@ -119,7 +119,7 @@ export function AboutPage() {
 			<p style={{marginBottom: "-.7em"}}><b>Atabong Khumbah</b></p>
 			<p style={{marginBottom: "-.7em"}}><b>Bryce Massey</b></p>
 			<p style={{marginBottom: "-.7em"}}><b>Alexis Roman</b></p>
-			<p style={{marginBottom: "-.7em"}}><b>Jack Walker</b></p>
+			<p><b>Jack Walker</b></p>
 
 
 			<h3>Former undergraduates</h3>
@@ -137,7 +137,49 @@ export function AboutPage() {
 			<p style={{marginBottom: "-.7em"}}><b>Chiara Repetti-Ludlow</b></p>
 			<p style={{marginBottom: "-.7em"}}><b>Nicholas Tomlin</b></p>
 			<p style={{marginBottom: "-.7em"}}><b>Haoru Zhang</b></p>
-			<p style={{marginBottom: "-.7em"}}><b>Jacob Zimmerman</b></p>
+			<p><b>Jacob Zimmerman</b></p>
+
+
+
+
+
+      		<h2>Acerca de ALDP <br />
+			<i style={{fontSize: "medium"}}>español</i></h2>
+
+			<p><b>A’ingae Language Documentation Project</b> (esp. <i>el Proyecto de Documentación del Lenguaje A’ingae</i>) es un esfuerzo interdisciplinario que tiene como objetivo documentar, investigar, y revitalizar a’ingae (cofán), una lengua aislada que hablan aproximadamente 2,000 cofanes (gente a’i) en la región Amazónica del noreste de Ecuador y del sur de Colombia. El proyecto es dirigido por Scott AnderBois (Brown University) y Wilson de Lima Silva (University of Arizona), y es actualizado en colaboración con miembros de las comunidades Zábalo, Dureno, Dovuno, y Sinangoé de Ecuador. </p>
+
+
+
+			<h3>Los cofanes</h3>
+
+			<p>Los cofanes (la gente a’i) ha vivido, por mucho tiempo, en el cruce de dos distintas regiones culturales y geográficas: los Andes y la Amazonia. Mientras que viven presentemente en lo que es ahora la provincia de Sucumbíos en el noreste de Ecuador y el sur de Colombia, ellos han, históricamente, ocupado más territorio como cazadores y recolectores. Aunque la población se ha reducido desde la llegada de los Españoles en el siglo XVI–a cierto punto llegó a ser tan bajo como 350 personas, desde un estimado pre-colonial de 15,000–los Cofán ahora componen 2,000 personas. Este crecimiento sigue firme, lo cual es un suceso que ellos atribuyen a la cohesión social que les acede su identidad lingüística distinta. Al momento se siguen formando también nuevos encuentros arqueológicos que destacan la cultura material de los cofanes, su alcance geográfico, y los cambios diacrónicos de lo mismo.</p>
+
+			<p>Sin embargo, los cofanes enfrentan varios desafíos para sostener su territorio tradicional y su estilo de vida. Desde el descubrimiento de grandes reservas de petróleo dentro y alrededor del territorio cofán, la exploración de petróleo y la perforación ha causado un daño ambiental sustancial. Más allá de impactos directos, el descubrimiento ha llevado a cabo la construcción de carreteras y un influjo de colonizadores de otras partes de Ecuador, y junto con ello nuevas amenazas como la minería, la explotación forestal, y la caza furtiva. </p>
+
+			<p>Como respuesta, los cofanes tomaron acción directa y valientemente hicieron campaña para sus derechos sobre la tierra, lo cual los llevó a unos logros sin precedentes en esa región. Ellos defendieron el Cofán Ranger Park Guard Program, un programa de protección que moviliza el conocimiento propio de la gente cofán sobre su territorio para defenderlo, y lanzaron el Charapa Turtle Project para estudiar y manejar la población de tortugas de río con fines de preservar la diversidad de la fauna local. En enero del 2019, los cofanes firmaron un acuerdo vinculante con el gobierno ecuatoriano que les dio control permanente de 1,391 kilómetros cuadrados del Bosque Amazónico–una área más grande que el Parque Nacional Rocky Mountain en los Estados Unidos. En total, los cofanes administran más de 4,046 kilómetros cuadrados de terreno, y siguen trabajando para mantener una área de la Amazona que viene a ser casi el tamaño del estado de Delaware.</p>
+
+
+
+			<h3>El idioma a'ingae</h3>
+
+			<p>Aunque muchos conocen a la lengua como “cofán” o “kofán” en literatura académica, los propios hablantes usan “a’ingae” para referirse a su idioma (<i>a’ingae</i> literalmente significa “en la manera de los a’i/la gente). A’ingae es un lenguaje aislado, es decir que se piensa ser no relacionado con ningún otro lenguaje en el mundo. A pesar de no tener ningún linaje parentesco, a’ingae tiene varias características topológicas que comparten otros idiomas de la región: el orden de palabras SOV, los clasificadores nominales, la presencia del frustrative, el apprehensive, y el evidential en su morfología (lo cual es complejamente aglutinante),  una nasalización contrastiva entre vocales, y otras características fonológicas prototípicamente amazónicas.</p>
+
+			<p>A’ingae es un idioma amenazado con 2,000 hablantes en Ecuador y Colombia. Las fronteras nacionales se piensan ser demarcadores lingüísticas: de los dos dialectos principales, uno se habla a lo largo del Río Aguarico en Ecuador; el otro–a lo largo del Río San Miguel, el Río Guamués, y el Río Putumayo en Colombia. Ya que la población Cofán se ha quintuplicado desde los años ‘60, y el a’ingae sigue siendo usado, el idioma se clasifica como “en desarrollo”. En Ecuador, a’ingae es hablado extensamente (pero no universalmente entre registros) por gente de varios grupos sociales y dominios. La actitud hacia el lenguaje es positiva. Dentro de comunidades con influencias Kichwa y/o coloniales, especialmente en Colombia, el español u otras lenguas pueden ser más prominentes.</p>
+
+			<p>Una ortografía del lenguaje fue desarrollada por los misionarios del SIL, Marlytte y Roberta Borman, y recientemente fue revisada por miembros de la comunidad Cofán, lo cual seguimos actualmente. Nuestro equipo está en el proceso de conducir una encuesta sociolingüística para evaluar la vitalidad del idioma en su forma escrita y hablada entre diferentes contextos sociales.</p>
+
+
+
+			<h3>Proyecto de Documentación del Lenguaje A’ingae</h3>
+
+			<p>ALDP se produjo de una colaboración entre Scott AnderBois, un profesor en Brown University, y Hugo Lucitante, un a’ingae-hablante de Zábalo quien recibió su BA en Brown en el año 2019 (actualmente es un estudiante de doctorado en Antropología en la Universidad de  Texas en San Antonio). Al pensar en la importancia de su lenguaje en sus estudios y en sus conversaciones fuera del salón, Hugo reconoció la necesidad de documentar su lenguaje en un esfuerzo comprometido a su comunidad. Junto con WIlson Silva, un profesor de la Universidad de Arizona, nació el proyecto.</p>
+
+			<p>Nuestro proyecto tiene como objetivo documentar el lenguaje a’ingae, investigar cuestiones científicas sobre su gramática y su uso, y promover el desarrollo de capacidad comunitaria en  nombre de producir material que sea orientado a la comunidad.</p>
+
+			<p>[In 2019, ALDP received a National Science Foundation grant (<span style={{fontFamily: "monospace"}}>#1911348</span>) for the research project <i>Perspective taking and reported speech in an evidentially-rich language</i>, in order to specifically investigate the grammar of reported speech in the language, including the language’s unique use of falsetto realized on a single syllable to signal perspective shifts in narrative. For more information on the NSF grant, see <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1911348&HistoricalAwards=false">here</a>.]</p>
+
+
+
 			
 		</div>
   );
