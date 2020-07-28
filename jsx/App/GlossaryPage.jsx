@@ -1582,7 +1582,7 @@ postessive case
 <td>
 RCPR
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 -khu
 </td>
 <td>
