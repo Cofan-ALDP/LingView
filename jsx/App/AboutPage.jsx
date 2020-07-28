@@ -43,9 +43,11 @@ export function AboutPage() {
 
 			<p>In 2017, ALDP received funding from Endangered Language Documentation Programme (ELDP <span style={{fontFamily: "monospace"}}>#SG0481</span>, <i>Kofán Collaborative Project: Collection of Audio-Video Materials and Texts)</i>.</p>
 
-			<p>In the same year, ALDP (Kofán language documentation: building a multi-purpose text collection) received funding from Interdisciplinary Team (I-Team) UTRA, a Brown University program initiated by Brown faculty and executed by the Office of the Dean of the College. For more information on the I-Team UTRA program, see <a href="https://www.brown.edu/academics/college/fellowships/utra/types-utra-awards/interdisciplinary-team-i-team-utra">here</a>.</p>
+			<p>In the same year, ALDP (Kofán language documentation: building a multi-purpose text collection) received funding from Interdisciplinary Team (I-Team) UTRA, a Brown University program initiated by Brown faculty and executed by the Office of the Dean of the College. For more information on the I-Team UTRA program, click <a href="https://www.brown.edu/academics/college/fellowships/utra/types-utra-awards/interdisciplinary-team-i-team-utra">here</a>.</p>
 
-			<p>In 2019, ALDP received a National Science Foundation grant (<span style={{fontFamily: "monospace"}}>#1911348</span>) for the research project <i>Perspective taking and reported speech in an evidentially-rich language</i>, in order to specifically investigate the grammar of reported speech in the language, including the language’s unique use of falsetto realized on a single syllable to signal perspective shifts in narrative. For more information on the NSF grant, see <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1911348&HistoricalAwards=false">here</a>.</p>
+			<p>In 2019, ALDP received a National Science Foundation DEL grant (<span style={{fontFamily: "monospace"}}>#BCS-1911348/1911428</span>) for the research project <i>Perspective taking and reported speech in an evidentially-rich language</i>, in order to specifically investigate the grammar of reported speech in the language, including the language’s unique use of falsetto realized on a single syllable to signal perspective shifts in narrative. For more information on the NSF grant, click <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1911348&HistoricalAwards=false">here</a>.</p>
+
+			<p>In 2019, Maksymilian Dąbkowski receieved the Royce Fellowship grant for project <i>A'ingae Language Preservation.</i> For more information on the Royce Fellowship grant, click <a href="https://www.brown.edu/academics/college/swearer/programs/royce-fellowship/48/fellows/maksymilian-d%C4%85bkowski">here</a>.</p>
 
 
 
