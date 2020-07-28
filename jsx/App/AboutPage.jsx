@@ -73,7 +73,7 @@ export function AboutPage() {
 			<p>Chelsea Sanker is a lecturer at Yale University. Her research focuses on synchronic patterns of details in perception and production, and reconstructions of how shifts in cue usage can lead to diachronic change.</p>
 
 			<h5>Nick Emlen, PhD</h5>
-			<p<a>n.q.emlen@hum.leidenuniv.nl</a></p>
+			<p><a>n.q.emlen@hum.leidenuniv.nl</a></p>
 			<p>Nick Emlen is a postdoc at Leiden University. He studies linguistic, social, economic, and historical relationships that link the Andes and Amazonia, and is currently a part of the Linguistic Past of Mesoamerica and the Andes project.</p>
 
 			<h5></h5>
