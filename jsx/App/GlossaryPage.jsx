@@ -2,7 +2,7 @@ import React from 'react';
 
 export function GlossaryPage() {
   return (
-      <div>
+      <div style={{margin: "1in"}}>
 <table>
 <tr>
 <th>
@@ -25,7 +25,7 @@ F&amp;H
 <td>
 1
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ngi
 </td>
 <td>
@@ -42,7 +42,7 @@ first person subject
 <td>
 1.PL
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ingi
 </td>
 <td>
@@ -61,7 +61,7 @@ first person plural
 <td>
 1.SG
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 ña
 </td>
 <td>
@@ -80,7 +80,7 @@ first person singular
 <td>
 2
 </td>
-<td>
+<td style={{fontStyle: "italic"}}>
 =ki
 </td>
 <td>
@@ -1684,10 +1684,7 @@ derivational
 nominalizing subordinator
 </td>
 <td>
-NR
-</td>
-<td>
-SR
+NR, SR, SUB
 </td>
 </tr>
 <tr>
