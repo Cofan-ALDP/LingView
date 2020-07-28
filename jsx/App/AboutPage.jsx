@@ -28,6 +28,9 @@ export function AboutPage() {
 			<p>A’ingae is an endangered language thought to have around 2,000 native speakers in Ecuador and Colombia. The national borders are thought to demarcate a linguistic divide: of the two major dialects, one is spoken along the Aguarico River in Ecuador; the other—on the San Miguel, Guamués, and Putumayo rivers in Colombia. As the Cofán population nearly quintupled since the 1960s and A’ingae is still used vigorously, the language is classified as developing. In Ecuador, A’ingae is spoken widely though not universally across registers, by all social groups and in all domains of life, with the attitudes towards the language being positive. In communities with stronger Kichwa and colonial influences, especially in Colombia, the prominence of Spanish and other languages may be more prominent. </p>
 
 			<p>An orthography for the language was first developed by the SIL missionaries Marlytte and Roberta Borman, and more recently revised by members of the Cofán communities, which we follow here. Our team is currently in the process of conducting a sociolinguistic survey to assess the vitality of the language in written and spoken forms across different social settings.</p>
+
+
+
 			<h3>The A’ingae Language Documentation Project</h3>
 
 			<p>ALDP came about as a collaboration between Scott AnderBois, a professor at Brown University, and Hugo Lucitante, a native speaker of A’ingae from Zábalo who did his BA at Brown from 2015-2019 (currently a PhD student in Anthropology at the University of Texas at San Antonio). Through thinking about the importance of his language both through his coursework as well as in conversations outside the classroom, Hugo recognized the need for community-engaged language documentation. Together with Wilson Silva, a professor at the University of Arizona, the ALDP was born.</p>
@@ -36,100 +39,7 @@ export function AboutPage() {
 			<p>In addition to being available on this via the Texts tab at the top, primary language materials are also archived at the California Language Archive at UC Berkeley and the <a href="https://elar.soas.ac.uk/Collection/MPI1079687">Endangered Languages Archive</a> at SOAS.</p>
 
 
-
-			<h2>Members</h2>
-
-			<h3>Co-directors</h3>
-
-			<p style={{marginBottom: ".5em"}}><b>Scott anderBois</b><br />
-			<a href="http://research.clps.brown.edu/anderbois/">research.clps.brown.edu/anderbois</a><br />
-			scott_anderbois at brown.edu</p>
-			<p>Scott is an Associate Professor in the Department of Cognitive, Linguistic, and Psychological Sciences (CLPS) at Brown University. His research is focused on issues in semantics and pragmatics, especially those concerning non-truth conditional meanings and the way they interact with sentence type. Beyond A’ingae, his work has explored these issues through primary fieldwork on Yucatec Maya (Mayan, Mexico) and Tagalog (Austronesian, Philippines). Additionally, he co-directs with Miguel Oscar Chan Dzul (Universidad de Oriente) <a href="https://yucatecmaya.github.io/LingView/#/">U koorpusil maaya t'aan</a>, a multipurpose digital corpus of Yucatec Maya.</p>
-
-			<p style={{marginBottom: ".5em"}}><b>Wilson Silva</b><br />
-			wdelimasilva at email.arizona.edu</p>
-			<p>Wilson is an Assistant Professor in the Department of Linguistics at the University of Arizona. He is a field linguist with formal training in theoretical linguistics and language documentation & revitalization. Beyond A’ingae, he has conducted research in Desano and Siriano; two endangered Eastern Tukanoan languages spoken in the Vaupés Region of Brazil and Colombia.</p>
-
-
-			<h3>Community partners</h3>
-
-			<p style={{marginBottom: ".5em"}}><b>Hugo Lucitante</b></p>
-			<p>Hugo Lucitante is a PhD student in Anthropology at UT San Antonio and a Brown University graduate from Zábalo, a small Cofán community in Ecuador. He received the Royce Fellowship in 2016 and developed the. Hugo's work was immensely important in starting this project.</p>
-
-			<p style={{marginBottom: ".5em"}}><b>Sadie Lucitante</b></p>
-
-			<p style={{marginBottom: ".5em"}}><b>Shen Aguinda</b></p>
-
-			<p style={{marginBottom: ".5em"}}><b>Leidy Quenamá</b></p>
-
-			<p style={{marginBottom: ".5em"}}><b>Jorge Mendua</b></p>
-
-
-			<h4>Other outside collaborators</h4>
-
-			<p><b>Chelsea Sanker, PhD</b><br />
-			<a href="https://www.chelseasanker.com/">chelseasanker.com</a><br />
-			chelsea.sanker at yale.edu</p>
-			<p>Chelsea Sanker is a lecturer at Yale University. Her research focuses on synchronic patterns of details in perception and production, and reconstructions of how shifts in cue usage can lead to diachronic change.</p>
-
-			<p><b>Nick Emlen, PhD</b><br />
-			n.q.emlen at hum.leidenuniv.nl</p>
-			<p>Nick Emlen is a postdoc at Leiden University. He studies linguistic, social, economic, and historical relationships that link the Andes and Amazonia, and is currently a part of the Linguistic Past of Mesoamerica and the Andes project.</p>
-
-			<p><b>Irina Wang, MID</b><br />
-			<a href="https://irinavw.xyz/">irinavw.xyz</a><br />
-			hello at irinawang.com</p>
-			<p>Irina is a designer and writer that has combined an interest in typography, literature, and environmental theory to design alongside native communities and academic linguists to revitalize endangered languages such as Marma (Chittagong Hill Tracts), Unangam Tunuu (Aleutian Islands), and A’ingae (Sucumbíos Province). Recognizing that language justice, environmental justice, and social justice are one demand arising from structural issues, she pursued a Master of Industrial Design at RISD to develop transdisciplinary approaches for ethical and urgent systems-shifting. She currently practices as Entropy Studio, where she works on and writes about design philosophy, nuclear non-proliferation, language sovereignty, energy democracy, agricultural carbon sequestration, circular food systems, urban air mobility, and post-growth governance.</p>
-
-			<h5></h5>
-			<p></p>
-
-			<h5></h5>
-			<p></p>
-
-			<h5></h5>
-			<p></p>
-
-
-			<h4>Lead research assistant</h4>
-
-			<h5>Maksymilian Dąbkowski</h5>
-			<p><a href="https://maksymilian-dabkowski.github.io/">maksymilian-dabkowski.github.io</a><br />
-			maksymilian.michal.dabkowski at gmail.com</p>
-			<p></p>
-
-
-			<h4>Current undergraduates</h4>
-
-			<h5>Valerie Aguilar Dellisanti</h5>
-			<h5>Corrin Anderer</h5>
-			<h5>Atabong Khumbah</h5>
-			<h5>Bryce Massey</h5>
-			<h5>Alexis Roman</h5>
-			<h5>Jack Walker</h5>
-
-
-			<h4>Former undergraduates</h4>
-
-			<b>Justin Bai<br />
-			Rocket Drew<br />
-			Amyra Durkin<br />
-			Zackary Entwistle<br />
-			Sandy Greenberg<br />
-			Rachel Gutman<br />
-			Sabrina Morvillo<br />
-			Thomas Ottaway<br />
-			Ethan Pan<br />
-			Kalinda Pride<br />
-			Chiara Repetti-Ludlow<br />
-			Nicholas Tomlin<br />
-			Haoru Zhang<br />
-			Jacob Zimmerman</b>
-
-
-
-
-			<h3>Funding</h3>
+			<h4>Funding</h4>
 
 			<p>In 2017, ALDP received funding from Endangered Language Documentation Programme (ELDP <span style={{fontFamily: "monospace"}}>#SG0481</span>, <i>Kofán Collaborative Project: Collection of Audio-Video Materials and Texts)</i>.</p>
 
@@ -139,16 +49,96 @@ export function AboutPage() {
 
 
 
-			<h3>Research output</h3>
+			<h4>Research output</h4>
 
 			<p>[This section will be completed in the coding phase]</p>
 
 
 
-			<h3>Publicity</h3>
+			<h4>Publicity</h4>
 
 			<p><a href="https://www.browndailyherald.com/2019/02/20/professor-students-help-preserve-cofan-language/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+BrownDailyHerald+%28The+Brown+Daily+Herald+RSS%29">Professor, students help to preserve Cofán language | The Brown Daily Herald</a></p>
 
+
+
+
+			<h2>Members</h2>
+
+			<h3>Co-directors</h3>
+
+			<p style={{marginBottom: ".25em"}}><b>Scott anderBois</b><br />
+			<a href="http://research.clps.brown.edu/anderbois/">research.clps.brown.edu/anderbois</a><br />
+			scott_anderbois at brown.edu</p>
+			<p>Scott is an Associate Professor in the Department of Cognitive, Linguistic, and Psychological Sciences (CLPS) at Brown University. His research is focused on issues in semantics and pragmatics, especially those concerning non-truth conditional meanings and the way they interact with sentence type. Beyond A’ingae, his work has explored these issues through primary fieldwork on Yucatec Maya (Mayan, Mexico) and Tagalog (Austronesian, Philippines). Additionally, he co-directs with Miguel Oscar Chan Dzul (Universidad de Oriente) <a href="https://yucatecmaya.github.io/LingView/#/">U koorpusil maaya t'aan</a>, a multipurpose digital corpus of Yucatec Maya.</p>
+
+			<p style={{marginBottom: ".25em"}}><b>Wilson Silva</b><br />
+			wdelimasilva at email.arizona.edu</p>
+			<p>Wilson is an Assistant Professor in the Department of Linguistics at the University of Arizona. He is a field linguist with formal training in theoretical linguistics and language documentation & revitalization. Beyond A’ingae, he has conducted research in Desano and Siriano; two endangered Eastern Tukanoan languages spoken in the Vaupés Region of Brazil and Colombia.</p>
+
+
+			<h3>Community partners</h3>
+
+			<p style={{marginBottom: ".25em"}}><b>Hugo Lucitante</b></p>
+			<p>Hugo Lucitante is a PhD student in Anthropology at UT San Antonio and a Brown University graduate from Zábalo, a small Cofán community in Ecuador. He received the Royce Fellowship in 2016 and developed the. Hugo's work was immensely important in starting this project.</p>
+
+			<p style={{marginBottom: ".25em"}}><b>Sadie Lucitante</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Shen Aguinda</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Leidy Quenamá</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Jorge Mendua</b></p>
+
+
+			<h4>Other outside collaborators</h4>
+
+			<p style={{marginBottom: ".25em"}}><b>Chelsea Sanker, PhD</b><br />
+			<a href="https://www.chelseasanker.com/">chelseasanker.com</a><br />
+			chelsea.sanker at yale.edu</p>
+			<p>Chelsea Sanker is a lecturer at Yale University. Her research focuses on synchronic patterns of details in perception and production, and reconstructions of how shifts in cue usage can lead to diachronic change.</p>
+
+			<p style={{marginBottom: ".25em"}}><b>Nick Emlen, PhD</b><br />
+			n.q.emlen at hum.leidenuniv.nl</p>
+			<p>Nick Emlen is a postdoc at Leiden University. He studies linguistic, social, economic, and historical relationships that link the Andes and Amazonia, and is currently a part of the Linguistic Past of Mesoamerica and the Andes project.</p>
+
+			<p style={{marginBottom: ".25em"}}><b>Irina Wang, MID</b><br />
+			<a href="https://irinavw.xyz/">irinavw.xyz</a><br />
+			hello at irinawang.com</p>
+			<p>Irina is a designer and writer that has combined an interest in typography, literature, and environmental theory to design alongside native communities and academic linguists to revitalize endangered languages such as Marma (Chittagong Hill Tracts), Unangam Tunuu (Aleutian Islands), and A’ingae (Sucumbíos Province). Recognizing that language justice, environmental justice, and social justice are one demand arising from structural issues, she pursued a Master of Industrial Design at RISD to develop transdisciplinary approaches for ethical and urgent systems-shifting. She currently practices as Entropy Studio, where she works on and writes about design philosophy, nuclear non-proliferation, language sovereignty, energy democracy, agricultural carbon sequestration, circular food systems, urban air mobility, and post-growth governance.</p>
+
+
+
+			<h3>Lead research assistant</h3>
+
+			<p style={{marginBottom: ".25em"}}><b>Maksymilian Dąbkowski</b><br />
+			<a href="https://maksymilian-dabkowski.github.io/">maksymilian-dabkowski.github.io</a><br />
+			maksymilian.michal.dabkowski at gmail.com</p>
+			<p></p>
+
+
+			<h3>Current undergraduates</h3>
+
+			<p style={{marginBottom: ".25em"}}><b>Valerie Aguilar Dellisanti</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Corrin Anderer</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Atabong Khumbah</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Bryce Massey</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Alexis Roman</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Jack Walker</b></p>
+
+
+			<h4>Former undergraduates</h4>
+
+			<p style={{marginBottom: ".25em"}}><b>Justin Bai</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Rocket Drew</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Amyra Durkin</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Zackary Entwistle</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Sandy Greenberg</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Rachel Gutman</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Sabrina Morvillo</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Thomas Ottaway</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Ethan Pan</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Kalinda Pride</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Chiara Repetti-Ludlow</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Nicholas Tomlin</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Haoru Zhang</b></p>
+			<p style={{marginBottom: ".25em"}}><b>Jacob Zimmerman</b></p>
 			
 		</div>
   );
