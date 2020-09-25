@@ -62,7 +62,10 @@ export class StoryIndex extends React.Component {
                     { title: "Author" },
                     { title: "Date" },
                     { title: "Media" }
-                ]
+                ],
+                scrollY: '75vh',
+                scrollCollapse: true,
+                paging: false
             });
         });
         $('#indexTable').addClass("stripe");
@@ -71,8 +74,7 @@ export class StoryIndex extends React.Component {
     render() {
         return (
             <div id="index">
-                <table id="indexTable">
-                </table>
+                <table id="indexTable"></table>
             </div>
         );
     }
