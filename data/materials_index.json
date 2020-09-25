@@ -1,9 +1,11 @@
 [
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Fischer and Hengeveld_Kofan_16112018.pdf",
     "title": "A'ingae (Cofán/Kofán)",
     "credits": [
-      "Kees Hengeveld"
+      "Kees Hengeveld",
+      "Rafael Fischer"
     ],
     "year": "unpub.",
     "descriptionHTML": "",
@@ -14,10 +16,17 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Alphabet book",
     "title": "Alphabet book",
     "credits": [
-      "Fernando Yánez"
+      "Fernando Yánez",
+      "María Enma Chica Umenda",
+      "Ramón Yumbo",
+      "Belisario Quenamá",
+      "Nicolás Ortiz",
+      "Toribio Aguinda Lucitante",
+      "Fidel Aguinda"
     ],
     "year": "unpub.",
     "descriptionHTML": "",
@@ -28,10 +37,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-The_apprehensional_domain_in_A_ingae__Cof_n___ver__1_1.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/The_apprehensional_domain_in_A_ingae__Cof_n___ver__1_1.pdf",
     "title": "The apprehensional domain in A'ingae (Cofán)",
     "credits": [
-      "Scott AnderBois"
+      "Scott AnderBois",
+      "Maksymilian Dąbkowski"
     ],
     "year": "unpub.",
     "descriptionHTML": "",
@@ -42,24 +53,15 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/pride_et_al.pdf",
-    "title": "LingView: A web interface for viewing FLEx and ELAN files",
-    "credits": [
-      "Scott AnderBois"
-    ],
-    "year": "unpub.",
-    "descriptionHTML": "",
-    "categories": [
-      "linguistic"
-    ],
-    "type": "text",
-    "isCurated": true
-  },
-  {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Field Museum guides-Cofan handicrafts.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/Cofan handicrafts.pdf",
     "title": "Cofán handicrafts from natural sources",
     "credits": [
-      "Margaret Metz"
+      "Margaret Metz",
+      "Robin Foster",
+      "Mauricio Mendúa",
+      "Lorenzo Criollo",
+      "Roberto Aguinda"
     ],
     "year": "online",
     "descriptionHTML": "",
@@ -71,10 +73,14 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/Conspicuous plants of zabalo.pdf",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Conspicuous plants of Zábalo",
     "credits": [
-      "Margaret Metz"
+      "Margaret Metz",
+      "Robin Foster",
+      "Lorenzo Criollo",
+      "Roberto Aguinda"
     ],
     "year": "online",
     "descriptionHTML": "",
@@ -86,9 +92,69 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/palmas serranias.pdf",
     "title": "Palmas de las serranías Cofán",
     "credits": [
+      "Robin Foster",
+      "Roberto Aguinda"
+    ],
+    "year": "online",
+    "descriptionHTML": "",
+    "categories": [
+      "ecological",
+      "field guide"
+    ],
+    "type": "text",
+    "isCurated": false
+  },
+  {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Field Museum guides-useful plants of zabalo.jpg",
+    "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/useful plants of zabalo.pdf",
+    "title": "Useful plants of Zábalo",
+    "credits": [
+      "Margaret Metz",
+      "Robin Foster",
+      "Lorenzo Criollo",
+      "Mauricio Mendúa",
+      "Roberto Aguinda"
+    ],
+    "year": "online",
+    "descriptionHTML": "",
+    "categories": [
+      "ecological",
+      "field guide"
+    ],
+    "type": "text",
+    "isCurated": false
+  },
+  {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Field Museum guides-Zabalo-Palms_field museum.jpg",
+    "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/Zabalo-Palms_field museum.pdf",
+    "title": "Palms of Zábalo",
+    "credits": [
+      "Margaret Metz",
+      "Robin Foster",
+      "Mauricio Mendúa",
+      "Lorenzo Criollo",
+      "Roberto Aguinda"
+    ],
+    "year": "online",
+    "descriptionHTML": "",
+    "categories": [
+      "ecological",
+      "field guide"
+    ],
+    "type": "text",
+    "isCurated": false
+  },
+  {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Field Museum guides-089_SerrCofan_1.jpg",
+    "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/089_SerrCofan_1.pdf",
+    "title": "Reserva ecológica serranías Cofán",
+    "credits": [
+      "Roberto Aguinda",
+      "Nigel Pitman",
       "Robin Foster"
     ],
     "year": "online",
@@ -101,54 +167,36 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/useful plants of zabalo.pdf",
-    "title": "Useful plants of Zábalo",
-    "credits": [
-      "Margaret Metz"
-    ],
-    "year": "online",
-    "descriptionHTML": "",
-    "categories": [
-      "ecological",
-      "field guide"
-    ],
-    "type": "text",
-    "isCurated": false
-  },
-  {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/Zabalo-Palms_field museum.pdf",
-    "title": "Palms of Zábalo",
-    "credits": [
-      "Margaret Metz"
-    ],
-    "year": "online",
-    "descriptionHTML": "",
-    "categories": [
-      "ecological",
-      "field guide"
-    ],
-    "type": "text",
-    "isCurated": false
-  },
-  {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/089_SerrCofan_1.pdf",
-    "title": "Reserva ecológica serranías Cofán",
-    "credits": [
-      "Roberto Aguinda"
-    ],
-    "year": "online",
-    "descriptionHTML": "",
-    "categories": [
-      "ecological",
-      "field guide"
-    ],
-    "type": "text",
-    "isCurated": false
-  },
-  {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Field Museum guides-089_SerrCofan_1.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/089_SerrCofan_1.pdf",
     "title": "Plantas raras de las serranías Cofán",
     "credits": [
+      "Roberto Aguinda",
+      "Nigel Pitman",
+      "Robin Foster"
+    ],
+    "year": "online",
+    "descriptionHTML": "",
+    "categories": [
+      "ecological",
+      "field guide"
+    ],
+    "type": "text",
+    "isCurated": false
+  },
+  {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Field Museum guides-110_Serranias_Cofan-TS_1.1_1.jpg",
+    "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/110_Serranias_Cofan-TS_1.1_1.pdf",
+    "title": "Árboles y arbustos de las serranías Cofán",
+    "credits": [
+      "T. Theim",
+      "Margaret Metz",
+      "Carlos Cerón",
+      "Nigel Pitman",
+      "Robin Foster",
+      "José Umenda",
+      "Basilio Descanse",
+      "Eliberto Alvarado",
       "Roberto Aguinda"
     ],
     "year": "online",
@@ -161,25 +209,32 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum guides/110_Serranias_Cofan-TS_1.1_1.pdf",
-    "title": "Árboles y arbustos de las serranías Cofán",
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-pride_et_al.jpg",
+    "savedPath": "data/saved-materials/Literature/All things A'ingae/pride_et_al.pdf",
+    "title": "LingView: A web interface for viewing FLEx and ELAN files",
     "credits": [
-      "T. Theim"
+      "Scott AnderBois",
+      "Nicholas Tomlin",
+      "Kalinda Pride"
     ],
-    "year": "online",
+    "year": "2020",
     "descriptionHTML": "",
     "categories": [
-      "ecological",
-      "field guide"
+      "linguistic"
     ],
     "type": "text",
-    "isCurated": false
+    "isCurated": true
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Repetti-Ludlow JIPA",
     "title": "A'ingae (Cofán)",
     "credits": [
-      "Chelsea Sanker"
+      "Chelsea Sanker",
+      "Scott AnderBois",
+      "Hugo Lucitante",
+      "Haoru Zhang",
+      "Chiara Repetti-Ludlow"
     ],
     "year": "2019",
     "descriptionHTML": "",
@@ -190,6 +245,7 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-The_morphophonology_of_A_ingae_verbal_stress__thesis__ver__7_5.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/The_morphophonology_of_A_ingae_verbal_stress__thesis__ver__7_5.pdf",
     "title": "The morphophonology of A'ingae verbal stress",
     "credits": [
@@ -204,11 +260,10 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Hugos Thesis PDF.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Hugos Thesis PDF.pdf",
     "title": "The Cofán peoples of Ecuador and their struggles for survival",
-    "credits": [
-      "Hugo Lucitante"
-    ],
+    "credits": [],
     "year": "2019",
     "descriptionHTML": "",
     "categories": [
@@ -218,10 +273,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-hengeveld&fischer submitted - TAM.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/hengeveld&fischer submitted - TAM.pdf",
     "title": "A'ingae (Cofán/Kofán) operators",
     "credits": [
-      "Rafael Fischer"
+      "Rafael Fischer",
+      "Kees Hengeveld"
     ],
     "year": "2018",
     "descriptionHTML": "",
@@ -232,10 +289,12 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-submb_hengeveld&fischer_transparency.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/submb_hengeveld&fischer_transparency.pdf",
     "title": "A'ingae (Cofán/Kofán) as a transparent language",
     "credits": [
-      "Rafael Fischer"
+      "Rafael Fischer",
+      "Kees Hengeveld"
     ],
     "year": "2018",
     "descriptionHTML": "",
@@ -246,6 +305,7 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-PabloOsorno_2015_practicasancestrales.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/PabloOsorno_2015_practicasancestrales.pdf",
     "title": "Saberes ancestrales y prácticas de formación cofanes: El conocimiento como recuerdo del olvido",
     "credits": [
@@ -260,10 +320,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Mendua and Aguinda 2014.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Mendua and Aguinda 2014.pdf",
     "title": "Herramientas metodológicas para la enseñanza de la lengua a'ingae",
     "credits": [
-      "Toribio Aguinda Lucitante"
+      "Toribio Aguinda Lucitante",
+      "Oscar Ernesto Mendúa Quenamá"
     ],
     "year": "2014",
     "descriptionHTML": "",
@@ -276,6 +338,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Cardona Lucitante tesis.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Cardona Lucitante tesis.pdf",
     "title": "Concepción del buen vivir desde la cosmovisión a'i en la comunidad Dureno",
     "credits": [
@@ -291,6 +354,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Ethnohistory-2014-Wasserstrom-525-48.pdf",
     "title": "Surviving the rubber boom: Cofán and Siona society in the Colombia-Ecuador borderlands",
     "credits": [
@@ -305,11 +369,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Audio and video/Oil Spill in Cofán Territory",
     "title": "Petroamazonas oil spill",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "year": "2014",
     "descriptionHTML": "",
     "categories": [
@@ -320,10 +383,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Ortiz Quenamá and Criollo Mendúa 2013.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Ortiz Quenamá and Criollo Mendúa 2013.pdf",
     "title": "El arte de la caza y pesca ancestral de la comunidad Dureno, nacionalidad a'i",
     "credits": [
-      "Martín Crecencio Criollo Mendúa"
+      "Martín Crecencio Criollo Mendúa",
+      "Medardo Segundo Ortiz Quenamá"
     ],
     "year": "2013",
     "descriptionHTML": "",
@@ -335,11 +400,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Cofán New Testament.pdf",
     "title": "The New Testament",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "year": "2012",
     "descriptionHTML": "",
     "categories": [
@@ -349,10 +413,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Campbell and Grondona 2012.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Campbell and Grondona 2012.pdf",
     "title": "The indigenous languages of South America: A comprehensive guide",
     "credits": [
-      "Verónica Grondona"
+      "Verónica Grondona",
+      "Lyle Campbell"
     ],
     "year": "2012",
     "descriptionHTML": "",
@@ -363,10 +429,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Fischer and van lier.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Fischer and van lier.pdf",
     "title": "Cofán subordinate clauses in a typology of subordination",
     "credits": [
-      "Eva van Lier"
+      "Eva van Lier",
+      "Rafael Fischer"
     ],
     "year": "2011",
     "descriptionHTML": "",
@@ -377,10 +445,37 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Na'ensu a'i -- La gente del rio_Searchable.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Na'ensu a'i -- La gente del rio_Searchable.pdf",
     "title": "La gente del rio: La historia del sararo y la choni contada por el pueblo cofán",
     "credits": [
-      "Vinicio Ortiz"
+      "Vinicio Ortiz",
+      "Tini Yumbo",
+      "Bendy Criollo",
+      "Ireida Criollo",
+      "Miriam Lucitante",
+      "Oswaldo Criollo",
+      "Marianela Lucitante",
+      "Ana Lucitante",
+      "Yoni Huilca",
+      "Dora Criollo",
+      "Kerly Criollo",
+      "Euclides Lucitante",
+      "Juana Chapal",
+      "Floresto Criollo",
+      "Anibal Criollo",
+      "José Yiyoguaje",
+      "Saura Mashacori",
+      "Jonás Aguinda",
+      "Norma Mendúa",
+      "Leonel Yiyoguaje",
+      "Marcio Yumbo",
+      "Lorenzo Criollo",
+      "Mauricio Mendúa",
+      "Antonio Aguinda",
+      "Bolivar Lucitante",
+      " Centro Cofán Pakuya",
+      " Comunidad Cofán de Zábalo"
     ],
     "year": "2011",
     "descriptionHTML": "",
@@ -391,6 +486,7 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Aillón Sánchez 2011.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Aillón Sánchez 2011.pdf",
     "title": "¿Falacia o verdad? Hacia la sostenibilidad integral, de la nacionalidad a'i cofán del Ecuador",
     "credits": [
@@ -406,6 +502,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Andrade Suárez 2011.pdf",
     "title": "Rescate de la cultura gastronómica de la etnia cofán en el cantón Lago Agrio",
     "credits": [
@@ -421,6 +518,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Audio and video/It is possible to be indigenous and white- Randy Borman at TEDxAmazonia",
     "title": "It is possible to be indigenous and white",
     "credits": [
@@ -435,11 +533,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Caracterización del pueblo Cofán.pdf",
     "title": "Cofán, sabios y maestros del mundo espiritual",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "year": "2010",
     "descriptionHTML": "",
     "categories": [
@@ -449,10 +546,18 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum reports/Vriesendorp et al 2009",
     "title": "Ecuador: Cabeceras Cofanes-Chingual",
     "credits": [
-      "Elizabeth P. Anderson"
+      "Elizabeth P. Anderson",
+      "Byron Coronel Tapia",
+      "Segundo Fuentes Cáceres",
+      "Debra K. Moskovits",
+      "Douglas F. Stotz",
+      "Álvaro del Campo",
+      "William S. Alverson",
+      "Corine Vriesendorp"
     ],
     "year": "2009",
     "descriptionHTML": "",
@@ -465,6 +570,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Gonzalez Guzman 2009.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Gonzalez Guzman 2009.pdf",
     "title": "Usos políticos de la etnicidad en los a'i cofán del Ecuador: El caso de Dureno",
     "credits": [
@@ -479,10 +585,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Oil_Development_Deforestation_and_Indige.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Oil_Development_Deforestation_and_Indige.pdf",
     "title": "Oil development, deforestation, and indigenous populations in the Ecuadorian Amazon",
     "credits": [
-      "Susan Reider"
+      "Susan Reider",
+      "Robert Wasserstrom"
     ],
     "year": "2009",
     "descriptionHTML": "",
@@ -493,11 +601,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-A'ingae UNDHR.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/A'ingae UNDHR.pdf",
     "title": "Declaración universal de derechos humanos",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "year": "2008",
     "descriptionHTML": "",
     "categories": [
@@ -507,6 +614,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Numerals according to Rafael.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Numerals according to Rafael.pdf",
     "title": "Numeral systems of the world's languages",
     "credits": [
@@ -521,10 +629,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/A'indeccu canqque'su condase'cho",
     "title": "Mitos del pueblo cofán",
     "credits": [
-      "María Enma Chica Umenda"
+      "María Enma Chica Umenda",
+      "Magdalena Blaser"
     ],
     "year": "2008",
     "descriptionHTML": "",
@@ -535,10 +645,17 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum reports/Alverson et al 2008",
     "title": "Ecuador, Perú: Cuyabeno-Güeppí",
     "credits": [
-      "Luis A. Borbor L."
+      "Luis A. Borbor L.",
+      "Miryan García Donayre",
+      "Douglas F. Stotz",
+      "Debra K. Moskovits",
+      "Álvaro del Campo",
+      "Corine Vriesendorp",
+      "William S. Alverson"
     ],
     "year": "2008",
     "descriptionHTML": "",
@@ -551,6 +668,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Álvarez, Catalina (2007) Estado de las lenguas en las Nacionalidades de la Amazonía Ecuatoriana.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Álvarez, Catalina (2007) Estado de las lenguas en las Nacionalidades de la Amazonía Ecuatoriana.pdf",
     "title": "Estado de las lenguas en las Nacionalidades de la Amazonía Ecuatoriana",
     "credits": [
@@ -566,6 +684,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Fischer, Rafael (2007) Clause linkage in Cofan (A'ingae).pdf",
     "title": "Clause linkage in Cofán (A'ingae)",
     "credits": [
@@ -580,10 +699,16 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum reports/Borman et al 2007",
     "title": "Ecuador: Territorio Cofán Dureno",
     "credits": [
-      "Álvaro del Campo"
+      "Álvaro del Campo",
+      "Douglas F. Stotz",
+      "Debra K. Moskovits",
+      "William S. Alverson",
+      "Corine Vriesendorp",
+      "Randall Borman"
     ],
     "year": "2007",
     "descriptionHTML": "",
@@ -596,6 +721,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Lu, Flora, Integration into the Market among Indigenous Peoples A Cross‐Cultural Perspective fromthe Ecuadorian Amazon.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Lu, Flora, Integration into the Market among Indigenous Peoples A Cross‐Cultural Perspective fromthe Ecuadorian Amazon.pdf",
     "title": "Integration into the market among indigenous peoples: A cross‐cultural perspective from the Ecuadorian Amazon",
     "credits": [
@@ -610,6 +736,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Ensenanza de Cofán como segunda lengua.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Ensenanza de Cofán como segunda lengua.pdf",
     "title": "Ensenanza de cofán como segunda lengua",
     "credits": [
@@ -624,6 +751,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Tobar Gutierrez 2004.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Tobar Gutierrez 2004.pdf",
     "title": "Modelo estructurado de la expansión del uso de la lengua nativa hacia la construcción de currículos para pueblos indígenas: Caso cofán",
     "credits": [
@@ -638,6 +766,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Tobar Gutierrez 2004b.pdf",
     "title": "Una visión sintética de la lengua cofán desde la historia de \"Kunsiana\"",
     "credits": [
@@ -652,11 +781,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Ingita gi a'indeccu'fa",
     "title": "Nosotros los cofanes",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "year": "2002",
     "descriptionHTML": "",
     "categories": [
@@ -666,10 +794,14 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Field Museum reports/Pitman et al 2002",
     "title": "Ecuador: Serranías Cofán-Bermejo, Sinangoé",
     "credits": [
-      "Randall Borman"
+      "Randall Borman",
+      "William S. Alverson",
+      "Debra K. Moskovits",
+      "Nigel Pitman"
     ],
     "year": "2002",
     "descriptionHTML": "",
@@ -682,6 +814,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Historiadelasmisionesenlaamazonia.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Historiadelasmisionesenlaamazonia.pdf",
     "title": "Historia de las misiones en la Amazonía ecuatoriana",
     "credits": [
@@ -696,6 +829,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Castillo 1999.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Castillo 1999.pdf",
     "title": "Looking for the papers that God forgot: An ethnography of environmental change",
     "credits": [
@@ -711,6 +845,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Parra R., Los cuentos de los abuelos_ocr.pdf",
     "title": "Our grandparents' stories: Oral tradition of the Siona and Kofán Indians of Putumayo",
     "credits": [
@@ -725,10 +860,15 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Etnografías mínimas del Ecuador - tsachila cachis cholo cofán.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Etnografías mínimas del Ecuador - tsachila cachis cholo cofán.pdf",
     "title": "Etnografías mínimas del Ecuador: Tsachila, cachis, cholo, cofán, awá-coaiquer",
     "credits": [
-      "Jeffreey David Ehrenreich"
+      "Jeffreey David Ehrenreich",
+      "Lucy Ruiz",
+      "Silvia Álvarez",
+      "Henry Medina",
+      "Montserrat Ventura"
     ],
     "year": "1997",
     "descriptionHTML": "",
@@ -739,6 +879,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-Johnson MS thesis.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/Johnson MS thesis.pdf",
     "title": "A case study of the effects of land use zoning by the Cofán indians on the conservation of threatened cracids (Cracidae) in the Cuyabeno Reserve, Ecuador",
     "credits": [
@@ -753,6 +894,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Gregorio Quenama. Autobiografía Cofanes No2.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Gregorio Quenama. Autobiografía Cofanes No2.pdf",
     "title": "Gregorio Quenamá. Autobiografías cofanes",
     "credits": [
@@ -767,11 +909,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Listas comparativas de palabras en diez idiomas autóctonos ecuatorianos",
     "title": "Listas comparativas de palabras en diez idiomas autóctonos ecuatorianos",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "year": "1991",
     "descriptionHTML": "",
     "categories": [
@@ -781,10 +922,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Folklore Cofan",
     "title": "\"The old people told us...\": Twenty-six Cofán legends as related by Enrique Criollo",
     "credits": [
-      "Marlytte Bubs Borman"
+      "Marlytte Bubs Borman",
+      "Enrique Criollo"
     ],
     "year": "1991",
     "descriptionHTML": "",
@@ -795,10 +938,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Borman 1990/Borman 1990",
     "title": "Cofán cosmology and history as revealed in their legends",
     "credits": [
-      "Enrique Criollo"
+      "Enrique Criollo",
+      "Marlytte Bubs Borman"
     ],
     "year": "1990",
     "descriptionHTML": "",
@@ -810,6 +955,7 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Cofan_Basic_Lessons_1990draft.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Cofan_Basic_Lessons_1990draft.pdf",
     "title": "Cofán: Basic lessons for learning the A'ingae language (for English speakers)",
     "credits": [
@@ -824,10 +970,13 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-borman1991cofanmedico_ocr.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/borman1991cofanmedico_ocr.pdf",
     "title": "El Cofán y el médico: Vocabulario médico bilingüe",
     "credits": [
-      "Emeregildo Criollo Quenamá"
+      "Emeregildo Criollo Quenamá",
+      "R. N. Verla Cooper",
+      "Roberta Bob Borman"
     ],
     "year": "1989",
     "descriptionHTML": "",
@@ -838,6 +987,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-LECTURA_1_COFAN_1990_ocr.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/LECTURA_1_COFAN_1990_ocr.pdf",
     "title": "Pui tevaen'jema cañe atesuya'cho",
     "credits": [
@@ -852,6 +1002,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Tevaen_Jema_Atesuya_Cho.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Tevaen_Jema_Atesuya_Cho.pdf",
     "title": "Tevaen'jema atesuya'cho",
     "credits": [
@@ -866,6 +1017,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Contribución al conocimiento de la lengua kofán.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Contribución al conocimiento de la lengua kofán.pdf",
     "title": " Contribución al conocimiento de la lengua kofán",
     "credits": [
@@ -881,6 +1033,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/CE08_Cofan_15405_ocr.pdf",
     "title": "Cambios semánticos en la terminologia cofán del parentesco",
     "credits": [
@@ -895,6 +1048,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/CE08_Cofan_15405_ocr.pdf",
     "title": "Costumbres matrimoniales de los cofanes",
     "credits": [
@@ -909,10 +1063,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Quinsetsse_Canseye_con_1982.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Quinsetsse_Canseye_con_1982.pdf",
     "title": "Quinsetsse canseye toya seje'suni jambi'te tsoñe",
     "credits": [
-      "R. N. Verla Cooper"
+      "R. N. Verla Cooper",
+      "Lois Pederson"
     ],
     "year": "1982",
     "descriptionHTML": "",
@@ -923,6 +1079,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Chimbi aʼinga attianʼcho toyaʼcaen fuesu condaseʼcho_ocr.pdf",
     "title": "El murciélago y la mujer, y otras leyendas cofanes",
     "credits": [
@@ -937,10 +1094,18 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-AINGAE_V_ocr.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/AINGAE_V_ocr.pdf",
     "title": "A'ingae V (Texto de lectura)",
     "credits": [
-      "Becky de Rhon"
+      "Becky de Rhon",
+      "Gloriano Quenamá",
+      "Deji Criollo",
+      "Emeregildo Criollo Quenamá",
+      "Toribio Aguinda Lucitante",
+      "Silvio Chapal",
+      "Elsira Quintero",
+      "Roberta Bob Borman"
     ],
     "year": "1980",
     "descriptionHTML": "",
@@ -951,10 +1116,13 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-A'ingae 3.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/A'ingae 3.pdf",
     "title": "A'ingae III (Texto de lectura)",
     "credits": [
-      "Becky de Rhon"
+      "Becky de Rhon",
+      "María Enma Chica Umenda",
+      "Roberta Bob Borman"
     ],
     "year": "1980",
     "descriptionHTML": "",
@@ -965,10 +1133,13 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Aingae2 texto_ocr.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Aingae2 texto_ocr.pdf",
     "title": "A'ingae II (Texto de lectura)",
     "credits": [
-      "Becky de Rhon"
+      "Becky de Rhon",
+      "María Enma Chica Umenda",
+      "Roberta Bob Borman"
     ],
     "year": "1980",
     "descriptionHTML": "",
@@ -979,11 +1150,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Fuller Bible with only a few chapters missed.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Fuller Bible with only a few chapters missed.pdf",
     "title": "The Holy Bible",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "year": "1980",
     "descriptionHTML": "",
     "categories": [
@@ -993,10 +1163,12 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Nombres de aves en cinco idiomas",
     "title": "Nombres de aves en cinco idiomas",
     "credits": [
-      "Nancy S. de Pearson"
+      "Nancy S. de Pearson",
+      "Carolina Orr D."
     ],
     "year": "1979",
     "descriptionHTML": "",
@@ -1007,10 +1179,13 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-A'ingae 4.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/A'ingae 4.pdf",
     "title": "A'ingae IV (Texto de lectura)",
     "credits": [
-      "Homero Ayala García"
+      "Homero Ayala García",
+      "Becky de Rhon",
+      "Roberta Bob Borman"
     ],
     "year": "1979",
     "descriptionHTML": "",
@@ -1021,6 +1196,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Anthropological-developmentoffee00blak.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Anthropological/developmentoffee00blak.pdf",
     "title": "Development of feed and food production systems for subsistence Ecuadorian Indian culture",
     "credits": [
@@ -1036,11 +1212,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Lista de frases útiles en los diferentes idiomas de la selva y costa ecuatorianas",
     "title": "Lista de frases útiles en los diferentes idiomas de la selva y costa ecuatorianas",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "year": "1978",
     "descriptionHTML": "",
     "categories": [
@@ -1050,6 +1225,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Borman_con_Aprendamos_1981.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Borman_con_Aprendamos_1981.pdf",
     "title": "Aprendamos",
     "credits": [
@@ -1064,11 +1240,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-SIL (1978). Chiga Aya'fa Settapoen'cho. Himnario Cofán.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/SIL (1978). Chiga Aya'fa Settapoen'cho. Himnario Cofán.pdf",
     "title": "Himnario",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "year": "1978",
     "descriptionHTML": "",
     "categories": [
@@ -1078,10 +1253,13 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Discourse grammar. Studies in indigenous languages of Colombia, Panama, and Ecuador, 3",
     "title": "Discourse grammar: Studies in indigenous languages of Colombia, Panama, and Ecuador",
     "credits": [
-      "Iris M. Wares"
+      "Iris M. Wares",
+      "Alan C. Wares",
+      "Irvine Davis"
     ],
     "year": "1977",
     "descriptionHTML": "",
@@ -1092,6 +1270,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Cofán paragraph structure.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Cofán paragraph structure.pdf",
     "title": "Cofán paragraph structure and function",
     "credits": [
@@ -1106,10 +1285,13 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-A'ingae 1.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/A'ingae 1.pdf",
     "title": "A'ingae I (Texto de lectura)",
     "credits": [
-      "Martha Flores"
+      "Martha Flores",
+      "María Enma Chica Umenda",
+      "Roberta Bob Borman"
     ],
     "year": "1977",
     "descriptionHTML": "",
@@ -1120,6 +1302,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Borman 1976 Vocabulario Cofan.pdf",
     "title": "Vocabulario cofán",
     "credits": [
@@ -1134,6 +1317,7 @@
     "isCurated": true
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Estudios fonológicos de lenguas vernáculas del Ecuador_ocr.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Estudios fonológicos de lenguas vernáculas del Ecuador_ocr.pdf",
     "title": "Estudios fonológicos de lenguas vernáculas del Ecuador",
     "credits": [
@@ -1148,6 +1332,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-A'ingae 4 cartilla_ocr.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/A'ingae 4 cartilla_ocr.pdf",
     "title": "A'ingae 4 (Cartilla)",
     "credits": [
@@ -1162,6 +1347,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Ongu_1967.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Ongu_1967.pdf",
     "title": "Ongu",
     "credits": [
@@ -1176,6 +1362,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-A'ingae 3 cartilla_ocr.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/A'ingae 3 cartilla_ocr.pdf",
     "title": "A'ingae 3 (Cartilla)",
     "credits": [
@@ -1190,6 +1377,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-A'ingae 2.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/A'ingae 2.pdf",
     "title": "A'ingae 2 (Cartilla)",
     "credits": [
@@ -1204,6 +1392,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Borman 1962 - Cofán phonemes.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Borman 1962 - Cofán phonemes.pdf",
     "title": "Cofán phonemes",
     "credits": [
@@ -1218,6 +1407,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Studies in Ecuadorian Indian languages 1",
     "title": "Studies in Ecuadorian Indian languages",
     "credits": [
@@ -1232,6 +1422,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Rivet Affinites du Kofan.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Rivet Affinites du Kofan.pdf",
     "title": "Affinités du Kofán",
     "credits": [
@@ -1247,6 +1438,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Castellvi 1938.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Castellvi 1938.pdf",
     "title": "La lengua kofán",
     "credits": [
@@ -1262,6 +1454,7 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Bobbie Borman -- Cofán notes (trilingual).jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Bobbie Borman -- Cofán notes (trilingual).pdf",
     "title": "Language notes",
     "credits": [
@@ -1275,10 +1468,12 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Ñotssia tsampi jinttima isu",
     "title": "El mejor lugar de la selva: Propuesta de recuperación del territorio cofán",
     "credits": [
-      "Organización Indígena de la Nacionalidad Cofán del Ecuador"
+      " Organización Indígena de la Nacionalidad Cofán del Ecuador",
+      " Comunidad Cofán Dureno"
     ],
     "descriptionHTML": "",
     "categories": [
@@ -1288,10 +1483,13 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Plan de salvaguarda del pueblo cofán.pdf",
     "title": "Plan se salvaguarda del pueblo cofán.pdf ",
     "credits": [
-      "Marina Quintero"
+      "Marina Quintero",
+      "Wilinton Chapal",
+      "Iván Queta Quintero"
     ],
     "descriptionHTML": "",
     "categories": [
@@ -1301,10 +1499,11 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "data/saved-materials-thumbs/data-saved-materials-Literature-All things A'ingae-Acuerdo Final  para la Terminación del Conflicto Armado.jpg",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Acuerdo Final  para la Terminación del Conflicto Armado.pdf",
     "title": "Acuerdo final para la terminación del conflicto armado",
     "credits": [
-      "La Oficina del Alto Comisionado para la Paz"
+      " La Oficina del Alto Comisionado para la Paz"
     ],
     "descriptionHTML": "",
     "categories": [
@@ -1314,11 +1513,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Audio and video/Ingi canse'cho ande",
     "title": "Ingi canse'cho ande",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "",
     "categories": [
       "primary",
@@ -1328,11 +1526,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Audio and video/Cofanes - resistencia y cosmovisión",
     "title": "Cofanes: Resistencia y cosmovisión",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "",
     "categories": [
       "primary",
@@ -1342,11 +1539,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/AGATTO'PA/NUMEROS EN A'INGAE/A'INDEKHÙ ATAKAN'CHU..doc",
     "title": "ÑA AYA'FANGAE A'TAMA AGATHU'JE'CHU. ATAKAN'CHU",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>times of the day</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1355,11 +1551,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/AGATTO'PA/NUMEROS EN A'INGAE/A'INGAE A..doc",
     "title": "AGATHU'PA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>cardinal numbers, ordinal numbers, times of the year</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1368,11 +1563,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/AGATTO'PA/NUMEROS EN A'INGAE/A'INGAE AGATHU'PA.doc",
     "title": "A'INDEKHÛ TISÛ'PANGAE AGATHU'CHU.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>numbers up to 200, stages of knowing</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1381,11 +1575,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Isamis,Borman/Historia Sínodo original.doc",
     "title": "HISTORIA DEL PUEBLO COFÁN",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>cultural history of the Cofán people</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1394,11 +1587,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Isamis,Borman/Diccionario Cofán.doc",
     "title": "DICCIONARIO A'INGAE",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>Borman (1976)'s dictionary, descriptive grammar</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1407,11 +1599,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/A'INGAE 11 A 15 DE NOV Y D",
     "title": "A'INGAE 11 A 15 DE NOV Y D",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>textbook, body parts, hygiene products, tools, colors (unit 11), shapes, animals, quantifiers, months, days of the week (unit 13), shapes, body parts, fish, musical instruments (unit 14), animals, months (unit 15), other vocabulary</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1420,11 +1611,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/las unidades 68,69 y70 desarrolladas en guias/Las  guias de las unidades desar.sss.doc",
     "title": "PARA CICLO BASICO  DE SASIKU",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide, minimals glottal stop pairs (pp. 124-126), cosmovision (p. 143)</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1433,11 +1623,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/cuadro de bilinguismo",
     "title": "cuadro de bilinguismo",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>bilingual exercise book</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1446,11 +1635,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/deinassce",
     "title": "deinassce",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>multilingual curriculum</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1459,11 +1647,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/MODULO INTEGRADO/MODULO 1, GUIA 1..doc",
     "title": "UNIDAD 1 DE NIVELACION DEL ESTUDIO “SASIKU” EN A'INGAE PAPA CDC- LAGO AGRIO  SUCUMBÍOS",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1472,11 +1659,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/injenge'chu tevaen'chu",
     "title": "injenge'chu tevaen'chu",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>textbook, curriculum, teaching guide</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1485,11 +1671,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/modulos",
     "title": "modulos",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>pedagogical grammar, minimal pairs, anthem of Ecuador, numerals up to 1 000 000, phonology, stress, lexical classes, color terms, diminutives, augmentatives, pejoratives, measurement</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1498,11 +1683,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/Nueva carpeta",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Nueva carpeta",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>textbook, shapes, body parts</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1511,11 +1695,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/SASIKU LEIB/ANGA'SÛ 1 , GRAMATICA SASIKU.doc",
     "title": "ÑA ATESÛMBICHUA'MA GI THATHAPA ATHEYA'CHU.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>pedagogical grammar</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1524,11 +1707,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/SASIKU LEIB/SASIKU FAENGAEN'JEN'CHU 2.doc",
     "title": "SASIKU FAENGAENJEN'CHU 2 GUIA 2 DE LA UNIDAD 2 IGUALACION DEL ESTUDIO “SASIKU” ",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide, times of the day, days of the week, time of the year, numerals</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1537,11 +1719,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/SASIKU LEIB/Monografia U Cuenca.doc",
     "title": "MONOGRAFIA DE   LA COMUNA COFAN DURENO",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>monograph of the community of Dureno</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1550,11 +1731,10 @@
     "isCurated": false
   },
   {
+    "thumbnailImageUrl": "",
     "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/sasiku2011/MODULO 1, GUIA 1..doc",
     "title": "PÛI AYA'FA JIN'CHU A'INGAE UNIDAD 1 DE NIVELACION DEL ESTUDIO “SASIKU”  EN A'INGAE PAPA CDC- LAGO AGRIO  SUCUMBÍOS",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide, times of the day, days of the week, months</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1563,11 +1743,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/sasiku2011/SASIKU FAENGAEN'JEN'CHU 2.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "SASIKU'SÛ ATESÛSÛNDEKHÛMBE 2 UNIDAD 2 IGUALACION DEL ESTUDIO “SASIKU” ",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide, times of the day, days of the week, months</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1576,11 +1755,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/sasiku2011/TEVAEN'CHU 3 SASIKU.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "SASIKU'SÛ ATESÛSÛNDEKHÛMBE 3 UNIDAD 3 NIVELACION DE “SASIKU” ",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1589,11 +1767,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/sasiku2011/UNIDAD 4 PARA NIVELACIÓN DE SASIKU.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "SASIKU'SÛ ATESÛSÛNDEKHÛMBE 4 UNIDAD 4 NIVELACION DE SASIKU CDC –LAGO AGRIO SUCUMBÍOS",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1602,11 +1779,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/sasiku2011/UNIDAD 5 NIVELACION SASIKU.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "ATESÛSÛNDEKHÛMBE 5 UNIDAD 5  SASIKU",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1615,11 +1791,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/TALLER DE LITERATURA INFANTIL/LITERATURA INFANTIL/LITERATURA INFANTIL CA.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "NARRACIONES MARAVILLOSAS:",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>description of structure and analysis of children’s stories</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1628,11 +1803,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/TALLER DE LITERATURA INFANTIL/El venado y la tortuga en español  mm.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "LITERATURA INFANTIL DE LA NACIONALIDAD A'I EN LENGUA ESPAÑOL",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>Cofán children’s stories in Spanish and A’ingae</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1641,11 +1815,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/TALLER DE LITERATURA INFANTIL/El venado y la tortuga en español..doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "LITERATURA INFANTIL DE LA NACIONALIDAD A'I EN LENGUA ESPAÑOL",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>Cofán children’s stories in Spanish</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1654,11 +1827,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/TALLER DE LITERATURA INFANTIL/Imágenes.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Imágenes",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>images for children’s stories</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1667,11 +1839,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/TALLER DE LITERATURA INFANTIL/LA CREACION DE SIETE CABRILLAS.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "LA CREACION DE SIETE CABRILLAS",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>Cofán children’s story in Spanish and A’ingae</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1680,11 +1851,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/TALLER DE LITERATURA INFANTIL/xxxEL VENADO Y LA TORTUGA.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "LITERATURA INFANTIL DE LA NACIONALIDAD A'I EN LENGUA ESPAÑOL",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>Cofán children’s stories in Spanish and A’ingae</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1693,11 +1863,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/unidades 17 y19",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "unidades 17 y19",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>alphabet books, textbooks, curricula in Spanish, A’ingae, Siona, and Shuar</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1706,11 +1875,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/RANDE C.JIN'CHU/TALLER DE LITERATURA INFANTIL/Shan'khu tuya'kaen tûtûkhu'chu..doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "LITERATURA INFANTIL DE LA NACIONALIDAD A'I EN LENGUA A'INGAE",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>Cofán children’s stories in A’ingae</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1719,11 +1887,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/sasiku2011",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "sasiku2011",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide, times of the day, days of the week, time of the year, numerals</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1732,11 +1899,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/Unidad 16,20",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Unidad 16,20",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>textbook, curriculum, teaching guide</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1745,11 +1911,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/UNIDADES 1 A  74-2012,28-05/Nueva carpeta/INSTITUCION.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "KUFEPA TSAIKIYE GI JAYI'FA. Tevaen'chu, 14 angasû : 1, 2, 3. A'INGAE",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>textbook, shapes, body parts, life stages</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1758,11 +1923,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/UNIDADES 1 A  74-2012,28-05",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "UNIDADES 1 A  74-2012,28-05",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>textbook, curriculum, teaching guide</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1771,11 +1935,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/AVÛJAKI.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "LOS DÍAS DE LA SEMANA. AVÛJAKI'SÛ A'TA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>days of the week, months</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1784,11 +1947,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/A'I AYA'FANGAEMA TEVAEN'CHU, MAYO 2013..doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "A'INGAE AISHETEVAEN'THI FITSHAJE KANKHEFA KHUANGIVIA FAETIVEPA'KHU KHUAN'GI KHUANGIVIA FAETIVEPA'KHU KHUANIFAENGA NANIÑA'CHU",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>textbook, alphabet book, descriptive grammar, anthem of Ecuador, orthography depending on the position within the word, linguistic terms, color terms, pejoratives, diminutives, math terms, punctuation, days of the week, months</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1797,11 +1959,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/Colegio'su atesian'su.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "COLEGIO ABYA YALA'SU DUSUNGANDECCUMA A'INGAE ATESIAN'SU TEVAEN'JEN",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>textbook, exercise book</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1810,11 +1971,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/EL FOLLETO  DE  NO HACER EL DAÑO.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "KE FAENGASÛMA MENDE'YEJA \"DAÑUJAMA\" EL FOLLETO ELABORADO EN A'INGAE PARA  LAS COMUNIDADES DE LA  NACIONALIDAD COFÁN DEL ECUADOR SUCUMBIOS",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>leaflet against poaching</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1823,11 +1983,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/DIFC.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "DICCIONARIO INFANTIL ILUSTRADO POR CAMPOS SEMÁNTICOS",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>illustrated children’s dictionary by semantic fields</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1836,11 +1995,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/Grafia khaningaen'chu..doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "IN'JAMBA TSUN'JEN'CHU A'INGAE – CASTELLANO ORIGINAL A'I ATESIANSÛNDEKHÛ",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>pedagogical grammar, minimal pairs, anthem of Ecuador, numerals up to 1 000 000</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1849,11 +2007,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/GRAMÁTICA A'INGAE.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "KUENZANDEKHÛ TISÛ'PANGAE. ATESÛ'JE'CHU TEVAEN'JEN. TISÛNGAE  TANSINTSHE, KHEMBITSHE ATESÛYA'CHU. INGI'TA GI A'I'FA, TISÛNGAE GI AFA'JE'FA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>descriptive grammar, origin of the language, processes of unification, linguistic history of the language, problems of linguistic interference or others, phonology, morphology, lexicon, syntax, color terms, pejoratives</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1862,11 +2019,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/KUENDZANDEKHÛ ATESÛ'PA.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "KAMBA AFAPA TEVAEÑE, AGAHUYE KUENZANDEKHÛ ATESÛ'JE'CHU.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>alphabet book, counting book</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1875,11 +2031,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/MODULO PARA 2012 A'I.S. (Autoguardado).doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "BACHILLER'SÛNDEKHÛ JUNGUESÛ JIN'CHUMA ATESÛYA'CHU. A'INDEKHÛ TISÛ'PANINGAE IN'JAMBA KANSE'PA.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>alphabet book, textbook, color terms, pejoratives, myths, art, cosmovision, history, geography, organization, applied sciences, body parts, indigenous rights, minimals glottal stop pairs, stress</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1888,11 +2043,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/MAPA RADIAL DE LA UNIDAD 74 CON SUS GUIAS EN A'INGAE.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "DIRECCION DE LA EDUCACION INTERCULTURAL BILINGUE DE LA NACIONALIDAD COFAN DEL ECUADOR PROGRAMA DE CICLO BASICO CENTRO DE DESARROLLO CURRICULAR DEINASSCE MODULO DE LENGUA A'INGAE",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>curriculum</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1901,11 +2055,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/ÑOTSSIA CULTURANE AFA'CHO MOSEO ABYA YALA.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "EL CONTRATO DE LA CULTURA COFAN PARA EL MOSEO DE  COLEGIO INTERCULTURAL BILINGÜE  “ABYA YALA”",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>description of Cofán culture in Spanish</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1914,11 +2067,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/ORTOGRAFIAXXX.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "TAYU SUMBUEMBA ATESIAN'JENTHINGA MUEN'CHU.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>alphabet book</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1927,11 +2079,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/para 3º.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "UNIDAD   11 INGI  MAMAI'KHÛ  GI AVÛJATSHI'FA.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>alphabet book</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1940,11 +2091,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/segundo año de Educación Básica.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Texto 2  a'ingae.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>alphabet book, textbook</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1953,11 +2103,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/TEXTO GRAMATICA A'INGAE.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Morfología del A'ingae",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>descriptive grammar, morphology, lexical classes, verbal suffixes</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1966,11 +2115,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/500/Textos a'ingae/Teva'pa jin'chu..doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Teva'pa jin'chu.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>color terms</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1979,11 +2127,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/carpeta/Artículo Sofía versión final  notas pie DINEIB.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Education, curriculum and way of life as references for the construction of knowledge in the ecuadorian context: a manifesto for humanization",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>educational manifesto</p>\n",
     "categories": [
       "mecu's hdd"
@@ -1992,11 +2139,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/carpeta/Libro_taptana_montaluisa_FINAL_101210.pdf",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Taptana Montaluisa Historia de la creación de un instrumento para la explicación de los sistemas de numeración.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>history of the creation of a tool to explain number systems</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2005,11 +2151,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/carpeta taller Puyo 3 y 4/9 Arte de las nacionalidades (Artesanía) español.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "PROGRAMA DE FORMACIÓN PROFESIONAL COMPONENTE DISCIPLINARIO GUÍA 1 ARTE DE LAS  NACIONALIDADES",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide on indigenous arts and crafts</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2018,11 +2163,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/carpeta/Introducción semiótica aplicada a pedagogía.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "LA SEMIOTICA Y LA LINGÜÍSTICA APLICADAS A LA EDUCACIÓN Y A LA VIDA: su campo, conceptos de signo y clases de signos",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>semiotics</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2031,11 +2175,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/Cofan Programs",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Cofan Programs",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>programs</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2044,11 +2187,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/Cofan Music",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Cofan Music",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>music</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2057,11 +2199,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/Conocimiento,VACIO/sistema del conocimiento.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "SISTEMA DEL CONOCIMIENTO DEL MOSEIB",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>material on the system of knowledge</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2070,11 +2211,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/CURSO DE SEMIOTICA/ESTUDIO FONOLOGÍA Y FONÉTICA.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "FONOLOGÍA Y FONÉTICA FONEMA Y ALOFONO",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>minimal pairs</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2083,11 +2223,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/CURSO DE SEMIOTICA/estudiode la semiotica.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "ESTUDIO DE LA SEMIOTICA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>scientific terms, semiotic terms, mathematical operations</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2096,11 +2235,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/CURSO DE SEMIOTICA/GRUPO DE LA NACIONALIDAD A'I N..doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "GRUPO DE LA NACIONALIDAD A´I GRUPO DE LA NACIONALIDAD A´I CONFORMADO POR: MARIA CHICA Y NELY NARVAEZ.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>new number terms, decimal numbers, mathematical operations</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2109,11 +2247,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/DOLORES CACUANGO 1/PROYECTO HABILIDADES MOTORAS FEDERACION ESTUDIANTIL",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "PROYECTO HABILIDADES MOTORAS FEDERACION ESTUDIANTIL",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>materials on motor ability development</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2122,11 +2259,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/enma/Chiga aya'fa/CHIGANE.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "CHIGA AYA'FA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>catechism, religious terms</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2135,11 +2271,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/enma/Khuvû untinte ashaen'chu 1/KHUANIFAE.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "TSANDA JEN'FA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>bilingual transcript of a radio program, curriculum on the Cofán culture</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2148,11 +2283,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/enma/Khuan'gi untinte/SEMA'CHU 2 UNTINTE.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "SEMA'CHU KHUAN'GI  KHUVÛ UNTINTE'SÛ",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>curriculum on the Cofán culture</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2161,11 +2295,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/enma/ACTIVIDAD DE ULTIMA SEMANA DE SEPTIEMBRE.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "ACTIVIDAD DE ULTIMA SEMANA DE SEPTIEMBRE",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>curriculum on the Cofán culture</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2174,11 +2307,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/enma/JEREMIAS   9.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "JEREMIAS   9:24       ",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>religious terms</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2187,11 +2319,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/enma/PARA LA GRABACION.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "PARA LA GRABACION.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>curriculum on the Cofán culture</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2200,11 +2331,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/enma/SEMAN (Autoguardado).docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "SEMAN'BAMA NANIMBA AFA'JE'CHU UNTINTE",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>culture-, hunting-, religion-related terms</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2213,11 +2343,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/enma/SHAKA.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "SHAKA'CHUMA ISIAÑA'CHU",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>curriculum on the Cofán culture</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2226,11 +2355,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/Limoncocha",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Limoncocha",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>textbooks, guides, alphabet books, stories, descriptive grammar in A’ingae, educational plans</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2239,11 +2367,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/Limoncocha/TISÛ'PANGAE ÑUTSHE ATESÛ'PA.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "TISÛ'PANGAE ÑUTSHE ATESÛ'PA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>descriptive grammar, examples of ultimate, penultimate, and antepenultimate stress words, color terms, pejoratives</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2252,11 +2379,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/MUSEO ABYA YALA",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "MUSEO ABYA YALA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>materials related to an indigenous material culture museum</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2265,11 +2391,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/MCR.CM/Proyecto Martín.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "PROYECTO EDUCATIVO DE  ELABORACIÓN DE TEXTO PARA EL SHAMANISMO COFAN DEL ECUADOR",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>educational textbook project for the Cofán shamanism of Ecuador</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2278,11 +2403,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/TRADUCCIÓN/GUIA PARA CAPACITADORA1.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "GUIA PARA CAPACITADORAS",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide in A’ingae</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2291,11 +2415,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/TRADUCCIÓN/Cartilla 2. Cofán.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "GUIA PARA CAPACITADORAS CUADERNO (1) (VERSION COFAN) ",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>bilingual teaching guide</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2304,11 +2427,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/TRADUCCIÓN/Cartilla 1. Cofán.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "GUIA PARA CAPACITADORAS CUADERNO (1)",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>bilingual teaching guide</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2317,11 +2439,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/TRADUCCIÓN/guia para capacitadoras  1.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "GUIA PARA CAPACITADORAS CUADERNO (1) (VERSION COFAN)",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>bilingual teaching guide</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2330,11 +2451,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/TRADUCCIÓN/TRADUCCION CASTELLANO A COFA1.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "PUSHESU ATESIANSUNDECCU MA´CAEN ATESIAÑA´CHOVE TSON´CHO FAE´CCO TEVAENQQUESU TEVAEN´JEN.AINDECCU COENQQUIACAENTSANDIE, PUSHESUNDECCU  JOCCANINGAE JAYA´CHO NA´SUVE  DAQQUE´SU.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide in A’ingae</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2343,11 +2463,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/Unidades 1 a 53 y 54 a 74/traducir unidades 1 a 53..docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "A'I E.I.F.C.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide, curriculum</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2356,11 +2475,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/Unidades 1 a 53 y 54 a 74/Unidades 54 a 74.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "ÑA KANSE'THI GIYATSHIA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching curriculum</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2369,11 +2487,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/XXXXX/Ultimo. 1.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "Ultimo. 1",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>religious terms</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2382,11 +2499,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/concepto de palabras.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "CHATHÛJEMA  MA'KAEN ATESIAÑA'CHU",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>definitions of A’ingae words in A’ingae</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2395,11 +2511,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/explicación.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "explicación",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>description of traditional weaponry in Spanish</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2408,11 +2523,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/ESTUDIO DE LA SEMIOTICA.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "ESTUDIO DE LA SEMIOTICA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>minimal pairs, scientific terms, semiotic terms, curriculum on arts and crafts</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2421,11 +2535,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/FASES DE LOS CONOCIMIENTOS.doc",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "PROCESO LOGICO DE ELABORACIÓN DE GUÍAS DE APRENDIZAJE AUTÓNOMO EN FUNCIÓN DEL SISTEMA DE CONOCINOCIMIENTO EXPLISITADO EN EL MOSEIB.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>process for creating teaching guides, educational terms</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2434,11 +2547,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/guias CONTENIDOS DE LA LENGUA MATERNA.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "TISÛ'PANGAE KANSE'PA",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>teaching guide, curriculum, temporal constructions (pp.103-104), adverbial constructions (pp. 104-105)</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2447,11 +2559,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/LAS CLASES DE CONJUNTOS.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "ÑAI'KHÛ FAE'NGAE AGATHU'FAJA.",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>lesson in set theory</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2460,11 +2571,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/OBJETOS CULTURA METERIAL A´I.pptx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "OBJETOS  CULTURA MATERIAL A´I",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>objects of Cofán material culture</p>\n",
     "categories": [
       "mecu's hdd"
@@ -2473,11 +2583,10 @@
     "isCurated": false
   },
   {
-    "savedPath": "data/saved-materials/Literature/All things A'ingae/Enma Chica disco duro/PLAN DE TRABAJO  MES DEL NOVIEMBRE  2010.docx",
+    "thumbnailImageUrl": "",
+    "savedPath": "",
     "title": "PLAN DE TRABAJO  MES DEL NOVIEMBRE  2010",
-    "credits": [
-      ""
-    ],
+    "credits": [],
     "descriptionHTML": "<p>bilingual educational work plan for November 2010</p>\n",
     "categories": [
       "mecu's hdd"
