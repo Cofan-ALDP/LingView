@@ -120,7 +120,8 @@ function concatWords(sentenceTokens) {
       sentenceText += " ";
     }
     maybeAddSpace = (typedToken.type !== "start");
-    sentenceText += typedToken["value"];
+    // If the word token's value is undefined, skip this word.
+    sentenceText += typedToken["value"] || "";
   }
   return sentenceText;
 }
