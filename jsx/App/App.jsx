@@ -19,7 +19,7 @@ export function App() {
             <Route path="/search" render={props => <Search />} />
             <Route exact path="/glossary" render={props => <GlossaryPage/>} />
             <Route exact path="/resources" render={props => <ResourcesPage/>} />
-            <Route path="/publications" render={props => <MaterialIndex />} />
+            <Route path="/materials" render={props => <MaterialIndex />} />
             <Route exact path="/about" render={props => <AboutPage/>} />
         </div>
     );

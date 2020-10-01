@@ -38,7 +38,7 @@ export class MaterialIndex extends React.Component {
         return (
             <main className="wide-content-wrapper">
                 <header>
-                    <h1>Publications</h1>
+                    <h1>Materials</h1>
                     <p></p>
                 </header>
                 <Route component={scrollToTop} />
