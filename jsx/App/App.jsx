@@ -17,10 +17,10 @@ export function App() {
             <Route exact path="/index" render={props => <StoryIndex />} />
             <Route path="/story" render={props => <Stories />} />
             <Route path="/search" render={props => <Search />} />
+            <Route exact path="/glossary" render={props => <GlossaryPage/>} />
+            <Route exact path="/resources" render={props => <ResourcesPage/>} />
             <Route path="/publications" render={props => <MaterialIndex />} />
             <Route exact path="/about" render={props => <AboutPage/>} />
-            <Route exact path="/resources" render={props => <ResourcesPage/>} />
-            <Route exact path="/glossary" render={props => <GlossaryPage/>} />
         </div>
     );
 }
