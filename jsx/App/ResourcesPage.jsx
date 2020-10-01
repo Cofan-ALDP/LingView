@@ -4,7 +4,7 @@ export function ResourcesPage() {
   return (
 		<div style={{margin: "0.25in"}}>
 
-      		
+			
 			<h2>Página de recursos <br />
 			<i style={{fontSize: "medium"}}>español</i></h2>
 
