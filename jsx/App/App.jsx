@@ -17,8 +17,8 @@ export function App({ data }) {
             <Route path="/story" render={props => <Stories />} />
             <Route path="/search" render={props => <Search />} />
             <Route exact path="/about" render={props => <AboutPage/>} />
-            <Route exact path="/glossary" render={props => <GlossaryPage/>} />
             <Route exact path="/resources" render={props => <ResourcesPage/>} />
+            <Route exact path="/glossary" render={props => <GlossaryPage/>} />
         </div>
     );
 }
