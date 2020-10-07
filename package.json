@@ -10,6 +10,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^7.0.2",
     "datatables.net-dt": "^1.10.20",
     "fuse.js": "^3.2.1",
     "inquirer": "^5.0.0",
@@ -20,6 +21,7 @@
     "react-router": "^4.1.2",
     "react-router-dom": "^4.1.2",
     "shortid": "^2.2.8",
+    "shx": "^0.3.2",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.1.1",
     "xml2js": "^0.4.17"
@@ -35,11 +37,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rebuild-db-online": "MISSING_MEDIA=link node preprocessing/rebuild.js",
-    "rebuild-db-offline": "MISSING_MEDIA=ignore node preprocessing/rebuild.js",
+    "rebuild-db-online": "cross-env MISSING_MEDIA=link node preprocessing/rebuild.js",
+    "rebuild-db-offline": "cross-env MISSING_MEDIA=ignore node preprocessing/rebuild.js",
     "webpack": "webpack-cli --config webpack.config.js",
     "webpack-watch": "npm run webpack -- --watch --progress",
-    "bundle": "rm -rf bundle/ && mkdir -p bundle/media_files/ && cp --recursive index.html build/ css/ data/media_files/ images/ bundle/",
+    "bundle": "shx rm -rf bundle/ && shx mkdir -p bundle/data && shx cp -r index.html build/ css/ images/ bundle/ && shx cp -r data/media_files bundle/data/media_files",
     "quick-build-online": "npm run rebuild-db-online && npm run webpack && echo \"Done! index.html is ready. To bundle LingView, run \"npm run bundle\".\"",
     "quick-build-offline": "npm run rebuild-db-offline && npm run webpack && echo \"Done! index.html is ready. To bundle LingView, run \"npm run bundle\".\""
   },
