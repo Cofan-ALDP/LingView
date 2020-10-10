@@ -1,20 +1,21 @@
 import React from 'react';
 import Fuse from 'fuse.js';
 import { SearchSentence } from './Stories/Story/Display/Sentence.jsx';
+var htmlEscape = require('ent/encode');
+var decode = require('ent/decode');
+// Note: tier names should be escaped when used as HTML attributes (e.g. data-tier=tier_name), 
+// but not when used as page text (e.g. <label>{tier_name}</label>)
+
 
 export class Search extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { searchResults: [], storiesIndex: null, searchIndex: null };
+        this.state = { searchResults: [], searchIndex: null };
         console.log(this.props);
         this.runSearch = this.throttle(this.search, 300, this);
     }
 
     componentDidMount() {
-        import('~./data/index.json').then(i => {
-            console.log(i);
-            this.setState({ storiesIndex: i.default })
-        });
         import('~./data/search_index.json').then(i => {
             console.log(i);
             this.setState({ searchIndex: i.default })
@@ -43,25 +44,22 @@ export class Search extends React.Component {
     build_fuse() {
         let fields = [];
         document.getElementsByName("fields").forEach(function (e) {
-            if (e.checked) fields.push(`dependents.${e.id}.value`);
+            if (e.checked) fields.push(decode(`dependents.${e.id}.value`));
         });
         console.log(fields);
-        console.log(this.state.searchIndex);
 
         var options = {
-            shouldSort: true,
-            findAllMatches: true,
-            tokenize: true,
-            matchAllTokens: true,
-            threshold: 15,
-            distance: 0,
-            maxPatternLength: 64,
-            minMatchCharLength: 1,
+            isCaseSensitive: false,
+            shouldSort: true, // sort by relevance
+            findAllMatches: true, // not just the first match in each tier
+            ignoreLocation: true, // the match can be anywhere within the tier
+            ignoreFieldNorm: true, // equal relevance for matches in long vs short strings
+            threshold: 0.2, // 0.0 means perfect matches only, 1.0 matches anything
             keys: fields
         };
         
         console.log("running search over: " + fields);
-        return new Fuse(this.state.searchIndex, options)
+        return new Fuse(this.state.searchIndex.sentences, options)
     }
 
     search(rebuild=true) {
@@ -74,17 +72,15 @@ export class Search extends React.Component {
         }
         let searchResult = this.fuse.search(query).slice(0, 25);
 
-        console.log("Search result:");
+        console.log("Search results:");
         console.log(searchResult);
-        // const displayTable = document.getElementById("searchResults");
-        // displayTable.innerHTML = ""; (DON'T DO THIS)
         let searchResults = [];
         for (var i = 0, j = searchResult.length; i < j; i++) {
             if ('speaker' in searchResult[i]) {
-                let component = (<SearchSentence sentence={searchResult[i]} true />);
+                let component = (<SearchSentence sentence={searchResult[i].item} true />);
                 searchResults.push(component);
             } else {
-                let component = (<SearchSentence sentence={searchResult[i]} false />);
+                let component = (<SearchSentence sentence={searchResult[i].item} false />);
                 searchResults.push(component);
             }
         }
@@ -95,27 +91,16 @@ export class Search extends React.Component {
         this.runSearch(false);
     }
 
-    getTiers() {
-        let tiers = new Set();
-        for (const story of Object.values(this.state.storiesIndex)) {
-            const tierIDs = story['tier IDs'];
-            for (const id in tierIDs) {
-                tiers.add(id);
-            }
-        }
-        return tiers
-    }
-
-    genCheckboxes () {
+    genCheckboxes () { // called by render()
         let checkboxes = [];
-        let tiers = this.getTiers();
+        let tiers = this.state.searchIndex['tier IDs'];
         console.log(tiers);
         tiers.forEach((tier) => {
-            checkboxes.push(<label>{tier}</label>);
             checkboxes.push(
-                <input id={tier} name="fields" type="checkbox" onChange={this.search.bind(this)} 
+                <input id={htmlEscape(tier)} name="fields" type="checkbox" onChange={this.search.bind(this)} 
                 defaultChecked />
             );
+            checkboxes.push(<label>{tier}</label>);
             checkboxes.push(<span>&nbsp;&nbsp;</span>);
         })
         console.log(checkboxes);
@@ -123,9 +108,8 @@ export class Search extends React.Component {
     }
 
     render() {
-        if (!this.state.storiesIndex || !this.state.searchIndex) return <div className="loader">Loading Search...</div>; // (could use a dedicated loader component instead)
-        console.log("loaded"); // TEMP
-
+        if (!this.state.searchIndex) return <div className="loader">Loading Search...</div>; // (could use a dedicated loader component instead)
+        
         let results = this.state.searchResults;
         console.log("rendering...");
         return (

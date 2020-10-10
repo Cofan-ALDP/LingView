@@ -10,6 +10,8 @@ class tierRegistry {
     );
   }
 
+  // Must return a different string for each tier type in the corpus
+  // so that tier names can be guaranteed to be unique.
   static decodeType(type) {
     /*
     // English UI text:
@@ -42,12 +44,12 @@ class tierRegistry {
   }
 
   constructor(isoDict) {
-    this.tierIDs = {}; // for internal bookkeeping
     this.jsonTierIDs = {}; // format that should be written to file
-    this.nextTierIDnum = 1;
     this.isoDict = isoDict;
   }
 
+  // Must return a different string for each language in the corpus
+  // so that tier names can be guaranteed to be unique.
   decodeLang(lang) {
 
     const desiredName = "Native name"; // or we might want to use "ISO language name"
@@ -89,6 +91,10 @@ class tierRegistry {
     return lang;
   }
 
+  // LingView assumes that each tier has a unique name. 
+  // If getTierName returns the same name for two different tiers in your corpus,
+  // some features (specifically, showing/hiding tiers and narrowing search 
+  // results via checkboxes) will work incorrectly. 
   getTierName(lang, type) {
     /*
     // English UI text:
@@ -103,25 +109,17 @@ class tierRegistry {
     return this.jsonTierIDs;
   }
 
-  // if this is a new, non-ignored tier, register its ID and include it in metadata
-  // if the tier is ignored, return null; else return its ID
-  // used global vars: tierIDs, jsonOut.metadata["tier IDs"], nextTierIDnum
+  // if this is a new, non-ignored tier, include it in metadata
+  // if the tier is ignored, return null; else return its name
   maybeRegisterTier(lang, type, isSubdivided) {
     if (tierRegistry.isIgnored(type)) {
       return null;
     }
-    if (!this.tierIDs.hasOwnProperty(lang)) {
-      this.tierIDs[lang] = {};
-    }
-    if (!this.tierIDs[lang].hasOwnProperty(type)) {
-      const tierID = "T" + (this.nextTierIDnum++).toString();
-      this.tierIDs[lang][type] = tierID;
-      this.jsonTierIDs[tierID] = {
-        name: this.getTierName(lang, type),
-        subdivided: isSubdivided,
-      };
-    }
-    return this.tierIDs[lang][type];
+    const tierName = this.getTierName(lang, type)
+    this.jsonTierIDs[tierName] = {
+      subdivided: isSubdivided,
+    };
+    return tierName;
   }
 }
 
