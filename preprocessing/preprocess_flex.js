@@ -105,8 +105,7 @@ function getSentenceToken(word) {
       type = 'end';
     }
   }
-
-  return {'value': wordValue, 'type': type};
+  return {'value': wordValue, 'type': type}; 
 }
 
 // sentenceTokens - a list of objects, each indicating how to represent
@@ -260,7 +259,7 @@ function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestam
 
   let slotNum = 0;
   const sentenceTokens = []; // for building the free transcription
-  for (const word of flexUtils.getSentenceWords(sentence)) {
+  for (const word of flexUtils.getSentenceWords(sentence)) {   
     const wordStartSlot = slotNum;
 
     // deal with the morphs that subdivide this word
@@ -284,6 +283,9 @@ function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestam
     // deal with sentence-level transcription
     sentenceTokens.push(getSentenceToken(word));
   }
+
+  //console.log("sentence tokens");
+  //console.log(sentenceTokens);
 
   // deal with free glosses
   const freeGlosses = flexUtils.getSentenceFreeGlosses(sentence);
@@ -311,6 +313,7 @@ function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestam
     sentenceJson.speaker = speakerReg.getSpeakerID(speaker);
   }
   
+  //console.log(sentenceJson); 
   return sentenceJson;
 }
 
