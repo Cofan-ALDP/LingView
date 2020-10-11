@@ -1,35 +1,20 @@
 const fs = require('fs');
 const path = require('path');
 
-const flex = require('./preprocess_flex');
-const elan = require('./preprocess_eaf');
-// const db = require('./build_database');
-const { buildSearch } = require('./build_search')
+const flex = require('./flex/flex_to_json');
+const elan = require('./elan/elan_to_json');
+const buildSearch = require('./build_search').buildSearch;
 
 const flexFilesDir = "data/flex_files/";
 const elanFilesDir = "data/elan_files/";
 const jsonFilesDir = "data/json_files/";
-const isoFileName = "preprocessing/iso_dict.json";
+const isoFileName = "preprocessing/flex/iso_dict.json";
 const indexFileName = "data/index.json"; // stores metadata for all documents
 const searchIndexFileName = "data/search_index.json";
-// const dbFileName = "data/database.json";
 
 console.log("Converting all files to .JSON. The stories index (data/index.json), search index (data/search_index.json), and stories' metadata will also be updated during this process. Status messages will appear below:")
 
 global.missingMediaFiles = [];
-
-// // use this to wait for things to terminate before executing the callback
-// const status = {numJobs: 2};
-// const whenDone = function () {
-//   status.numJobs--;
-//   if (status.numJobs <= 0) {
-//     console.log('Done preprocessing ELAN and FLEx!');
-//     // console.log("Building database...");
-//     // db.build(jsonFilesDir, indexFileName, dbFileName);
-
-//     console.log(global.missingMediaFiles.length, 'Missing media files:', global.missingMediaFiles);
-//   }
-// };
 
 const indexPath = path.resolve(__dirname, '..', indexFileName);
 if (!fs.existsSync(indexPath)) {
@@ -55,8 +40,6 @@ Promise.all([
 ])
   .then(() => {
     console.log('Done preprocessing ELAN and FLEx!');
-    // console.log("Building database...");
-    // db.build(jsonFilesDir, indexFileName, dbFileName);
 
     console.log(global.missingMediaFiles.length, 'Missing media files:', global.missingMediaFiles);
 

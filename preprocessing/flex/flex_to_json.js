@@ -5,10 +5,10 @@ Functions for processing flex files into the json format used by the site.
 const fs = require('fs');
 const util = require('util');
 const parseXml = require('xml2js').parseString;
-const speakerRegistry = require('./speaker_registry').speakerRegistry;
+const speakerRegistry = require('../speaker_registry').speakerRegistry;
 const tierRegistry = require('./tier_registry').tierRegistry;
-const helper = require('./helper_functions');
-const flexUtils = require('./flex_utils');
+const mediaFinder = require('../find_media');
+const flexReader = require('./read_flex');
 
 // punct - a string
 // return a boolean indicating whether 'punct' should typically appear 
@@ -95,7 +95,7 @@ function concatMorphs(morphsThisTier, wordStartSlot, wordEndSlot) {
 // returns an object indicating how to represent this word within the 
 //   concatenated sentence text
 function getSentenceToken(word) {
-  const wordValue = flexUtils.getWordValue(word);
+  const wordValue = flexReader.getWordValue(word);
 
   let type = 'txt';
   if (isPunctuation(word)) {
@@ -170,16 +170,16 @@ function repackageMorphs(morphs, tierReg, startSlot) {
   const morphTokens = {};
   let slotNum = startSlot;
   for (const morph of morphs) {
-    for (const tier of flexUtils.getMorphTiers(morph)) {
+    for (const tier of flexReader.getMorphTiers(morph)) {
       const tierID = tierReg.maybeRegisterTier(tier.$.lang, tier.$.type, true);
       if (tierID != null) {
         if (!morphTokens.hasOwnProperty(tierID)) {
           morphTokens[tierID] = {};
         }
         morphTokens[tierID][slotNum] = {
-          "value": flexUtils.getMorphTierValue(tier),
+          "value": flexReader.getMorphTierValue(tier),
           "tier type": tier.$.type,
-          "part of speech": flexUtils.getMorphPartOfSpeech(morph),
+          "part of speech": flexReader.getMorphPartOfSpeech(morph),
         };
       }
     }
@@ -237,7 +237,7 @@ function repackageFreeGlosses(freeGlosses, tierReg, endSlot) {
         morphsJson[tierID] = {};
       }
       morphsJson[tierID][glossStartSlot] = {
-        "value": flexUtils.getFreeGlossValue(gloss),
+        "value": flexReader.getFreeGlossValue(gloss),
         "end_slot": endSlot
       };
     }
@@ -259,11 +259,11 @@ function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestam
 
   let slotNum = 0;
   const sentenceTokens = []; // for building the free transcription
-  for (const word of flexUtils.getSentenceWords(sentence)) {   
+  for (const word of flexReader.getSentenceWords(sentence)) {
     const wordStartSlot = slotNum;
 
     // deal with the morphs that subdivide this word
-    const morphs = flexUtils.getWordMorphs(word);
+    const morphs = flexReader.getWordMorphs(word);
     const newMorphsJson = repackageMorphs(morphs, tierReg, slotNum);
     mergeTwoLayerDict(morphsJson, newMorphsJson);
     slotNum += morphs.length;
@@ -275,7 +275,7 @@ function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestam
     if (!isPunctuation(word)) {
       // count this as a separate word on the words tier
       morphsJson[wordsTierID][wordStartSlot] = {
-        "value": flexUtils.getWordValue(word),
+        "value": flexReader.getWordValue(word),
         "end_slot": slotNum
       };
     }
@@ -288,10 +288,10 @@ function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestam
   //console.log(sentenceTokens);
 
   // deal with free glosses
-  const freeGlosses = flexUtils.getSentenceFreeGlosses(sentence);
+  const freeGlosses = flexReader.getSentenceFreeGlosses(sentence);
   const freeGlossesJson = repackageFreeGlosses(freeGlosses, tierReg, slotNum);
   mergeTwoLayerDict(morphsJson, freeGlossesJson);
-  let sentenceText = flexUtils.getSentenceTextIfNoWords(sentence);
+  let sentenceText = flexReader.getSentenceTextIfNoWords(sentence);
   if (sentenceText == null) {
     sentenceText = concatWords(sentenceTokens)
   }
@@ -303,11 +303,11 @@ function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestam
   };
   
   if (hasTimestamps) {
-    sentenceJson.start_time_ms = flexUtils.getSentenceStartTime(sentence);
-    sentenceJson.end_time_ms = flexUtils.getSentenceEndTime(sentence);
+    sentenceJson.start_time_ms = flexReader.getSentenceStartTime(sentence);
+    sentenceJson.end_time_ms = flexReader.getSentenceEndTime(sentence);
   }
   
-  let speaker = flexUtils.getSentenceSpeaker(sentence);
+  let speaker = flexReader.getSentenceSpeaker(sentence);
   if (speaker != null) {
     speakerReg.maybeRegisterSpeaker(speaker);
     sentenceJson.speaker = speakerReg.getSpeakerID(speaker);
@@ -319,7 +319,7 @@ function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestam
 
 // jsonIn - the JSON parse of the FLEx interlinear-text
 // jsonFilesDir - the directory for the output file describing this interlinear text
-// fileName - TODO delete unused parameter
+// fileName - the path to the FLEx file
 // isoDict - an object correlating languages with ISO codes
 // callback - the function that will execute when the preprocessText function completes
 // updates the index and story files for this interlinear text, 
@@ -327,7 +327,7 @@ function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestam
 function preprocessText(jsonIn, jsonFilesDir, fileName, isoDict, callback) {
   let storyID = jsonIn.$.guid;
   
-  let metadata = helper.improveFLExIndexData(fileName, storyID, jsonIn);
+  let metadata = mediaFinder.improveFLExIndexData(fileName, storyID, jsonIn);
   const speakerReg = new speakerRegistry();
   metadata['speakers'] = speakerReg.getSpeakersList();
   // updateIndex(metadata, "data/index.json", storyID);
@@ -337,14 +337,14 @@ function preprocessText(jsonIn, jsonFilesDir, fileName, isoDict, callback) {
     "sentences": []
   };
 
-  let textLang = flexUtils.getDocumentSourceLang(jsonIn);
+  let textLang = flexReader.getDocumentSourceLang(jsonIn);
   const tierReg = new tierRegistry(isoDict);
   const wordsTierID = tierReg.maybeRegisterTier(textLang, "words", true);
 
-  const hasTimestamps = flexUtils.documentHasTimestamps(jsonIn);
+  const hasTimestamps = flexReader.documentHasTimestamps(jsonIn);
   
-  for (const paragraph of flexUtils.getDocumentParagraphs(jsonIn)) {
-    for (const sentence of flexUtils.getParagraphSentences(paragraph)) {
+  for (const paragraph of flexReader.getDocumentParagraphs(jsonIn)) {
+    for (const sentence of flexReader.getParagraphSentences(paragraph)) {
       jsonOut.sentences.push(getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestamps));
     }
   }

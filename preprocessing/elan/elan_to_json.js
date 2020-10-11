@@ -1,8 +1,8 @@
 const fs = require('fs');
 const parseXml = require('xml2js').parseString;
-const eafUtils = require('./eaf_utils');
-const pfsxUtils = require('./pfsx_utils');
-const helper = require('./helper_functions');
+const elanReader = require('./read_elan');
+const pfsxReader = require('./read_pfsx');
+const mediaFinder = require('../find_media');
 
 function updateIndex(indexMetadata, indexFileName, storyID) {
   let index = JSON.parse(fs.readFileSync(indexFileName, "utf8"));
@@ -45,18 +45,18 @@ function assignSlotsHelper(anotID, parentStartSlot, tiersToConstraints,
       let prevTimeslot = null; // used for detecting gaps
       let maybeGaps = (tiersToConstraints[depTierName] === 'Included_In');
       if (maybeGaps) {
-        prevTimeslot = eafUtils.getAlignableAnnotationStartSlot(annotationsFromIDs[anotID]);
+        prevTimeslot = elanReader.getAlignableAnnotationStartSlot(annotationsFromIDs[anotID]);
       }
       
       const depAnotIDs = annotationChildren[anotID][depTierName];
       for (depAnotID of depAnotIDs) {
         if (maybeGaps) {
-          const startTimeslot = eafUtils.getAlignableAnnotationStartSlot(annotationsFromIDs[depAnotID]);
+          const startTimeslot = elanReader.getAlignableAnnotationStartSlot(annotationsFromIDs[depAnotID]);
           if (startTimeslot !== prevTimeslot 
             && timeslots[startTimeslot] !== timeslots[prevTimeslot]) {
             slotNum++;  
           }
-          prevTimeslot = eafUtils.getAlignableAnnotationEndSlot(annotationsFromIDs[depAnotID]);
+          prevTimeslot = elanReader.getAlignableAnnotationEndSlot(annotationsFromIDs[depAnotID]);
         }
         
         assignSlotsHelper(depAnotID, slotNum, tiersToConstraints, annotationChildren, 
@@ -95,8 +95,8 @@ function stretchSlots(anotID, prevStretch, tiersToConstraints,
 }
 
 function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
-  const storyID = eafUtils.getDocID(adocIn);
-  const indexMetadata = helper.improveElanIndexData(xmlFileName, storyID, adocIn);
+  const storyID = elanReader.getDocID(adocIn);
+  const indexMetadata = mediaFinder.improveElanIndexData(xmlFileName, storyID, adocIn);
   const jsonOut = {
     "metadata": indexMetadata,
     "sentences": []
@@ -105,15 +105,15 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
   jsonOut.metadata["speaker IDs"] = {};
   jsonOut.metadata["story ID"] = storyID; // TODO is this needed?
 
-  const tiers = eafUtils.getNonemptyTiers(adocIn);
-  const indepTiers = tiers.filter((tier) => eafUtils.getParentTierName(tier) == null);
+  const tiers = elanReader.getNonemptyTiers(adocIn);
+  const indepTiers = tiers.filter((tier) => elanReader.getParentTierName(tier) == null);
   
   // record whether each tier is subdivided
   for (let i = 0; i < tiers.length; i++) {
     const tier = tiers[i];
-    const tierName = eafUtils.getTierName(tier);
+    const tierName = elanReader.getTierName(tier);
     jsonOut.metadata["tier IDs"][tierName] = {
-      subdivided: eafUtils.isTierSubdivided(tierName, tiers),
+      subdivided: elanReader.isTierSubdivided(tierName, tiers),
     };
   }
   
@@ -128,7 +128,7 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
   }
   const tiersToConstraints = {};
   for (const tier of tiers) {
-    const tierName = eafUtils.getTierName(tier);
+    const tierName = elanReader.getTierName(tier);
     const linguisticType = tier.$.LINGUISTIC_TYPE_REF;
     const constraintName = typesToConstraints[linguisticType];
     tiersToConstraints[tierName] = constraintName;
@@ -136,17 +136,17 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
   // console.log(`tiersToConstraints: ${tiersToConstraints}`);
   
   const untimedTiers = tiers.filter(tier => 
-    (tiersToConstraints[eafUtils.getTierName(tier)] === 'Symbolic_Subdivision' 
-    || tiersToConstraints[eafUtils.getTierName(tier)] === 'Symbolic_Association')
+    (tiersToConstraints[elanReader.getTierName(tier)] === 'Symbolic_Subdivision' 
+    || tiersToConstraints[elanReader.getTierName(tier)] === 'Symbolic_Association')
   );
   
   // annotationChildren: parentAnnotationID -> childTierName(very sparse) -> listof childAnnotationID
   const annotationChildren = {};
   for (const tier of untimedTiers) {
-    const childTierName = eafUtils.getTierName(tier);
+    const childTierName = elanReader.getTierName(tier);
     // console.log(`adding untimed child tier ${childTierName} to annotationChildren`);
-    for (const annotation of eafUtils.getAnnotations(tier)) {
-      const childAnnotationID = eafUtils.getAnnotationID(annotation);
+    for (const annotation of elanReader.getAnnotations(tier)) {
+      const childAnnotationID = elanReader.getAnnotationID(annotation);
       let parentAnnotationID = annotation.REF_ANNOTATION[0].$.ANNOTATION_REF; 
       
       if (annotationChildren[parentAnnotationID] == null) {
@@ -159,8 +159,8 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
     }
   }
   
-  const annotationsFromIDs = eafUtils.getAnnotationIDMap(tiers);
-  const timeslots = eafUtils.getDocTimeslotsMap(adocIn);
+  const annotationsFromIDs = elanReader.getAnnotationIDMap(tiers);
+  const timeslots = elanReader.getDocTimeslotsMap(adocIn);
   
   // sort untimed children
   for (const parentAnnotationID in annotationChildren) {
@@ -191,49 +191,49 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
     }
   }
   
-  const tierChildren = eafUtils.getTierChildrenMap(tiers);
+  const tierChildren = elanReader.getTierChildrenMap(tiers);
   
   // add sorted 'Time_Subdivision' children
   for (const parentTier of tiers) {
-    const childTierNames = tierChildren[eafUtils.getTierName(parentTier)] || [];
+    const childTierNames = tierChildren[elanReader.getTierName(parentTier)] || [];
     const timeSubdivChildTiers = tiers.filter(tier => 
-      tiersToConstraints[eafUtils.getTierName(tier)] === 'Time_Subdivision'
-      && childTierNames.find(n => n === eafUtils.getTierName(tier)) != null
+      tiersToConstraints[elanReader.getTierName(tier)] === 'Time_Subdivision'
+      && childTierNames.find(n => n === elanReader.getTierName(tier)) != null
     );
     for (const childTier of timeSubdivChildTiers) {
-      const childTierName = eafUtils.getTierName(childTier);
+      const childTierName = elanReader.getTierName(childTier);
       // console.log(`adding time-subdiv child tier ${childTierName} to annotationChildren`);
-      const childTierAnots = eafUtils.getAnnotations(childTier);
-      for (const parentAnot of eafUtils.getAnnotations(parentTier)) {
+      const childTierAnots = elanReader.getAnnotations(childTier);
+      for (const parentAnot of elanReader.getAnnotations(parentTier)) {
         const sortedChildIDs = [];
-        let prevSlot = eafUtils.getAlignableAnnotationStartSlot(parentAnot);
-        const endSlot = eafUtils.getAlignableAnnotationEndSlot(parentAnot);
+        let prevSlot = elanReader.getAlignableAnnotationStartSlot(parentAnot);
+        const endSlot = elanReader.getAlignableAnnotationEndSlot(parentAnot);
         while (prevSlot !== endSlot) {
           /* partial procedural rewrite of find code: 
           let cur;
           for (const childAnot of childAnots) {
-            const childSlot = eafUtils.getAlignableAnnotationStartSlot(childAnot);
+            const childSlot = elanReader.getAlignableAnnotationStartSlot(childAnot);
             if (prevSlot === childSlot) {
               cur = childAnot;
               
             }
           }*/
           const cur = childTierAnots.find(a => 
-            prevSlot === eafUtils.getAlignableAnnotationStartSlot(a) || 
+            prevSlot === elanReader.getAlignableAnnotationStartSlot(a) || 
             (timeslots[prevSlot] != null && 
-            timeslots[prevSlot] === eafUtils.getAlignableAnnotationStartSlot(a)
+            timeslots[prevSlot] === elanReader.getAlignableAnnotationStartSlot(a)
             )
           );
           if (cur == null) {
             // this parent anot has no children on this tier
             break; // exit the while loop
           }
-          const curID = eafUtils.getAnnotationID(cur);
+          const curID = elanReader.getAnnotationID(cur);
           sortedChildIDs.push(curID);
-          prevSlot = eafUtils.getAlignableAnnotationEndSlot(cur);
+          prevSlot = elanReader.getAlignableAnnotationEndSlot(cur);
         }
         
-        const parentAnotID = eafUtils.getAnnotationID(parentAnot);
+        const parentAnotID = elanReader.getAnnotationID(parentAnot);
         if (sortedChildIDs.length !== 0) {
           if (annotationChildren[parentAnotID] == null) {
             annotationChildren[parentAnotID] = {}
@@ -246,29 +246,29 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
   
   // add 'Included_In' children
   for (const parentTier of tiers) {
-    const parentTierName = eafUtils.getTierName(parentTier);
-    const childTierNames = tierChildren[eafUtils.getTierName(parentTier)] || [];
+    const parentTierName = elanReader.getTierName(parentTier);
+    const childTierNames = tierChildren[elanReader.getTierName(parentTier)] || [];
     const inclChildTiers = tiers.filter(tier => 
-      tiersToConstraints[eafUtils.getTierName(tier)] === 'Included_In'
-      && childTierNames.find(n => n === eafUtils.getTierName(tier)) != null
+      tiersToConstraints[elanReader.getTierName(tier)] === 'Included_In'
+      && childTierNames.find(n => n === elanReader.getTierName(tier)) != null
     );
     for (const childTier of inclChildTiers) {
-      const childTierName = eafUtils.getTierName(childTier);
+      const childTierName = elanReader.getTierName(childTier);
       // console.log(`adding incl-in child tier ${childTierName} of ${parentTierName} to annotationChildren`);
-      const childTierAnots = eafUtils.getAnnotations(childTier);
-      for (const parentAnot of eafUtils.getAnnotations(parentTier)) {
+      const childTierAnots = elanReader.getAnnotations(childTier);
+      for (const parentAnot of elanReader.getAnnotations(parentTier)) {
         let childIDs = [];
-        const parentStartSlot = eafUtils.getAlignableAnnotationStartSlot(parentAnot);
-        const parentEndSlot = eafUtils.getAlignableAnnotationEndSlot(parentAnot);
+        const parentStartSlot = elanReader.getAlignableAnnotationStartSlot(parentAnot);
+        const parentEndSlot = elanReader.getAlignableAnnotationEndSlot(parentAnot);
         
         const parentStartMs = timeslots[parentStartSlot];
         const parentEndMs = timeslots[parentEndSlot];
         if (parentStartMs && parentEndMs) { // get children within these ms values
           // console.log(`within ms ${parentStartMs}, ${parentEndMs}?`);
           for (anot of childTierAnots) {
-            const anotID = eafUtils.getAnnotationID(anot);
-            const startSlot = eafUtils.getAlignableAnnotationStartSlot(anot);
-            const endSlot = eafUtils.getAlignableAnnotationEndSlot(anot);
+            const anotID = elanReader.getAnnotationID(anot);
+            const startSlot = elanReader.getAlignableAnnotationStartSlot(anot);
+            const endSlot = elanReader.getAlignableAnnotationEndSlot(anot);
             // console.log(`  checking child ${anotID}, slots ${startSlot}, ${endSlot}`);
             const startsWithin = (
               timeslots[startSlot] >= parentStartMs 
@@ -290,12 +290,12 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
             const a1 = annotationsFromIDs[id1];
             const a2 = annotationsFromIDs[id2];
             const start1 = (
-              timeslots[eafUtils.getAlignableAnnotationStartSlot(a1)]
-              || timeslots[eafUtils.getAlignableAnnotationEndSlot(a1)] - 1
+              timeslots[elanReader.getAlignableAnnotationStartSlot(a1)]
+              || timeslots[elanReader.getAlignableAnnotationEndSlot(a1)] - 1
             );
             const start2 = (
-              timeslots[eafUtils.getAlignableAnnotationStartSlot(a2)] 
-              || timeslots[eafUtils.getAlignableAnnotationEndSlot(a2)] - 1
+              timeslots[elanReader.getAlignableAnnotationStartSlot(a2)] 
+              || timeslots[elanReader.getAlignableAnnotationEndSlot(a2)] - 1
             );
             return start1 - start2;
           });
@@ -303,9 +303,9 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
         
         // check for children which share the parent's start or end slot
         for (anot of childTierAnots) {
-          const anotID = eafUtils.getAnnotationID(anot);
-          const startSlot = eafUtils.getAlignableAnnotationStartSlot(anot);
-          const endSlot = eafUtils.getAlignableAnnotationEndSlot(anot);
+          const anotID = elanReader.getAnnotationID(anot);
+          const startSlot = elanReader.getAlignableAnnotationStartSlot(anot);
+          const endSlot = elanReader.getAlignableAnnotationEndSlot(anot);
           if (startSlot === parentStartSlot && anotID !== childIDs[0]) {
             childIDs.splice(0, 0, anotID); // insert at beginning
           } else if (endSlot === parentEndSlot && anotID !== childIDs[childIDs.length - 1]) {
@@ -319,22 +319,22 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
         while (prevIndex < childIDs.length - 1) {
           const prevID = childIDs[prevIndex];
           const prevAnot = annotationsFromIDs[prevID];
-          const prevSlot = eafUtils.getAlignableAnnotationEndSlot(prevAnot);
+          const prevSlot = elanReader.getAlignableAnnotationEndSlot(prevAnot);
           
           const nextID = childIDs[prevIndex + 1];
           const nextAnot = annotationsFromIDs[nextID];
-          const nextSlot = eafUtils.getAlignableAnnotationStartSlot(nextAnot)
+          const nextSlot = elanReader.getAlignableAnnotationStartSlot(nextAnot)
           
           let newAnot = childTierAnots.find(a => 
-            eafUtils.getAlignableAnnotationStartSlot(a) === prevSlot
+            elanReader.getAlignableAnnotationStartSlot(a) === prevSlot
           );
           if (newAnot == null) {
             newAnot = childTierAnots.find(a =>
-              eafUtils.getAlignableAnnotationEndSlot(a) === nextSlot
+              elanReader.getAlignableAnnotationEndSlot(a) === nextSlot
             );
           }
           if (newAnot != null) {
-            const newID = eafUtils.getAnnotationID(newAnot);
+            const newID = elanReader.getAnnotationID(newAnot);
             if (newID != null && newID != nextID) {
               childIDs.splice(prevIndex + 1, 0, newID); // insert after prevIndex
             }
@@ -343,7 +343,7 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
           prevIndex++;
         }
         
-        const parentAnotID = eafUtils.getAnnotationID(parentAnot);
+        const parentAnotID = elanReader.getAnnotationID(parentAnot);
         if (!annotationChildren.hasOwnProperty(parentAnotID)) {
           annotationChildren[parentAnotID] = {};
         }
@@ -354,8 +354,8 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
   
   const anotDescendants = {}; // indepAnotID -> depTierName -> ordered listof anotIDs descended from indepAnot
   for (const indepTier of indepTiers) {
-    for (const indepAnot of eafUtils.getAnnotations(indepTier)) {
-      const indepAnotID = eafUtils.getAnnotationID(indepAnot);
+    for (const indepAnot of elanReader.getAnnotations(indepTier)) {
+      const indepAnotID = elanReader.getAnnotationID(indepAnot);
       const depTiersAnots = {}; // depTierName -> ordered listof anotIDs descended from indepAnot
       let pendingParentIDs = [indepAnotID];
       while (pendingParentIDs.length > 0) {
@@ -377,21 +377,21 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
     }
   }
   
-  const garbageTierNames = pfsxUtils.getHiddenTiers(pfsxIn);
-  const tierNameOrder = pfsxUtils.getTierOrder(pfsxIn);
+  const garbageTierNames = pfsxReader.getHiddenTiers(pfsxIn);
+  const tierNameOrder = pfsxReader.getTierOrder(pfsxIn);
   
   for (let i = 0; i < indepTiers.length; i++) {
     const spkrID = "S" + (i + 1).toString(); // assume each independent tier has a distinct speaker
-    const indepTierName = eafUtils.getTierName(indepTiers[i]);
+    const indepTierName = elanReader.getTierName(indepTiers[i]);
     
     jsonOut.metadata["speaker IDs"][spkrID] = {
-      "name": eafUtils.getTierSpeakerName(indepTiers[i]),
-      "language": eafUtils.getTierLanguage(indepTiers[i]),
+      "name": elanReader.getTierSpeakerName(indepTiers[i]),
+      "language": elanReader.getTierLanguage(indepTiers[i]),
       "tier": indepTierName,
     };
     
-    for (const indepAnot of eafUtils.getAnnotations(indepTiers[i])) {
-      const indepAnotID = eafUtils.getAnnotationID(indepAnot);
+    for (const indepAnot of elanReader.getAnnotations(indepTiers[i])) {
+      const indepAnotID = elanReader.getAnnotationID(indepAnot);
       const anotStartSlots = {};
       const anotEndSlots = {};
       assignSlots(indepAnotID, tiersToConstraints, annotationChildren, 
@@ -401,10 +401,10 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
       const sentenceJson = {
         "speaker": spkrID,
         "tier": indepTierName,
-        "start_time_ms": parseInt(timeslots[eafUtils.getAlignableAnnotationStartSlot(indepAnot)], 10),
-        "end_time_ms": parseInt(timeslots[eafUtils.getAlignableAnnotationEndSlot(indepAnot)], 10),
+        "start_time_ms": parseInt(timeslots[elanReader.getAlignableAnnotationStartSlot(indepAnot)], 10),
+        "end_time_ms": parseInt(timeslots[elanReader.getAlignableAnnotationEndSlot(indepAnot)], 10),
         "num_slots": anotEndSlots[indepAnotID],
-        "text": eafUtils.getAnnotationValue(indepAnot),
+        "text": elanReader.getAnnotationValue(indepAnot),
         "dependents": [],
       };
       
@@ -424,7 +424,7 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
             depTierJson.values.push({
               "start_slot": anotStartSlots[depAnotID],
               "end_slot": anotEndSlots[depAnotID],
-              "value": eafUtils.getAnnotationValue(depAnot),
+              "value": elanReader.getAnnotationValue(depAnot),
             });
           }
           // depTierJson is already in order by start_slot, since anotDescendants is ordered

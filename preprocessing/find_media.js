@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const syncFetchHeadTest = require('sync-rpc')(require.resolve('./fetch_head_test'));
-const flexUtils = require('./flex_utils'); // TODO use me more, and use eafUtils too, for stylistic consistency
+const syncUrlExists = require('sync-rpc')(require.resolve('./url_exists'));
+const readFlex = require('./flex/read_flex.js'); // TODO use me more, and use read_eaf.js too, for stylistic consistency
 
 function getMetadataFromIndex(filename) {
   // I/P: filename, an XML or EAF file
@@ -114,7 +114,7 @@ function remoteMediaSearch(filenamesToTry) {
     const remoteUrl = `${process.env.REMOTE_MEDIA_PATH.replace(/\/$/, '')}/${filename}`;
     let remoteUrlHeadSuccess;
     try {
-      remoteUrlHeadSuccess = syncFetchHeadTest(remoteUrl);
+      remoteUrlHeadSuccess = syncUrlExists(remoteUrl);
     } catch (err) {
       console.log(err);
       continue;
@@ -207,7 +207,7 @@ function improveFLExIndexData(path, storyID, itext) {
   const date = new Date();
   const prettyDate = (date.getMonth() + 1) + '/' + date.getDate() + '/' + date.getFullYear();
   
-  const hasTimestamps = flexUtils.documentHasTimestamps(itext);
+  const hasTimestamps = readFlex.documentHasTimestamps(itext);
   
   // get title/source info, part 1
   let titlesAndSources = itext["item"];
