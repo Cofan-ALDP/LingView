@@ -57,17 +57,19 @@ class tierRegistry {
 
     // Override the usual iso-based decoding for some language codes
     switch (lang) {
-        // case "flex-language-name-here": return "desired-decoded-name-here";
+      // case "flex-language-name-here": return "desired-decoded-name-here";
       case "con-Latn-EC":
-        return "A'ingae (ortografía Borman)";
+        return "a'ingae (ortografía Borman)";
       case "con-Latn-EC-x-dureno":
-        return "A'ingae (ortografía nueva)";
+        return "a'ingae (ortografía nueva)";
+      case "cof":
+        return "a'ingae (con cambio de código)";
       case "defaultLang":
         return "defaultLang";
 
-        // for Spanish UI text:
+      // for Spanish UI text:
       case "en":
-        return "Inglés";
+        return "inglés";
 
       default: // fall through
     }
