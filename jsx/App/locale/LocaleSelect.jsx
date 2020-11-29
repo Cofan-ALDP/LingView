@@ -14,7 +14,7 @@ export const LocaleSelect = () => {
     <select name="locale" id="locale-select" className="localeSelector" onChange={handleSelect} value={locale}>
       <option value={LocaleConstants.ENGLISH}>English</option>
       <option value={LocaleConstants.ESPANOL}>Español</option>
-      <option value={LocaleConstants.FRANCAIS}>Français</option>
+      <option value={LocaleConstants.AINGAE}>A'ingae</option>
     </select>
   );
 }
