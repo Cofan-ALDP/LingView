@@ -535,6 +535,171 @@ const aboutPageJSX = {
         </a>{" "}
         en SOAS.
       </p>
+      
+      <h2>Miembros</h2>
+
+      <h3>Codirectores</h3>
+
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Scott AnderBois</b>
+        <br />
+        <a href="http://research.clps.brown.edu/anderbois/">
+          research.clps.brown.edu/anderbois
+        </a>
+        <br />
+        scott_anderbois en brown.edu
+      </p>
+      <p>
+        Scott es profesor asociado en el Departamento de Ciencias Cognitivas, Lingüísticas y Psicológicas (CLPS) de la Universidad de Brown. Su investigación se centra en cuestiones de semántica y pragmática, especialmente aquellas relacionadas con los significados condicionales que no son de verdad y la forma en que interactúan con el tipo de oración. Más allá de A'ingae, su trabajo ha explorado estos temas a través del trabajo de campo primario en maya yucateco (maya, México) y tagalo (austronesio, Filipinas). Además, codirige con Miguel Oscar Chan Dzul (Universidad de Oriente){" "}
+        <a href="https://yucatecmaya.github.io/LingView/#/">
+          U koorpusil maaya t'aan
+        </a>, un corpus digital multipropósito de la cultura maya yucateca.
+      </p>
+
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Wilson Silva</b>
+        <br />
+        wdelimasilva en email.arizona.edu
+      </p>
+      <p>
+        Wilson es profesor asistente en el Departamento de Lingüística de la Universidad de Arizona. Es un lingüista de campo con formación formal en lingüística teórica y documentación y revitalización de idiomas. Más allá de A'ingae, ha realizado investigaciones en Desano y Siriano; dos lenguas tukanoanas orientales en peligro de extinción que se hablan en la región de Vaupés de Brasil y Colombia.
+      </p>
+
+      <h3>Socios comunitarios</h3>
+
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Hugo Lucitante</b>
+      </p>
+      <p>
+        Hugo Lucitante es estudiante de doctorado en Antropología en la UT San Antonio y egresado de la Universidad Brown de Zábalo, una pequeña comunidad Cofán en Ecuador. Recibió la Beca Royce en 2016 y desarrolló el. El trabajo de Hugo fue inmensamente importante para iniciar este proyecto.
+      </p>
+
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Sadie Lucitante</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Shen Aguinda</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Leidy Quenamá</b>
+      </p>
+      <p>
+        <b>Jorge Mendua</b>
+      </p>
+
+      <h3>Otros colaboradores externos</h3>
+
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Chelsea Sanker, doctorada</b>
+        <br />
+        <a href="https://www.chelseasanker.com/">chelseasanker.com</a>
+        <br />
+        chelsea.sanker en yale.edu
+      </p>
+      <p>
+        Chelsea Sanker es profesora en la Universidad de Yale. Su investigación se centra en los patrones sincrónicos de detalles en la percepción y la producción, y reconstrucciones de cómo los cambios en el uso de señales pueden conducir a un cambio diacrónico.
+      </p>
+
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Nick Emlen, doctorado</b>
+        <br />
+        n.q.emlen en hum.leidenuniv.nl
+      </p>
+      <p>
+        Nick Emlen es un postdoctorado en la Universidad de Leiden. Estudia las relaciones lingüísticas, sociales, económicas e históricas que unen los Andes y la Amazonía, y actualmente es parte del proyecto Pasado Lingüístico de Mesoamérica y los Andes.
+      </p>
+
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Irina Wang, MID</b>
+        <br />
+        <a href="https://irinavw.xyz/">irinavw.xyz</a>
+        <br />
+        hello en irinawang.com
+      </p>
+      <p>
+        Irina es una diseñadora y escritora que ha combinado su interés en la tipografía, la literatura y la teoría ambiental para diseñar junto con comunidades nativas y lingüistas académicos para revitalizar idiomas en peligro de extinción como Marma (Chittagong Hill Tracts), Unangam Tunuu (Islas Aleutianas) y A ' ingae (provincia de Sucumbíos). Reconociendo que la justicia del lenguaje, la justicia ambiental y la justicia social son una demanda que surge de problemas estructurales, realizó una Maestría en Diseño Industrial en RISD para desarrollar enfoques transdisciplinarios para el cambio de sistemas éticos y urgentes. Actualmente ejerce como Entropy Studio, donde trabaja y escribe sobre filosofía de diseño, no proliferación nuclear, soberanía del lenguaje, democracia energética, secuestro de carbono agrícola, sistemas alimentarios circulares, movilidad aérea urbana y gobernanza posterior al crecimiento.
+      </p>
+
+      <h3>Asistente principal de investigación</h3>
+
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Maksymilian Dąbkowski</b>
+        <br />
+        <a href="https://maksymilian-dabkowski.github.io/">
+          maksymilian-dabkowski.github.io
+        </a>
+        <br />
+        maksymilian.michal.dabkowski en gmail.com
+      </p>
+      <p>
+        Maksymilian es asistente de investigación líder en lingüística en la Universidad de Brown. Tiene un B.A. Licenciados en Lingüística y Lógica de Brown University. Trabaja predominantemente en A'ingae. Los intereses de investigación de Maksymilian incluyen fonología y sus interfaces, semántica, documentación del lenguaje, revitalización del lenguaje, lógica y psicolingüística.
+      </p>
+
+      <h3>Estudiantes actuales</h3>
+
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Valerie Aguilar Dellisanti</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Corrin Anderer</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Atabong Khumbah</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Bryce Massey</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Alexis Roman</b>
+      </p>
+      <p>
+        <b>Jack Walker</b>
+      </p>
+
+      <h3>Antiguos estudiantes</h3>
+
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Justin Bai</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Rocket Drew</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Amyra Durkin</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Zackary Entwistle</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Sandy Greenberg</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Rachel Gutman</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Sabrina Morvillo</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Thomas Ottaway</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Ethan Pan</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Kalinda Pride</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Chiara Repetti-Ludlow</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Nicholas Tomlin</b>
+      </p>
+      <p style={{ marginBottom: "-.7em" }}>
+        <b>Haoru Zhang</b>
+      </p>
+      <p>
+        <b>Jacob Zimmerman</b>
+      </p>
     </div>
   ),
 };
