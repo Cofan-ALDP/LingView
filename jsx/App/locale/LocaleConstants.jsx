@@ -45,90 +45,90 @@ export const navBarResourcesText = {
 
 // Search page text
 export const searchPagePromptText = {
-  [ENGLISH] : "Search database:",
-  [ESPANOL] : "Buscar en la base de datos:",
+  [ENGLISH]: "Search database:",
+  [ESPANOL]: "Buscar en la base de datos:",
 };
 
 // Story index columns text.
 export const indexPageTitleHeaderText = {
-  [ENGLISH] : "Title",
-  [ESPANOL] : "Titre",
+  [ENGLISH]: "Title",
+  [ESPANOL]: "Titre",
 };
 
 export const indexPageAuthorHeaderText = {
-  [ENGLISH] : "Author",
-  [ESPANOL] : "Auteur",
+  [ENGLISH]: "Author",
+  [ESPANOL]: "Auteur",
 };
 
 export const indexPageMediaHeaderText = {
-  [ENGLISH] : "Media",
-  [ESPANOL] : "Médias",
+  [ENGLISH]: "Media",
+  [ESPANOL]: "Médias",
 };
 
 // Use if a story isn't found.
 export const notFoundPageText = {
-  [ENGLISH] : "Story not found. Perhaps you mistyped the URL?",
-  [ESPANOL] : "Historia no encontrada. ¿Quizás escribiste mal la URL?",
+  [ENGLISH]: "Story not found. Perhaps you mistyped the URL?",
+  [ESPANOL]: "Historia no encontrada. ¿Quizás escribiste mal la URL?",
 };
 
 // Use when a story is loading.
 export const loadingPageText = {
-  [ENGLISH] : "Loading...",
-  [ESPANOL] : "Cargando...",
+  [ENGLISH]: "Loading...",
+  [ESPANOL]: "Cargando...",
 };
 
 // Story controls and metadata.
 export const showVideoButtonText = {
-  [ENGLISH] : "Show video",
-  [ESPANOL] : "Mostrar video",
+  [ENGLISH]: "Show video",
+  [ESPANOL]: "Mostrar video",
 };
 
 export const showOrHideTiersButtonText = {
-  [ENGLISH] : "Show/hide tiers",
-  [ESPANOL] : "Mostrar/ocultar niveles",
+  [ENGLISH]: "Show/hide tiers",
+  [ESPANOL]: "Mostrar/ocultar niveles",
 };
 
 export const metadataAuthorText = {
-  [ENGLISH] : "Author",
-  [ESPANOL] : "Autor",
+  [ENGLISH]: "Author",
+  [ESPANOL]: "Autor",
 };
 
 export const metadataDateText = {
-  [ENGLISH] : "Date",
-  [ESPANOL] : "Fecha",
+  [ENGLISH]: "Date",
+  [ESPANOL]: "Fecha",
 };
 
 export const metadataDescriptionText = {
-  [ENGLISH] : "Description",
-  [ESPANOL] : "Descripción",
+  [ENGLISH]: "Description",
+  [ESPANOL]: "Descripción",
 };
 
 export const metadataGenreText = {
-  [ENGLISH] : "Genre",
-  [ESPANOL] : "Género",
+  [ENGLISH]: "Genre",
+  [ESPANOL]: "Género",
 };
 
 export const metadataGlosserText = {
-  [ENGLISH] : "Glosser",
-  [ESPANOL] : "Glosador",
+  [ENGLISH]: "Glosser",
+  [ESPANOL]: "Glosador",
 };
 
 export const metadataSourceText = {
-  [ENGLISH] : "Source",
-  [ESPANOL] : "Fuente",
+  [ENGLISH]: "Source",
+  [ESPANOL]: "Fuente",
 };
 
 export const metadataSpeakersText = {
-  [ENGLISH] : "Speakers",
-  [ESPANOL] : "Oradores",
+  [ENGLISH]: "Speakers",
+  [ESPANOL]: "Oradores",
 };
 
 export const storySearchText = {
-  [ENGLISH] : "Story",
-  [ESPANOL] : "Historia",
+  [ENGLISH]: "Story",
+  [ESPANOL]: "Historia",
 };
 
 export const storySearchViewStoryText = {
-  [ENGLISH] : "View story",
-  [ESPANOL] : "Ver historia",
+  [ENGLISH]: "View story",
+  [ESPANOL]: "Ver historia",
 };
