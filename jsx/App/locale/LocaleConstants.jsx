@@ -14,8 +14,8 @@ export const DEFAULT_LOCALE = ESPANOL;
 
 // NavBar text (header).
 export const navBarTitleText = {
-  [ENGLISH]: "LingView: ELAN and FLEx Web Display",
-  [ESPANOL]: "LingView: Pantella Web ELAN y FLEx",
+  [ENGLISH]: "A'ingae Language Documentation Project",
+  [ESPANOL]: "Proyecto de documentación del idioma A'ingae",
 };
 
 export const navBarSearchText = {
