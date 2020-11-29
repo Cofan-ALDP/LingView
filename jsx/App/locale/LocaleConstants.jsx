@@ -52,12 +52,12 @@ export const searchPagePromptText = {
 // Story index columns text.
 export const indexPageTitleHeaderText = {
   [ENGLISH]: "Title",
-  [ESPANOL]: "Titre",
+  [ESPANOL]: "Título",
 };
 
 export const indexPageAuthorHeaderText = {
   [ENGLISH]: "Author",
-  [ESPANOL]: "Auteur",
+  [ESPANOL]: "Autor",
 };
 
 export const indexPageMediaHeaderText = {
