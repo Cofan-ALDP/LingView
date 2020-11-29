@@ -12,7 +12,7 @@ export function Sidebar({ metadata }) {
 	if (metadata['title']['_default'] != '') {
 		title = metadata['title']['_default'];
 	}
-	
+
 	if (metadata['timed'] && metadata['media']['video'] != '') {
 		const filename = metadata['media']['video'];
 		const path = getMediaFilePath(filename);

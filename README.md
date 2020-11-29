@@ -22,7 +22,7 @@ For an overview of the software, its potential uses, and the circumstances and d
 
 For how-to's and troubleshooting, check the [wiki](https://github.com/BrownCLPS/LingView/wiki). 
 
-Using LingView? We'd love to hear from you! You can reach us at [kalinda.pride@gmail.com](mailto:kalinda.pride@gmail.com). 
+Using LingView? We'd love to hear from you! You can reach us at [kalinda.pride@gmail.com](mailto:kalinda.pride@gmail.com).
 
 Stuck? Start by reading our paper, browsing the wiki, and playing around with the software for an hour or two. If those don't solve your problem, [contact us](mailto:kalinda.pride@gmail.com).
 

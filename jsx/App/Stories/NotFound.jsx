@@ -1,7 +1,9 @@
 import React from 'react';
+import { notFoundPageText } from '../locale/LocaleConstants.jsx';
+import { TranslatableText } from '../locale/TranslatableText.jsx';
 
 export function NotFound() {
   return (
-      <p>Story not found. Perhaps you mistyped the URL? </p>
+      <p><TranslatableText dictionary={notFoundPageText} /></p>
   );
 }
