@@ -27,10 +27,8 @@ function buildSearch(jsonFileNames) {
           "story ID" : sentence["story ID"],
           "title" : sentence["title"],
           "start_time_ms" : sentence["start_time_ms"],
-          "sentence_id" : sentence["sentence_id"], 
           "dependents" : {}
         };
-
         // Top level line not included in sentence.dependents so it has to be handled separately
         const topTierName = sentence.tier; // defined for ELAN, undefined for FLEx
         if (topTierName != null) {

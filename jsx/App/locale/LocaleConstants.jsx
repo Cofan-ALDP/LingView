@@ -4,148 +4,131 @@
 // (e.g. jsx/App/LandingPage.jsx).
 export const ENGLISH = "en";
 export const ESPANOL = "es";
-export const FRANCAIS = "fr";
+export const AINGAE = "ai";
 
 // Put default language here.
-export const DEFAULT_LOCALE = ENGLISH;
+export const DEFAULT_LOCALE = ESPANOL;
 
 // Below, write the text that goes in various parts of the website for each
 // language.
 
 // NavBar text (header).
 export const navBarTitleText = {
-  [ENGLISH]: "LingView: ELAN and FLEx Web Display",
-  [ESPANOL]: "LingView: Pantella Web ELAN y FLEx",
-  [FRANCAIS]: "LingView: Affichage Web ELAN et FLEx",
+  [ENGLISH]: "A'ingae Language Documentation Project",
+  [ESPANOL]: "Proyecto de documentación del idioma A'ingae",
 };
 
 export const navBarSearchText = {
   [ENGLISH]: "Search",
   [ESPANOL]: "Buscar",
-  [FRANCAIS]: "Chercher",
 };
 
 export const navBarAboutText = {
   [ENGLISH]: "About",
   [ESPANOL]: "Acerca del corpus",
-  [FRANCAIS]: "À propos du corpus",
 };
 
 export const navBarGlossaryText = {
-  [ENGLISH]: "Glossary",
+  [ENGLISH]: "Glosses",
   [ESPANOL]: "Glosario",
-  [FRANCAIS]: "Glossaire",
 };
 
 export const navBarIndexText = {
-  [ENGLISH]: "Index of Texts",
-  [ESPANOL]: "Índice de textos",
-  [FRANCAIS]: "Index des Textes",
+  [ENGLISH]: "Texts",
+  [ESPANOL]: "Textos",
+};
+
+export const navBarResourcesText = {
+  [ENGLISH]: "Resources",
+  [ESPANOL]: "Recursos",
 };
 
 // Search page text
 export const searchPagePromptText = {
-  [ENGLISH] : "Search database:",
-  [ESPANOL] : "Buscar en la base de datos:",
-  [FRANCAIS] : "Rechercher dans la base de données:",
+  [ENGLISH]: "Search database:",
+  [ESPANOL]: "Buscar en la base de datos:",
 };
 
 // Story index columns text.
 export const indexPageTitleHeaderText = {
-  [ENGLISH] : "Title",
-  [ESPANOL] : "Titre",
-  [FRANCAIS] : "Título",
+  [ENGLISH]: "Title",
+  [ESPANOL]: "Título",
 };
 
 export const indexPageAuthorHeaderText = {
-  [ENGLISH] : "Author",
-  [ESPANOL] : "Auteur",
-  [FRANCAIS] : "Autor",
+  [ENGLISH]: "Author",
+  [ESPANOL]: "Autor",
 };
 
 export const indexPageMediaHeaderText = {
-  [ENGLISH] : "Media",
-  [ESPANOL] : "Médias",
-  [FRANCAIS] : "Medios",
+  [ENGLISH]: "Media",
+  [ESPANOL]: "Médias",
 };
 
 // Use if a story isn't found.
 export const notFoundPageText = {
-  [ENGLISH] : "Story not found. Perhaps you mistyped the URL?",
-  [ESPANOL] : "Historia no encontrada. ¿Quizás escribiste mal la URL?",
-  [FRANCAIS] : "Histoire introuvable. Peut-être avez-vous mal saisi l'URL?",
+  [ENGLISH]: "Story not found. Perhaps you mistyped the URL?",
+  [ESPANOL]: "Historia no encontrada. ¿Quizás escribiste mal la URL?",
 };
 
 // Use when a story is loading.
 export const loadingPageText = {
-  [ENGLISH] : "Loading...",
-  [ESPANOL] : "Cargando...",
-  [FRANCAIS] : "Chargement...",
+  [ENGLISH]: "Loading...",
+  [ESPANOL]: "Cargando...",
 };
 
 // Story controls and metadata.
 export const showVideoButtonText = {
-  [ENGLISH] : "Show video",
-  [ESPANOL] : "Mostrar video",
-  [FRANCAIS] : "Montrer la vidéo",
+  [ENGLISH]: "Show video",
+  [ESPANOL]: "Mostrar video",
 };
 
 export const showOrHideTiersButtonText = {
-  [ENGLISH] : "Show/hide tiers",
-  [ESPANOL] : "Mostrar/ocultar niveles",
-  [FRANCAIS] : "Afficher/masquer les niveaux",
+  [ENGLISH]: "Show/hide tiers",
+  [ESPANOL]: "Mostrar/ocultar niveles",
 };
 
 export const metadataAuthorText = {
-  [ENGLISH] : "Author",
-  [ESPANOL] : "Autor",
-  [FRANCAIS] : "Auteur",
+  [ENGLISH]: "Author",
+  [ESPANOL]: "Autor",
 };
 
 export const metadataDateText = {
-  [ENGLISH] : "Date",
-  [ESPANOL] : "Fecha",
-  [FRANCAIS] : "Date",
+  [ENGLISH]: "Date",
+  [ESPANOL]: "Fecha",
 };
 
 export const metadataDescriptionText = {
-  [ENGLISH] : "Description",
-  [ESPANOL] : "Descripción",
-  [FRANCAIS] : "Description",
+  [ENGLISH]: "Description",
+  [ESPANOL]: "Descripción",
 };
 
 export const metadataGenreText = {
-  [ENGLISH] : "Genre",
-  [ESPANOL] : "Género",
-  [FRANCAIS] : "Genre",
+  [ENGLISH]: "Genre",
+  [ESPANOL]: "Género",
 };
 
 export const metadataGlosserText = {
-  [ENGLISH] : "Glosser",
-  [ESPANOL] : "Glosador",
-  [FRANCAIS] : "Glosser",
+  [ENGLISH]: "Glosser",
+  [ESPANOL]: "Glosador",
 };
 
 export const metadataSourceText = {
-  [ENGLISH] : "Source",
-  [ESPANOL] : "Fuente",
-  [FRANCAIS] : "Source",
+  [ENGLISH]: "Source",
+  [ESPANOL]: "Fuente",
 };
 
 export const metadataSpeakersText = {
-  [ENGLISH] : "Speakers",
-  [ESPANOL] : "Oradores",
-  [FRANCAIS] : "Haut-parleurs",
+  [ENGLISH]: "Speakers",
+  [ESPANOL]: "Oradores",
 };
 
 export const storySearchText = {
-  [ENGLISH] : "Story",
-  [ESPANOL] : "Historia",
-  [FRANCAIS] : "Histoire",
+  [ENGLISH]: "Story",
+  [ESPANOL]: "Historia",
 };
 
 export const storySearchViewStoryText = {
-  [ENGLISH] : "View story",
-  [ESPANOL] : "Ver historia",
-  [FRANCAIS] : "Voir l'histoire",
+  [ENGLISH]: "View story",
+  [ESPANOL]: "Ver historia",
 };

@@ -63,7 +63,6 @@ Promise.all([
   fs.writeFileSync(indexFileName, JSON.stringify(index, null, 2), 'utf8');
 
   const storyJsonFileNames = storyIDs.map(ID => ID + '.json');
-
   const searchIndex = buildSearch(storyJsonFileNames);
   // Note: overwriting any pre-existing data/search_index.json
   return fs.promises.writeFile(searchIndexFileName, JSON.stringify(searchIndex, null, 2), 'utf8');
