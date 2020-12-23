@@ -1,20 +1,16 @@
 const { resolve, join, relative } = require('path');
 const { promises: { mkdir, stat } } = require('fs');
 const gm = require('gm');
+const syncFetchHeadTest = require('sync-rpc')(require.resolve('../fetch_head_test'));
 
 const Airtable = require('airtable');
+
+const materialsDirectoryUrl = "https://cds.library.brown.edu/projects/kofan/Materials/";
 
 function checkPathExists(path) {
   return stat(path).then(info => info.isFile() || info.isDirectory());
 };
 module.exports.checkPathExists = checkPathExists;
-
-const saveLabServerFile = require('./save-from-smb')({
-  address: process.env.LAB_SERVER_ADDRESS,
-  username: process.env.LAB_SERVER_USERNAME,
-  password: process.env.LAB_SERVER_PASSWORD,
-});
-const serverFileUrlMarker = `${process.env.LAB_SERVER_ADDRESS}/${process.env.LAB_SERVER_FOLDER}/`;
 
 const md = require('markdown-it')({
   html: false, // for security; if need to enable HTML, use a sanitizer module
@@ -52,12 +48,13 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
           ['Category']: categories,
           ['Type']: type,
           ['LV curated?']: curatedFlag,
-          ['LV Item Server']: [itemServerUrl] = [''],
+          ['LV item']: itemRelativePath = [''],
         } = record.fields;
         // const credits = (creditString || '').split(',').map(s => s.trim());
         const year = typeof yearRaw === "string" ? yearRaw : (yearRaw ? yearRaw[0] : undefined);
         const descriptionHTML = descriptionMarkdown ? md.render(descriptionMarkdown) : '';
         const isCurated = curatedFlag === true;
+        const itemServerUrl = itemRelativePath.length > 0 ? materialsDirectoryUrl + itemRelativePath : ''
         const extractedRecord = { title, credits, year, descriptionHTML, categories, type, isCurated, itemServerUrl };
 
         // if (extractedRecord.itemServerUrl.toLowerCase().endsWith('.pdf')) {
@@ -82,45 +79,40 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
   });
 }
 
-module.exports.fetchMaterialsFiles = function fetchMaterialsFiles(resourceRecords) {
+// formerly called download(itemServerUrl) for each record
+// formerly returned [{savedPath1: destPath1, ...}] (?)
+// now calls syncFetchHeadTest(itemServerUrl)
+// now returns [{itemServerUrl1: itemServerUrl1, ...}]
+module.exports.validateMaterialsFiles = function validateMaterialsFiles(resourceRecords) {
   if (process.env.METADATA_ONLY) {
-    console.log('Performing fake publication materials fetch as requested. No file/folder attachment validation will be done.');
+    console.log('Performing fake publication materials fetch as requested. No file/folder url validation will be done.');
   }
   let recordsLeft = resourceRecords.length;
   return Promise.all(resourceRecords.map((record) => {
     const { itemServerUrl, ...restRecord } = record;
     if (itemServerUrl) {
-      return download(itemServerUrl)
-        .then(({ destPath }) => ({ savedPath: destPath, ...restRecord }))
-        .catch((err) => {
-          console.warn(`Error downloading resource file: ${itemServerUrl}`, record, err);
-          return Promise.resolve({ savedPath: '', ...restRecord })
-        })
-        .finally(() => {
-          console.info('Records left to download:', --recordsLeft);
-        });
+      let remoteUrlHeadSuccess;
+      try {
+        remoteUrlHeadSuccess = syncFetchHeadTest(itemServerUrl); // TODO let it be async
+      } catch (err) {
+        console.warn(`Error downloading resource file: ${itemServerUrl}`, record, err);
+      }
+      const validatedUrl = remoteUrlHeadSuccess ? itemServerUrl : '';
+      return Promise.resolve({ itemServerUrl: validatedUrl, ...restRecord })
+          .finally(() => {
+            console.info('Records left to download:', --recordsLeft);
+          });
     } else {
       console.info('Records left to download:', --recordsLeft);
-      return Promise.resolve({ savedPath: '', ...restRecord });
+      return Promise.resolve({ itemServerUrl: '', ...restRecord });
     }
   }));
 }
 
-function download(serverFileUrl) {
-  const serverFileUrlParts = decodeURI(serverFileUrl).split(serverFileUrlMarker);
-  if (serverFileUrlParts.length !== 2) {
-    return new Error('Invalid server file url; only lab server urls are currently supported.');
-  }
-  const serverFilePath = serverFileUrlParts[1];
-
-  const srcPath = `${process.env.LAB_SERVER_FOLDER}/${serverFilePath}`; // `${process.env.LAB_SERVER_FOLDER}\\${serverFilePath}`;
-  const destPath = resolve(__dirname, '..', '..', '..', 'data', 'saved-materials', serverFilePath.replace(/\\/g, '/'));
-
-  return saveLabServerFile(srcPath, destPath);
-}
-
 const { thumbnailProperties } = require('../shared');
 
+// returns { thumbnailImageUrl1: relative(baseDir, destPath1), ...}
+// needs to be modified to use non-downloaded library server PDFs
 module.exports.generateThumbnails = function generateThumbnails(resourceRecords) {
   const baseDir = resolve(__dirname, '..', '..', '..');
   const destDir = join(baseDir, 'data', 'saved-materials-thumbs');
@@ -146,7 +138,7 @@ module.exports.generateThumbnails = function generateThumbnails(resourceRecords)
           try {
             await new Promise((resolve, reject) => {
               // credit: https://stackoverflow.com/questions/51033963/thumbnail-the-first-page-of-a-pdf-from-a-stream-in-graphicsmagick
-              gm(savedPath + '[0]')
+              gm(savedPath + '[0]') // TODO use the library server path; may require ".selectFrame(0)" as described on SO
                 .background(thumbnailProperties.backgroundColor)
                 .flatten()
                 .resize(thumbnailProperties.width, thumbnailProperties.height)
