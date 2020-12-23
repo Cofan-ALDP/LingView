@@ -58,15 +58,6 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
         const isCurated = curatedFlag === true;
         const itemServerUrl = itemRelativePath.length > 0 ? materialsDirectoryUrl + itemRelativePath : ''
         const extractedRecord = { title, credits, year, descriptionHTML, categories, type, isCurated, itemServerUrl };
-
-        // if (extractedRecord.itemServerUrl.toLowerCase().endsWith('.pdf')) {
-        //   // console.warn('Only testing downloading folders right now; ignoring this work\'s item');
-        //   // extractedRecord.itemServerUrl = '';
-        // } else {
-        //   // console.warn('Downloading folders not yet implemented; ignoring this work\'s item');
-        //   // extractedRecord.itemServerUrl = '';
-        // }
-
         resourceRecords.push(extractedRecord);
       });
 
@@ -102,10 +93,10 @@ module.exports.validateMaterialsFiles = function validateMaterialsFiles(resource
       const validatedUrl = remoteUrlHeadSuccess ? itemServerUrl : '';
       return Promise.resolve({ itemServerUrl: validatedUrl, ...restRecord })
           .finally(() => {
-            console.info('Records left to download:', --recordsLeft);
+            console.info('Records left to validate:', --recordsLeft);
           });
     } else {
-      console.info('Records left to download:', --recordsLeft);
+      console.info('Records left to validate:', --recordsLeft);
       return Promise.resolve({ itemServerUrl: '', ...restRecord });
     }
   }));
