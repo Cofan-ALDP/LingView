@@ -1,9 +1,11 @@
 const { resolve, join, relative } = require('path');
 const { promises: { mkdir, stat } } = require('fs');
 const gm = require('gm');
-const syncFetchHeadTest = require('sync-rpc')(require.resolve('../fetch_head_test'));
+const syncFetchHeadTest = require('sync-rpc')(require.resolve('../../fetch_head_test'));
 
 const Airtable = require('airtable');
+const AIRTABLE_API_KEY = ""; // never commit the real value for this!
+const AIRTABLE_BASE_ID = "appzdu4UrBFMoG7Rl";
 
 const materialsDirectoryUrl = "https://cds.library.brown.edu/projects/kofan/Materials/";
 
@@ -19,7 +21,7 @@ const md = require('markdown-it')({
 });
 
 module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
-  const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(process.env.AIRTABLE_BASE_ID);
+  const base = new Airtable({apiKey: AIRTABLE_API_KEY}).base(AIRTABLE_BASE_ID);
   return new Promise((res, rej) => {
     const resourceRecords = [];
     base('Works').select({
