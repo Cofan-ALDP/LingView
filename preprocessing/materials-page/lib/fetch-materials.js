@@ -73,10 +73,11 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
   });
 }
 
-// formerly called download(itemServerUrl) for each record
-// formerly returned [{savedPath1: destPath1, ...}] (?)
-// now calls syncFetchHeadTest(itemServerUrl)
-// now returns [{itemServerUrl1: itemServerUrl1, ...}]
+// calls syncFetchHeadTest(itemServerUrl)
+// returns [{itemServerUrl1: itemServerUrl1, ...}]
+// Note: for directories, the library server returns a 403 Forbidden status.
+// We should ask the library server admins to change this so users can browse those directories.
+// For now, let's consider those URLs invalid and exclude them.
 module.exports.validateMaterialsFiles = function validateMaterialsFiles(resourceRecords) {
   if (process.env.METADATA_ONLY) {
     console.log('Performing fake publication materials fetch as requested. No file/folder url validation will be done.');
