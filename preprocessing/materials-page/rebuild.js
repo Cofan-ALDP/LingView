@@ -12,7 +12,7 @@ if (require.main === module) {
   fetchMaterialsMetadata()
     .then(records => validateMaterialsFiles(records))
     .then(records => writeFile(newDatabaseDestAbs, JSON.stringify(records, null, 2), 'utf8').then(() => records))
-    .then(records => console.log('Done.', records.length, 'publication materials loaded,', records.filter(r => r.savedPath).length, 'with a file/folder.'))
+    .then(records => console.log('Done.', records.length, 'publication materials loaded,', records.filter(r => r.itemServerUrl).length, 'with a file/folder.'))
     .catch(console.error.bind(console));
 }
 

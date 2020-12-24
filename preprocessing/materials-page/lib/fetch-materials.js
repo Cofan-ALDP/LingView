@@ -7,6 +7,7 @@ const Airtable = require('airtable');
 const AIRTABLE_API_KEY = ""; // never commit the real value for this!
 const AIRTABLE_BASE_ID = "appzdu4UrBFMoG7Rl";
 
+const labServerMaterialsDirectoryUrl = "file://files.brown.edu/Research/CLPS_AnderBois_Lab/Literature/All%20things%20A'ingae/";
 const materialsDirectoryUrl = "https://cds.library.brown.edu/projects/kofan/Materials/";
 
 function checkPathExists(path) {
@@ -50,13 +51,13 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
           ['Category']: categories,
           ['Type']: type,
           ['LV curated?']: curatedFlag,
-          ['LV item']: itemRelativePath = [''],
+          ['LV Item Server']: [itemLabServerUrl] = '',
         } = record.fields;
         // const credits = (creditString || '').split(',').map(s => s.trim());
         const year = typeof yearRaw === "string" ? yearRaw : (yearRaw ? yearRaw[0] : undefined);
         const descriptionHTML = descriptionMarkdown ? md.render(descriptionMarkdown) : '';
         const isCurated = curatedFlag === true;
-        const itemServerUrl = itemRelativePath.length > 0 ? materialsDirectoryUrl + itemRelativePath : ''
+        const itemServerUrl = itemLabServerUrl.replace(labServerMaterialsDirectoryUrl, materialsDirectoryUrl);
         const extractedRecord = { title, credits, year, descriptionHTML, categories, type, isCurated, itemServerUrl };
         resourceRecords.push(extractedRecord);
       });
