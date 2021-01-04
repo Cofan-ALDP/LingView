@@ -29,16 +29,9 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
       // view: 'Resources Page View',
       filterByFormula: 'AND(NOT({Private?} = "true"), NOT({LV item} = BLANK()))',
       sort: [{field: 'Year', direction: 'desc'}],
-      // maxRecords: 20, // TEMP
+      maxRecords: 5, // TEMP
     }).eachPage(function page(records, fetchNextPage) {
       records.forEach((record) => {
-        // const targetFields = Object.keys(record.fields).filter(f => !f.startsWith('DEPREC'));
-        // const recordFiltered = {};
-        // for (const targetField of targetFields) {
-        //   recordFiltered[targetField] = record.fields[targetField];
-        // }
-        // console.log(recordFiltered);
-
         if (!record.fields['Item'].includes(record.fields['LV item'][0])) {
           console.warn('Mistake made when choosing LV item; not a member of Item - ', record.fields['Title']);
         }
@@ -117,13 +110,14 @@ module.exports.generateThumbnails = function generateThumbnails(resourceRecords)
     .then(() =>
       Promise.all(resourceRecords.map(async (record) => {
         try {
-          const { savedPath } = record;
+          const { itemServerUrl } = record;
 
-          if (!savedPath || !savedPath.toLowerCase().endsWith('.pdf')) { // note: only pdfs are handled right now
+          if (!itemServerUrl || !itemServerUrl.toLowerCase().endsWith('.pdf')) { // note: only pdfs are handled right now
             return { thumbnailImageUrl: '', ...record };
           }
           
-          const destName = relative(baseDir, savedPath).replace(/\//g, '-').replace(/\.pdf$/i, '.jpg');
+          // TODO needs updating
+          const destName = relative(baseDir, itemServerUrl).replace(/\//g, '-').replace(/\.pdf$/i, '.jpg');
           const destPath = join(destDir, destName);
 
           if (process.env.NEWONLY && await checkPathExists(destPath)) {
@@ -133,7 +127,8 @@ module.exports.generateThumbnails = function generateThumbnails(resourceRecords)
           try {
             await new Promise((resolve, reject) => {
               // credit: https://stackoverflow.com/questions/51033963/thumbnail-the-first-page-of-a-pdf-from-a-stream-in-graphicsmagick
-              gm(savedPath + '[0]') // TODO use the library server path; may require ".selectFrame(0)" as described on SO
+              gm(itemServerUrl) // TODO use the library server path; may require ".selectFrame(0)" as described on SO
+              .selectFrame(0)
                 .background(thumbnailProperties.backgroundColor)
                 .flatten()
                 .resize(thumbnailProperties.width, thumbnailProperties.height)
@@ -144,7 +139,7 @@ module.exports.generateThumbnails = function generateThumbnails(resourceRecords)
             });
             return { thumbnailImageUrl: relative(baseDir, destPath), ...record };
           } catch (err) {
-            console.warn(`Error creating thumbnail for: ${savedPath}`, /* record, */ err);
+            console.warn(`Error creating thumbnail for: ${itemServerUrl}`, /* record, */ err);
             return { thumbnailImageUrl: '', ...record };
           }
         } finally {
