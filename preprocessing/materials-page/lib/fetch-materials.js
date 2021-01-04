@@ -2,6 +2,7 @@ const { resolve, join, relative } = require('path');
 const { promises: { mkdir, stat } } = require('fs');
 const gm = require('gm');
 const syncFetchHeadTest = require('sync-rpc')(require.resolve('../../fetch_head_test'));
+const fetch = require('isomorphic-fetch');
 
 const Airtable = require('airtable');
 const AIRTABLE_API_KEY = ""; // never commit the real value for this!
@@ -126,16 +127,23 @@ module.exports.generateThumbnails = function generateThumbnails(resourceRecords)
 
           try {
             await new Promise((resolve, reject) => {
-              // credit: https://stackoverflow.com/questions/51033963/thumbnail-the-first-page-of-a-pdf-from-a-stream-in-graphicsmagick
-              gm(itemServerUrl) // TODO use the library server path; may require ".selectFrame(0)" as described on SO
-              .selectFrame(0)
-                .background(thumbnailProperties.backgroundColor)
-                .flatten()
-                .resize(thumbnailProperties.width, thumbnailProperties.height)
-                .write(destPath, (err, result) => {
-                  if (err) return reject(err);
-                  resolve(result);
-                });
+							fetch(itemServerUrl)
+								.then(response => {
+									console.log(response); // TEMP
+									if (response.status >= 400) {
+										throw new Error("Bad response from server");
+									}
+									// credit: https://stackoverflow.com/questions/51033963/thumbnail-the-first-page-of-a-pdf-from-a-stream-in-graphicsmagick
+									gm(response.body)
+										.selectFrame(0)
+										.background(thumbnailProperties.backgroundColor)
+										.flatten()
+										.resize(thumbnailProperties.width, thumbnailProperties.height)
+										.write(destPath, (err, result) => {
+											if (err) return reject(err);
+											resolve(result);
+										});
+								});
             });
             return { thumbnailImageUrl: relative(baseDir, destPath), ...record };
           } catch (err) {
