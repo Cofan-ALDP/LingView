@@ -23,11 +23,10 @@ const md = require('markdown-it')({
 });
 
 module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
-  const base = new Airtable({apiKey: AIRTABLE_API_KEY}).base(AIRTABLE_BASE_ID);
+  const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(AIRTABLE_BASE_ID);
   return new Promise((res, rej) => {
     const resourceRecords = [];
     base('Works').select({
-      // view: 'Resources Page View',
       filterByFormula: 'AND(NOT({Private?} = "true"), NOT({LV item} = BLANK()))',
       sort: [{field: 'Year', direction: 'desc'}],
       maxRecords: 5, // TEMP
@@ -36,7 +35,6 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
         if (!record.fields['Item'].includes(record.fields['LV item'][0])) {
           console.warn('Mistake made when choosing LV item; not a member of Item - ', record.fields['Title']);
         }
-        console.log(record.fields); // TEMP
         const {
           ['Title']: title,
           ['Credit First Last Names']: credits, // [creditString],
