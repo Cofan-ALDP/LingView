@@ -54,6 +54,43 @@ export const searchPagePromptText = {
   [ESPANOL]: "Buscar en la base de datos:",
 };
 
+// Materials page text
+export const curatedCategoryName = {
+  [ENGLISH]: "Curated",
+	[ESPANOL]: "Curado",
+};
+
+export const curatedCategoryDescription = {
+  [ENGLISH]: "Here is a curated collection of materials related to A’ingae.",
+	[ESPANOL]: "A continuación, se muestra una colección seleccionada de materiales relacionados con A'ingae.",
+};
+
+export const currentCategoryText = {
+  [ENGLISH]: "Viewing by Category: ",
+	[ESPANOL]: "Viendo la categoría ",
+};
+
+export const chooseCategoryPrompt = {
+  [ENGLISH]: "View by Category",
+	[ESPANOL]: "Ver por categoría",
+};
+
+export const materialsLinkInstructions = {
+	[ENGLISH]: "To view a work below, click on its title or image preview.",
+	[ESPANOL]: "Para ver una obra a continuación, haga clic en su título o en la imagen.",
+};
+
+// Click the link with this text to return to the Materials page index.
+export const returnToMaterialsIndexLinkText = {
+	[ENGLISH]: "Go back",
+	[ESPANOL]: "Regresar",
+};
+
+export const materialsPageNotFound = {
+	[ENGLISH]: "Materials page not found.",
+	[ESPANOL]: "Página de materiales no encontrada.",
+};
+
 // Story index columns text.
 export const indexPageTitleHeaderText = {
   [ENGLISH]: "Title",

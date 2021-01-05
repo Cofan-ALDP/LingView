@@ -1,11 +1,18 @@
 import React from 'react';
-// import id from 'shortid';
-// import { Link } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom';
 import { MaterialCard } from './Materials/MaterialCard.jsx';
 import { Tag } from './Materials/Components/Tag.jsx';
-// import { Loader } from './Stories/Loader.jsx';
 import { NotFound } from './Materials/NotFound.jsx';
+import { TranslatableText } from './locale/TranslatableText.jsx';
+import { 
+	navBarMaterialsText, 
+	curatedCategoryName, 
+	curatedCategoryDescription, 
+	currentCategoryText, 
+	chooseCategoryPrompt, 
+	materialsLinkInstructions, 
+	returnToMaterialsIndexLinkText,
+} from './locale/LocaleConstants.jsx';
 
 export class MaterialIndex extends React.Component {
     constructor(props) {
@@ -19,7 +26,6 @@ export class MaterialIndex extends React.Component {
         const index = (await import('~./data/materials_index.json')).default;
         const categories = this.getCategories(index);
         this.setState({ materialsIndex: index, materialsCategories: categories });
-        // console.log(this.state.materialsIndex)
     }
 
     getCategories(materials) {
@@ -33,12 +39,10 @@ export class MaterialIndex extends React.Component {
     }
 
     render() {
-        // if (!this.state.materialsIndex) return <Loader />;
-
         return (
             <main className="wide-content-wrapper">
                 <header>
-                    <h1>Materials</h1>
+                    <h1><TranslatableText dictionary={navBarMaterialsText} /></h1>
                     <p></p>
                 </header>
                 <Route component={scrollToTop} />
@@ -48,7 +52,6 @@ export class MaterialIndex extends React.Component {
                         exact path="/materials"
                         render={_ => (
                             <div>
-                                {/* <ChooseCategory categories={this.state.materialsCategories} /> */}
                                 <Curated index={this.state.materialsIndex} />
                                 <ChooseCategory categories={this.state.materialsCategories} />
                             </div>
@@ -88,8 +91,8 @@ function Curated({ index }) {
     return (
         <article>
             <header>
-                <h2>Curated</h2>
-                <p>Here is a curated collection of materials related to A’ingae.</p>
+                <h2><TranslatableText dictionary={curatedCategoryName} /></h2>
+                <p><TranslatableText dictionary={curatedCategoryDescription} /></p>
                 <div className="material-card-list">
                     {index.filter(m => m.isCurated).map((materialInfo, i) => (
                         <MaterialCard key={i} metadata={materialInfo} />
@@ -104,7 +107,7 @@ function ChooseCategory({ categories }) {
     return (
         <article>
             <header>
-                <h2>View by Category</h2>
+                <h2><TranslatableText dictionary={chooseCategoryPrompt} /></h2>
                 <ul className="tag-grid">
                     {categories && categories.map((category, i) => (
                         <a href={`#/materials/${category}`} key={i}>
@@ -121,17 +124,15 @@ function CategoryView({ category, items }) {
     return (
         <article>
             <header>
-                <h2>Viewing by Category: <Tag text={category} /></h2>
+                <h2><TranslatableText dictionary={currentCategoryText} /><Tag text={category} /></h2>
                 {items &&
-                    <p>Showing {items.length} item{items.length == 1 || 's'} in the chosen category. To view a work below, click on its title or image preview.</p>}
-                <a href="#/materials/">Go back</a>
+                    <p>Showing {items.length} item{items.length == 1 || 's'} in the chosen category. <TranslatableText dictionary={materialsLinkInstructions} /></p>}
+                <a href="#/materials/"><TranslatableText dictionary={returnToMaterialsIndexLinkText} /></a>
             </header>
             <div className="material-card-grid">
                 {items.map((materialInfo, j) => <MaterialCard key={j} metadata={materialInfo} />)}
             </div>
-            <footer>
-                <a href="#/materials/">Go back</a>
-            </footer>
+            <a href="#/materials/"><TranslatableText dictionary={returnToMaterialsIndexLinkText} /></a>
         </article>
     );
 }
