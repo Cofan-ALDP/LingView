@@ -15,14 +15,11 @@ export class Story extends React.Component {
 
         setupTextSync();
 
-        // If there is a footer, i.e., if audio exists:
-        if ($('#footer').length !== 0) {
-            // If video exists:
-            if ($('#video').length !== 0) {
-                Video.show();
-            } else {
-                Video.hide();
-            }
+        // If video exists:
+        if ($('#video').length !== 0) {
+            Video.show();
+        } else {
+            Video.hide();
         }
     }
 
@@ -36,15 +33,14 @@ export class Story extends React.Component {
         const timed = (story['metadata']['timed']);
         let footer = null;
         if (timed) {
-            let audioFile;
             const media = story['metadata']['media'];
-            if (media.hasOwnProperty('audio')) {
-                audioFile = media['audio'];
+            if (media['audio'] != '') {
+                const audioFilePath = getMediaFilePath(media['audio']);
+                footer = <div id="footer"><audio data-live="true" controls controlsList="nodownload" id="audio" src={audioFilePath}/></div>;
             } else {
-                audioFile = media['video'];
+                const audioFilePath = getMediaFilePath(media['video']);
+                footer = <div hidden id="footer"><audio data-live="true" controls controlsList="nodownload" id="video" src={audioFilePath}/></div>;
             }
-            const audioFilePath = getMediaFilePath(audioFile);
-            footer = <div id="footer"><audio data-live="true" controls controlsList="nodownload" id="audio" src={audioFilePath}/></div>;
         }
         return (
             <div>

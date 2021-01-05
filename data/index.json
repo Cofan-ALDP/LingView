@@ -109,5 +109,2800 @@
         "tier": "--"
       }
     }
+  },
+  "b173c1a6-13ee-49fd-b745-d9ea576fa5ac": {
+    "timed": false,
+    "story ID": "b173c1a6-13ee-49fd-b745-d9ea576fa5ac",
+    "title": {
+      "con-Latn-CO": "Athembi a'i kundasepa",
+      "con-Latn-EC-x-borman": "Attembi ai condasepa",
+      "con-Latn-EC-x-dureno": "Athembi a'i kundasepa",
+      "en": "Invisible people story",
+      "es": "Historia de la gente invisible",
+      "_default": "Athembi a'i kundasepa"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170731_attembi_ai",
+      "con-Latn-EC-x-borman": "20170731_attembi_ai",
+      "con-Latn-EC-x-dureno": "20170731_attembi_ai",
+      "en": "20170731_attembi_ai",
+      "es": "20170731_attembi_ai",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Shen ",
+      "Mauricio Mendùa"
+    ],
+    "xml_file_name": "Athembi a'i kundasepa.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      }
+    }
+  },
+  "5081a3a2-e7f7-493a-89a9-0dd74f545cb2": {
+    "timed": false,
+    "story ID": "5081a3a2-e7f7-493a-89a9-0dd74f545cb2",
+    "title": {
+      "con-Latn-CO": "Apicha pwshesw kundasepa",
+      "con-Latn-EC-x-borman": "Apicha pushesu condasepa",
+      "con-Latn-EC-x-dureno": "Apicha pûshesû kundasepa",
+      "en": "Mud woman story",
+      "es": "Historia de la mujer barro",
+      "_default": "Apicha pûshesû kundasepa"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170806_apicha_pushesu_BRCA",
+      "con-Latn-EC-x-borman": "20170806_apicha_pushesu_BRCA",
+      "con-Latn-EC-x-dureno": "20170806_apicha_pushesu_BRCA",
+      "en": "20170806_apicha_pushesu_BRCA",
+      "es": "20170806_apicha_pushesu_BRCA",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Braulio Criollo",
+      "Jorge Mendua"
+    ],
+    "xml_file_name": "Apicha pûshesû kundasepa.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "5fcfb5e1-d8a1-44ce-beb4-edecf4831b35": {
+    "timed": false,
+    "story ID": "5fcfb5e1-d8a1-44ce-beb4-edecf4831b35",
+    "title": {
+      "en": "Autobiography of MMEMQ and JC",
+      "es": "Autobiografía de MMEMQ y JC",
+      "_default": "Autobiografía de MMEMQ y JC"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170731_autobiografia_mmemq_jc",
+      "con-Latn-EC-x-borman": "20170731_autobiografia_mmemq_jc",
+      "con-Latn-EC-x-dureno": "20170731_autobiografia_mmemq_jc",
+      "en": "20170731_autobiografia_mmemq_jc",
+      "es": "20170731_autobiografia_mmemq_jc",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Jorge Mendua ",
+      "Monica Mendua ",
+      "Wilson Silva "
+    ],
+    "xml_file_name": "Autobiografía de MMEMQ y JC.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      }
+    }
+  },
+  "9489d870-32bf-4728-b34a-9ff5cc41f8a5": {
+    "timed": false,
+    "story ID": "9489d870-32bf-4728-b34a-9ff5cc41f8a5",
+    "title": {
+      "en": "Autobiography of RA 2",
+      "es": "Autobiografía of RA 2",
+      "_default": "Autobiografía of RA 2"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170804_autobiography_contd_RA",
+      "con-Latn-EC-x-borman": "20170804_autobiography_contd_RA",
+      "con-Latn-EC-x-dureno": "20170804_autobiography_contd_RA",
+      "en": "20170804_autobiography_contd_RA",
+      "es": "20170804_autobiography_contd_RA",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Rosalina Alvarado"
+    ],
+    "xml_file_name": "Autobiografía of RA 2.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "95c79390-5a6b-4474-ab45-020554bcfe8b": {
+    "timed": false,
+    "story ID": "95c79390-5a6b-4474-ab45-020554bcfe8b",
+    "title": {
+      "en": "Building a yagua palm house",
+      "es": "Construir una casa de conambo",
+      "_default": "Construir una casa de conambo"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170731_building_house_sapohe_mmemq_jc_",
+      "con-Latn-EC-x-borman": "20170731_building_house_sapohe_mmemq_jc_",
+      "con-Latn-EC-x-dureno": "20170731_building_house_sapohe_mmemq_jc_",
+      "en": "20170731_building_house_sapohe_mmemq_jc_",
+      "es": "20170731_building_house_sapohe_mmemq_jc_",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Jorge Mendua ",
+      "Monica Mendua "
+    ],
+    "xml_file_name": "Construir una casa de conambo.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "6239cb94-7639-4db6-9d43-e3ddad2ecfda": {
+    "timed": false,
+    "story ID": "6239cb94-7639-4db6-9d43-e3ddad2ecfda",
+    "title": {
+      "en": "The garden and medicinal plants",
+      "es": "El jardín y las plantas medicinales",
+      "_default": "El jardín y las plantas medicinales"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170803_garden_medicinal_plants_LC",
+      "con-Latn-EC-x-borman": "20170803_garden_medicinal_plants_LC",
+      "con-Latn-EC-x-dureno": "20170803_garden_medicinal_plants_LC",
+      "en": "20170803_garden_medicinal_plants_LC",
+      "es": "20170803_garden_medicinal_plants_LC",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Lorenzo Criollo"
+    ],
+    "xml_file_name": "El jardín y las plantas medicinales.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "ac7a4fcb-81c7-43b8-849e-ba86c7c028ac": {
+    "timed": false,
+    "story ID": "ac7a4fcb-81c7-43b8-849e-ba86c7c028ac",
+    "title": {
+      "en": "Making casave 2",
+      "es": "Preparar casave 2",
+      "_default": "Preparar casave 2"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170806_making_casave_2_iy",
+      "con-Latn-EC-x-borman": "20170806_making_casave_2_iy",
+      "con-Latn-EC-x-dureno": "20170806_making_casave_2_iy",
+      "en": "20170806_making_casave_2_iy",
+      "es": "20170806_making_casave_2_iy",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Shen Aguinda",
+      "Isenia Yiyiguaje ",
+      "Rainel Criollo",
+      "Wilson Silva "
+    ],
+    "xml_file_name": "Preparar casave 2.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      }
+    }
+  },
+  "28c864e9-8523-4483-ad4d-58ec2f4f99d5": {
+    "timed": false,
+    "story ID": "28c864e9-8523-4483-ad4d-58ec2f4f99d5",
+    "title": {
+      "en": "Drying cocoa seeds",
+      "es": "Secar las semillas de cacao",
+      "_default": "Secar las semillas de cacao"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170731_drying_cocoa_seeds_mmemq_jc_MZ",
+      "con-Latn-EC-x-borman": "20170731_drying_cocoa_seeds_mmemq_jc_MZ",
+      "con-Latn-EC-x-dureno": "20170731_drying_cocoa_seeds_mmemq_jc_MZ",
+      "en": "20170731_drying_cocoa_seeds_mmemq_jc_MZ",
+      "es": "20170731_drying_cocoa_seeds_mmemq_jc_MZ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Jorge Mendua ",
+      "Monica Maria Elena Mendua Quenama"
+    ],
+    "xml_file_name": "Secar las semillas de cacao.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "40b585ab-1fef-436d-9540-c51bac9e44eb": {
+    "timed": false,
+    "story ID": "40b585ab-1fef-436d-9540-c51bac9e44eb",
+    "title": {
+      "en": "Mastermind game 4",
+      "es": "Juego de Mastermind 4",
+      "_default": "Juego de Mastermind 4"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170729_mastermind_game_sa_rm_",
+      "con-Latn-EC-x-borman": "20170729_mastermind_game_sa_rm_",
+      "con-Latn-EC-x-dureno": "20170729_mastermind_game_sa_rm_",
+      "en": "20170729_mastermind_game_sa_rm_",
+      "es": "20170729_mastermind_game_sa_rm_",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "WilsonSilva",
+      "Shen Aguinda",
+      "Romel Mendua"
+    ],
+    "xml_file_name": "Juego de Mastermind 4.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "a2878c09-6e37-43fd-a31f-5958e249b035": {
+    "timed": false,
+    "story ID": "a2878c09-6e37-43fd-a31f-5958e249b035",
+    "title": {
+      "con-Latn-CO": "Tshararukuku kundasepa",
+      "con-Latn-EC-x-borman": "Tssararococo condasepa",
+      "con-Latn-EC-x-dureno": "Tshararukuku kundasepa",
+      "en": "Tshararococo story",
+      "es": "Historia de Tssararococo",
+      "_default": "Tshararukuku kundasepa"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170807_tshararukuku_RJCL",
+      "con-Latn-EC-x-borman": "20170807_tshararukuku_RJCL",
+      "con-Latn-EC-x-dureno": "20170807_tshararukuku_RJCL",
+      "en": "20170807_tshararukuku_RJCL",
+      "es": "20170807_tshararukuku_RJCL",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Shen Aguinda",
+      "Romulo Criollo"
+    ],
+    "xml_file_name": "Tshararukuku kundasepa.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "58e875e5-c09b-49a5-a3c1-4dbcba9e40b8": {
+    "timed": false,
+    "story ID": "58e875e5-c09b-49a5-a3c1-4dbcba9e40b8",
+    "title": {
+      "en": "A day in the community",
+      "es": "Un día en la comunidad",
+      "_default": "Un día en la comunidad"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170807_day_inthe_community_fc",
+      "con-Latn-EC-x-borman": "20170807_day_inthe_community_fc",
+      "con-Latn-EC-x-dureno": "20170807_day_inthe_community_fc",
+      "en": "20170807_day_inthe_community_fc",
+      "es": "20170807_day_inthe_community_fc",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante ",
+      "Federico Criollo"
+    ],
+    "xml_file_name": "Un día en la comunidad.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "88c1b2c7-003d-451a-b922-1865982fec5c": {
+    "timed": false,
+    "story ID": "88c1b2c7-003d-451a-b922-1865982fec5c",
+    "title": {
+      "con-Latn-CO": "Yahe tsa'u proyecto",
+      "con-Latn-EC-x-borman": "Yaje tsa'o projecto",
+      "con-Latn-EC-x-dureno": "Yaje tsa'u proyecto",
+      "en": "Yaje house project",
+      "_default": "Yaje tsa'u proyecto"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170804_yaje_house_project_FACQ",
+      "con-Latn-EC-x-borman": "20170804_yaje_house_project_FACQ",
+      "con-Latn-EC-x-dureno": "20170804_yaje_house_project_FACQ",
+      "en": "20170804_yaje_house_project_FACQ",
+      "es": "20170804_yaje_house_project_FACQ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Fausto Criollo",
+      "Jorge Criollo"
+    ],
+    "xml_file_name": "Yaje tsa'u proyecto.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "4ed76ba4-da0c-47f6-b894-d9cc84cf8e61": {
+    "timed": false,
+    "story ID": "4ed76ba4-da0c-47f6-b894-d9cc84cf8e61",
+    "title": {
+      "en": "Autobiography of RA 1",
+      "es": "Autobiografía of RA 1",
+      "_default": "Autobiografía of RA 1"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170804_autobiography_RA",
+      "con-Latn-EC-x-borman": "20170804_autobiography_RA",
+      "con-Latn-EC-x-dureno": "20170804_autobiography_RA",
+      "en": "20170804_autobiography_RA",
+      "es": "20170804_autobiography_RA",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Rosila Alvadaro",
+      "Lorenzo Criollo"
+    ],
+    "xml_file_name": "Autobiografía of RA 1.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "bbcda487-8d3e-4e6c-bf10-5a390753fc28": {
+    "timed": false,
+    "story ID": "bbcda487-8d3e-4e6c-bf10-5a390753fc28",
+    "title": {
+      "con-Latn-CO": "Aya'fa tuya'kaen ateswjechune",
+      "con-Latn-EC-x-borman": "Aya'fa toya'caen atesujechone",
+      "con-Latn-EC-x-dureno": "Aya'fa tuya'kaen atesûjechune",
+      "en": "Language and education",
+      "es": "Lenguage y educación",
+      "_default": "Aya'fa tuya'kaen atesûjechune"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170807_language_and_education",
+      "con-Latn-EC-x-borman": "20170807_language_and_education",
+      "con-Latn-EC-x-dureno": "20170807_language_and_education",
+      "en": "20170807_language_and_education",
+      "es": "20170807_language_and_education",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Mirian Lucitante"
+    ],
+    "xml_file_name": "Aya'fa tuya'kaen atesûjechune.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "00e73020-f4b8-4db7-a553-1d1b8aee6292": {
+    "timed": false,
+    "story ID": "00e73020-f4b8-4db7-a553-1d1b8aee6292",
+    "title": {
+      "en": "Hunting",
+      "es": "Caza",
+      "_default": "Caza"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_hunting_CLC",
+      "con-Latn-EC-x-borman": "20170801_hunting_CLC",
+      "con-Latn-EC-x-dureno": "20170801_hunting_CLC",
+      "en": "20170801_hunting_CLC",
+      "es": "20170801_hunting_CLC",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "hugo Lucitante",
+      "carmensa Criollo Lucitante"
+    ],
+    "xml_file_name": "Caza.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "8d61ce5c-cca9-48fc-9a09-c2bbb2d6a85b": {
+    "timed": false,
+    "story ID": "8d61ce5c-cca9-48fc-9a09-c2bbb2d6a85b",
+    "title": {
+      "en": "Sociolinguistic survey",
+      "es": "Encuesta sociolingüística",
+      "_default": "Encuesta sociolingüística"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170731_encuesta_sociolinguistica_mmemq_MZ",
+      "con-Latn-EC-x-borman": "20170731_encuesta_sociolinguistica_mmemq_MZ",
+      "con-Latn-EC-x-dureno": "20170731_encuesta_sociolinguistica_mmemq_MZ",
+      "en": "20170731_encuesta_sociolinguistica_mmemq_MZ",
+      "es": "20170731_encuesta_sociolinguistica_mmemq_MZ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Jorge Mendua ",
+      "WIlson Silva",
+      "Monica Maria Elena Mendua Quenama"
+    ],
+    "xml_file_name": "Encuesta sociolingüística.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      }
+    }
+  },
+  "3c68a518-010c-4893-ba18-10f40e0aec6f": {
+    "timed": false,
+    "story ID": "3c68a518-010c-4893-ba18-10f40e0aec6f",
+    "title": {
+      "en": "The Cofán territory",
+      "es": "El territorio cofán",
+      "_default": "El territorio cofán"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170803_cofan_territory_LC",
+      "con-Latn-EC-x-borman": "20170803_cofan_territory_LC",
+      "con-Latn-EC-x-dureno": "20170803_cofan_territory_LC",
+      "en": "20170803_cofan_territory_LC",
+      "es": "20170803_cofan_territory_LC",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Lorenzo Criollo"
+    ],
+    "xml_file_name": "El territorio cofán.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "51861f59-dd3a-420a-a9e9-59672e26cc1f": {
+    "timed": false,
+    "story ID": "51861f59-dd3a-420a-a9e9-59672e26cc1f",
+    "title": {
+      "en": "Oil company work",
+      "es": "El trabajo de la petrolera",
+      "_default": "El trabajo de la petrolera"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170807_oil_company_work_fc",
+      "con-Latn-EC-x-borman": "20170807_oil_company_work_fc",
+      "con-Latn-EC-x-dureno": "20170807_oil_company_work_fc",
+      "en": "20170807_oil_company_work_fc",
+      "es": "20170807_oil_company_work_fc",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Fredy Criollo"
+    ],
+    "xml_file_name": "El trabajo de la petrolera.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "57c43caf-23e9-46c0-9c4f-96a83f276cac": {
+    "timed": false,
+    "story ID": "57c43caf-23e9-46c0-9c4f-96a83f276cac",
+    "title": {
+      "en": "Hammocks and fishing nets",
+      "es": "Hamacas y redes de pesca",
+      "_default": "Hamacas y redes de pesca"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170803_hammocks_fishing_nets_LC",
+      "con-Latn-EC-x-borman": "20170803_hammocks_fishing_nets_LC",
+      "con-Latn-EC-x-dureno": "20170803_hammocks_fishing_nets_LC",
+      "en": "20170803_hammocks_fishing_nets_LC",
+      "es": "20170803_hammocks_fishing_nets_LC",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lorenzo Criollo",
+      "Hugo Lucitante"
+    ],
+    "xml_file_name": "Hamacas y redes de pesca.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "frase en inglés": {
+        "subdivided": false
+      }
+    }
+  },
+  "4ed9c97b-a01b-450b-b109-1868db570d30": {
+    "timed": false,
+    "story ID": "4ed9c97b-a01b-450b-b109-1868db570d30",
+    "title": {
+      "con-Latn-CO": "Flor Flanca chiste",
+      "con-Latn-EC-x-borman": "Flor Flanca chiste",
+      "con-Latn-EC-x-dureno": "Flor Flanca chiste",
+      "en": "Flor Flanca joke",
+      "es": "Chiste sobre Flor Flanca",
+      "_default": "Flor Flanca chiste"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170807_flor_flanca_chiste_RJCL",
+      "con-Latn-EC-x-borman": "20170807_flor_flanca_chiste_RJCL",
+      "con-Latn-EC-x-dureno": "20170807_flor_flanca_chiste_RJCL",
+      "en": "20170807_flor_flanca_chiste_RJCL",
+      "es": "20170807_flor_flanca_chiste_RJCL",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Shen Aguinda",
+      "Romulo Criollo"
+    ],
+    "xml_file_name": "Flor Flanca chiste.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "45a0eb06-4464-4169-b374-ed903dc0d59a": {
+    "timed": false,
+    "story ID": "45a0eb06-4464-4169-b374-ed903dc0d59a",
+    "title": {
+      "con-Latn-CO": "Ishuakinikhu kundasepa",
+      "con-Latn-EC-x-borman": "Ishoaquinicco condasepa",
+      "con-Latn-EC-x-dureno": "Ishuakinikhu kundasepa",
+      "en": "Ishoaquinicco story",
+      "es": "Historia de Ishoaquinicco",
+      "_default": "Ishuakinikhu kundasepa"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170730_ishuakinikhu_cuento_ac_MZ",
+      "con-Latn-EC-x-borman": "20170730_ishuakinikhu_cuento_ac_MZ",
+      "con-Latn-EC-x-dureno": "20170730_ishuakinikhu_cuento_ac_MZ",
+      "en": "20170730_ishuakinikhu_cuento_ac_MZ",
+      "es": "20170730_ishuakinikhu_cuento_ac_MZ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Angel Criollo"
+    ],
+    "xml_file_name": "Ishuakinikhu kundasepa.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "fc2fb99f-6512-44f6-8888-9da3efe639c7": {
+    "timed": false,
+    "story ID": "fc2fb99f-6512-44f6-8888-9da3efe639c7",
+    "title": {
+      "con-Latn-CO": "Panzaye",
+      "con-Latn-EC-x-borman": "Panzaye",
+      "con-Latn-EC-x-dureno": "Panzaye",
+      "en": "Hunting",
+      "es": "Caza",
+      "_default": "Panzaye"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170804_panzaye_FACQ",
+      "con-Latn-EC-x-borman": "20170804_panzaye_FACQ",
+      "con-Latn-EC-x-dureno": "20170804_panzaye_FACQ",
+      "en": "20170804_panzaye_FACQ",
+      "es": "20170804_panzaye_FACQ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Fausto Alirio Criollo Quenama",
+      "Jorge Mendua"
+    ],
+    "xml_file_name": "Panzaye.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "f69d0518-0460-4eb7-b771-a67902306619": {
+    "timed": false,
+    "story ID": "f69d0518-0460-4eb7-b771-a67902306619",
+    "title": {
+      "en": "Fishing",
+      "es": "Pesca",
+      "_default": "Pesca"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_fishing_CLC",
+      "con-Latn-EC-x-borman": "20170801_fishing_CLC",
+      "con-Latn-EC-x-dureno": "20170801_fishing_CLC",
+      "en": "20170801_fishing_CLC",
+      "es": "20170801_fishing_CLC",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante ",
+      "Carmensa Lucitante Criollo"
+    ],
+    "xml_file_name": "Pesca.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "6e3ed259-8a0e-40d9-8509-34af698edb1c": {
+    "timed": false,
+    "story ID": "6e3ed259-8a0e-40d9-8509-34af698edb1c",
+    "title": {
+      "en": "Being a community member",
+      "es": "Ser un miembro de la comunidad",
+      "_default": "Ser un miembro de la comunidad"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170804_being_community_member_my_tc",
+      "con-Latn-EC-x-borman": "20170804_being_community_member_my_tc",
+      "con-Latn-EC-x-dureno": "20170804_being_community_member_my_tc",
+      "en": "20170804_being_community_member_my_tc",
+      "es": "20170804_being_community_member_my_tc",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [],
+    "xml_file_name": "Ser un miembro de la comunidad.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "59366438-cee5-4634-8d89-f058035510ab": {
+    "timed": false,
+    "story ID": "59366438-cee5-4634-8d89-f058035510ab",
+    "title": {
+      "con-Latn-CO": "Vahu kundasepa",
+      "con-Latn-EC-x-borman": "Vajo condasepa",
+      "con-Latn-EC-x-dureno": "Vaju kundasepa",
+      "en": "Vajo story",
+      "es": "Historia de Vajo",
+      "_default": "Vaju kundasepa"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170731_vahu_story_MMEMQ",
+      "con-Latn-EC-x-borman": "20170731_vahu_story_MMEMQ",
+      "con-Latn-EC-x-dureno": "20170731_vahu_story_MMEMQ",
+      "en": "20170731_vahu_story_MMEMQ",
+      "es": "20170731_vahu_story_MMEMQ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Jorge Mendua Quenama",
+      "Mónica Maria Elena Mendua Quenemá"
+    ],
+    "xml_file_name": "Vaju kundasepa.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "f385d4fa-9c92-4e29-8f95-f549bee3f497": {
+    "timed": false,
+    "story ID": "f385d4fa-9c92-4e29-8f95-f549bee3f497",
+    "title": {
+      "en": "Autobiography of CLC",
+      "es": "Autobiografía de CLC",
+      "_default": "Autobiografía de CLC"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_autobiography_CLC",
+      "con-Latn-EC-x-borman": "20170801_autobiography_CLC",
+      "con-Latn-EC-x-dureno": "20170801_autobiography_CLC",
+      "en": "20170801_autobiography_CLC",
+      "es": "20170801_autobiography_CLC",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Carmensa Lucitante Criollo"
+    ],
+    "xml_file_name": "Autobiografía de CLC.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "b2f06690-3795-4f49-bc6a-ae5b64cf182a": {
+    "timed": false,
+    "story ID": "b2f06690-3795-4f49-bc6a-ae5b64cf182a",
+    "title": {
+      "con-Latn-CO": "Yaje 3",
+      "con-Latn-EC-x-borman": "Yahe 3",
+      "con-Latn-EC-x-dureno": "Yaje 3",
+      "en": "Yaje 3",
+      "es": "Yaje 3",
+      "_default": "Yaje 3"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170731_yaje3_MM",
+      "con-Latn-EC-x-borman": "20170731_yaje3_MM",
+      "con-Latn-EC-x-dureno": "20170731_yaje3_MM",
+      "en": "20170731_yaje3_MM",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Mauricio Mendua ",
+      "Shen Aguinda"
+    ],
+    "xml_file_name": "Yaje 3.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "6a002ea0-ae71-4715-ba8c-55a53bf9fc01": {
+    "timed": false,
+    "story ID": "6a002ea0-ae71-4715-ba8c-55a53bf9fc01",
+    "title": {
+      "en": "Autobiography of MM 1",
+      "es": "Autobiografía de MM 1",
+      "_default": "Autobiografía de MM 1"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170731_autobiography_MM",
+      "con-Latn-EC-x-borman": "20170731_autobiography_MM",
+      "con-Latn-EC-x-dureno": "20170731_autobiography_MM",
+      "en": "20170731_autobiography_MM",
+      "es": "20170731_autobiography_MM",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Mauricio Mendua "
+    ],
+    "xml_file_name": "Autobiografía de MM 1.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "34752a7e-ef6e-484d-989b-ba9ec3bec17d": {
+    "timed": false,
+    "story ID": "34752a7e-ef6e-484d-989b-ba9ec3bec17d",
+    "title": {
+      "en": "Autobiography of OCQ",
+      "es": "Autobiografía de OCQ",
+      "_default": "Autobiografía de OCQ"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_autobiography_ocq",
+      "con-Latn-EC-x-borman": "20170801_autobiography_ocq",
+      "con-Latn-EC-x-dureno": "20170801_autobiography_ocq",
+      "en": "20170801_autobiography_ocq",
+      "es": "20170801_autobiography_ocq",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Shen Aguinda",
+      "Oswaldo Criollo",
+      "Jorge Mendua "
+    ],
+    "xml_file_name": "Autobiografía de OCQ.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "a7e8385a-95d3-4961-a17a-83e0ea4007cd": {
+    "timed": false,
+    "story ID": "a7e8385a-95d3-4961-a17a-83e0ea4007cd",
+    "title": {
+      "en": "Hunting and fishing",
+      "es": "Caza y pesca",
+      "_default": "Caza y pesca"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_hunting_fishing_OCQ",
+      "con-Latn-EC-x-borman": "20170801_hunting_fishing_OCQ",
+      "con-Latn-EC-x-dureno": "20170801_hunting_fishing_OCQ",
+      "en": "20170801_hunting_fishing_OCQ",
+      "es": "20170801_hunting_fishing_OCQ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Osvaldo Criollo Quenama",
+      "Jorge Mendua",
+      "Shen Aguinda"
+    ],
+    "xml_file_name": "Caza y pesca.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "8da116c7-ae65-4272-9467-e86420516d8f": {
+    "timed": false,
+    "story ID": "8da116c7-ae65-4272-9467-e86420516d8f",
+    "title": {
+      "en": "Tech development",
+      "es": "Desarrollo de tecnología",
+      "_default": "Desarrollo de tecnología"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_tech_development_arlq",
+      "con-Latn-EC-x-borman": "20170801_tech_development_arlq",
+      "con-Latn-EC-x-dureno": "20170801_tech_development_arlq",
+      "en": "20170801_tech_development_arlq",
+      "es": "20170801_tech_development_arlq",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Anita Lucitante"
+    ],
+    "xml_file_name": "Desarrollo de tecnología.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "d1b01a28-b29f-49d5-b828-2532b4c79f3c": {
+    "timed": false,
+    "story ID": "d1b01a28-b29f-49d5-b828-2532b4c79f3c",
+    "title": {
+      "con-Latn-CO": "Dyandyakhw",
+      "con-Latn-EC-x-borman": "Dyandyaccu",
+      "con-Latn-EC-x-dureno": "Dyandyakhû",
+      "en": "The headdress",
+      "es": "La corona de plumas",
+      "_default": "Dyandyakhû"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170803_dyandyaccu_LC",
+      "con-Latn-EC-x-borman": "20170803_dyandyaccu_LC",
+      "con-Latn-EC-x-dureno": "20170803_dyandyaccu_LC",
+      "en": "20170803_dyandyaccu_LC",
+      "es": "20170803_dyandyaccu_LC",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Lorenzo Criollo"
+    ],
+    "xml_file_name": "Dyandyakhû.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "1a0df17c-b00b-4b93-b712-3437a252f423": {
+    "timed": false,
+    "story ID": "1a0df17c-b00b-4b93-b712-3437a252f423",
+    "title": {
+      "en": "River contamination",
+      "es": "Contaminación del río",
+      "_default": "Contaminación del río"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_river_contamination_ARLQ",
+      "con-Latn-EC-x-borman": "20170801_river_contamination_ARLQ",
+      "con-Latn-EC-x-dureno": "20170801_river_contamination_ARLQ",
+      "en": "20170801_river_contamination_ARLQ",
+      "es": "20170801_river_contamination_ARLQ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante ",
+      "Anita Lucitante "
+    ],
+    "xml_file_name": "Contaminación del río.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "372f4048-7ce7-4ce4-b796-3cf4bfe4a99b": {
+    "timed": false,
+    "story ID": "372f4048-7ce7-4ce4-b796-3cf4bfe4a99b",
+    "title": {
+      "con-Latn-CO": "Kwikhw, chicha",
+      "con-Latn-EC-x-borman": "Cuiccu, chicha",
+      "con-Latn-EC-x-dureno": "Kûikhû, chicha",
+      "en": "Cuiccu and chicha",
+      "es": "Cuiccu y chicha",
+      "_default": "Kûikhû, chicha"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es",
+      "cof"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_cuiccu_chicha_ARLQ",
+      "con-Latn-EC-x-borman": "20170801_cuiccu_chicha_ARLQ",
+      "con-Latn-EC-x-dureno": "20170801_cuiccu_chicha_ARLQ",
+      "en": "20170801_cuiccu_chicha_ARLQ",
+      "es": "20170801_cuiccu_chicha_ARLQ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante",
+      "Ana Lucitante"
+    ],
+    "xml_file_name": "Kûikhû, chicha.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "frase en inglés": {
+        "subdivided": false
+      }
+    }
+  },
+  "bae34919-be79-45b6-8d89-8c5e8825258b": {
+    "timed": false,
+    "story ID": "bae34919-be79-45b6-8d89-8c5e8825258b",
+    "title": {
+      "con-Latn-CO": "Kuke chiste",
+      "con-Latn-EC-x-borman": "Coque chiste",
+      "con-Latn-EC-x-dureno": "Kuke chiste",
+      "en": "Hare joke",
+      "es": "Chiste sobre la liebre",
+      "_default": "Kuke chiste"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170804_kuke_chiste_FACQ",
+      "con-Latn-EC-x-borman": "20170804_kuke_chiste_FACQ",
+      "con-Latn-EC-x-dureno": "20170804_kuke_chiste_FACQ",
+      "en": "20170804_kuke_chiste_FACQ",
+      "es": "20170804_kuke_chiste_FACQ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Fausto Criollo",
+      "Jorge Mendua"
+    ],
+    "xml_file_name": "Kuke chiste.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "369d7744-ec73-40df-b4ec-a993656120f5": {
+    "timed": false,
+    "story ID": "369d7744-ec73-40df-b4ec-a993656120f5",
+    "title": {
+      "con-Latn-CO": "Kunsiana kundasepa",
+      "con-Latn-EC-x-borman": "Consiana condasepa",
+      "con-Latn-EC-x-dureno": "Kunsiana kundasepa",
+      "en": "Consiana story",
+      "es": "Historia de Consiana",
+      "_default": "Kunsiana kundasepa"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170730_kunsiana_cuento_VC2",
+      "con-Latn-EC-x-borman": "20170730_kunsiana_cuento_VC2",
+      "con-Latn-EC-x-dureno": "20170730_kunsiana_cuento_VC2",
+      "en": "20170730_kunsiana_cuento_VC2",
+      "es": "20170730_kunsiana_cuento_VC2",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Vendi Criollo",
+      "Hugo Lucitante"
+    ],
+    "xml_file_name": "Kunsiana kundasepa.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "7bd43074-74f9-4214-a126-ec80ccc63263": {
+    "timed": false,
+    "story ID": "7bd43074-74f9-4214-a126-ec80ccc63263",
+    "title": {
+      "con-Latn-CO": "Yahe 1",
+      "con-Latn-EC-x-borman": "Yaje 1",
+      "con-Latn-EC-x-dureno": "Yaje 1",
+      "en": "Yaje 1",
+      "es": "Yaje 1",
+      "_default": "Yaje 1"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170731_yaje_MM",
+      "con-Latn-EC-x-borman": "20170731_yaje_MM",
+      "con-Latn-EC-x-dureno": "20170731_yaje_MM",
+      "en": "20170731_yaje_MM",
+      "es": "20170731_yaje_MM",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Shen Aguinda",
+      "Mauricio Mendua "
+    ],
+    "xml_file_name": "Yaje 1.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      }
+    }
+  },
+  "7f27e9bf-8221-494b-8009-ec7f486999aa": {
+    "timed": false,
+    "story ID": "7f27e9bf-8221-494b-8009-ec7f486999aa",
+    "title": {
+      "con-Latn-CO": "Yaje 2",
+      "con-Latn-EC-x-borman": "Yahe 2",
+      "con-Latn-EC-x-dureno": "Yaje 2",
+      "en": "Yaje 2",
+      "es": "Yaje 2",
+      "_default": "Yaje 2"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170731_yaje2_MM",
+      "con-Latn-EC-x-borman": "20170731_yaje2_MM",
+      "con-Latn-EC-x-dureno": "20170731_yaje2_MM",
+      "en": "20170731_yaje2_MM",
+      "es": "20170731_yaje2_MM",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Shen Aguinda",
+      "Mauricio Mendua "
+    ],
+    "xml_file_name": "Yaje 2.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "04f0338a-8c4d-4399-819c-24797d68bc7c": {
+    "timed": false,
+    "story ID": "04f0338a-8c4d-4399-819c-24797d68bc7c",
+    "title": {
+      "con-Latn-CO": "Erision kundasepa",
+      "con-Latn-EC-x-borman": "Erision condasepa",
+      "con-Latn-EC-x-dureno": "Erision kundasepa",
+      "en": "Erision story",
+      "es": "Historia de Erision",
+      "_default": "Erision kundasepa"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170804_erision_cuento_FACQ",
+      "con-Latn-EC-x-borman": "20170804_erision_cuento_FACQ",
+      "con-Latn-EC-x-dureno": "20170804_erision_cuento_FACQ",
+      "en": "20170804_erision_cuento_FACQ",
+      "es": "20170804_erision_cuento_FACQ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Fausto Criollo",
+      "Jorge Criollo (Entrevistador)"
+    ],
+    "xml_file_name": "Erision kundasepa.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "5dac7879-f85b-4814-b695-bc3d3a9f195d": {
+    "timed": false,
+    "story ID": "5dac7879-f85b-4814-b695-bc3d3a9f195d",
+    "title": {
+      "en": "School",
+      "es": "Escuela",
+      "_default": "Escuela"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_escuela_CLC",
+      "con-Latn-EC-x-borman": "20170801_escuela_CLC",
+      "con-Latn-EC-x-dureno": "20170801_escuela_CLC",
+      "en": "20170801_escuela_CLC",
+      "es": "20170801_escuela_CLC",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Lucitante ",
+      "Carmensa Lucitante"
+    ],
+    "xml_file_name": "Escuela.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "b90223a9-ff73-439c-9a19-a135613ab35c": {
+    "timed": false,
+    "story ID": "b90223a9-ff73-439c-9a19-a135613ab35c",
+    "title": {
+      "con-Latn-CO": "Kuankuan kundasepa",
+      "con-Latn-EC-x-borman": "Coancoan condasepa",
+      "con-Latn-EC-x-dureno": "Kuankuan kundasepa",
+      "en": "Coancoan story",
+      "es": "Historia de Coancoan",
+      "_default": "Kuankuan kundasepa"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_kuankuan_story_OCQ_fromvideo",
+      "con-Latn-EC-x-borman": "20170801_kuankuan_story_OCQ_fromvideo",
+      "con-Latn-EC-x-dureno": "20170801_kuankuan_story_OCQ_fromvideo",
+      "en": "20170801_kuankuan_story_OCQ_fromvideo",
+      "es": "20170801_kuankuan_story_OCQ_fromvideo",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Oswaldo Criollo Quenama"
+    ],
+    "xml_file_name": "Kuankuan kundasepa.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "1327059f-a8eb-47c2-b55c-a108c43b37dd": {
+    "timed": false,
+    "story ID": "1327059f-a8eb-47c2-b55c-a108c43b37dd",
+    "title": {
+      "en": "Autobiography of ARLQ",
+      "es": "Autobiografía de ARLQ",
+      "_default": "Autobiografía de ARLQ"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170801_autobiography_ARLQ",
+      "con-Latn-EC-x-borman": "20170801_autobiography_ARLQ",
+      "con-Latn-EC-x-dureno": "20170801_autobiography_ARLQ",
+      "en": "20170801_autobiography_ARLQ",
+      "es": "20170801_autobiography_ARLQ",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Hugo Alfonso Lucitante Mendua"
+    ],
+    "xml_file_name": "Autobiografía de ARLQ.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "4b868a0a-5185-4553-b43b-e485febc0943": {
+    "timed": false,
+    "story ID": "4b868a0a-5185-4553-b43b-e485febc0943",
+    "title": {
+      "en": "Autobiography of JWC",
+      "es": "Autobiografía de JWC",
+      "_default": "Autobiografía de JWC"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170807_autobiography_JWC",
+      "con-Latn-EC-x-borman": "20170807_autobiography_JWC",
+      "con-Latn-EC-x-dureno": "20170807_autobiography_JWC",
+      "en": "20170807_autobiography_JWC",
+      "es": "20170807_autobiography_JWC",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Shen Aguinda",
+      "Jhon Wilca Criollo"
+    ],
+    "xml_file_name": "Autobiografía de JWC.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "glosa de morfema en Español": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
+  },
+  "a807dd2a-f0aa-4d54-8df5-14c9ad7727fd": {
+    "timed": false,
+    "story ID": "a807dd2a-f0aa-4d54-8df5-14c9ad7727fd",
+    "title": {
+      "con-Latn-CO": "Charapa proyecto",
+      "con-Latn-EC-x-borman": "Charapa proyecto",
+      "con-Latn-EC-x-dureno": "Charapa proyecto",
+      "en": "Charapa project",
+      "es": "Proyecto Charapa",
+      "_default": "Charapa proyecto"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman",
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es",
+      "cof"
+    ],
+    "date_created": "",
+    "date_uploaded": "10/31/2020",
+    "source": {
+      "con-Latn-CO": "20170806_charapa_proyecto_BRCA",
+      "con-Latn-EC-x-borman": "20170806_charapa_proyecto_BRCA",
+      "con-Latn-EC-x-dureno": "20170806_charapa_proyecto_BRCA",
+      "en": "20170806_charapa_proyecto_BRCA",
+      "es": "20170806_charapa_proyecto_BRCA",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Braulio R. Criollo Alvarado",
+      "Jorge Mendua"
+    ],
+    "xml_file_name": "Charapa proyecto.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      }
+    }
   }
 }

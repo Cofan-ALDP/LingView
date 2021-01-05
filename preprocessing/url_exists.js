@@ -30,7 +30,7 @@ function timeoutRetrier(asyncFn, { maxRetries = 5, retryDelay = 1000, timeout = 
 }
 
 const timeoutRetryFetch = timeoutRetrier(fetch);
-async function fetchHeadTest(url) {
+async function urlExists(url) {
   const urlEncoded = new URL(url).href; // without encoding the url, the fetch fails if the url includes any letters with diacritics
   const response = await timeoutRetryFetch(urlEncoded, { method: 'HEAD' });
   // if (!response.ok) {
@@ -39,4 +39,4 @@ async function fetchHeadTest(url) {
   return response.ok;
 }
 
-module.exports = () => fetchHeadTest;
+module.exports = () => urlExists;

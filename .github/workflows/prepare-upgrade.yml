@@ -46,42 +46,50 @@ jobs:
           git config user.name "$actor"
           git remote add upstream "https://github.com/$upstream.git"
           git fetch upstream
-          remote_head_hash=$(git rev-parse "upstream/$upstream_branch")
-          echo "::set-env name=remote_head_hash::$remote_head_hash"
+          echo "remote_head_hash=$(git rev-parse "upstream/$upstream_branch")" >> $GITHUB_ENV
           git merge --no-commit --no-ff -Xtheirs "upstream/$upstream_branch" || echo "There are unresolved merge conflicts. Make sure you resolve them before merging the pull request."
           # revert any updates in data path and build path
-          git reset -- build # build is gitignored, but sometimes changes to build cause merge conflicts anyway *shrug*
+          git reset -- build # build is gitignored, but sometimes causes merge conflicts anyway *shrug*
           git reset -- data
           git checkout -- data
-          # GitHub Actions are not allowed to create or modify workflows, so discard any workflow changes and warn about them.
-          test $(git status | grep -c workflows) -lt 1 || echo "There were workflow changes, which can't be included in the automated PR. You will need to manually update your files in .github/workflows/ to match the $upstream version."
+          # revert any updates to translated text (in LocaleConstants, LocaleSelect, About, Glossary, and Landing files)
+          git reset -- jsx/App/locale/LocaleConstants.jsx
+          git reset -- jsx/App/locale/LocaleSelect.jsx
+          git reset -- jsx/App/AboutPage.jsx
+          git reset -- jsx/App/GlossaryPage.jsx
+          git reset -- jsx/App/LandingPage.jsx
+          git checkout -- jsx/App/locale/LocaleConstants.jsx
+          git checkout -- jsx/App/locale/LocaleSelect.jsx
+          git checkout -- jsx/App/AboutPage.jsx
+          git checkout -- jsx/App/GlossaryPage.jsx
+          git checkout -- jsx/App/LandingPage.jsx
+          # warn about any workflow changes, then discard them
+          (test $(git status | grep -c workflows) -lt 1 && \
+          echo workflows_message="" >> $GITHUB_ENV) || \
+          echo workflows_message="There were workflow changes, which can't be included in the automated PR. You will need to manually update your files in .github/workflows to match the ${{ env.upstream }} version." >> $GITHUB_ENV
           git reset -- .github/workflows
           git checkout -- .github/workflows
-          # If merging fails, perform the merge on your local machine with this sequence of commands:
-          # [if you've never done it before] git remote add upstream "https://github.com/BrownCLPS/LingView.git"
-          # git pull
-          # git fetch upstream
-          # git merge --no-ff -Xtheirs upstream/master
-          # git reset -- data
-          # git checkout -- data
+          # warn about any remaining unresolved merge conflicts
+          (test $(git status | grep -c unmerged) -lt 1 &&\
+          echo conflicts_message="" >> $GITHUB_ENV) || \
+          echo conflicts_message="IMPORTANT: There are unresolved merge conflicts. Before merging this pull request, resolve them by making additional commits to the ${{ env.pr_branch }} branch." >> $GITHUB_ENV
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v2
+        uses: peter-evans/create-pull-request@v3
         with:
           commit-message: Upgrade LingView core version
           committer: GitHub <noreply@github.com>
-          author: ${{ env.actor }} <${{ env.actoremail }}>
           title: 'Upgrade LingView Core'
           body: |
             Pull request to upgrade LingView version to `${{ env.upstream_branch }}` (${{ env.remote_head_hash }}) is ready to review and merge!
             
             > I automatically ignored any changes made to the `data/` folder, so your FLEx and ELAN files will not be changed. :)
             > 
-            > When you review this, please make sure that I didn't accidentally undo any of your LingView customizations (e.g. if your `index.html` or `jsx/App/AboutPage.jsx` is different from the version at ${{ env.upstream }})!
+            > When you review this, please make sure I didn't accidentally undo any of your LingView customizations (e.g. if your `index.html` or `jsx/App/AboutPage.jsx` is different from the version at `${{ env.upstream }}`)!
             > 
-            > Please also check for merge conflicts (indicated by `>>>`, `===`, and `<<<` on the files changed tab). If you find any, make sure you fix them before merging this pull request. To fix anything in this pull request, just push additional commits to the ${{ env.pr_branch }} branch.
-            >
-            > I ignored any changes made to the `.github/workflows` folder because, since I'm just a bot, I'm not allowed to change those files. You can update your workflow files by replacing them with the version at ${{ env.upstream }}/${{ env.upstream_branch }}.
-            
+            > ${{ env.conflicts_message }} 
+            > 
+            > ${{ env.workflows_message }}
+
             _Auto-generated by [create-pull-request][1]_
 
             [1]: https://github.com/peter-evans/create-pull-request

@@ -2,11 +2,14 @@ import React from 'react';
 // import id from 'shortid';
 // import { Link } from 'react-router-dom';
 // import ReactDOMServer from 'react-dom/server';
+import { TranslatableText } from './locale/TranslatableText.jsx';
+import { indexPageTitleHeaderText, indexPageAuthorHeaderText, indexPageMediaHeaderText } from './locale/LocaleConstants.jsx';
 
 require('datatables.net-dt');
 import 'datatables.net-dt/css/jquery.dataTables.css';
 
 export class StoryIndex extends React.Component {
+
     async componentDidMount() {
         const index = (await import('~./data/index.json')).default;
         let storyList = [];
@@ -45,24 +48,14 @@ export class StoryIndex extends React.Component {
                 // React Router link:
                 const link = `<a href='#/story/${index[story]['story ID']}'>${mainTitle}</a>`;
 
-                const speakers = index[story]['speakers'].join(', ').trim();
-                const dateCreated = index[story]['date_created'];
-                
-                storyList.push([link, translatedTitle, speakers, index[story]['author'], dateCreated, timed]);
+                storyList.push([link, index[story]['author'], timed]);
             }
         }
 
         $(document).ready(function() {
             $('#indexTable').DataTable( {
                 data: storyList,
-                columns: [
-                    { title: "Title (A'ingae)" },
-                    { title: "Title (English)" },
-                    { title: "Speakers" },
-                    { title: "Author" },
-                    { title: "Date" },
-                    { title: "Media" }
-                ],
+                columns: [ {}, {}, {} ],
                 scrollY: '75vh',
                 scrollCollapse: true,
                 paging: false
@@ -74,7 +67,15 @@ export class StoryIndex extends React.Component {
     render() {
         return (
             <div id="index">
-                <table id="indexTable"></table>
+                <table id="indexTable">
+                  <thead>
+                    <tr>
+                        <th><TranslatableText dictionary={indexPageTitleHeaderText} /></th>
+                        <th><TranslatableText dictionary={indexPageAuthorHeaderText} /></th>
+                        <th><TranslatableText dictionary={indexPageMediaHeaderText} /></th>
+                    </tr>
+                  </thead>
+                </table>
             </div>
         );
     }

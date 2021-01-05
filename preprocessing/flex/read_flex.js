@@ -1,6 +1,10 @@
 /* functions for accessing data within FLEx's Verifiable Generic XML and .flextext formats 
 (after they've been parsed to JSON): */
 
+function getDocumentID(doc) {
+  return doc.$.guid;
+}
+
 function getDocumentSourceLang(doc) {
   const firstSentence = getDocumentFirstSentence(doc);
   const firstWord = getSentenceWords(firstSentence)[0];
@@ -132,27 +136,43 @@ function getWordMorphs(word) {
   return word.morphemes[0].morph;
 }
 
-function getWordValue(word) {
-  return word.item[0]._;
-}
-
 function getWordLang(word) {
   return word.item[0].$.lang;
 }
 
-function getMorphTiers(morph) {
-  return morph.item;
+function getWordType(word) {
+  return word.item[0].$.type;
+}
+
+function getWordValue(word) {
+  return word.item[0]._;
 }
 
 function getMorphPartOfSpeech(morph) {
-  if (morph.$ == null) { // TODO I have no idea why this happens sometimes but it does
+  if (morph.$ == null) { // I have no idea why this happens sometimes but it does
     return null;
   }
   return morph.$.type;
 }
 
-function getMorphTierValue(morphTier) {
-  return morphTier._;
+function getTiers(morph) {
+  return morph.item;
+}
+
+function getTierLang(tier) {
+  return tier.$.lang;
+}
+
+function getTierType(tier) {
+  return tier.$.type;
+}
+
+function getTierValue(tier) {
+  return tier._;
+}
+
+function getFreeGlossLang(freeGloss) {
+  return freeGloss.$.lang
 }
 
 function getFreeGlossValue(freeGloss) {
@@ -160,6 +180,7 @@ function getFreeGlossValue(freeGloss) {
 }
 
 module.exports = {
+  getDocumentID: getDocumentID,
   getDocumentSourceLang: getDocumentSourceLang,
   documentHasTimestamps: documentHasTimestamps,
   getDocumentParagraphs: getDocumentParagraphs,
@@ -171,9 +192,13 @@ module.exports = {
   getSentenceSpeaker: getSentenceSpeaker,
   getSentenceWords: getSentenceWords,
   getWordMorphs: getWordMorphs,
+  getWordType: getWordType,
   getWordValue: getWordValue,
-  getMorphTiers: getMorphTiers,
   getMorphPartOfSpeech: getMorphPartOfSpeech,
-  getMorphTierValue: getMorphTierValue,
+  getTiers: getTiers,
+  getTierLang: getTierLang,
+  getTierType: getTierType,
+  getTierValue: getTierValue,
+  getFreeGlossLang: getFreeGlossLang,
   getFreeGlossValue: getFreeGlossValue,
 };

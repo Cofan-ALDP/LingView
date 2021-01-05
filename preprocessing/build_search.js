@@ -1,16 +1,13 @@
-// const fs = require('fs');
 const path = require('path');
 
 function buildSearch(jsonFileNames) {
-    // const jsonFileNames = fs.readdirSync(path.resolve(__dirname, "..", "data/json_files"));
-    // const searchFileName = "data/search_index.json";
-    
+
     // Concatenate sentences from each story together
     let sentences = [];
     let tierNames = new Set(); // the set of tier checkboxes that will be displayed on the Search page
     for (const jsonFileName of jsonFileNames) {
         const jsonPath = "data/json_files/" + jsonFileName;
-        const f = require(path.resolve(__dirname, '../' + jsonPath)); // JSON.parse(fs.readFileSync(jsonPath))
+        const f = require(path.resolve(__dirname, '../' + jsonPath));
         const storyID = f.metadata["story ID"];
         const title = f.metadata["title"]["_default"];
         const newSentences = f["sentences"];
@@ -30,8 +27,10 @@ function buildSearch(jsonFileNames) {
           "story ID" : sentence["story ID"],
           "title" : sentence["title"],
           "start_time_ms" : sentence["start_time_ms"],
+          "sentence_id" : sentence["sentence_id"], 
           "dependents" : {}
         };
+
         // Top level line not included in sentence.dependents so it has to be handled separately
         const topTierName = sentence.tier; // defined for ELAN, undefined for FLEx
         if (topTierName != null) {
