@@ -2,6 +2,6 @@ import React from 'react';
 
 export function NotFound() {
   return (
-      <p>Publications page not found.</p>
+      <p>Materials page not found.</p>
   );
 }

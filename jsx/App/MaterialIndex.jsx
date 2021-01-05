@@ -45,7 +45,7 @@ export class MaterialIndex extends React.Component {
                 <Switch>
                     <Route
                         key={-1}
-                        exact path="/publications"
+                        exact path="/materials"
                         render={_ => (
                             <div>
                                 {/* <ChooseCategory categories={this.state.materialsCategories} /> */}
@@ -57,7 +57,7 @@ export class MaterialIndex extends React.Component {
                     {this.state.materialsCategories && this.state.materialsCategories.map((category, i) => (
                         <Route
                             key={i}
-                            exact path={`/publications/${category}`}
+                            exact path={`/materials/${category}`}
                             render={_ =>
                                 <CategoryView
                                     category={category}
@@ -107,7 +107,7 @@ function ChooseCategory({ categories }) {
                 <h2>View by Category</h2>
                 <ul className="tag-grid">
                     {categories && categories.map((category, i) => (
-                        <a href={`#/publications/${category}`} key={i}>
+                        <a href={`#/materials/${category}`} key={i}>
                             <Tag text={category} />
                         </a>
                     ))}
@@ -124,13 +124,13 @@ function CategoryView({ category, items }) {
                 <h2>Viewing by Category: <Tag text={category} /></h2>
                 {items &&
                     <p>Showing {items.length} item{items.length == 1 || 's'} in the chosen category. To view a work below, click on its title or image preview.</p>}
-                <a href="#/publications/">Go back</a>
+                <a href="#/materials/">Go back</a>
             </header>
             <div className="material-card-grid">
                 {items.map((materialInfo, j) => <MaterialCard key={j} metadata={materialInfo} />)}
             </div>
             <footer>
-                <a href="#/publications/">Go back</a>
+                <a href="#/materials/">Go back</a>
             </footer>
         </article>
     );
