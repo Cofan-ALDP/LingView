@@ -4,6 +4,7 @@ import { AboutPage } from "./AboutPage.jsx";
 import { LandingPage } from "./LandingPage.jsx";
 import { GlossaryPage } from "./GlossaryPage.jsx";
 import { ResourcesPage } from "./ResourcesPage.jsx";
+import { MaterialIndex } from "./MaterialIndex.jsx";
 import { StoryIndex } from "./StoryIndex.jsx";
 import { Search } from "./Search.jsx";
 import { Stories } from "./Stories/Stories.jsx";
@@ -68,7 +69,7 @@ export function Header() {
           <ResourcesPage />
         </Route>
         <Route path="/materials">
-          <ResourcesPage />
+          <MaterialIndex />
         </Route>
         <Route exact path="/glossary">
           <GlossaryPage />
