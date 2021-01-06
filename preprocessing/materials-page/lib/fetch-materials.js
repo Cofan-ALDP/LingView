@@ -1,7 +1,7 @@
 const { resolve, join, relative } = require('path');
 const { promises: { mkdir, stat } } = require('fs');
 const gm = require('gm');
-const syncFetchHeadTest = require('sync-rpc')(require.resolve('../../fetch_head_test'));
+const syncFetchHeadTest = require('sync-rpc')(require.resolve('../../url_exists'));
 const fetch = require('isomorphic-fetch');
 
 const Airtable = require('airtable');
