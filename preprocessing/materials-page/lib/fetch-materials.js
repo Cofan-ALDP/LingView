@@ -1,15 +1,17 @@
 const { resolve, join, relative } = require('path');
 const { promises: { mkdir, stat } } = require('fs');
 const gm = require('gm');
-const syncFetchHeadTest = require('sync-rpc')(require.resolve('../../url_exists'));
+const urlExists = require('../../url_exists')();
 const fetch = require('isomorphic-fetch');
-
 const Airtable = require('airtable');
-const AIRTABLE_API_KEY = ""; // never commit the real value for this!
-const AIRTABLE_BASE_ID = "appzdu4UrBFMoG7Rl";
 
 const labServerMaterialsDirectoryUrl = "file://files.brown.edu/Research/CLPS_AnderBois_Lab/Literature/All%20things%20A'ingae/";
 const materialsDirectoryUrl = "https://cds.library.brown.edu/projects/kofan/Materials/";
+
+// Note: the thumbnail stuff doesn't work unless additional programs are installed. 
+// require('gm') isn't enough; you also need to install GraphicsMagick, and also ImageMagick, 
+// and while you're installing ImageMagick you need to check a box to include legacy functions like "convert". 
+// There may be additional configuration needed too; I (Kalinda) never fully got it working. 
 
 function checkPathExists(path) {
   return stat(path).then(info => info.isFile() || info.isDirectory());
@@ -23,7 +25,7 @@ const md = require('markdown-it')({
 });
 
 module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
-  const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(AIRTABLE_BASE_ID);
+  const base = new Airtable({apiKey: process.env.AIRTABLE_API_KEY}).base(process.env.AIRTABLE_BASE_ID);
   return new Promise((res, rej) => {
     const resourceRecords = [];
     base('Works').select({
@@ -49,7 +51,10 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
         const year = typeof yearRaw === "string" ? yearRaw : (yearRaw ? yearRaw[0] : undefined);
         const descriptionHTML = descriptionMarkdown ? md.render(descriptionMarkdown) : '';
         const isCurated = curatedFlag === true;
-        const itemServerUrl = itemLabServerUrl.replace(labServerMaterialsDirectoryUrl, materialsDirectoryUrl);
+        const itemServerUrl = itemLabServerUrl.replace(labServerMaterialsDirectoryUrl, materialsDirectoryUrl); // FIXME doesn't always happen
+				if (itemServerUrl.substring(0, 1) !== "h") {
+					console.log(itemServerUrl);
+				}
         const extractedRecord = { title, credits, year, descriptionHTML, categories, type, isCurated, itemServerUrl };
         resourceRecords.push(extractedRecord);
       });
@@ -65,35 +70,45 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
   });
 }
 
-// calls syncFetchHeadTest(itemServerUrl)
+// calls urlExists(itemServerUrl)
 // returns [{itemServerUrl1: itemServerUrl1, ...}]
 // Note: for directories, the library server returns a 403 Forbidden status.
 // We should ask the library server admins to change this so users can browse those directories.
 // For now, let's consider those URLs invalid and exclude them.
-module.exports.validateMaterialsFiles = function validateMaterialsFiles(resourceRecords) {
+module.exports.validateMaterialsFiles = async function validateMaterialsFiles(resourceRecords) {
   if (process.env.METADATA_ONLY) {
     console.log('Performing fake publication materials fetch as requested. No file/folder url validation will be done.');
   }
-  let recordsLeft = resourceRecords.length;
-  return Promise.all(resourceRecords.map((record) => {
-    const { itemServerUrl, ...restRecord } = record;
+	// put the recordsLeft number inside a dictionary so that can be shared across function calls
+  let recordsLeft = {value: resourceRecords.length}; 
+  return await Promise.all(resourceRecords.map((record) => validateRecord(record, recordsLeft)));
+}
+
+function validateRecord(record, recordsLeft) {
+	console.log("creating new validateRecord promise, recordsLeft = " + recordsLeft);
+	return new Promise((resolve, reject) => {
+		const { itemServerUrl, ...restRecord } = record;
+		let validatedUrl = '';
     if (itemServerUrl) {
-      let remoteUrlHeadSuccess;
-      try {
-        remoteUrlHeadSuccess = syncFetchHeadTest(itemServerUrl); // TODO let it be async
-      } catch (err) {
-        console.warn(`Error downloading resource file: ${itemServerUrl}`, record, err);
-      }
-      const validatedUrl = remoteUrlHeadSuccess ? itemServerUrl : '';
-      return Promise.resolve({ itemServerUrl: validatedUrl, ...restRecord })
-          .finally(() => {
-            console.info('Records left to validate:', --recordsLeft);
-          });
+			urlExists(itemServerUrl).then((ok) => {
+				if (ok) {
+					validatedUrl = itemServerUrl;
+				}
+				console.log("then");
+			}).catch((err) => {
+				console.warn(`Error downloading resource file: ${itemServerUrl}`, record, err)
+			}).finally((info) => {
+				console.info('Records left to validate:', recordsLeft.value--);
+				return resolve({ itemServerUrl: validatedUrl, ...restRecord });
+			});
+			// FIXME this happens:
+			// Error downloading resource file: file://files.brown.edu/Research/CLPS_AnderBois_Lab/Literature/All things A'ingae/Enma Chica disco duro/500/Isamis,Borman/Historia Sínodo original.doc
+			// why files.brown not cds?
     } else {
       console.info('Records left to validate:', --recordsLeft);
-      return Promise.resolve({ itemServerUrl: '', ...restRecord });
+      return resolve({ itemServerUrl: '', ...restRecord });
     }
-  }));
+	});
 }
 
 const { thumbnailProperties } = require('../shared');
