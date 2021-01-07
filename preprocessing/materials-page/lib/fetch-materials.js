@@ -31,7 +31,7 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
     base('Works').select({
       filterByFormula: 'AND(NOT({Private?} = "true"), NOT({LV item} = BLANK()))',
       sort: [{field: 'Year', direction: 'desc'}],
-      maxRecords: 5, // TEMP
+      maxRecords: 2, // TEMP
     }).eachPage(function page(records, fetchNextPage) {
       records.forEach((record) => {
         if (!record.fields['Item'].includes(record.fields['LV item'][0])) {
@@ -53,7 +53,7 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
         const isCurated = curatedFlag === true;
         const itemServerUrl = itemLabServerUrl.replace(labServerMaterialsDirectoryUrl, materialsDirectoryUrl); // FIXME doesn't always happen
 				if (itemServerUrl.substring(0, 1) !== "h") {
-					console.log(itemServerUrl);
+					console.warn("Failed to replace lab server URL with equivalent library server URL: " + itemServerUrl);
 				}
         const extractedRecord = { title, credits, year, descriptionHTML, categories, type, isCurated, itemServerUrl };
         resourceRecords.push(extractedRecord);
@@ -71,21 +71,22 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
 }
 
 // calls urlExists(itemServerUrl)
-// returns [{itemServerUrl1: itemServerUrl1, ...}]
-// Note: for directories, the library server returns a 403 Forbidden status.
-// We should ask the library server admins to change this so users can browse those directories.
-// For now, let's consider those URLs invalid and exclude them.
+// returns the same list of records as the input, except with invalid itemServerUrls set to ''
+// Note: for directories, the library server returns a 403 Forbidden status,
+// and the library admins are unwilling to change this.
+// We should make index.html pages in each directory that link to the directory's contents,
+// in order to make the directories browsable. 
+// Until that's done, let's consider those URLs invalid and exclude them.
 module.exports.validateMaterialsFiles = async function validateMaterialsFiles(resourceRecords) {
   if (process.env.METADATA_ONLY) {
     console.log('Performing fake publication materials fetch as requested. No file/folder url validation will be done.');
   }
-	// put the recordsLeft number inside a dictionary so that can be shared across function calls
+	// put the recordsLeft number inside a dictionary so it can be shared across function calls
   let recordsLeft = {value: resourceRecords.length}; 
   return await Promise.all(resourceRecords.map((record) => validateRecord(record, recordsLeft)));
 }
 
 function validateRecord(record, recordsLeft) {
-	console.log("creating new validateRecord promise, recordsLeft = " + recordsLeft);
 	return new Promise((resolve, reject) => {
 		const { itemServerUrl, ...restRecord } = record;
 		let validatedUrl = '';
@@ -101,9 +102,6 @@ function validateRecord(record, recordsLeft) {
 				console.info('Records left to validate:', recordsLeft.value--);
 				return resolve({ itemServerUrl: validatedUrl, ...restRecord });
 			});
-			// FIXME this happens:
-			// Error downloading resource file: file://files.brown.edu/Research/CLPS_AnderBois_Lab/Literature/All things A'ingae/Enma Chica disco duro/500/Isamis,Borman/Historia Sínodo original.doc
-			// why files.brown not cds?
     } else {
       console.info('Records left to validate:', --recordsLeft);
       return resolve({ itemServerUrl: '', ...restRecord });
@@ -142,7 +140,7 @@ module.exports.generateThumbnails = function generateThumbnails(resourceRecords)
             await new Promise((resolve, reject) => {
 							fetch(itemServerUrl)
 								.then(response => {
-									console.log(response); // TEMP
+									// console.log(response); // TEMP
 									if (response.status >= 400) {
 										throw new Error("Bad response from server");
 									}
