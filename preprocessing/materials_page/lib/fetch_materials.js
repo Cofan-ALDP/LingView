@@ -27,7 +27,7 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
     base('Works').select({
       filterByFormula: 'AND(NOT({Private?} = "true"), NOT({LV item} = BLANK()))',
       sort: [{field: 'Year', direction: 'desc'}],
-      maxRecords: 10, // TEMP
+      // maxRecords: 10, // TEMP
     }).eachPage(function page(records, fetchNextPage) {
       records.forEach((record) => {
         if (!record.fields['Item'].includes(record.fields['LV item'][0])) {

@@ -1,4 +1,4 @@
-const { fetchMaterialsMetadata, validateMaterialsFiles } = require('./lib/fetch-materials');
+const { fetchMaterialsMetadata, validateMaterialsFiles } = require('./lib/fetch_materials');
 const { promises: { writeFile } } = require('fs');
 const { resolve } = require('path');
 
@@ -6,7 +6,7 @@ const newDatabaseDest = 'data/materials_index.json';
 const newDatabaseDestAbs = resolve(__dirname, '..', '..', newDatabaseDest);
 module.exports = { newDatabaseDestAbs };
 
-module.exports.rebuildMaterialsPage = async function rebuild() {
+module.exports.buildMaterials = async function buildMaterials() {
 	try {
 		console.log("Fetching materials...");
 		let records = await fetchMaterialsMetadata();
@@ -21,7 +21,7 @@ module.exports.rebuildMaterialsPage = async function rebuild() {
 }
 
 if (require.main === module) {
-  rebuild();
+  buildMaterials();
 }
 
 // Steps of the build process (should be documented more formally):

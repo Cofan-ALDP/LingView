@@ -4,6 +4,7 @@ const path = require('path');
 const buildFlex = require('./flex/flex_to_json').preprocessDir;
 const buildElan = require('./elan/elan_to_json').preprocessDir;
 const buildSearch = require('./build_search').buildSearch;
+const buildMaterials = require('./materials_page/build_materials').buildMaterials;
 
 const flexFilesDir = "data/flex_files/";
 const elanFilesDir = "data/elan_files/";
@@ -70,6 +71,9 @@ Promise.all([
 })
 .then(() => {
   console.log('Successfully built and wrote search index.')
+})
+.then(() => {
+  buildMaterials();
 })
 .catch((err) => {
   console.error('Error encountered in rebuild script:');
