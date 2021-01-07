@@ -6,7 +6,7 @@ const newDatabaseDest = 'data/materials_index.json';
 const newDatabaseDestAbs = resolve(__dirname, '..', '..', newDatabaseDest);
 module.exports = { newDatabaseDestAbs };
 
-async function rebuild() {
+module.exports.rebuildMaterialsPage = async function rebuild() {
 	try {
 		console.log("Fetching materials...");
 		let records = await fetchMaterialsMetadata();
