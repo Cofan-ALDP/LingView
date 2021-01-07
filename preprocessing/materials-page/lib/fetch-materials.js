@@ -5,7 +5,9 @@ const urlExists = require('../../url_exists')();
 const fetch = require('isomorphic-fetch');
 const Airtable = require('airtable');
 
+// both versions of the lab server URL are currently in use for different items
 const labServerMaterialsDirectoryUrl = "file://files.brown.edu/Research/CLPS_AnderBois_Lab/Literature/All%20things%20A'ingae/";
+const labServerMaterialsDirectoryUrl2 = "file://files.brown.edu/Research/CLPS_AnderBois_Lab/Literature/All things A'ingae/";
 const materialsDirectoryUrl = "https://cds.library.brown.edu/projects/kofan/Materials/";
 
 // Note: the thumbnail stuff doesn't work unless additional programs are installed. 
@@ -51,9 +53,16 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
         const year = typeof yearRaw === "string" ? yearRaw : (yearRaw ? yearRaw[0] : undefined);
         const descriptionHTML = descriptionMarkdown ? md.render(descriptionMarkdown) : '';
         const isCurated = curatedFlag === true;
-        const itemServerUrl = itemLabServerUrl.replace(labServerMaterialsDirectoryUrl, materialsDirectoryUrl); // FIXME doesn't always happen
-				if (itemServerUrl.substring(0, 1) !== "h") {
-					console.warn("Failed to replace lab server URL with equivalent library server URL: " + itemServerUrl);
+        let itemServerUrl = itemLabServerUrl.replace(
+						labServerMaterialsDirectoryUrl, materialsDirectoryUrl
+					).replace(
+						labServerMaterialsDirectoryUrl2, materialsDirectoryUrl
+					);
+				if (itemServerUrl.substring(0, 4) !== "http") {
+					console.warn("Lab server URL had unexpected formatting and can't be used: " + itemServerUrl);
+					// replace URL with empty string so that we never try to validate a "file://" url, 
+					// which would cause node-fetch to throw an error
+					itemServerUrl = '';
 				}
         const extractedRecord = { title, credits, year, descriptionHTML, categories, type, isCurated, itemServerUrl };
         resourceRecords.push(extractedRecord);
@@ -78,9 +87,6 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
 // in order to make the directories browsable. 
 // Until that's done, let's consider those URLs invalid and exclude them.
 module.exports.validateMaterialsFiles = async function validateMaterialsFiles(resourceRecords) {
-  if (process.env.METADATA_ONLY) {
-    console.log('Performing fake publication materials fetch as requested. No file/folder url validation will be done.');
-  }
 	// put the recordsLeft number inside a dictionary so it can be shared across function calls
   let recordsLeft = {value: resourceRecords.length}; 
   return await Promise.all(resourceRecords.map((record) => validateRecord(record, recordsLeft)));
@@ -95,7 +101,6 @@ function validateRecord(record, recordsLeft) {
 				if (ok) {
 					validatedUrl = itemServerUrl;
 				}
-				console.log("then");
 			}).catch((err) => {
 				console.warn(`Error downloading resource file: ${itemServerUrl}`, record, err)
 			}).finally((info) => {
@@ -103,7 +108,7 @@ function validateRecord(record, recordsLeft) {
 				return resolve({ itemServerUrl: validatedUrl, ...restRecord });
 			});
     } else {
-      console.info('Records left to validate:', --recordsLeft);
+      console.info('Records left to validate:', recordsLeft.value--);
       return resolve({ itemServerUrl: '', ...restRecord });
     }
 	});
