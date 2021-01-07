@@ -8,11 +8,11 @@ module.exports = { newDatabaseDestAbs };
 
 async function rebuild() {
 	try {
-		console.log("fetching materials...");
+		console.log("Fetching materials...");
 		let records = await fetchMaterialsMetadata();
-		console.log("validating urls...");
+		console.log("Validating urls...");
 		records = await validateMaterialsFiles(records);
-		console.log("updating the materials index...");
+		console.log("Updating the materials index...");
 		records = await writeFile(newDatabaseDestAbs, JSON.stringify(records, null, 2), 'utf8').then(() => records);
 		console.log('Done.', records.length, 'publication materials loaded,', records.filter(r => r.itemServerUrl).length, 'with a file/folder.')
 	} catch (err) {
