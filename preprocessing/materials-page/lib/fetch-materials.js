@@ -33,7 +33,7 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
     base('Works').select({
       filterByFormula: 'AND(NOT({Private?} = "true"), NOT({LV item} = BLANK()))',
       sort: [{field: 'Year', direction: 'desc'}],
-      maxRecords: 2, // TEMP
+      maxRecords: 10, // TEMP
     }).eachPage(function page(records, fetchNextPage) {
       records.forEach((record) => {
         if (!record.fields['Item'].includes(record.fields['LV item'][0])) {
@@ -53,6 +53,7 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
         const year = typeof yearRaw === "string" ? yearRaw : (yearRaw ? yearRaw[0] : undefined);
         const descriptionHTML = descriptionMarkdown ? md.render(descriptionMarkdown) : '';
         const isCurated = curatedFlag === true;
+				
         let itemServerUrl = itemLabServerUrl.replace(
 						labServerMaterialsDirectoryUrl, materialsDirectoryUrl
 					).replace(
@@ -64,6 +65,7 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
 					// which would cause node-fetch to throw an error
 					itemServerUrl = '';
 				}
+				
         const extractedRecord = { title, credits, year, descriptionHTML, categories, type, isCurated, itemServerUrl };
         resourceRecords.push(extractedRecord);
       });
