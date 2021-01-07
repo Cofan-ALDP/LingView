@@ -1,6 +1,5 @@
 const { resolve, join, relative } = require('path');
 const { promises: { mkdir, stat } } = require('fs');
-const gm = require('gm');
 const urlExists = require('../../url_exists')();
 const fetch = require('isomorphic-fetch');
 const Airtable = require('airtable');
@@ -9,11 +8,6 @@ const Airtable = require('airtable');
 const labServerMaterialsDirectoryUrl = "file://files.brown.edu/Research/CLPS_AnderBois_Lab/Literature/All%20things%20A'ingae/";
 const labServerMaterialsDirectoryUrl2 = "file://files.brown.edu/Research/CLPS_AnderBois_Lab/Literature/All things A'ingae/";
 const materialsDirectoryUrl = "https://cds.library.brown.edu/projects/kofan/Materials/";
-
-// Note: the thumbnail stuff doesn't work unless additional programs are installed. 
-// require('gm') isn't enough; you also need to install GraphicsMagick, and also ImageMagick, 
-// and while you're installing ImageMagick you need to check a box to include legacy functions like "convert". 
-// There may be additional configuration needed too; I (Kalinda) never fully got it working. 
 
 function checkPathExists(path) {
   return stat(path).then(info => info.isFile() || info.isDirectory());
@@ -114,63 +108,4 @@ function validateRecord(record, recordsLeft) {
       return resolve({ itemServerUrl: '', ...restRecord });
     }
 	});
-}
-
-const { thumbnailProperties } = require('../shared');
-
-// returns { thumbnailImageUrl1: relative(baseDir, destPath1), ...}
-// needs to be modified to use non-downloaded library server PDFs
-module.exports.generateThumbnails = function generateThumbnails(resourceRecords) {
-  const baseDir = resolve(__dirname, '..', '..', '..');
-  const destDir = join(baseDir, 'data', 'saved-materials-thumbs');
-
-  let recordsLeft = resourceRecords.length;
-  return mkdir(destDir, { recursive: true })
-    .then(() =>
-      Promise.all(resourceRecords.map(async (record) => {
-        try {
-          const { itemServerUrl } = record;
-
-          if (!itemServerUrl || !itemServerUrl.toLowerCase().endsWith('.pdf')) { // note: only pdfs are handled right now
-            return { thumbnailImageUrl: '', ...record };
-          }
-          
-          // TODO needs updating
-          const destName = relative(baseDir, itemServerUrl).replace(/\//g, '-').replace(/\.pdf$/i, '.jpg');
-          const destPath = join(destDir, destName);
-
-          if (process.env.NEWONLY && await checkPathExists(destPath)) {
-            return { thumbnailImageUrl: '', ...record };
-          }
-
-          try {
-            await new Promise((resolve, reject) => {
-							fetch(itemServerUrl)
-								.then(response => {
-									// console.log(response); // TEMP
-									if (response.status >= 400) {
-										throw new Error("Bad response from server");
-									}
-									// credit: https://stackoverflow.com/questions/51033963/thumbnail-the-first-page-of-a-pdf-from-a-stream-in-graphicsmagick
-									gm(response.body)
-										.selectFrame(0)
-										.background(thumbnailProperties.backgroundColor)
-										.flatten()
-										.resize(thumbnailProperties.width, thumbnailProperties.height)
-										.write(destPath, (err, result) => {
-											if (err) return reject(err);
-											resolve(result);
-										});
-								});
-            });
-            return { thumbnailImageUrl: relative(baseDir, destPath), ...record };
-          } catch (err) {
-            console.warn(`Error creating thumbnail for: ${itemServerUrl}`, /* record, */ err);
-            return { thumbnailImageUrl: '', ...record };
-          }
-        } finally {
-          console.info('Records left to process:', --recordsLeft);
-        }
-      }))
-    );
 }
