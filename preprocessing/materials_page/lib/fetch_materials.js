@@ -35,7 +35,7 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
         }
         const {
           ['Title']: title,
-          ['Credit First Last Names']: credits, // [creditString],
+          ['Credit First Last Names']: credits,
           ['Year']: yearRaw,
           ['Description']: descriptionMarkdown,
           ['Category']: categories,
@@ -43,23 +43,22 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
           ['LV curated?']: curatedFlag,
           ['LV Item Server']: [itemLabServerUrl] = '',
         } = record.fields;
-        // const credits = (creditString || '').split(',').map(s => s.trim());
         const year = typeof yearRaw === "string" ? yearRaw : (yearRaw ? yearRaw[0] : undefined);
         const descriptionHTML = descriptionMarkdown ? md.render(descriptionMarkdown) : '';
         const isCurated = curatedFlag === true;
-				
+        
         let itemServerUrl = itemLabServerUrl.replace(
-						labServerMaterialsDirectoryUrl, materialsDirectoryUrl
-					).replace(
-						labServerMaterialsDirectoryUrl2, materialsDirectoryUrl
-					);
-				if (itemServerUrl.substring(0, 4) !== "http") {
-					console.warn("Lab server URL had unexpected formatting and can't be used: " + itemServerUrl);
-					// replace URL with empty string so that we never try to validate a "file://" url, 
-					// which would cause node-fetch to throw an error
-					itemServerUrl = '';
-				}
-				
+            labServerMaterialsDirectoryUrl, materialsDirectoryUrl
+          ).replace(
+            labServerMaterialsDirectoryUrl2, materialsDirectoryUrl
+          );
+        if (itemServerUrl.substring(0, 4) !== "http") {
+          console.warn("Lab server URL had unexpected formatting and can't be used: " + itemServerUrl);
+          // replace URL with empty string so that we never try to validate a "file://" url, 
+          // which would cause node-fetch to throw an error
+          itemServerUrl = '';
+        }
+        
         const extractedRecord = { title, credits, year, descriptionHTML, categories, type, isCurated, itemServerUrl };
         resourceRecords.push(extractedRecord);
       });
@@ -83,29 +82,29 @@ module.exports.fetchMaterialsMetadata = function fetchMaterialsMetadata() {
 // in order to make the directories browsable. 
 // Until that's done, let's consider those URLs invalid and exclude them.
 module.exports.validateMaterialsFiles = async function validateMaterialsFiles(resourceRecords) {
-	// put the recordsLeft number inside a dictionary so it can be shared across function calls
+  // put the recordsLeft number inside a dictionary so it can be shared across function calls
   let recordsLeft = {value: resourceRecords.length}; 
   return await Promise.all(resourceRecords.map((record) => validateRecord(record, recordsLeft)));
 }
 
 function validateRecord(record, recordsLeft) {
-	return new Promise((resolve, reject) => {
-		const { itemServerUrl, ...restRecord } = record;
-		let validatedUrl = '';
+  return new Promise((resolve, reject) => {
+    const { itemServerUrl, ...restRecord } = record;
+    let validatedUrl = '';
     if (itemServerUrl) {
-			urlExists(itemServerUrl).then((ok) => {
-				if (ok) {
-					validatedUrl = itemServerUrl;
-				}
-			}).catch((err) => {
-				console.warn(`Error downloading resource file: ${itemServerUrl}`, record, err)
-			}).finally((info) => {
-				console.info('Records left to validate:', recordsLeft.value--);
-				return resolve({ itemServerUrl: validatedUrl, ...restRecord });
-			});
+      urlExists(itemServerUrl).then((ok) => {
+        if (ok) {
+          validatedUrl = itemServerUrl;
+        }
+      }).catch((err) => {
+        console.warn(`Error downloading resource file: ${itemServerUrl}`, record, err)
+      }).finally((info) => {
+        console.info('Records left to validate:', recordsLeft.value--);
+        return resolve({ itemServerUrl: validatedUrl, ...restRecord });
+      });
     } else {
       console.info('Records left to validate:', recordsLeft.value--);
       return resolve({ itemServerUrl: '', ...restRecord });
     }
-	});
+  });
 }

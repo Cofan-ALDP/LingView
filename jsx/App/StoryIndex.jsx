@@ -23,17 +23,6 @@ export class StoryIndex extends React.Component {
                     mainTitle = index[story]['title']['_default'];
                 }
 
-                /////////////////////
-                // Translated Title
-                /////////////////////
-                let translatedTitle = '';
-                if (index[story]['title'].hasOwnProperty('es') && index[story]['title']['es'] != '') {
-                    translatedTitle = index[story]['title']['es'];
-                }
-                if (index[story]['title'].hasOwnProperty('en') && index[story]['title']['en'] != '') {
-                    translatedTitle = index[story]['title']['en'];
-                }
-
                 let timed = '';
                 if (index[story]['timed']) {
                     if (index[story]['media']['audio'] != '') {

@@ -76,8 +76,8 @@ export const chooseCategoryPrompt = {
 };
 
 export const materialsLinkInstructions = {
-	[ENGLISH]: "To view a work below, click on its title or image preview.",
-	[ESPANOL]: "Para ver una obra a continuación, haga clic en su título o en la imagen.",
+	[ENGLISH]: "To view a work below, click on its title.",
+	[ESPANOL]: "Para ver una obra a continuación, haga clic en su título.",
 };
 
 // Click the link with this text to return to the Materials page index.

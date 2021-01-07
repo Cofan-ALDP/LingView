@@ -4,6 +4,6 @@ import { materialsPageNotFound } from '../locale/LocaleConstants.jsx';
 
 export function NotFound() {
   return (
-      <p><TranslatableText dictionary={materialsPageNotFound} /></p>
+    <p><TranslatableText dictionary={materialsPageNotFound} /></p>
   );
 }

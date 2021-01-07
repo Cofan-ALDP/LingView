@@ -21,11 +21,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Generate Publications thumbnails
-      run: |
-        brew install graphicsmagick ghostscript
-        node preprocessing/materials-page/generate-thumbnails.js
-
     - name: Build online version
       run: |
         npm ci
