@@ -174,3 +174,61 @@ export const storySearchViewStoryText = {
   [ENGLISH]: "View story",
   [ESPANOL]: "Ver historia",
 };
+
+// Texts for LaTeX conversion UI
+
+export const latexButtonText = {
+  [ENGLISH] : "LaTeX",
+  [ESPANOL] : "LaTeX",
+};
+
+export const latexSelectTiersPromptText = {
+  [ENGLISH] : "Please select what tier to use for each line in the LaTeX gloss.",
+  [ESPANOL] : "Seleccione qué nivel usar para cada línea en la glosa en LaTeX.",
+};
+
+export const latexSentenceTierName = {
+	[ENGLISH] : "original sentence",
+	[ESPANOL] : "frase original",
+};
+
+export const latexMorphemesTierName = {
+	[ENGLISH] : "morphemes",
+	[ESPANOL] : "morfemas",
+};
+
+export const latexMorphemeTranslationsTierName = {
+	[ENGLISH] : "morpheme translations",
+	[ESPANOL] : "morfemas traducidos",
+};
+
+export const latexSentenceTranslationsTierName = {
+	[ENGLISH] : "sentence translation",
+	[ESPANOL] : "frase traducida",
+};
+
+// Text on the tier selection confirm button
+export const tierSelectionConfirmButtonText = {
+  [ENGLISH] : "Confirm",
+  [ESPANOL] : "Confirmar",
+};
+
+export const latexStoryTitleText = {
+  [ENGLISH] : "Story title:",
+  [ESPANOL] : "Título de la historia:",
+};
+
+export const latexStoryIDText = {
+  [ENGLISH] : "Story ID:",
+  [ESPANOL] : "ID de historia:",
+};
+
+export const latexSentenceURLText = {
+  [ENGLISH] : "Sentence URL:",
+  [ESPANOL] : "URL de la frase:",
+};
+
+export const latexLibraryText = {
+  [ENGLISH] : "Formatted for gb4e and gb4e-modified LaTeX packages:",
+  [ESPANOL] : "Formateado para paquetes LaTeX gb4e y gb4e-modified:",
+};
