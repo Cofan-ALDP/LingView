@@ -79,7 +79,7 @@ export function SearchSentence({ sentence }) {
   // O/P: displayed rows, along with a link to corresponding story
   let rowList = []; // to be output
   const numSlots = sentence['num_slots'];
-    const title = sentence['title'];
+  const title = sentence['title'];
   const dependents = sentence['dependents'];
   // Add each dependent tier to the row list:
   for (const tier of Object.keys(dependents)) {
@@ -99,10 +99,6 @@ export function SearchSentence({ sentence }) {
   // Get URL:
   const at = document.URL.indexOf("search");
   let url = document.URL.substring(0,at);
-
-	// Get URL:
-	const at = document.URL.indexOf("search");
-	let url = document.URL.substring(0,at);
 
 	// The query index is either start time (for Timed files) 
 	// or sentence id for (Untimed files)
