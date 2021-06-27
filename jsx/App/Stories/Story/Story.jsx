@@ -55,7 +55,7 @@ export class Story extends React.Component {
             <div>
                 <div id="middle">
                     <Sidebar metadata={story['metadata']}/>
-                    <CenterPanel timed={timed} sentences={sentences}/>
+                    <CenterPanel timed={timed} sentences={sentences} metadata={story['metadata']}/>
                 </div>
                 {footer}
             </div>

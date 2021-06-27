@@ -1,18 +1,20 @@
 import id from 'shortid';
 import { Sentence } from "./Sentence.jsx";
+import { LatexButton } from './LatexButton.jsx';
 
-function UntimedBlock({ sentence, sentenceId }) {
+function UntimedBlock({ sentence, sentenceId, metadata }) {
 	return (
 		<div className="untimedBlock">
 			<span className="timeStampContainer timeStamp" data-sentence_id={sentenceId}>
 				{sentenceId}
 			</span>
 			<Sentence sentence={sentence} />
+			<LatexButton sentence={sentence} metadata={metadata}/>
 		</div>
 	);
 }
 
-export function UntimedTextDisplay({ sentences }) {
+export function UntimedTextDisplay({ sentences, metadata }) {
 	// I/P: sentences, a list of sentences
 	// O/P: the main gloss view, with several Sentences arranged vertically, each wrapped in an UntimedBlock
 	// Status: tested, working
@@ -24,6 +26,7 @@ export function UntimedTextDisplay({ sentences }) {
 				key={id.generate()}
 				sentence={sentence}
 				sentenceId={sentenceCount}
+				metadata={metadata}
 			/>
 		);
 		sentenceCount += 1;

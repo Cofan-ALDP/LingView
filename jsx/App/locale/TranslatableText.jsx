@@ -30,7 +30,7 @@ export const TranslatableText = ({ dictionary }) => {
 
   // Fallback: log an error, and render text in random language or null
   console.error(
-    `[TranslatableText] Error: unable to determine translation language, invalid dictionary provided. Rendering '${providedLanguages[0]}'.`
+    `[TranslatableText] Error: unable to determine translation language, incomplete dictionary provided. Rendering '${providedLanguages[0]}'.`
   );
   return dictionary[providedLanguages[0]] || null;
 };

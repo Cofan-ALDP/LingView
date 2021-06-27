@@ -1,5 +1,5 @@
 # LingView 
-A web interface for viewing glossed ELAN and FLEx files, optionally with time-synced video and audio. Developed at Brown University as part of the A'ingae Language Documentation initiative, this fork is a generalization of the A'ingae-specific website [here](https://github.com/Designist/Korpus).
+A web interface for viewing glossed ELAN and FLEx files, optionally with time-synced video and audio. Developed at Brown University as part of the A'ingae Language Documentation initiative. The standard version of LingView is [BrownCLPS/LingView](https://github.com/BrownCLPS/LingView).
 
 Front-end code written with [ReactJS](https://reactjs.org/). 
 
@@ -12,7 +12,7 @@ To begin using this site, you'll need to have NPM and Node.js installed. Downloa
     
 This will install all the node modules required by our program. 
 
-The first time you use the site, and after each time you make changes, you'll need to rebuild the LingView site. To do so, type the command `npm run quick-build-offline` in the repository's root directory. 
+The first time you use the site, and after each time you make changes, you'll need to rebuild the LingView site. To do so, type the command `npm run quick-build` in the repository's root directory. 
 
 To view the website in your browser, open the `index.html` file.
 

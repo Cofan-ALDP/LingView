@@ -1,5 +1,6 @@
 import id from 'shortid';
 import { Sentence } from './Sentence.jsx';
+import { LatexButton } from './LatexButton.jsx';
 
 function LabeledSentence({ sentence }) {
 	// I/P: sentence, a sentence
@@ -15,15 +16,17 @@ function LabeledSentence({ sentence }) {
 	);
 }
 
-function TimeBlock({ sentences }) {
+function TimeBlock({ sentences, metadata }) {
 	// I/P: sentences, a list of sentences with the same start time
 	// O/P: div containing multiple LabeledSentences
 	// Status: tested, working
 	let output = [];
 	// A timeblock may contain multiple sentences with the same start time.
-	// Iterate through the list of these sentences.
+	// Iterate through the list of these sentences and create a LabeledSentence block 
+	// as well as a LaTeX button for this block.
 	for (const sentence of sentences) {
 		output.push(<LabeledSentence key={id.generate()} sentence={sentence} />);
+		output.push(<LatexButton sentence={sentence} metadata={metadata}/>);
 	}
 	return <div className="timeBlock">{output}</div>;
 }
@@ -35,7 +38,7 @@ function printSeconds(r) {
 	r=Number(r);var t=Math.floor(r/3600),i=Math.floor(r%3600/60),n=Math.floor(r%3600%60);if(n>=10)e=String(n);else var e="0"+String(n);var o=String(i)+":";if(0==t)a="";else if(i>=10)a=String(t)+":";else var a=String(t)+":0";return a+o+e;
 }
 
-function LabeledTimeBlock({ sentences, timestamp }) {
+function LabeledTimeBlock({ sentences, timestamp, metadata }) {
 	// I/P: sentences, a list of sentences with the same start time
 	//      timestamp, an integer number of seconds
 	// O/P: a TimeBlock with a left-floating timestamp
@@ -56,17 +59,18 @@ function LabeledTimeBlock({ sentences, timestamp }) {
 			maxEnd = endTime;
 		}
 	}
+
 	return (
-		<div className="labeledTimeBlock" data-start_time={minStart} data-end_time={maxEnd}>
+		<div className="labeledTimeBlock" data-start_time={minStart} data-end_time={maxEnd}>	
 			<span className="timeStampContainer timeStamp" id={minStart} data-start_time={minStart}>
 				{timestamp}
-			</span>
-			<TimeBlock sentences={sentences} />
+			</span>	
+			<TimeBlock sentences={sentences} metadata={metadata}/>
 		</div>
 	);
 }
 
-export function TimedTextDisplay({ sentences }) {
+export function TimedTextDisplay({ sentences, metadata }) {
 	// I/P: sentences, stored in JSON format, as in test_data.json
 	// O/P: the main gloss view, with several LabeledTimeBlocks arranged vertically
 	// Status: tested, working
@@ -98,6 +102,7 @@ export function TimedTextDisplay({ sentences }) {
 				key={id.generate()}
 				sentences={correspondingSentences}
 				timestamp={timestamp}
+				metadata={metadata}
 			/>
 		);
 	}
