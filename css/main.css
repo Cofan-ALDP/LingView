@@ -140,7 +140,8 @@ td {
 .labeledTimeBlock {
 	clear: both;
 	float: left;
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 7fr;
 	padding-right: 10px;
 	padding-top: 27px;
 	padding-bottom: 27px;
@@ -151,6 +152,65 @@ td {
 	float: left;
 	padding-left: 9px;
 	overflow-x: auto;
+}
+
+/*	MAIN.CSS
+	->	Text Display
+		Untimed */
+#untimedTextDisplay {
+	position: fixed;
+	width: calc(100% - 300px);
+	height: calc(100% - 88px); /* Minus the navBar and the footer. */
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.untimedBlock {
+	clear: both;
+	float: left;
+	display: grid;
+	grid-template-columns: 1fr 7fr;
+	padding-right: 10px;
+	padding-top: 27px;
+	padding-bottom: 27px;
+	width: 100%;
+	overflow-x: auto;
+}
+
+.latexButton {
+	visibility: hidden;
+	margin-left: 3%
+}
+
+.timeBlock:hover .latexButton {
+	display: block;
+	visibility: visible;
+}
+
+.untimedBlock:hover .latexButton {
+	display: block;
+	visibility: visible;
+} 
+
+.latexButtonContainer {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.tierSelectionSection {
+	background : rgb(215, 233, 252);
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%; 
+}
+
+.tierSelectionRow {
+	padding-bottom: 12px;
+}
+
+.latexResultContainer {
+	overflow-x: scroll;
 }
 
 span.timeStamp {
@@ -191,27 +251,7 @@ span.timeStamp {
 	margin-top: 3px;
 	font-weight: 600;
 }
-/*	MAIN.CSS
-	->	Text Display
-		Untimed */
-#untimedTextDisplay {
-	position: fixed;
-	width: calc(100% - 300px);
-	height: calc(100% - 88px); /* Minus the navBar and the footer. */
-	overflow-y: scroll;
-	overflow-x: hidden;
-}
 
-.untimedBlock {
-	clear: both;
-	float: left;
-	display: flex;
-	padding-right: 10px;
-	padding-top: 27px;
-	padding-bottom: 27px;
-	width: 100%;
-	overflow-x: auto;
-}
 
 table.gloss {
 	padding-left: 5px;
