@@ -23,15 +23,13 @@ jobs:
 
     - name: Build online version
       run: |
-        npm install
+        npm ci
         npm run rebuild-db-online
         npm run webpack
         npm run bundle
       env:
         CI: true
         REMOTE_MEDIA_PATH: ${{ secrets.REMOTE_MEDIA_PATH }}
-        AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
-        AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
 
     - name: Deploy online version to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
@@ -57,7 +55,7 @@ jobs:
 
     - name: Build offline-compatible local version
       run: |
-        npm install
+        npm ci
         npm run rebuild-db-offline
         npm run webpack
         npm run bundle
