@@ -1,6 +1,7 @@
 [
   {
     "itemServerUrl": "https://cds.library.brown.edu/projects/kofan/Materials/Fischer%20and%20Hengeveld_Kofan_16112018.pdf",
+    "itemLocalUrl": "./data/materials_local_copy/Fischer%20and%20Hengeveld_Kofan_16112018.pdf",
     "title": "A'ingae (Cofán/Kofán)",
     "credits": [
       "Kees Hengeveld",

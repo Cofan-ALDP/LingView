@@ -1,13 +1,20 @@
 import { Tag } from './Components/Tag.jsx';
 
 export function MaterialCard({ metadata }) {
+
+  let itemUrl = ""; 
+  if (metadata.itemServerUrl) {
+    itemUrl  = metadata.itemServerUrl; 
+  } else if (metadata.itemLocalUrl) {
+    itemUrl = metadata.itemLocalUrl; 
+  }
+
   return (
     <div className="material-card">
       <main>
-        {metadata.itemServerUrl ?
-          <a href={metadata.itemServerUrl}><h3>{metadata.title}</h3></a>
-        :
-          <h3>{metadata.title}</h3>
+        {itemUrl ? 
+          <a href={itemUrl}><h3>{metadata.title}</h3></a>
+          : <h3>{metadata.title}</h3>
         }
         <h4>{metadata.credits.concat([metadata.year]).filter(x => x).join(', ')}</h4>
         <p dangerouslySetInnerHTML={{__html: metadata.descriptionHTML}} /> 
