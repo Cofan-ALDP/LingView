@@ -198,56 +198,19 @@ td {
 }
 
 .tierSelectionSection {
-	background : rgb(212, 234, 247);
+	background : rgb(215, 233, 252);
 	padding-bottom: 5%;
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 5%; 
 }
 
-.tiersHeaderSection, .tierSelectionRow {
-	display: grid;
-	grid-template-columns: 1fr 8fr;
-	justify-self: center;
-	padding: 5px;
-}
-
-.tiersHeader, .tierSelectionRowButtonSection {
-	display: flex;
-	flex-direction: row;
-	margin: 5px;
-	justify-content: space-evenly;
-}
-
-.tierHeaderName {
-	margin: 5px;
-	width: 100%;
+.tierSelectionRow {
+	padding-bottom: 12px;
 }
 
 .latexResultContainer {
 	overflow-x: scroll;
-}
-
-#latexFormatterConfirmButton,   
-#latexFormatterCloseButton {
-	background-color: white;
-	border-radius: 4px;
-	transition-duration: 0.2s;
-}
-
-#latexFormatterConfirmButton:hover {
-	background-color: #4CAF50;
-	color: white;
-}
-  
-#latexFormatterCloseButton {
-	margin-bottom: 3%;
-	margin-top: 3%;
-}
-
-#latexFormatterCloseButton:hover {
-	background-color: #f44336;
-	color: white;
 }
 
 span.timeStamp {
@@ -425,6 +388,8 @@ main.content-wrapper, main.wide-content-wrapper {
 	align-items: center;
 	height: 10em;
 }
+
+
 #searchForm {
 	margin: 20px;
 }
