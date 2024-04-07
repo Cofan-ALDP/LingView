@@ -3836,5 +3836,66 @@
         "tier": "LQ_transcripción"
       }
     }
+  },
+  "9fab4f95-98e7-4ce0-bf50-89b9d9897bdb": {
+    "timed": false,
+    "story ID": "9fab4f95-98e7-4ce0-bf50-89b9d9897bdb",
+    "title": {
+      "con-Latn-EC-x-dureno": "Chimbi Chan",
+      "en": "Mother of the bats",
+      "es": "Madre de los murciélagos",
+      "_default": "2022Feb03-DC-Chimbi_Chan"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [
+      "con-Latn-EC-x-dureno",
+      "en",
+      "es",
+      "con-Latn-CO",
+      "con-Latn-EC-x-borman"
+    ],
+    "date_created": "",
+    "date_uploaded": "4/7/2024",
+    "source": {
+      "con-Latn-CO": "2022Feb03-DC-Chimbi_chan",
+      "con-Latn-EC-x-borman": "2022Feb03-DC-Chimbi_chan",
+      "con-Latn-EC-x-dureno": "2022Feb03-DC-Chimbi_chan",
+      "en": "2022Feb03-DC-Chimbi_chan",
+      "es": "2022Feb03-DC-Chimbi_chan",
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Jorge Mendua",
+      "Jorge Mendua "
+    ],
+    "xml_file_name": "2022Feb03-DC-Chimbi_Chan.flextext",
+    "source_filetype": "FLEx",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (como en el texto) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "morfema (forma típica) en a'ingae (ortografía nueva)": {
+        "subdivided": true
+      },
+      "glosa de morfema en inglés": {
+        "subdivided": true
+      },
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    }
   }
 }
