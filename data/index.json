@@ -189,7 +189,7 @@
     "title": {
       "en": "Autobiography of RA 2",
       "es": "Autobiografía of RA 2",
-      "_default": "Autobiografía of RA 2"
+      "_default": "Autobiografía de RA 2"
     },
     "media": {
       "audio": "",
@@ -768,7 +768,7 @@
     "title": {
       "en": "Autobiography of RA 1",
       "es": "Autobiografía of RA 1",
-      "_default": "Autobiografía of RA 1"
+      "_default": "Autobiografía de RA 1"
     },
     "media": {
       "audio": "",
@@ -2999,7 +2999,7 @@
     "title": {
       "en": "How to prepare kuikhu",
       "es": "Como preparar kuikhu",
-      "_default": "Como preparar khuikhu"
+      "_default": "Como preparar kûikhû"
     },
     "media": {
       "audio": "",
@@ -3129,7 +3129,7 @@
     "title": {
       "en": "Chicha preparation",
       "es": "Como preparar chicha",
-      "_default": "Chicha Preparation"
+      "_default": "Como preparar chicha"
     },
     "media": {
       "audio": "",
@@ -3192,7 +3192,7 @@
     "title": {
       "en": "Childhood in Zábalo",
       "es": "La infancia en Zábalo",
-      "_default": "Childhood in Zábalo"
+      "_default": "La infancia en Zábalo"
     },
     "media": {
       "audio": "",
@@ -3252,7 +3252,7 @@
     "title": {
       "en": "A commentary on language",
       "es": "Un comentario sobre la lengua",
-      "_default": "A commentary on language"
+      "_default": "Un comentario sobre la lengua"
     },
     "media": {
       "audio": "",
@@ -3386,8 +3386,8 @@
       "_default": "Kunsi"
     },
     "media": {
-      "audio": "",
-      "video": ""
+      "audio": "2022May10-MC-Kunsi.mp3",
+      "video": "2022May10-MC-Kunsi.mp4"
     },
     "languages": [
       "con-Latn-CO",
