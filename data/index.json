@@ -3386,8 +3386,8 @@
       "_default": "Kunsi"
     },
     "media": {
-      "audio": "2022May10-MC-Kunsi.mp3",
-      "video": "2022May10-MC-Kunsi.mp4"
+      "audio": "",
+      "video": ""
     },
     "languages": [
       "con-Latn-CO",
@@ -3847,8 +3847,8 @@
       "_default": "Chimbi Chan"
     },
     "media": {
-      "audio": "2022Feb03-DC-Chimbi_Chan.WAV",
-      "video": "2022Feb03-DC-Chimbi_Chan.m4v"
+      "audio": "2022Feb03-DC-Chimbi_Chan.mp3",
+      "video": ""
     },
     "languages": [
       "con-Latn-EC-x-dureno",
