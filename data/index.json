@@ -3463,27 +3463,17 @@
     "xml_file_name": "20190603_sa01_autobiography.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "SA_transcripción": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "LQ_transcripción": {
-        "subdivided": false
-      },
-      "SA_traducción": {
-        "subdivided": false
-      },
-      "LQ_traducción": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "[APELLIDO, NOMBRE]",
-        "tier": "SA_transcripción"
-      },
-      "S2": {
-        "name": "[APELLIDO, NOMBRE]",
-        "tier": "LQ_transcripción"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3513,27 +3503,17 @@
     "xml_file_name": "20190605_bu03_drinking_yaje.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "BU_transcripción": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "LQ_transcripción": {
-        "subdivided": false
-      },
-      "BU_traducción": {
-        "subdivided": false
-      },
-      "LQ_traducción": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "[APELLIDO, NOMBRE]",
-        "tier": "BU_transcripción"
-      },
-      "S2": {
-        "name": "[APELLIDO, NOMBRE]",
-        "tier": "LQ_transcripción"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3563,27 +3543,17 @@
     "xml_file_name": "20190606_dc02_erision_kundasepa.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "DC_transcripción": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "SA_transcripción": {
-        "subdivided": false
-      },
-      "DC_traducción": {
-        "subdivided": false
-      },
-      "SA_traducción": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "[APELLIDO, NOMBRE]",
-        "tier": "DC_transcripción"
-      },
-      "S2": {
-        "name": "[APELLIDO, NOMBRE]",
-        "tier": "SA_transcripción"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3613,27 +3583,17 @@
     "xml_file_name": "20190606_ru01_autobiography.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "RU_transcripción": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "SA_transcripción": {
-        "subdivided": false
-      },
-      "RU_traducción": {
-        "subdivided": false
-      },
-      "SA_traducción": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "[APELLIDO, NOMBRE]",
-        "tier": "RU_transcripción"
-      },
-      "S2": {
-        "name": "[APELLIDO, NOMBRE]",
-        "tier": "SA_transcripción"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3663,27 +3623,17 @@
     "xml_file_name": "20190604_ll01_autobiography.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LL_transcripción": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "SA_transcripción": {
-        "subdivided": false
-      },
-      "LL_traducción": {
-        "subdivided": false
-      },
-      "SA_traducción": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "[APELLIDO, NOMBRE]",
-        "tier": "LL_transcripción"
-      },
-      "S2": {
-        "name": "[APELLIDO, NOMBRE]",
-        "tier": "SA_transcripción"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3713,27 +3663,17 @@
     "xml_file_name": "20190604_ll02_familial_history.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LL_transcripción": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "SA_transcripción": {
-        "subdivided": false
-      },
-      "LL_traducción": {
-        "subdivided": false
-      },
-      "SA_traducción": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "[APELLIDO, NOMBRE]",
-        "tier": "LL_transcripción"
-      },
-      "S2": {
-        "name": "[APELLIDO, NOMBRE]",
-        "tier": "SA_transcripción"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3763,27 +3703,17 @@
     "xml_file_name": "20190612_el03_tuturu_kundasepa.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "EL_transcripción": {
-        "subdivided": false
-      },
-      "SA_transcripción": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
       "EL_traducción": {
-        "subdivided": false
-      },
-      "SA_traducción": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "[APELLIDO, NOMBRE]",
-        "tier": "EL_transcripción"
-      },
-      "S2": {
-        "name": "[APELLIDO, NOMBRE]",
-        "tier": "SA_transcripción"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3813,27 +3743,17 @@
     "xml_file_name": "20190608_mu02_fiesta_de_la_chonta.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "MU_transcripción": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "LQ_transcripción": {
-        "subdivided": false
-      },
-      "MU_traducción": {
-        "subdivided": false
-      },
-      "LQ_traducción": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "[APELLIDO, NOMBRE]",
-        "tier": "MU_transcripción"
-      },
-      "S2": {
-        "name": "[APELLIDO, NOMBRE]",
-        "tier": "LQ_transcripción"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3847,7 +3767,7 @@
       "_default": "Chimbi Chan"
     },
     "media": {
-      "audio": "2022Feb03-DC-Chimbi_Chan.mp3",
+      "audio": "",
       "video": ""
     },
     "languages": [
