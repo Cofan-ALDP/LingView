@@ -3336,11 +3336,11 @@
     "date_created": "",
     "date_uploaded": "10/6/2022",
     "source": {
-      "con-Latn-CO": "2022Feb07_VM_Tururu",
-      "con-Latn-EC-x-borman": "2022Feb07_VM_Tururu",
-      "con-Latn-EC-x-dureno": "2022Feb07_VM_Tururu",
-      "en": "2022Feb07_VM_Tururu",
-      "es": "2022Feb07_VM_Tururu",
+      "con-Latn-CO": "2022Feb07-VM-Tururu",
+      "con-Latn-EC-x-borman": "2022Feb07-VM-Tururu",
+      "con-Latn-EC-x-dureno": "2022Feb07-VM-Tururu",
+      "en": "2022Feb07-VM-Tururu",
+      "es": "2022Feb07-VM-Tururu",
       "_default": ""
     },
     "description": "",
@@ -3366,10 +3366,10 @@
       "glosa de morfema en inglés": {
         "subdivided": true
       },
-      "frase en Español": {
+      "frase en inglés": {
         "subdivided": false
       },
-      "frase en inglés": {
+      "frase en Español": {
         "subdivided": false
       }
     }
@@ -3706,7 +3706,7 @@
       "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "EL_traducción": {
+      "frase en Español": {
         "subdivided": false
       }
     },

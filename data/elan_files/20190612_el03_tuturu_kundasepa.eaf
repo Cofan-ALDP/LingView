@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-12-30T15:16:22+01:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-04-22T13:12:19-05:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -2123,7 +2123,7 @@
     <TIER ANNOTATOR="[APELLIDO, NOMBRE]"
         LINGUISTIC_TYPE_REF="TRADUCCIÓN"
         PARENT_REF="palabra en a'ingae (ortografía nueva)"
-        PARTICIPANT="[APELLIDO, NOMBRE]" TIER_ID="EL_traducción">
+        PARTICIPANT="[APELLIDO, NOMBRE]" TIER_ID="frase en Español">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a289" ANNOTATION_REF="a1">
                 <ANNOTATION_VALUE>ya</ANNOTATION_VALUE>
