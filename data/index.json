@@ -391,9 +391,7 @@
       "con-Latn-EC-x-borman",
       "con-Latn-EC-x-dureno",
       "cof",
-      "de",
-      "qaa-x-qaa-c",
-      "qaa-x-xxx"
+      "de"
     ],
     "date_created": "",
     "date_uploaded": "10/31/2020",
@@ -418,11 +416,8 @@
     "xml_file_name": "Preparar casave 2.flextext",
     "source_filetype": "FLEx",
     "tier IDs": {
-      "palabra en corsu, lingua corsa": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": true
-      },
-      "frase en Español": {
-        "subdivided": false
       },
       "morfema (como en el texto) en a'ingae (ortografía nueva)": {
         "subdivided": true
@@ -433,10 +428,10 @@
       "glosa de morfema en inglés": {
         "subdivided": true
       },
-      "glosa de morfema en Español": {
-        "subdivided": true
-      },
       "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
         "subdivided": false
       }
     }
@@ -3073,10 +3068,7 @@
       "es",
       "con-Latn-CO",
       "con-Latn-EC-x-borman",
-      "con-Latn-EC-x-dureno",
-      "cof",
-      "qaa-x-xxx",
-      "de"
+      "con-Latn-EC-x-dureno"
     ],
     "date_created": "",
     "date_uploaded": "12/6/2021",
@@ -3100,14 +3092,8 @@
     "xml_file_name": "Planes para el futuro.flextext",
     "source_filetype": "FLEx",
     "tier IDs": {
-      "palabra en corsu, lingua corsa": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": true
-      },
-      "frase en inglés": {
-        "subdivided": false
-      },
-      "frase en Español": {
-        "subdivided": false
       },
       "morfema (como en el texto) en a'ingae (ortografía nueva)": {
         "subdivided": true
@@ -3118,8 +3104,11 @@
       "glosa de morfema en inglés": {
         "subdivided": true
       },
-      "glosa de morfema en Español": {
-        "subdivided": true
+      "frase en inglés": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
       }
     }
   },
@@ -3313,7 +3302,7 @@
     }
   },
   "dd665d14-26fc-427f-92c5-1a72b7166fa0": {
-    "timed": false,
+    "timed": true,
     "story ID": "dd665d14-26fc-427f-92c5-1a72b7166fa0",
     "title": {
       "con-Latn-CO": "Tururu",
@@ -3341,7 +3330,7 @@
       "con-Latn-EC-x-dureno": "2022Feb07-VM-Tururu",
       "en": "2022Feb07-VM-Tururu",
       "es": "2022Feb07-VM-Tururu",
-      "_default": ""
+      "_default": "2022Feb07-VM-Tururu"
     },
     "description": "",
     "genre": "",
