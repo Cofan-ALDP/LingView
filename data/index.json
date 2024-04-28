@@ -3806,5 +3806,976 @@
         "subdivided": false
       }
     }
+  },
+  "326a148e-4c80-4aa0-aa01-d5d2569d7d33": {
+    "timed": false,
+    "story ID": "326a148e-4c80-4aa0-aa01-d5d2569d7d33",
+    "title": {
+      "_default": "2021DIC14-EU-KANSECHUNE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ELIZA UMENDA"
+    ],
+    "xml_file_name": "2021DIC14-EU-KANSECHUNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "EU-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "EU-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "ELIZA UMENDA",
+        "tier": "EU-CON"
+      }
+    }
+  },
+  "a4d332e2-2b47-4573-9326-4719ede5a2a7": {
+    "timed": false,
+    "story ID": "a4d332e2-2b47-4573-9326-4719ede5a2a7",
+    "title": {
+      "_default": "2021DIC14-EU-TSAMPISÛ_AÑACHUNE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ELIZA UMENDA"
+    ],
+    "xml_file_name": "2021DIC14-EU-TSAMPISÛ_AÑACHUNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "EU-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "EU-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "ELIZA UMENDA",
+        "tier": "EU-CON"
+      }
+    }
+  },
+  "bb46e259-8752-4b11-bac7-da9c599c9f64": {
+    "timed": false,
+    "story ID": "bb46e259-8752-4b11-bac7-da9c599c9f64",
+    "title": {
+      "_default": "2021DIC14-EU-U'MA_FIESTANE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ELIZA UMENDA",
+      "ELIZA UMENDA "
+    ],
+    "xml_file_name": "2021DIC14-EU-U'MA_FIESTANE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "EU-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "EU-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "ELIZA UMENDA",
+        "tier": "EU-CON"
+      }
+    }
+  },
+  "d41b883b-87e5-4ae2-b303-35fe8cbfd069": {
+    "timed": false,
+    "story ID": "d41b883b-87e5-4ae2-b303-35fe8cbfd069",
+    "title": {
+      "_default": "2021NOV12-LL-KAJANSI_KUNDASEPA"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LUCIANO LUCITANTE",
+      "LEIDY QUENAMA"
+    ],
+    "xml_file_name": "2021NOV12-LL-KAJANSI_KUNDASEPA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LL-CON": {
+        "subdivided": false
+      },
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "LL-SPA": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LUCIANO LUCITANTE",
+        "tier": "LL-CON"
+      },
+      "S2": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      }
+    }
+  },
+  "04d63fa4-4bac-4d73-966e-c7011aa69d39": {
+    "timed": false,
+    "story ID": "04d63fa4-4bac-4d73-966e-c7011aa69d39",
+    "title": {
+      "_default": "2021NOV12-SQ-ATHIAMBI_A'INDEKHÛ"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "SERAFINA QUENAMA",
+      "LEIDY QUENAMA"
+    ],
+    "xml_file_name": "2021NOV12-SQ-ATHIAMBI_A'INDEKHÛ.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "SQ-CON": {
+        "subdivided": false
+      },
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "SQ-SPA": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "SERAFINA QUENAMA",
+        "tier": "SQ-CON"
+      },
+      "S2": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      }
+    }
+  },
+  "220e3ab7-e4db-4884-aa52-1e4c7a32ef01": {
+    "timed": false,
+    "story ID": "220e3ab7-e4db-4884-aa52-1e4c7a32ef01",
+    "title": {
+      "_default": "2021Nov18-VM-Shavune"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "valerio mendua",
+      "thalya mendua"
+    ],
+    "xml_file_name": "2021Nov18-VM-Shavune.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "vm-con": {
+        "subdivided": false
+      },
+      "tm-con": {
+        "subdivided": false
+      },
+      "VM-SPA": {
+        "subdivided": false
+      },
+      "TM-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "valerio mendua",
+        "tier": "vm-con"
+      },
+      "S2": {
+        "name": "thalya mendua",
+        "tier": "tm-con"
+      }
+    }
+  },
+  "fa2f87d6-6478-4fab-aef8-3f38aca118e4": {
+    "timed": false,
+    "story ID": "fa2f87d6-6478-4fab-aef8-3f38aca118e4",
+    "title": {
+      "_default": "2022abril20-MQ-Apicha_Pûshesû"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Shen Aguinda",
+      "Magdalena Quenama",
+      "MAgdalena Quenama"
+    ],
+    "xml_file_name": "2022abril20-MQ-Apicha_Pûshesû.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "SA-CON": {
+        "subdivided": false
+      },
+      "MQ_CON": {
+        "subdivided": false
+      },
+      "SA_SPA": {
+        "subdivided": false
+      },
+      "MQ_SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Shen Aguinda",
+        "tier": "SA-CON"
+      },
+      "S2": {
+        "name": "Magdalena Quenama",
+        "tier": "MQ_CON"
+      }
+    }
+  },
+  "7e8b6bf9-e4d7-4e10-89a2-41e142180a44": {
+    "timed": false,
+    "story ID": "7e8b6bf9-e4d7-4e10-89a2-41e142180a44",
+    "title": {
+      "_default": "2021NOV16-GQ-KANSECHUNE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "GRACIELA QUENAMA"
+    ],
+    "xml_file_name": "2021NOV16-GQ-KANSECHUNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "GQ-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "GQ-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "GRACIELA QUENAMA",
+        "tier": "GQ-CON"
+      }
+    }
+  },
+  "3bef4858-1d9b-4e2d-88bf-62b49aabfe9e": {
+    "timed": false,
+    "story ID": "3bef4858-1d9b-4e2d-88bf-62b49aabfe9e",
+    "title": {
+      "_default": "2022FEB03-AQ-APICHA_PÛSHESÛNE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "ANGEL QUENAMA",
+      "LEIDY QUENAMA"
+    ],
+    "xml_file_name": "2022FEB03-AQ-APICHA_PÛSHESÛNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "AQ-CON": {
+        "subdivided": false
+      },
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "AQ-SPA": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "ANGEL QUENAMA",
+        "tier": "AQ-CON"
+      },
+      "S2": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      }
+    }
+  },
+  "f887d8a5-e984-43d8-a87e-5af1f09f6290": {
+    "timed": false,
+    "story ID": "f887d8a5-e984-43d8-a87e-5af1f09f6290",
+    "title": {
+      "_default": "2022FEB03-AQ-ATHIANBI_A'INE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ANGEL QUENAMA"
+    ],
+    "xml_file_name": "2022FEB03-AQ-ATHIANBI_A'INE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "AQ-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "AQ-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "ANGEL QUENAMA",
+        "tier": "AQ-CON"
+      }
+    }
+  },
+  "b59ed44f-263b-400f-8d46-56fded8fe176": {
+    "timed": false,
+    "story ID": "b59ed44f-263b-400f-8d46-56fded8fe176",
+    "title": {
+      "_default": "2022FEB03-AQ-TISE_KANSECHUNE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ANGEL QUENAMA"
+    ],
+    "xml_file_name": "2022FEB03-AQ-TISE_KANSECHUNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "AQ-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "AQ-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "ANGEL QUENAMA",
+        "tier": "AQ-CON"
+      }
+    }
+  },
+  "80b09dc7-889e-4cf9-a623-02723fbca994": {
+    "timed": false,
+    "story ID": "80b09dc7-889e-4cf9-a623-02723fbca994",
+    "title": {
+      "_default": "2022FEB03-AQ-GUARDIANE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ANGEL QUENAMA"
+    ],
+    "xml_file_name": "2022FEB03-AQ-GUARDIANE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "AQ-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "AQ-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "ANGEL QUENAMA",
+        "tier": "AQ-CON"
+      }
+    }
+  },
+  "26d55bb3-422f-419c-af17-abe8da033875": {
+    "timed": false,
+    "story ID": "26d55bb3-422f-419c-af17-abe8da033875",
+    "title": {
+      "_default": "2022FEB03-AQ-TSAMPISÛ_AÑACHUNE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ANGEL QUENAMA"
+    ],
+    "xml_file_name": "2022FEB03-AQ-TSAMPISÛ_AÑACHUNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "AQ-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "AQ-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "ANGEL QUENAMA",
+        "tier": "AQ-CON"
+      }
+    }
+  },
+  "f4c3f221-ad51-4725-af1d-1e420b6eb027": {
+    "timed": false,
+    "story ID": "f4c3f221-ad51-4725-af1d-1e420b6eb027",
+    "title": {
+      "_default": "2022FEB03-CA-TISE_DÛSÛNGÛETENE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "CESILIO ALVARADO"
+    ],
+    "xml_file_name": "2022FEB03-CA-TISE_DÛSÛNGÛETENE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "CA-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "CA-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "CESILIO ALVARADO",
+        "tier": "CA-CON"
+      }
+    }
+  },
+  "9a96e373-954e-4817-a8c3-9a5c8f2f2470": {
+    "timed": false,
+    "story ID": "9a96e373-954e-4817-a8c3-9a5c8f2f2470",
+    "title": {
+      "_default": "2022FEB03-AQ-YAJENE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ANGEL QUENAMA"
+    ],
+    "xml_file_name": "2022FEB03-AQ-YAJENE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "AQ-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "AQ-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "ANGEL QUENAMA",
+        "tier": "AQ-CON"
+      }
+    }
+  },
+  "cbfa52b6-c6bf-482d-a215-c660c3e3904c": {
+    "timed": false,
+    "story ID": "cbfa52b6-c6bf-482d-a215-c660c3e3904c",
+    "title": {
+      "_default": "2022Ene06-DC-Aitsuve"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Jorge Mendua",
+      "Delfin Criollo"
+    ],
+    "xml_file_name": "2022Ene06-DC-Aitsuve.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "JM-CON": {
+        "subdivided": false
+      },
+      "DC_CON": {
+        "subdivided": false
+      },
+      "JM_SPA": {
+        "subdivided": false
+      },
+      "DC_SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Jorge Mendua",
+        "tier": "JM-CON"
+      },
+      "S2": {
+        "name": "Delfin Criollo",
+        "tier": "DC_CON"
+      }
+    }
+  },
+  "54409408-74c6-499d-aaf6-58c19790df60": {
+    "timed": false,
+    "story ID": "54409408-74c6-499d-aaf6-58c19790df60",
+    "title": {
+      "_default": "2022FEB03-CA-VAJÛ_KUNDASEPA"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "CESILIO ALVARADO"
+    ],
+    "xml_file_name": "2022FEB03-CA-VAJÛ_KUNDASEPA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "CA-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "CA-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "CESILIO ALVARADO",
+        "tier": "CA-CON"
+      }
+    }
+  },
+  "028e07b8-670f-46c7-9138-08519d122374": {
+    "timed": false,
+    "story ID": "028e07b8-670f-46c7-9138-08519d122374",
+    "title": {
+      "_default": "2022FEB03-CA-TISE_KANSECHUNE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "CESILIO ALVARADO"
+    ],
+    "xml_file_name": "2022FEB03-CA-TISE_KANSECHUNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "CA-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "CA-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "CESILIO ALVARADO",
+        "tier": "CA-CON"
+      }
+    }
+  },
+  "0c071b65-6372-4094-8517-19c1d97281f3": {
+    "timed": false,
+    "story ID": "0c071b65-6372-4094-8517-19c1d97281f3",
+    "title": {
+      "_default": "2022FEB03-EN-TAYUPISÛ_KUENZANDEKHÛNE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "4/28/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ERIKA NARVAEZ"
+    ],
+    "xml_file_name": "2022FEB03-EN-TAYUPISÛ_KUENZANDEKHÛNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "EN-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "EN-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "ERIKA NARVAEZ",
+        "tier": "EN-CON"
+      }
+    }
   }
 }
