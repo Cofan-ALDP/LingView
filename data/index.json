@@ -3811,7 +3811,7 @@
     "timed": false,
     "story ID": "326a148e-4c80-4aa0-aa01-d5d2569d7d33",
     "title": {
-      "_default": "2021DIC14-EU-KANSECHUNE"
+      "_default": "Kansechune (EU)"
     },
     "media": {
       "audio": "",
@@ -3862,7 +3862,7 @@
     "timed": false,
     "story ID": "a4d332e2-2b47-4573-9326-4719ede5a2a7",
     "title": {
-      "_default": "2021DIC14-EU-TSAMPISÛ_AÑACHUNE"
+      "_default": "Tsampisû añachune (EU)"
     },
     "media": {
       "audio": "",
@@ -3913,7 +3913,7 @@
     "timed": false,
     "story ID": "bb46e259-8752-4b11-bac7-da9c599c9f64",
     "title": {
-      "_default": "2021DIC14-EU-U'MA_FIESTANE"
+      "_default": "U'ma fiestane"
     },
     "media": {
       "audio": "",
@@ -3965,7 +3965,7 @@
     "timed": false,
     "story ID": "d41b883b-87e5-4ae2-b303-35fe8cbfd069",
     "title": {
-      "_default": "2021NOV12-LL-KAJANSI_KUNDASEPA"
+      "_default": "Kajansi kundasepa"
     },
     "media": {
       "audio": "",
@@ -4016,7 +4016,7 @@
     "timed": false,
     "story ID": "04d63fa4-4bac-4d73-966e-c7011aa69d39",
     "title": {
-      "_default": "2021NOV12-SQ-ATHIAMBI_A'INDEKHÛ"
+      "_default": "Athiambi a'indekhû"
     },
     "media": {
       "audio": "",
@@ -4067,7 +4067,7 @@
     "timed": false,
     "story ID": "220e3ab7-e4db-4884-aa52-1e4c7a32ef01",
     "title": {
-      "_default": "2021Nov18-VM-Shavune"
+      "_default": "Shavune"
     },
     "media": {
       "audio": "",
@@ -4118,7 +4118,7 @@
     "timed": false,
     "story ID": "fa2f87d6-6478-4fab-aef8-3f38aca118e4",
     "title": {
-      "_default": "2022abril20-MQ-Apicha_Pûshesû"
+      "_default": "Apicha pûshesû (MQ)"
     },
     "media": {
       "audio": "",
@@ -4170,7 +4170,7 @@
     "timed": false,
     "story ID": "7e8b6bf9-e4d7-4e10-89a2-41e142180a44",
     "title": {
-      "_default": "2021NOV16-GQ-KANSECHUNE"
+      "_default": "Kansechune (GQ)"
     },
     "media": {
       "audio": "",
@@ -4221,7 +4221,7 @@
     "timed": false,
     "story ID": "3bef4858-1d9b-4e2d-88bf-62b49aabfe9e",
     "title": {
-      "_default": "2022FEB03-AQ-APICHA_PÛSHESÛNE"
+      "_default": "Apicha pûshesûne"
     },
     "media": {
       "audio": "",
@@ -4272,7 +4272,7 @@
     "timed": false,
     "story ID": "f887d8a5-e984-43d8-a87e-5af1f09f6290",
     "title": {
-      "_default": "2022FEB03-AQ-ATHIANBI_A'INE"
+      "_default": "Athianbi a'ine"
     },
     "media": {
       "audio": "",
@@ -4323,7 +4323,7 @@
     "timed": false,
     "story ID": "b59ed44f-263b-400f-8d46-56fded8fe176",
     "title": {
-      "_default": "2022FEB03-AQ-TISE_KANSECHUNE"
+      "_default": "Tise kansechune (AQ)"
     },
     "media": {
       "audio": "",
@@ -4374,7 +4374,7 @@
     "timed": false,
     "story ID": "80b09dc7-889e-4cf9-a623-02723fbca994",
     "title": {
-      "_default": "2022FEB03-AQ-GUARDIANE"
+      "_default": "Guardiane (AQ)"
     },
     "media": {
       "audio": "",
@@ -4425,7 +4425,7 @@
     "timed": false,
     "story ID": "26d55bb3-422f-419c-af17-abe8da033875",
     "title": {
-      "_default": "2022FEB03-AQ-TSAMPISÛ_AÑACHUNE"
+      "_default": "Tsampisû añachune (AQ)"
     },
     "media": {
       "audio": "",
@@ -4476,7 +4476,7 @@
     "timed": false,
     "story ID": "f4c3f221-ad51-4725-af1d-1e420b6eb027",
     "title": {
-      "_default": "2022FEB03-CA-TISE_DÛSÛNGÛETENE"
+      "_default": "Tise dûsûngûetene"
     },
     "media": {
       "audio": "",
@@ -4527,7 +4527,7 @@
     "timed": false,
     "story ID": "9a96e373-954e-4817-a8c3-9a5c8f2f2470",
     "title": {
-      "_default": "2022FEB03-AQ-YAJENE"
+      "_default": "Yajene"
     },
     "media": {
       "audio": "",
@@ -4578,7 +4578,7 @@
     "timed": false,
     "story ID": "cbfa52b6-c6bf-482d-a215-c660c3e3904c",
     "title": {
-      "_default": "2022Ene06-DC-Aitsuve"
+      "_default": "Aitsuve (DC)"
     },
     "media": {
       "audio": "",
@@ -4629,7 +4629,7 @@
     "timed": false,
     "story ID": "54409408-74c6-499d-aaf6-58c19790df60",
     "title": {
-      "_default": "2022FEB03-CA-VAJÛ_KUNDASEPA"
+      "_default": "Vajû kundasepa (CA)"
     },
     "media": {
       "audio": "",
@@ -4680,7 +4680,7 @@
     "timed": false,
     "story ID": "028e07b8-670f-46c7-9138-08519d122374",
     "title": {
-      "_default": "2022FEB03-CA-TISE_KANSECHUNE"
+      "_default": "Tise kansechune (CA)"
     },
     "media": {
       "audio": "",
@@ -4731,7 +4731,7 @@
     "timed": false,
     "story ID": "0c071b65-6372-4094-8517-19c1d97281f3",
     "title": {
-      "_default": "2022FEB03-EN-TAYUPISÛ_KUENZANDEKHÛNE"
+      "_default": "Tayupisû kuenzandekhûne"
     },
     "media": {
       "audio": "",
