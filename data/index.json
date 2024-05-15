@@ -4469,33 +4469,25 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
-      "CESILIO ALVARADO"
+      "CESILIO"
     ],
     "xml_file_name": "2022FEB03-CA-VAJÛ_KUNDASEPA.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "CA-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "CA-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       },
       "S2": {
-        "name": "CESILIO ALVARADO",
-        "tier": "CA-CON"
+        "name": "CESILIO",
+        "tier": "frase en Español"
       }
     }
   },
