@@ -4469,7 +4469,7 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "CESILIO"
+      "CESILIO ALVARADO"
     ],
     "xml_file_name": "2022FEB03-CA-VAJÛ_KUNDASEPA.eaf",
     "source_filetype": "ELAN",
@@ -4483,11 +4483,8 @@
     },
     "speaker IDs": {
       "S1": {
+        "name": "CESILIO ALVARADO",
         "tier": "palabra en a'ingae (ortografía nueva)"
-      },
-      "S2": {
-        "name": "CESILIO",
-        "tier": "frase en Español"
       }
     }
   },
@@ -4535,7 +4532,7 @@
     "timed": false,
     "story ID": "0c071b65-6372-4094-8517-19c1d97281f3",
     "title": {
-      "_default": "Tayupisû kuenzandekhûne"
+      "_default": "Tayupisû kuenzandekhûne (EN)"
     },
     "media": {
       "audio": "",
@@ -4555,6 +4552,247 @@
       "ERIKA NARVAEZ"
     ],
     "xml_file_name": "2022FEB03-EN-TAYUPISÛ_KUENZANDEKHÛNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "ERIKA NARVAEZ",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "8022d944-e6e1-4a40-80c9-68318c835b2f": {
+    "timed": false,
+    "story ID": "8022d944-e6e1-4a40-80c9-68318c835b2f",
+    "title": {
+      "_default": "Tayupisû kuenzandekhûne (CA)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "CESILIO ALVARADO"
+    ],
+    "xml_file_name": "2022FEB03-CA-TAYUPISÛ_KUENZANDEKHÛNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "CESILIO ALVARADO",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "81abe27a-e9f1-4fd5-9b84-e6035c768392": {
+    "timed": false,
+    "story ID": "81abe27a-e9f1-4fd5-9b84-e6035c768392",
+    "title": {
+      "_default": "Pûshesûndekhûne"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "ERIKA NARVAEZ"
+    ],
+    "xml_file_name": "2022FEB03-EN-PÛSHESÛDEKHÛNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "ERIKA NARVAEZ",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "ec4d0bc8-938c-4540-a3ad-55f730db0177": {
+    "timed": false,
+    "story ID": "ec4d0bc8-938c-4540-a3ad-55f730db0177",
+    "title": {
+      "_default": "Guardiane (EN)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "ERIKA NARVAEZ"
+    ],
+    "xml_file_name": "2022FEB03-EN-GUARDIANE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "ERIKA NARVAEZ",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "6e8b2fa2-405c-4dd3-81c0-c124023ac3f4": {
+    "timed": false,
+    "story ID": "6e8b2fa2-405c-4dd3-81c0-c124023ac3f4",
+    "title": {
+      "_default": "Shameccone"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "ERIKA NARVAEZ"
+    ],
+    "xml_file_name": "2022FEB03-EN-SHAMECCONE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "ERIKA NARVAEZ",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "87a30162-8c17-4c54-9c01-4379c2406017": {
+    "timed": false,
+    "story ID": "87a30162-8c17-4c54-9c01-4379c2406017",
+    "title": {
+      "_default": "Tayupisû kuenzandekhûne (RU)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "ROSALINA UMENDA",
+      "ROSALINA UMENDA "
+    ],
+    "xml_file_name": "2022FEB12-RU-TAYUPISÛ_KUENZANDEKHÛNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "ROSALINA UMENDA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "9723c125-cfff-4a69-8c26-e67a34507a84": {
+    "timed": false,
+    "story ID": "9723c125-cfff-4a69-8c26-e67a34507a84",
+    "title": {
+      "_default": "Tise kansechune (EN)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "ERIKA NARVAEZ"
+    ],
+    "xml_file_name": "2022FEB03-EN-TISE_KANSECHUNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
       "palabra en a'ingae (ortografía nueva)": {
