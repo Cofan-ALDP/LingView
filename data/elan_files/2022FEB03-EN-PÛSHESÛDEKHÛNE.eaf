@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-05-15T13:26:59-05:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/labandrb/Desktop/New Folder/2022FEB03-EN-PÛSHESÛDEKHÛNE.eaf" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./2022FEB03-EN-PÛSHESÛDEKHÛNE.eaf"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:81abe27a-e9f1-4fd5-9b84-e6035c768392</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">56</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="9880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="10690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="11230"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="14710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="16645"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="25115"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="25435"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="27015"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="27230"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="31100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="31660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="37030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="37350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="42230"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="42425"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="42985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="44340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="51150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="52150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="56100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="58040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="64200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="65015"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="65865"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="67225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="70035"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="70585"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="76065"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="76590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="79050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="79285"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="80485"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="80590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="82390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="82705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="87715"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="88175"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="90855"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="91220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="92520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="93165"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="96395"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="96555"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="102015"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="102610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="104360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="104630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="106620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="106930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="112190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="112585"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="116185"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <TIER ANNOTATOR="LEIDY QUENAMA" LINGUISTIC_TYPE_REF="TRANSCRIPCION" PARTICIPANT="ERIKA NARVAEZ" TIER_ID="palabra en a'ingae (ortografía nueva)">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>ya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>ingitangi pûshesûndekhûja sinteyi jangipa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>kû'ikhûma utien chhu'chhuye atesûfa añachu jinija utenba ufianba tise tsan'dûma mueñañe atesûfa mani nasipakhûma semañe  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>añachuve jaye </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>hasta pakhu tsunba tsethe'ngi ingi tsama naninba</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>junguesû maphaye atesûfa tse'the nasipakhûnikhe jaye atesûfa </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>am'nba giyeñe , geñuma juñe, kuye inzûbe ja'ye </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>tsakûen</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>junguesû tsa'ma tsundangi tsuña atesûfa anshasima anshanba chabûenva kanseye </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>tsa'ma nanindangi tsakûen pû'i a'ta ingi  tsuñe atesûfa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>majandangi fuñuma anchuñe atesûfa majandangi junguesû u'vama utataye atesûfa    </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>tsumba</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>majandangi jakañe atesûfa </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>tisû tsandûkhû mani anganija u añachuve tisû tsandû mani janija </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>tsakûeñi ingija tsunba kansefa pa'khu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>pû'i a'ta </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>ingitangi pûshesûn'dekhû </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>junguesû majandangi e'thini kansefanbi jakansûfangi </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>pakhu a'tangi uyajefa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>tsumbangi </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>pakhu dûshûn'dekhûmakhe ingija </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>kuirafayachungi kûintsû tisepa escuelani sinthe jangipa thepûpa jaye </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>o tisepa colegioni </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>naninba thepûpa ja'ye </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>tsene ji'nija khase ingija dûshûn'dekhûma tisû tsandûmakhe tsakûeñi </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>vasepa kû'iñañachu hasta pa'khuma ingija  tsumba kansefa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="LEIDY QUENAMA" LINGUISTIC_TYPE_REF="TRADUCCION" PARENT_REF="palabra en a'ingae (ortografía nueva)" PARTICIPANT="ERIKA NARVAEZ" TIER_ID="frase en Español">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>ya </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>nosotros las mujeres nos madrugamos de mañanita</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>primero cosinamos la chucula y si es que hay comida cosinamos y le damos de comer a nuestros esposos, para que puedan ir al trabajo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>o de cazería</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>hasta todo eso cuando termino </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>comenzamos a lavar la ropa y tambien sabemos ir a trochar en la chacra </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a37" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>limpiar las yucas, sembrar guineos, y a traer platanos verdes</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>así </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>trabajamos las mujeres y tambien nos dedicamos a elaborar artesanías y vendemos para poner compra las cosas que nos faltan </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>y así pasabamos trabajando todo los días </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>otra mujeres elaboran trajes y las otras elaboran shigras </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>tambien</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>sabemos andar </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>con nuestros esposos, de cazería o tambien a minar con la batea</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>así vivimos nosotras las mujeres cofanes</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a46" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>todo los días</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>nosotras las mujeres </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>casí la mayoría sabemos andar con nuestros maridos</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>todo los días sabemos ir</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>tambien</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>a nuestros hijos </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>tenemos que cuidarlos, lenvar de mañanita hacer el desayudo para que se vayan a la escuela bien desayudanitos</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>o para que se vayan al colegio </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>que se vayan bien desayunados</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>cuando regresan igual tenemos que atenderlos  hasta a nuestros esposos</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>cosinar y darles de comer hasta todo eso es nuestra responsabilidad como mujeres</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="TRANSCRIPCION" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="TRADUCCION" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
