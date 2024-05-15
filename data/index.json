@@ -2554,7 +2554,7 @@
       "con-Latn-EC-x-dureno": "Kuankuan kundasepa",
       "en": "Coancoan story",
       "es": "Historia de Coancoan",
-      "_default": "Kuankuan kundasepa"
+      "_default": "Kuankuan kundasepa (OCQ)"
     },
     "media": {
       "audio": "",
@@ -4805,6 +4805,642 @@
     "speaker IDs": {
       "S1": {
         "name": "ERIKA NARVAEZ",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "7f2834e8-f003-4822-9fef-595c773495dc": {
+    "timed": false,
+    "story ID": "7f2834e8-f003-4822-9fef-595c773495dc",
+    "title": {
+      "_default": "Sapo Gota"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2021Dic08-LQ-Sapo_Gota.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "b8b782d6-fd4a-4305-b27a-a3b4d127175a": {
+    "timed": false,
+    "story ID": "b8b782d6-fd4a-4305-b27a-a3b4d127175a",
+    "title": {
+      "_default": "Kanjansi (LQ)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2021Dic08-LQ-Kanjansi.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "0f820b92-6303-4123-acbf-771b924c32bb": {
+    "timed": false,
+    "story ID": "0f820b92-6303-4123-acbf-771b924c32bb",
+    "title": {
+      "_default": "Zunzue'une"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2021Dic08-LQ-Zunzue'une.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "6e8f1279-2de1-4b6e-a059-4d0cffdfcadf": {
+    "timed": false,
+    "story ID": "6e8f1279-2de1-4b6e-a059-4d0cffdfcadf",
+    "title": {
+      "_default": "Asethûchune"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ELIZA UMENDA"
+    ],
+    "xml_file_name": "2021DIC14-EU-ASETHÛCHUNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "LQ-CON": {
+        "subdivided": false
+      },
+      "EU-CON": {
+        "subdivided": false
+      },
+      "LQ-SPA": {
+        "subdivided": false
+      },
+      "EU-SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "LQ-CON"
+      },
+      "S2": {
+        "name": "ELIZA UMENDA",
+        "tier": "EU-CON"
+      }
+    }
+  },
+  "88103ad3-5de9-4457-9c49-0750f4b76b64": {
+    "timed": false,
+    "story ID": "88103ad3-5de9-4457-9c49-0750f4b76b64",
+    "title": {
+      "_default": "Tshararakuku (MC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "maruja criollo"
+    ],
+    "xml_file_name": "2021Nov17-MC-Tshararakuku.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "maruja criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "b08f5745-dc6a-4f4c-9209-2801dd58d215": {
+    "timed": false,
+    "story ID": "b08f5745-dc6a-4f4c-9209-2801dd58d215",
+    "title": {
+      "_default": "Erision (AC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "alejandro criollo"
+    ],
+    "xml_file_name": "2021Nov18-AC-Erision.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "alejandro criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "95cfb533-7067-432d-9cff-559680038963": {
+    "timed": false,
+    "story ID": "95cfb533-7067-432d-9cff-559680038963",
+    "title": {
+      "_default": "Historietas varias (CL)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "CESARIO LUCITANTE",
+      "RAUL QUIETA",
+      "RAUL QUIETA "
+    ],
+    "xml_file_name": "2021NOV14-CL-HISTORIETAS-VARIAS.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "CON-CL": {
+        "subdivided": false
+      },
+      "CON-RQ": {
+        "subdivided": false
+      },
+      "SPA-CL": {
+        "subdivided": false
+      },
+      "SPA-RQ": {
+        "subdivided": false
+      },
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "CESARIO LUCITANTE",
+        "tier": "CON-CL"
+      },
+      "S2": {
+        "name": "RAUL QUIETA",
+        "tier": "CON-RQ"
+      },
+      "S3": {
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S4": {
+        "tier": "frase en Español"
+      }
+    }
+  },
+  "d9c59610-1355-45c0-bab3-65c53a3cfc2a": {
+    "timed": false,
+    "story ID": "d9c59610-1355-45c0-bab3-65c53a3cfc2a",
+    "title": {
+      "_default": "Kuankuan kundasepa (JC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "JORGE CRIOLLO"
+    ],
+    "xml_file_name": "2021NOV16-JC-KUANKUAN_KUNDASEPA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "JORGE CRIOLLO",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "4dbb3019-257e-4ea1-8e5b-edb60e6a7a8e": {
+    "timed": false,
+    "story ID": "4dbb3019-257e-4ea1-8e5b-edb60e6a7a8e",
+    "title": {
+      "_default": "Yaje (VM)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "valerio mendua"
+    ],
+    "xml_file_name": "2021Nov18-VM-Yaje.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "valerio mendua",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "6d0d31ec-9867-44dd-80b2-6d663b8e397a": {
+    "timed": false,
+    "story ID": "6d0d31ec-9867-44dd-80b2-6d663b8e397a",
+    "title": {
+      "_default": "Autobiografía de SV"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Sandra Vargas"
+    ],
+    "xml_file_name": "2021Nov30-SV-Autobiografía.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Sandra Vargas",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "2120a0cf-e29b-40a1-bdb4-eef66f459ce9": {
+    "timed": false,
+    "story ID": "2120a0cf-e29b-40a1-bdb4-eef66f459ce9",
+    "title": {
+      "_default": "Fûrûkû'kû"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Sandra Vargas"
+    ],
+    "xml_file_name": "2021Nov30-SV-Furukuku.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Sandra Vargas",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "68fdcf4a-8c32-4598-99d8-1c71a0385bf4": {
+    "timed": false,
+    "story ID": "68fdcf4a-8c32-4598-99d8-1c71a0385bf4",
+    "title": {
+      "_default": "Tsanda"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "maruja crollo",
+      "maruja criollo"
+    ],
+    "xml_file_name": "2022Abr04-MC-Tsanda.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "maruja crollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "babcde7e-f908-4296-97ad-671953d211f5": {
+    "timed": false,
+    "story ID": "babcde7e-f908-4296-97ad-671953d211f5",
+    "title": {
+      "_default": "Aitsuve (VQ)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Victoria Quenama"
+    ],
+    "xml_file_name": "2022Ene02-VQ-Aitsuve.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Victoria Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "537f0690-66db-4c75-a9b6-a3ef4f4a1ffd": {
+    "timed": false,
+    "story ID": "537f0690-66db-4c75-a9b6-a3ef4f4a1ffd",
+    "title": {
+      "_default": "Autobiografía de VQ"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Victoria Quenama"
+    ],
+    "xml_file_name": "2022Ene02-VQ-Autobiografía.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Victoria Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "96bb2c76-4e0e-45e3-aa07-e7fad98c64cd": {
+    "timed": false,
+    "story ID": "96bb2c76-4e0e-45e3-aa07-e7fad98c64cd",
+    "title": {
+      "_default": "Tshararakuku (MC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/15/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "rufino criollo"
+    ],
+    "xml_file_name": "2022Feb07-RC-Tsararakuku.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "rufino criollo",
         "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
