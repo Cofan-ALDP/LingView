@@ -3828,19 +3828,12 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "ELIZA UMENDA"
     ],
     "xml_file_name": "2021DIC14-EU-KANSECHUNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
-        "subdivided": false
-      },
       "EU-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
         "subdivided": false
       },
       "EU-SPA": {
@@ -3849,10 +3842,6 @@
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "ELIZA UMENDA",
         "tier": "EU-CON"
       }
