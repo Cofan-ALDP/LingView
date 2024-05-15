@@ -4950,33 +4950,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "ELIZA UMENDA"
     ],
     "xml_file_name": "2021DIC14-EU-ASETHÛCHUNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "EU-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "EU-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "ELIZA UMENDA",
-        "tier": "EU-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -5057,70 +5046,6 @@
       "S1": {
         "name": "alejandro criollo",
         "tier": "palabra en a'ingae (ortografía nueva)"
-      }
-    }
-  },
-  "95cfb533-7067-432d-9cff-559680038963": {
-    "timed": false,
-    "story ID": "95cfb533-7067-432d-9cff-559680038963",
-    "title": {
-      "_default": "Historietas varias (CL)"
-    },
-    "media": {
-      "audio": "",
-      "video": ""
-    },
-    "languages": [],
-    "date_created": "",
-    "date_uploaded": "5/15/2024",
-    "source": {
-      "_default": ""
-    },
-    "description": "",
-    "genre": "",
-    "author": "",
-    "glosser": "",
-    "speakers": [
-      "CESARIO LUCITANTE",
-      "RAUL QUIETA",
-      "RAUL QUIETA "
-    ],
-    "xml_file_name": "2021NOV14-CL-HISTORIETAS-VARIAS.eaf",
-    "source_filetype": "ELAN",
-    "tier IDs": {
-      "CON-CL": {
-        "subdivided": false
-      },
-      "CON-RQ": {
-        "subdivided": false
-      },
-      "SPA-CL": {
-        "subdivided": false
-      },
-      "SPA-RQ": {
-        "subdivided": false
-      },
-      "palabra en a'ingae (ortografía nueva)": {
-        "subdivided": false
-      },
-      "frase en Español": {
-        "subdivided": false
-      }
-    },
-    "speaker IDs": {
-      "S1": {
-        "name": "CESARIO LUCITANTE",
-        "tier": "CON-CL"
-      },
-      "S2": {
-        "name": "RAUL QUIETA",
-        "tier": "CON-RQ"
-      },
-      "S3": {
-        "tier": "palabra en a'ingae (ortografía nueva)"
-      },
-      "S4": {
-        "tier": "frase en Español"
       }
     }
   },
