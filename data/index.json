@@ -3833,17 +3833,17 @@
     "xml_file_name": "2021DIC14-EU-KANSECHUNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "EU-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "EU-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "ELIZA UMENDA",
-        "tier": "EU-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3868,33 +3868,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "ELIZA UMENDA"
     ],
     "xml_file_name": "2021DIC14-EU-TSAMPISÛ_AÑACHUNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "EU-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "EU-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "ELIZA UMENDA",
-        "tier": "EU-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3919,34 +3908,23 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "ELIZA UMENDA",
       "ELIZA UMENDA "
     ],
     "xml_file_name": "2021DIC14-EU-U'MA_FIESTANE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "EU-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "EU-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "ELIZA UMENDA",
-        "tier": "EU-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -3971,33 +3949,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LUCIANO LUCITANTE",
-      "LEIDY QUENAMA"
+      "LUCIANO LUCITANTE"
     ],
     "xml_file_name": "2021NOV12-LL-KAJANSI_KUNDASEPA.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LL-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "LQ-CON": {
-        "subdivided": false
-      },
-      "LL-SPA": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "LUCIANO LUCITANTE",
-        "tier": "LL-CON"
-      },
-      "S2": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4022,33 +3989,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "SERAFINA QUENAMA",
-      "LEIDY QUENAMA"
+      "SERAFINA QUENAMA"
     ],
     "xml_file_name": "2021NOV12-SQ-ATHIAMBI_A'INDEKHÛ.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "SQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "LQ-CON": {
-        "subdivided": false
-      },
-      "SQ-SPA": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "SERAFINA QUENAMA",
-        "tier": "SQ-CON"
-      },
-      "S2": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4073,33 +4029,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "valerio mendua",
-      "thalya mendua"
+      "valerio mendua"
     ],
     "xml_file_name": "2021Nov18-VM-Shavune.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "vm-con": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "tm-con": {
-        "subdivided": false
-      },
-      "VM-SPA": {
-        "subdivided": false
-      },
-      "TM-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "valerio mendua",
-        "tier": "vm-con"
-      },
-      "S2": {
-        "name": "thalya mendua",
-        "tier": "tm-con"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4124,34 +4069,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "Shen Aguinda",
-      "Magdalena Quenama",
-      "MAgdalena Quenama"
+      "Magdalena Quenama"
     ],
     "xml_file_name": "2022abril20-MQ-Apicha_Pûshesû.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "SA-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "MQ_CON": {
-        "subdivided": false
-      },
-      "SA_SPA": {
-        "subdivided": false
-      },
-      "MQ_SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "Shen Aguinda",
-        "tier": "SA-CON"
-      },
-      "S2": {
         "name": "Magdalena Quenama",
-        "tier": "MQ_CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4176,33 +4109,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "GRACIELA QUENAMA"
     ],
     "xml_file_name": "2021NOV16-GQ-KANSECHUNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "GQ-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "GQ-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "GRACIELA QUENAMA",
-        "tier": "GQ-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4227,33 +4149,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "ANGEL QUENAMA",
-      "LEIDY QUENAMA"
+      "ANGEL QUENAMA"
     ],
     "xml_file_name": "2022FEB03-AQ-APICHA_PÛSHESÛNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "AQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "LQ-CON": {
-        "subdivided": false
-      },
-      "AQ-SPA": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
         "name": "ANGEL QUENAMA",
-        "tier": "AQ-CON"
-      },
-      "S2": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4261,7 +4172,7 @@
     "timed": false,
     "story ID": "f887d8a5-e984-43d8-a87e-5af1f09f6290",
     "title": {
-      "_default": "Athianbi a'ine"
+      "_default": "Athiambi a'ine"
     },
     "media": {
       "audio": "",
@@ -4278,33 +4189,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "ANGEL QUENAMA"
     ],
     "xml_file_name": "2022FEB03-AQ-ATHIANBI_A'INE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "AQ-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "AQ-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "ANGEL QUENAMA",
-        "tier": "AQ-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4329,33 +4229,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "ANGEL QUENAMA"
     ],
     "xml_file_name": "2022FEB03-AQ-TISE_KANSECHUNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "AQ-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "AQ-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "ANGEL QUENAMA",
-        "tier": "AQ-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4380,33 +4269,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "ANGEL QUENAMA"
     ],
     "xml_file_name": "2022FEB03-AQ-GUARDIANE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "AQ-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "AQ-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "ANGEL QUENAMA",
-        "tier": "AQ-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4431,33 +4309,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "ANGEL QUENAMA"
     ],
     "xml_file_name": "2022FEB03-AQ-TSAMPISÛ_AÑACHUNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "AQ-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "AQ-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "ANGEL QUENAMA",
-        "tier": "AQ-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4482,33 +4349,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "CESILIO ALVARADO"
     ],
     "xml_file_name": "2022FEB03-CA-TISE_DÛSÛNGÛETENE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "CA-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "CA-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "CESILIO ALVARADO",
-        "tier": "CA-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4533,33 +4389,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "ANGEL QUENAMA"
     ],
     "xml_file_name": "2022FEB03-AQ-YAJENE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "AQ-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "AQ-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "ANGEL QUENAMA",
-        "tier": "AQ-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4584,33 +4429,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "Jorge Mendua",
       "Delfin Criollo"
     ],
     "xml_file_name": "2022Ene06-DC-Aitsuve.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "JM-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "DC_CON": {
-        "subdivided": false
-      },
-      "JM_SPA": {
-        "subdivided": false
-      },
-      "DC_SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "Jorge Mendua",
-        "tier": "JM-CON"
-      },
-      "S2": {
         "name": "Delfin Criollo",
-        "tier": "DC_CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4618,7 +4452,7 @@
     "timed": false,
     "story ID": "54409408-74c6-499d-aaf6-58c19790df60",
     "title": {
-      "_default": "Vajû kundasepa (CA)"
+      "_default": "Vaju kundasepa (CA)"
     },
     "media": {
       "audio": "",
@@ -4686,33 +4520,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "CESILIO ALVARADO"
     ],
     "xml_file_name": "2022FEB03-CA-TISE_KANSECHUNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "CA-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "CA-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "CESILIO ALVARADO",
-        "tier": "CA-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   },
@@ -4737,33 +4560,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "LEIDY QUENAMA",
       "ERIKA NARVAEZ"
     ],
     "xml_file_name": "2022FEB03-EN-TAYUPISÛ_KUENZANDEKHÛNE.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "LQ-CON": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "EN-CON": {
-        "subdivided": false
-      },
-      "LQ-SPA": {
-        "subdivided": false
-      },
-      "EN-SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "LEIDY QUENAMA",
-        "tier": "LQ-CON"
-      },
-      "S2": {
         "name": "ERIKA NARVAEZ",
-        "tier": "EN-CON"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   }
