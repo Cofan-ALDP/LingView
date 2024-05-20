@@ -6014,7 +6014,7 @@
     "timed": false,
     "story ID": "59fa3628-d22c-486f-8f9c-2fb8223ed91b",
     "title": {
-      "_default": "Ambo"
+      "_default": "Ambu"
     },
     "media": {
       "audio": "",
@@ -6046,6 +6046,807 @@
     "speaker IDs": {
       "S1": {
         "name": "valerio mendua",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "41212995-d637-41d2-afdb-47f05516d5fa": {
+    "timed": false,
+    "story ID": "41212995-d637-41d2-afdb-47f05516d5fa",
+    "title": {
+      "_default": "Fûrûkû'kûne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Abr04-LQ-Fûrûkû'kûne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "e4535a66-0831-4de2-a825-327ee271bf04": {
+    "timed": false,
+    "story ID": "e4535a66-0831-4de2-a825-327ee271bf04",
+    "title": {
+      "_default": "Jujuvûne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Abr04-LQ-Jujuvûne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "44fa8071-7e3f-4b4c-a173-ef871cf8a8cf": {
+    "timed": false,
+    "story ID": "44fa8071-7e3f-4b4c-a173-ef871cf8a8cf",
+    "title": {
+      "_default": "Pa'un tsandie ne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Abr04-LQ-Pa'un_tsandie_ne_kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "eeee3107-15b9-4012-9877-23e586fd5b79": {
+    "timed": false,
+    "story ID": "eeee3107-15b9-4012-9877-23e586fd5b79",
+    "title": {
+      "_default": "Ansine"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "maruja criollo"
+    ],
+    "xml_file_name": "2022Abr04-MC-Ansine.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "maruja criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "2eab5023-b317-4a11-87e1-f40305e89887": {
+    "timed": false,
+    "story ID": "2eab5023-b317-4a11-87e1-f40305e89887",
+    "title": {
+      "_default": "Si'an thesine kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Abr04-LQ-Si'an_thesine_kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "f7b9bc5b-9330-4be7-a16b-94bdcbacd436": {
+    "timed": false,
+    "story ID": "f7b9bc5b-9330-4be7-a16b-94bdcbacd436",
+    "title": {
+      "_default": "Tetetes"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "maruja criollo"
+    ],
+    "xml_file_name": "2022Abr04-MC-Tetetes.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "maruja criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "966acd06-9d18-4835-9390-499b37e3130b": {
+    "timed": false,
+    "story ID": "966acd06-9d18-4835-9390-499b37e3130b",
+    "title": {
+      "_default": "Tûrûrûne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Abr04-LQ-Tûrûrûne_kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "027a0e23-fa74-4af4-a2c7-69f06bcc88d7": {
+    "timed": false,
+    "story ID": "027a0e23-fa74-4af4-a2c7-69f06bcc88d7",
+    "title": {
+      "_default": "Minge tayupisu a'i kansefachuma"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "maruja criollo"
+    ],
+    "xml_file_name": "2022Abr04-MC-Minge_Tayupisu_A'i_Kansefachuma.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "maruja criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "b00b9b38-99f8-4360-b790-5decf86cecf9": {
+    "timed": false,
+    "story ID": "b00b9b38-99f8-4360-b790-5decf86cecf9",
+    "title": {
+      "_default": "Tsandie sapo pûshesûnga pichu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Abr04-LQ-Tsandie_sapo_pûshesûnga_pichu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "01ec846e-4f97-4bf3-9e93-e7c6f4c4d7b9": {
+    "timed": false,
+    "story ID": "01ec846e-4f97-4bf3-9e93-e7c6f4c4d7b9",
+    "title": {
+      "_default": "Zunzue (MC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "maruja criollo"
+    ],
+    "xml_file_name": "2022Abr04-MC-Zunzue.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "maruja criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "bbb3bc10-9ed1-4eb4-8860-15defe00cb61": {
+    "timed": false,
+    "story ID": "bbb3bc10-9ed1-4eb4-8860-15defe00cb61",
+    "title": {
+      "_default": "Apicha Pûshesû (DC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "delfin criollo"
+    ],
+    "xml_file_name": "2022Mar09-DC-Apicha_Pûshesû.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "delfin criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "0e443086-69c3-435c-a376-af45a115ffef": {
+    "timed": false,
+    "story ID": "0e443086-69c3-435c-a376-af45a115ffef",
+    "title": {
+      "_default": "Ûfakhukhu ne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Valerio Mendua"
+    ],
+    "xml_file_name": "2022Mar04-VM-Ûfakhukhu_Ne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Valerio Mendua",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "3c1604c4-03e7-4a44-80a4-953937c091e3": {
+    "timed": false,
+    "story ID": "3c1604c4-03e7-4a44-80a4-953937c091e3",
+    "title": {
+      "_default": "Kanjansi dushu (DC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "delfin criollo"
+    ],
+    "xml_file_name": "2022Mar09-DC-Kanjansi_Dushu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "delfin criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "d423674b-f9d9-4f45-a021-750fa86588bd": {
+    "timed": false,
+    "story ID": "d423674b-f9d9-4f45-a021-750fa86588bd",
+    "title": {
+      "_default": "Kunsiana (DC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "delfin criollo"
+    ],
+    "xml_file_name": "2022Mar09-DC-Kunsiana.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "delfin criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "624d1312-4c40-47b1-9ade-e7a2ab3bb7ee": {
+    "timed": false,
+    "story ID": "624d1312-4c40-47b1-9ade-e7a2ab3bb7ee",
+    "title": {
+      "_default": "Kuankuani jachu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "delfin criollo"
+    ],
+    "xml_file_name": "2022Mar09-DC-Kuankuani_Jachu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "delfin criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "b44c1c93-9413-4aa0-8def-73f47df56bc0": {
+    "timed": false,
+    "story ID": "b44c1c93-9413-4aa0-8def-73f47df56bc0",
+    "title": {
+      "_default": "Ambune kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Delfin Criollo"
+    ],
+    "xml_file_name": "2022May04-DC-Ambune_kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Delfin Criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "d4c6cb36-4ca2-418f-a7f8-42e013b85914": {
+    "timed": false,
+    "story ID": "d4c6cb36-4ca2-418f-a7f8-42e013b85914",
+    "title": {
+      "_default": "Kunsiana ne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Delfin Criollo"
+    ],
+    "xml_file_name": "2022May04-DC-Kunsiana_Ne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Delfin Criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "038a237b-ad40-473c-af31-67ee0a2fe856": {
+    "timed": false,
+    "story ID": "038a237b-ad40-473c-af31-67ee0a2fe856",
+    "title": {
+      "_default": "Suku"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "maruja criollo"
+    ],
+    "xml_file_name": "2022May10-MC-Suku.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "maruja criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "03bb157a-aba5-4ef1-a736-a6b0ccb70525": {
+    "timed": false,
+    "story ID": "03bb157a-aba5-4ef1-a736-a6b0ccb70525",
+    "title": {
+      "_default": "Kanjansi dushu (MC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "maruja criollo"
+    ],
+    "xml_file_name": "2022May10-MC-Kanjansi_Dushu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "maruja criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "38742696-1c41-4ae3-9418-10965c250bb0": {
+    "timed": false,
+    "story ID": "38742696-1c41-4ae3-9418-10965c250bb0",
+    "title": {
+      "_default": "Savarura ne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Delfín Criollo",
+      "Jorge Mendua"
+    ],
+    "xml_file_name": "2022May04-DC-Savarura_Ne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Delfín Criollo",
         "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
