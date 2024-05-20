@@ -5369,5 +5369,685 @@
         "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
+  },
+  "b1002a7e-b9d9-466b-9a27-25616f07ed29": {
+    "timed": false,
+    "story ID": "b1002a7e-b9d9-466b-9a27-25616f07ed29",
+    "title": {
+      "_default": "Ufikhû"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "EMILIANO QUETA"
+    ],
+    "xml_file_name": "2021DIC23-EQ-UFIKHÛ.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "EMILIANO QUETA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "20c79310-70cd-46ee-8581-e6b9287aa079": {
+    "timed": false,
+    "story ID": "20c79310-70cd-46ee-8581-e6b9287aa079",
+    "title": {
+      "_default": "Kanjansi (VQ)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Victoria Quenama"
+    ],
+    "xml_file_name": "2021Dic31-VQ-Kanjansi.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Victoria Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "4c956141-5f34-4932-8a16-448de58fe5a1": {
+    "timed": false,
+    "story ID": "4c956141-5f34-4932-8a16-448de58fe5a1",
+    "title": {
+      "_default": "Kuankuan (VQ)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Victoria Quenama"
+    ],
+    "xml_file_name": "2022Ene02-VQ-Kuankuan.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Victoria Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "d1a0c27a-010b-4984-b15c-a9376bd58346": {
+    "timed": false,
+    "story ID": "d1a0c27a-010b-4984-b15c-a9376bd58346",
+    "title": {
+      "_default": "Kuankuan (DC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Delfin Criollo"
+    ],
+    "xml_file_name": "2022Ene06-DC-Kuankuan.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Delfin Criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "4275ce81-3e6d-48bb-8969-f6ce00571888": {
+    "timed": false,
+    "story ID": "4275ce81-3e6d-48bb-8969-f6ce00571888",
+    "title": {
+      "_default": "Tayupisû a'i mane jifachu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Delfin Criollo"
+    ],
+    "xml_file_name": "2022Ene06-DC-Tayupisû_A'i_Mane_Jifachu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Delfin Criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "cd6d90f7-6922-4e10-a468-4a44920ca240": {
+    "timed": false,
+    "story ID": "cd6d90f7-6922-4e10-a468-4a44920ca240",
+    "title": {
+      "_default": "Kuentsuve"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "maruja criollo"
+    ],
+    "xml_file_name": "2022Ene06-MC-Kuentsuve.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "maruja criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "c22d7010-519b-4868-8086-8823b04b8daf": {
+    "timed": false,
+    "story ID": "c22d7010-519b-4868-8086-8823b04b8daf",
+    "title": {
+      "_default": "Kanjansi pûshesûnga pichu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "rufino criollo"
+    ],
+    "xml_file_name": "2022Ene07-RC-Kanjansi_Pûshesûnga_Pichu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "rufino criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "d2aad936-9388-4394-b8e1-5c59064246fe": {
+    "timed": false,
+    "story ID": "d2aad936-9388-4394-b8e1-5c59064246fe",
+    "title": {
+      "_default": "Chimbiraku pûshesûnga pichu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "rufino criollo"
+    ],
+    "xml_file_name": "2022Ene07-RC-Chimbiraku_Pûshesûnga_Pichu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "rufino criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "5b17d54a-144e-4b76-b547-863ec56960df": {
+    "timed": false,
+    "story ID": "5b17d54a-144e-4b76-b547-863ec56960df",
+    "title": {
+      "_default": "Ukavati a'indekhu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "rufino criollo"
+    ],
+    "xml_file_name": "2022Ene15-RC-Ukavati_A'indekhu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "rufino criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "64411c5e-b906-4e8f-93d0-e6de5f40176c": {
+    "timed": false,
+    "story ID": "64411c5e-b906-4e8f-93d0-e6de5f40176c",
+    "title": {
+      "_default": "Vaju (RC)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "rufino criollo"
+    ],
+    "xml_file_name": "2022Ene07-RC-Vaju.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "rufino criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "cb486503-4057-49c9-b7a3-5ce2021c65f6": {
+    "timed": false,
+    "story ID": "cb486503-4057-49c9-b7a3-5ce2021c65f6",
+    "title": {
+      "_default": "Tsanda ga pichu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Delfín Criollo"
+    ],
+    "xml_file_name": "2022Feb03-DC-Tsanda_Ga_Pichu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Delfín Criollo",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "7f2ee77b-e6a9-475c-b1a0-6bfe8cea5396": {
+    "timed": false,
+    "story ID": "7f2ee77b-e6a9-475c-b1a0-6bfe8cea5396",
+    "title": {
+      "_default": "Tûtûkhuchu tuyakaen shankhu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Mar04-LQ-Tûtûkhuchu_Tuyakaen_Shankhu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "af254c3b-ed8b-4df3-a82a-cf87b2b47249": {
+    "timed": false,
+    "story ID": "af254c3b-ed8b-4df3-a82a-cf87b2b47249",
+    "title": {
+      "_default": "Kanjansi ne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Mar04-LQ-Kanjansi_Ne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "31c20811-071f-468e-b714-67a547e842b9": {
+    "timed": false,
+    "story ID": "31c20811-071f-468e-b714-67a547e842b9",
+    "title": {
+      "_default": "Mûnda ne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Valerio Mendua"
+    ],
+    "xml_file_name": "2022Mar04-VM-Mûnda_Ne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Valerio Mendua",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "21ce2cde-d28f-4d8c-99bc-4919d563b6d0": {
+    "timed": false,
+    "story ID": "21ce2cde-d28f-4d8c-99bc-4919d563b6d0",
+    "title": {
+      "_default": "Vaju ne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Mar04-LQ-Vaju_Ne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "2f244817-4f27-475b-ace7-0f1c9de92617": {
+    "timed": false,
+    "story ID": "2f244817-4f27-475b-ace7-0f1c9de92617",
+    "title": {
+      "_default": "Ûfambi ne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Mar04-LQ-Ûfambi_Ne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "59fa3628-d22c-486f-8f9c-2fb8223ed91b": {
+    "timed": false,
+    "story ID": "59fa3628-d22c-486f-8f9c-2fb8223ed91b",
+    "title": {
+      "_default": "Ambo"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/20/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "valerio mendua"
+    ],
+    "xml_file_name": "2022Feb06-VM-Ambo.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "valerio mendua",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
   }
 }
