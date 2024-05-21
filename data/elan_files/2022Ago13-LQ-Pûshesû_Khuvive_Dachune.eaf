@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-05-21T15:58:29-05:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/labandrb/Desktop/New Folder/2022Ago13-LQ-Pûshesû_Khuvive_Dachune.eaf" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./2022Ago13-LQ-Pûshesû_Khuvive_Dachune.eaf"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:67e25278-ff0c-43c5-92f5-77ae74e93a32</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">112</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="22840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="24920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="25805"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="28855"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="29355"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="30785"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="31675"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="32575"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="33900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="36290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="36730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="38400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="39080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="40250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="40860"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="42100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="42315"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="43625"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="44285"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="45685"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="47930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="50320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="50720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="51260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="53310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="54500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="54850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="57310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="57310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="60190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="60995"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="62515"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="62610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="63980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="65480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="67130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="67600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="70550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="71160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="73260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="74180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="77680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="77695"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="79135"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="80470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="83170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="83195"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="83865"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="85000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="87480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="87575"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="89155"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="89840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="94110"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="94750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="97600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="98350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="100650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="101485"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="104695"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="104970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="105740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="106280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="109080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="109105"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="111355"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="111960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="112980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="113475"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="114815"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="114860"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="117940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="118390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="121960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="122610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="123870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="124370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="125770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="126495"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="127725"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="129020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="132800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="133700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="135880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="135945"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="138705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="139220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="141260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="141305"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="142855"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="142875"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="144385"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="144805"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="145595"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="145675"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="146845"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="Jorge Mendua" LINGUISTIC_TYPE_REF="Transcripcion" PARTICIPANT="Lizandro Quenama" TIER_ID="palabra en a'ingae (ortografía nueva)">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Ya ña iniseta'tsû Lizandro Quenama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>ña kankhefamangi ambian 57 añome </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>tsangi ja'ñu kundaseye tsun'jen</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>tayupija </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>chigaete'te junguesûtsû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>fae pûshesû dûsûnga</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>kuemba kan'seya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>tise mamai'khû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>kansete tse </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>tiseja atanigae</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>2 de la madrugadakhia'kaninde </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>tiseja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>pa'khu a'ta</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>pa'khu kuse tsa'kaende un'junjeña</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>a'takhe tsa'kaen unjumbani kanse </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>tsumbate tse'the</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>faesûndekhû in'janfaya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>kuse tayu ataningae</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>tayu unjungapa tûtûtûtû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>khendû'je ja'je kanseya </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>tsa'kaen kansesite faesûndekhû asi'thaen'fa ma'kaentsû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>dûsûnga pûshesûja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>ataningae ataningae unjum'bani kansekhende</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>in'janfaya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>tuya'kaende a'takhe tsa'kaen sime </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>tayu unjun'jen </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>tsa'kaende kan'seya kusete ñua'me ti'tshe unjuñe atesû tsa pûshesû dûsûngaja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>tsunsite faesûndekhû asi'thaen'faya ma'kaentsû ya'kaen</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>khuvi'ka'en tise'ja ataningae </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>tayu unjum'bani kanse khende asithaen'faya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>tsa'kaen kanjen </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>tsa pûshesûja tsa'kaen un'junjen unjun'gapa jipa </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>un'jumba tsa'kaen kanseya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42" TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>tsa a'indekhûja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43" TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>sû'faya ke panshenki </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>khuvi'kan'enki khendû'je ja'je kansekhende sû'faya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>tsu'nikhete tsa pûshesû dûsunga feña kuse ja'jeya </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46" TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>tsa'kaen kan'seya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47" TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>tsete ti'tshe khase </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48" TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>faesû kuse'khe tsa'kaen</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49" TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>unjungapa khendû'je tûtûtû khende tsûi'je ja'je </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50" TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>tsunsi sû'faya keja khuvi'akaenki </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51" TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>panshen un'junkhen sû'ni da'te tsa pûshesûja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52" TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>khuvive di'shapa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53" TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>tsangae ja'ya tsampinga</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54" TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>ja'ñu pan tuya tsa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55" TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>kanse'ya </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56" TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>tsangaeyi kundase.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="Jorge Mendua" LINGUISTIC_TYPE_REF="Traduccion" PARENT_REF="palabra en a'ingae (ortografía nueva)" PARTICIPANT="Lizandro Quenama" TIER_ID="frase en Español">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Ya, mi nombre es Lizandro Quenama</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>tengo 57 años de edad</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>voy a contar ahora</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>antes</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>cuando Dios vivía en este mundo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>una mujer soltera</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>vivía</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>con la mamá</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>cuando vivía </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>ella en la madrugada</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>como a las dos de la madrugada </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>ella</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>todo el día</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>toda la noche se bañaba</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>de día también se bañaba</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>de ahí</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>las otras persona creían</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>de noche en la madrugada</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>ya se venía bañando</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>pasaba sonando los píes</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>cuando ella pasaba así, las otras personas pensaban porque esa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a30">
+                <ANNOTATION_VALUE>mujer soltrera</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a31">
+                <ANNOTATION_VALUE>se bañaba toda las noches en la madrugada</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a88" ANNOTATION_REF="a32">
+                <ANNOTATION_VALUE>así creían</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a89" ANNOTATION_REF="a33">
+                <ANNOTATION_VALUE>tambien en el día y en las tardes</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a90" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>ya se bañaba</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a91" ANNOTATION_REF="a35">
+                <ANNOTATION_VALUE>así vivía, de noche sabe bañar mas esa mujer soltera</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a92" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>ahí las otras personas pensaban porqué así</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>ella en madrugada como una danta</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>se bañaba la mujer, pensaba la gente</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a39">
+                <ANNOTATION_VALUE>cuando vivía así</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a96" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>la mujer así se bañaba</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a97" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>así vivía la mujer</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a98" ANNOTATION_REF="a42">
+                <ANNOTATION_VALUE>y las personas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a99" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>dijieron usted</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>como una danta pasabas sonando los piés</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a45">
+                <ANNOTATION_VALUE>cuando dicen así, la mujer soltera se pasaba riéndo de noche</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a102" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>asi vivía</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a103" ANNOTATION_REF="a47">
+                <ANNOTATION_VALUE>ahí mas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a104" ANNOTATION_REF="a48">
+                <ANNOTATION_VALUE>otra noche también</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a105" ANNOTATION_REF="a49">
+                <ANNOTATION_VALUE>se hiba a bañar y pasaba sonando los pies tututu</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a106" ANNOTATION_REF="a50">
+                <ANNOTATION_VALUE>y dicen usted como una danta</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a107" ANNOTATION_REF="a51">
+                <ANNOTATION_VALUE>cuando dijieron la gente porqué usted bañas mucho de ahí la mujer</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a108" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>se convertió en una danta</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a109" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>y fue para siempre al monte</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a110" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE>en la actualidad todavía vive</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a111" ANNOTATION_REF="a55">
+                <ANNOTATION_VALUE>vive</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a112" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE>asta aquí nomás conté.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Transcripcion" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Traduccion" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
