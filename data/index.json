@@ -6850,5 +6850,687 @@
         "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
+  },
+  "03bde6e2-e8bc-4beb-8800-1a025a611864": {
+    "timed": false,
+    "story ID": "03bde6e2-e8bc-4beb-8800-1a025a611864",
+    "title": {
+      "_default": "Ambu (VQ)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Victoria Quenama"
+    ],
+    "xml_file_name": "2021Dic31-VQ-Ambu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Victoria Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "a0ad47d4-4915-4534-bb20-1c1fbdf80fa1": {
+    "timed": false,
+    "story ID": "a0ad47d4-4915-4534-bb20-1c1fbdf80fa1",
+    "title": {
+      "_default": "A'i Singuve Kanjaenchu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Ago13-LQ-A'i_Singuve_Kanjaenchu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "73e993ab-4302-457f-a91d-cc646e714180": {
+    "timed": false,
+    "story ID": "73e993ab-4302-457f-a91d-cc646e714180",
+    "title": {
+      "_default": "Ansi Pindune Kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Ago13-LQ-Ansi_Pindune_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "dfa17b9e-97a9-47be-8a60-fb56bbfae9c2": {
+    "timed": false,
+    "story ID": "dfa17b9e-97a9-47be-8a60-fb56bbfae9c2",
+    "title": {
+      "_default": "Firipi'une Kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Ago13-LQ-Firipi'une_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "67e25278-ff0c-43c5-92f5-77ae74e93a32": {
+    "timed": false,
+    "story ID": "67e25278-ff0c-43c5-92f5-77ae74e93a32",
+    "title": {
+      "_default": "Pûshesû Khuvive Dachune"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Ago13-LQ-Pûshesû_Khuvive_Dachune.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "1c10650d-fb90-4f3a-b708-849c0c2e703c": {
+    "timed": false,
+    "story ID": "1c10650d-fb90-4f3a-b708-849c0c2e703c",
+    "title": {
+      "_default": "Pûshesû Dûshûne Kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama",
+      "Lizandro Quenama "
+    ],
+    "xml_file_name": "2022Ago13-LQ-Pûshesû_Dûshûne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "389d4ea6-6399-459a-8cab-e64a836949b9": {
+    "timed": false,
+    "story ID": "389d4ea6-6399-459a-8cab-e64a836949b9",
+    "title": {
+      "_default": "Thûsindi Tsadiene Kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama",
+      "Jorge Mendua"
+    ],
+    "xml_file_name": "2022Ago13-LQ-Thûsindi_Tsadiene_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "0e74de94-2289-4d07-a022-d1673dd4e728": {
+    "timed": false,
+    "story ID": "0e74de94-2289-4d07-a022-d1673dd4e728",
+    "title": {
+      "_default": "Tsandie Ayai'khû Iyikhuchune"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Ago13-LQ-Tsandie_Ayai'khû_Iyikhuchune.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "5bbc4ebb-db0a-40f6-8c98-b63dcdbba098": {
+    "timed": false,
+    "story ID": "5bbc4ebb-db0a-40f6-8c98-b63dcdbba098",
+    "title": {
+      "_default": "Tsandie simbasû japa pachune"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Ago13-LQ-Tsandie_Simbasû_Japa_Pachune.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "e0089b68-dbc2-4c7e-90ae-1be88ad11a91": {
+    "timed": false,
+    "story ID": "e0089b68-dbc2-4c7e-90ae-1be88ad11a91",
+    "title": {
+      "_default": "Tshararakukune Kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Ago13-LQ-Tshararakukune_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "af7b937a-cc05-4642-9cdd-98207ced16ce": {
+    "timed": false,
+    "story ID": "af7b937a-cc05-4642-9cdd-98207ced16ce",
+    "title": {
+      "_default": "Erision (VQ)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Victoria Quenama"
+    ],
+    "xml_file_name": "2022Ene02-VQ-Erision.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Victoria Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "9acacdad-e294-4dd5-8fe5-1a669730252a": {
+    "timed": false,
+    "story ID": "9acacdad-e294-4dd5-8fe5-1a669730252a",
+    "title": {
+      "_default": "A'i Churu Kanjansive Dachu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Jun21-LQ-A'i_Churu_Kanjansive_Dachu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "5c01499b-a67f-465f-b7b6-94545afac40b": {
+    "timed": false,
+    "story ID": "5c01499b-a67f-465f-b7b6-94545afac40b",
+    "title": {
+      "_default": "Chhiriria Ga Tsandie Pichu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Jun21-LQ-Chhiriria_Ga_Tsandie_Pichu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "0e6c5216-0e87-4699-ae1b-1ec106b9a471": {
+    "timed": false,
+    "story ID": "0e6c5216-0e87-4699-ae1b-1ec106b9a471",
+    "title": {
+      "_default": "Chimbi Tuyakaen Pûshesû"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Jun21-LQ-Chimbi_Tuyakaen_Pûshesû.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "a97cfa2a-0adf-458c-805f-07c54f59fa6d": {
+    "timed": false,
+    "story ID": "a97cfa2a-0adf-458c-805f-07c54f59fa6d",
+    "title": {
+      "_default": "Chiga a'ive agathuenchu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Jun21-LQ-Chiga_A'ive_Agathuenchu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "086219b2-9d0b-4cd0-8ca5-0d9de6b7ce34": {
+    "timed": false,
+    "story ID": "086219b2-9d0b-4cd0-8ca5-0d9de6b7ce34",
+    "title": {
+      "_default": "Thesi chan ne kundasechu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Jun21-LQ-Thesi_Chan_Ne_Kundasechu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "29740b62-a755-4f46-ac8e-f97a75eb7045": {
+    "timed": false,
+    "story ID": "29740b62-a755-4f46-ac8e-f97a75eb7045",
+    "title": {
+      "_default": "Tsandie Apicha Pûshesûnga Pichu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/21/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Lizandro Quenama"
+    ],
+    "xml_file_name": "2022Jun21-LQ-Tsandie_Apicha_Pûshesûnga_Pichu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Lizandro Quenama",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
   }
 }
