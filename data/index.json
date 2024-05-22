@@ -8,7 +8,7 @@
       "con-Latn-EC-x-dureno": "Athembi a'i kundasepa",
       "en": "Invisible people story",
       "es": "Historia de la gente invisible",
-      "_default": "Athembi a'i kundasepa"
+      "_default": "Athembi a'i kundasepa (MM)"
     },
     "media": {
       "audio": "",
@@ -68,7 +68,7 @@
       "con-Latn-EC-x-dureno": "Apicha pûshesû kundasepa",
       "en": "Mud woman story",
       "es": "Historia de la mujer barro",
-      "_default": "Apicha pûshesû kundasepa"
+      "_default": "Apicha pûshesû kundasepa (BRCA)"
     },
     "media": {
       "audio": "",
@@ -572,7 +572,7 @@
       "con-Latn-EC-x-dureno": "Tshararukuku kundasepa",
       "en": "Tshararococo story",
       "es": "Historia de Tssararococo",
-      "_default": "Tshararukuku kundasepa"
+      "_default": "Tshararukuku kundasepa (RJCL)"
     },
     "media": {
       "audio": "",
@@ -893,7 +893,7 @@
     "title": {
       "en": "Hunting",
       "es": "Caza",
-      "_default": "Caza"
+      "_default": "Caza (CLC)"
     },
     "media": {
       "audio": "",
@@ -1337,7 +1337,7 @@
       "con-Latn-EC-x-dureno": "Panzaye",
       "en": "Hunting",
       "es": "Caza",
-      "_default": "Panzaye"
+      "_default": "Panzaye (FACQ)"
     },
     "media": {
       "audio": "",
@@ -1526,7 +1526,7 @@
       "con-Latn-EC-x-dureno": "Vaju kundasepa",
       "en": "Vajo story",
       "es": "Historia de Vajo",
-      "_default": "Vaju kundasepa"
+      "_default": "Vaju kundasepa (MMEMQ)"
     },
     "media": {
       "audio": "",
@@ -2233,7 +2233,7 @@
       "con-Latn-EC-x-dureno": "Kunsiana kundasepa",
       "en": "Consiana story",
       "es": "Historia de Consiana",
-      "_default": "Kunsiana kundasepa"
+      "_default": "Kunsiana kundasepa (VC)"
     },
     "media": {
       "audio": "",
@@ -2425,7 +2425,7 @@
       "con-Latn-EC-x-dureno": "Erision kundasepa",
       "en": "Erision story",
       "es": "Historia de Erision",
-      "_default": "Erision kundasepa"
+      "_default": "Erision kundasepa (FACQ)"
     },
     "media": {
       "audio": "",
@@ -3309,7 +3309,7 @@
       "con-Latn-EC-x-dureno": "Tururu",
       "en": "Tururu",
       "es": "Tururu",
-      "_default": "Tururu"
+      "_default": "Tûrûrû (VM)"
     },
     "media": {
       "audio": "2022Feb07-VM-Tururu.mp3",
@@ -3932,7 +3932,7 @@
     "timed": false,
     "story ID": "d41b883b-87e5-4ae2-b303-35fe8cbfd069",
     "title": {
-      "_default": "Kajansi kundasepa"
+      "_default": "Kanjansi kundasepa (LL)"
     },
     "media": {
       "audio": "",
@@ -3972,7 +3972,7 @@
     "timed": false,
     "story ID": "04d63fa4-4bac-4d73-966e-c7011aa69d39",
     "title": {
-      "_default": "Athiambi a'indekhû"
+      "_default": "Athiambi a'indekhû (SQ)"
     },
     "media": {
       "audio": "",
@@ -4132,7 +4132,7 @@
     "timed": false,
     "story ID": "3bef4858-1d9b-4e2d-88bf-62b49aabfe9e",
     "title": {
-      "_default": "Apicha pûshesûne"
+      "_default": "Apicha pûshesûne (AQ)"
     },
     "media": {
       "audio": "",
@@ -4172,7 +4172,7 @@
     "timed": false,
     "story ID": "f887d8a5-e984-43d8-a87e-5af1f09f6290",
     "title": {
-      "_default": "Athiambi a'ine"
+      "_default": "Athiambi a'ine (AQ)"
     },
     "media": {
       "audio": "",
@@ -4372,7 +4372,7 @@
     "timed": false,
     "story ID": "9a96e373-954e-4817-a8c3-9a5c8f2f2470",
     "title": {
-      "_default": "Yajene"
+      "_default": "Yajene (AQ)"
     },
     "media": {
       "audio": "",
@@ -4893,7 +4893,7 @@
     "timed": false,
     "story ID": "0f820b92-6303-4123-acbf-771b924c32bb",
     "title": {
-      "_default": "Zunzue'une"
+      "_default": "Zunzue'une (LQ)"
     },
     "media": {
       "audio": "",
@@ -5173,7 +5173,7 @@
     "timed": false,
     "story ID": "2120a0cf-e29b-40a1-bdb4-eef66f459ce9",
     "title": {
-      "_default": "Fûrûkû'kû"
+      "_default": "Furûkhû'khû"
     },
     "media": {
       "audio": "",
@@ -5334,7 +5334,7 @@
     "timed": false,
     "story ID": "96bb2c76-4e0e-45e3-aa07-e7fad98c64cd",
     "title": {
-      "_default": "Tshararakuku (MC)"
+      "_default": "Tshararakuku (RC)"
     },
     "media": {
       "audio": "",
@@ -5774,7 +5774,7 @@
     "timed": false,
     "story ID": "cb486503-4057-49c9-b7a3-5ce2021c65f6",
     "title": {
-      "_default": "Tsanda ga pichu"
+      "_default": "Tsandanga pichu"
     },
     "media": {
       "audio": "",
@@ -5854,7 +5854,7 @@
     "timed": false,
     "story ID": "af254c3b-ed8b-4df3-a82a-cf87b2b47249",
     "title": {
-      "_default": "Kanjansi ne kundasechu"
+      "_default": "Kanjansine kundasechu (LQ)"
     },
     "media": {
       "audio": "",
@@ -5894,7 +5894,7 @@
     "timed": false,
     "story ID": "31c20811-071f-468e-b714-67a547e842b9",
     "title": {
-      "_default": "Mûnda ne kundasechu"
+      "_default": "Mûndane kundasechu"
     },
     "media": {
       "audio": "",
@@ -5934,7 +5934,7 @@
     "timed": false,
     "story ID": "21ce2cde-d28f-4d8c-99bc-4919d563b6d0",
     "title": {
-      "_default": "Vaju ne kundasechu"
+      "_default": "Vajune kundasechu (LQ)"
     },
     "media": {
       "audio": "",
@@ -6014,7 +6014,7 @@
     "timed": false,
     "story ID": "59fa3628-d22c-486f-8f9c-2fb8223ed91b",
     "title": {
-      "_default": "Ambu"
+      "_default": "Ambu (VM)"
     },
     "media": {
       "audio": "",
@@ -6054,7 +6054,7 @@
     "timed": false,
     "story ID": "41212995-d637-41d2-afdb-47f05516d5fa",
     "title": {
-      "_default": "Fûrûkû'kûne kundasechu"
+      "_default": "Furûkhû'khûne kundasechu"
     },
     "media": {
       "audio": "",
@@ -6134,7 +6134,7 @@
     "timed": false,
     "story ID": "44fa8071-7e3f-4b4c-a173-ef871cf8a8cf",
     "title": {
-      "_default": "Pa'un tsandie ne kundasechu"
+      "_default": "Pa'un tsandiene kundasechu"
     },
     "media": {
       "audio": "",
@@ -6294,7 +6294,7 @@
     "timed": false,
     "story ID": "966acd06-9d18-4835-9390-499b37e3130b",
     "title": {
-      "_default": "Tûrûrûne kundasechu"
+      "_default": "Tûrûrûne kundasechu (LQ)"
     },
     "media": {
       "audio": "",
@@ -6334,7 +6334,7 @@
     "timed": false,
     "story ID": "027a0e23-fa74-4af4-a2c7-69f06bcc88d7",
     "title": {
-      "_default": "Minge tayupisu a'i kansefachuma"
+      "_default": "Mingae tayupisu a'i kansefachuma"
     },
     "media": {
       "audio": "",
@@ -6534,7 +6534,7 @@
     "timed": false,
     "story ID": "3c1604c4-03e7-4a44-80a4-953937c091e3",
     "title": {
-      "_default": "Kanjansi dushu (DC)"
+      "_default": "Kanjansi dû'shû (DC)"
     },
     "media": {
       "audio": "",
@@ -6654,7 +6654,7 @@
     "timed": false,
     "story ID": "b44c1c93-9413-4aa0-8def-73f47df56bc0",
     "title": {
-      "_default": "Ambune kundasechu"
+      "_default": "Ambune kundasechu (DC)"
     },
     "media": {
       "audio": "",
@@ -6694,7 +6694,7 @@
     "timed": false,
     "story ID": "d4c6cb36-4ca2-418f-a7f8-42e013b85914",
     "title": {
-      "_default": "Kunsiana ne kundasechu"
+      "_default": "Kunsianane kundasechu (DC)"
     },
     "media": {
       "audio": "",
@@ -6734,7 +6734,7 @@
     "timed": false,
     "story ID": "038a237b-ad40-473c-af31-67ee0a2fe856",
     "title": {
-      "_default": "Suku"
+      "_default": "Sukû"
     },
     "media": {
       "audio": "",
@@ -6774,7 +6774,7 @@
     "timed": false,
     "story ID": "03bb157a-aba5-4ef1-a736-a6b0ccb70525",
     "title": {
-      "_default": "Kanjansi dushu (MC)"
+      "_default": "Kanjansi dû'shû (MC)"
     },
     "media": {
       "audio": "",
@@ -6814,7 +6814,7 @@
     "timed": false,
     "story ID": "38742696-1c41-4ae3-9418-10965c250bb0",
     "title": {
-      "_default": "Savarura ne kundasechu"
+      "_default": "Savarurane kundasechu"
     },
     "media": {
       "audio": "",
@@ -7096,7 +7096,7 @@
     "timed": false,
     "story ID": "389d4ea6-6399-459a-8cab-e64a836949b9",
     "title": {
-      "_default": "Thûsindi Tsadiene Kundasechu"
+      "_default": "Thûnsindi Tsandiene Kundasechu"
     },
     "media": {
       "audio": "",
@@ -7337,7 +7337,7 @@
     "timed": false,
     "story ID": "5c01499b-a67f-465f-b7b6-94545afac40b",
     "title": {
-      "_default": "Chhiriria Ga Tsandie Pichu"
+      "_default": "Chhiririanga Tsandie Pichu"
     },
     "media": {
       "audio": "",
@@ -7537,7 +7537,7 @@
     "timed": false,
     "story ID": "3f0f9b9c-fe82-43fa-9958-ecaba4c4f688",
     "title": {
-      "_default": "2021DIC23-EQ-EQV-KÛVUE_KANKHE"
+      "_default": "Kûvue kankhe"
     },
     "media": {
       "audio": "",
@@ -7589,7 +7589,7 @@
     "timed": false,
     "story ID": "b457b52e-7324-4fec-9456-2c78c6c82bbb",
     "title": {
-      "_default": "2021DIC23-EQ-EQV-VARIOS"
+      "_default": "Varios (EQ EQV)"
     },
     "media": {
       "audio": "",
@@ -7652,7 +7652,7 @@
     "timed": false,
     "story ID": "827f6d5a-5b1a-412d-b424-0024f1557299",
     "title": {
-      "_default": "2021DIC23-EQ-EQV-UMAKHU"
+      "_default": "Umakhu"
     },
     "media": {
       "audio": "",
@@ -7714,7 +7714,7 @@
     "timed": false,
     "story ID": "50d7a59c-c565-49df-9354-573cfc937d3b",
     "title": {
-      "_default": "2021DIC23-EQ-EQV-VARIAS_HISTORIAS"
+      "_default": "Varias historias (EQ EQV)"
     },
     "media": {
       "audio": "",
@@ -7777,7 +7777,7 @@
     "timed": false,
     "story ID": "a840c6fa-9a3f-484f-85e4-812e3dab5ad5",
     "title": {
-      "_default": "2021DIC23-EQ-EQV-ÛFAKHUKHU_SHAVU"
+      "_default": "Ûfakhukhu shavu"
     },
     "media": {
       "audio": "",
@@ -7839,7 +7839,7 @@
     "timed": false,
     "story ID": "bdbc0178-293a-4f82-b680-20402dfbdc8d",
     "title": {
-      "_default": "2021DIC29-SQ-PATIYA"
+      "_default": "Patiya"
     },
     "media": {
       "audio": "",
@@ -7890,7 +7890,7 @@
     "timed": false,
     "story ID": "9ba441fd-f405-4c24-b5cf-ace4d613830e",
     "title": {
-      "_default": "2021DIC29-SQ-SAPUJE-TSA'U"
+      "_default": "Sapuje tsa'u"
     },
     "media": {
       "audio": "",
@@ -7941,7 +7941,7 @@
     "timed": false,
     "story ID": "1901be54-c50f-460d-a642-6ceb91eb4729",
     "title": {
-      "_default": "2021DIC29-SQ-TSATSAPECHA"
+      "_default": "Tsatsapecha"
     },
     "media": {
       "audio": "",
@@ -7993,7 +7993,7 @@
     "timed": false,
     "story ID": "6a3faf17-85d9-4542-a824-3e730d617090",
     "title": {
-      "_default": "2021NOV12-LQ-RQ-ANAEMA"
+      "_default": "Anae'ma"
     },
     "media": {
       "audio": "",
@@ -8044,7 +8044,7 @@
     "timed": false,
     "story ID": "970a3278-ff9a-4ec8-8209-dedd87201dd3",
     "title": {
-      "_default": "2021NOV12-DL-RQ-U'VA"
+      "_default": "U'va"
     },
     "media": {
       "audio": "",
@@ -8096,7 +8096,7 @@
     "timed": false,
     "story ID": "331767b9-7003-45b4-8858-0132ca92a50f",
     "title": {
-      "_default": "2021NOV12-LQ-RQ-ATRAYA_TABACO"
+      "_default": "Atraya tabaco"
     },
     "media": {
       "audio": "",
@@ -8147,7 +8147,7 @@
     "timed": false,
     "story ID": "fba0b77a-39be-4435-ab33-5713ade80fd9",
     "title": {
-      "_default": "2021NOV14-CL-RQ-KANJANSI"
+      "_default": "Kanjansi (CL y RQ)"
     },
     "media": {
       "audio": "",
@@ -8198,7 +8198,7 @@
     "timed": false,
     "story ID": "95cfb533-7067-432d-9cff-559680038963",
     "title": {
-      "_default": "2021NOV14-CL-HISTORIETAS-VARIAS"
+      "_default": "Historietas varias (CL)"
     },
     "media": {
       "audio": "",
@@ -8250,7 +8250,7 @@
     "timed": false,
     "story ID": "f9b44faf-27f3-41dd-9a5b-4338e826ee78",
     "title": {
-      "_default": "2021NOV14-EA-HISTORIETAS-VARIAS"
+      "_default": "Historietas varias (EA)"
     },
     "media": {
       "audio": "",
@@ -8301,7 +8301,7 @@
     "timed": false,
     "story ID": "23113c9e-202e-4cbc-b00d-b979224022c5",
     "title": {
-      "_default": "2021Nov17-OM-Ansha'fane"
+      "_default": "Anshan'fane"
     },
     "media": {
       "audio": "",
@@ -8352,7 +8352,7 @@
     "timed": false,
     "story ID": "bba6c3eb-45dd-43f5-9219-ec3a7640b648",
     "title": {
-      "_default": "2021Nov30-SV-Asociacion_Suku"
+      "_default": "Asociacion Sukû"
     },
     "media": {
       "audio": "",
@@ -8403,7 +8403,7 @@
     "timed": false,
     "story ID": "69062c50-1d7d-439d-9484-476604f3c1a9",
     "title": {
-      "_default": "2022ABR28-RA-RQ-DIALOGO_MALANGA"
+      "_default": "Diálogo Malanga (RA y RQ)"
     },
     "media": {
       "audio": "",
@@ -8454,7 +8454,7 @@
     "timed": false,
     "story ID": "aece3f50-b153-4cc3-aacb-f6eb670fe04d",
     "title": {
-      "_default": "2022FEB12-RU-TISE_KANSECHUNE"
+      "_default": "Tise kansechune (RU)"
     },
     "media": {
       "audio": "",
@@ -8505,7 +8505,7 @@
     "timed": false,
     "story ID": "3b03da94-2132-407a-86e6-a8dc6d7226d2",
     "title": {
-      "_default": "2022Jun14-CQ-Dialogo_Malanga"
+      "_default": "Diálogo Malanga (CQ)"
     },
     "media": {
       "audio": "",
@@ -8556,7 +8556,7 @@
     "timed": false,
     "story ID": "dfab157e-d7c1-4426-adcf-0f59fb4df4df",
     "title": {
-      "_default": "2022MAR21-GQ-RQ-DIALOGO_MALANGA"
+      "_default": "Diálogo Malanga (GQ y RQ)"
     },
     "media": {
       "audio": "",
@@ -8607,7 +8607,7 @@
     "timed": false,
     "story ID": "630395ac-a317-4b19-a83f-d47605f306ba",
     "title": {
-      "_default": "Diálogo Malanga (HQ RQ)"
+      "_default": "Diálogo Malanga (HQ y RQ)"
     },
     "media": {
       "audio": "",
@@ -8658,7 +8658,7 @@
     "timed": false,
     "story ID": "e667c37c-f5f4-4221-9c59-7b2ef73277c8",
     "title": {
-      "_default": "Diálogo Malanga (JA RQ)"
+      "_default": "Diálogo Malanga (JA y RQ)"
     },
     "media": {
       "audio": "",
@@ -8709,7 +8709,7 @@
     "timed": false,
     "story ID": "671e1f12-75e4-44be-98a2-2ad2066eb341",
     "title": {
-      "_default": "Varios (JA RQ)"
+      "_default": "Varios (JA y RQ)"
     },
     "media": {
       "audio": "",
