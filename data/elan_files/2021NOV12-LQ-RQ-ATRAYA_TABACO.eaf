@@ -1,0 +1,2330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-05-22T11:00:35-05:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/labandrb/Desktop/New Folder/multispeaker/2021NOV12-LQ-RQ-ATRAYA_TABACO.eaf" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./2021NOV12-LQ-RQ-ATRAYA_TABACO.eaf"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:331767b9-7003-45b4-8858-0132ca92a50f</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">437</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="5150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="5599"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="14699"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="15171"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="16642"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="17413"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="21099"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="21699"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="27199"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="27942"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="34370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="34456"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="39885"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="40342"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="50585"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="50857"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="59814"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="60270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="69842"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="70313"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="81827"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="82171"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="92814"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="93285"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="103128"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="103356"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="104428"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="105571"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="114628"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="115585"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="125656"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="126456"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="134727"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="135299"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="143628"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="143871"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="148071"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="150714"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="159985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="160785"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="167871"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="168620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="172334"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="172427"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="179199"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="179785"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="188028"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="188664"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="204949"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="205557"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="212800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="213621"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="217463"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="217471"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="230828"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="230856"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="242484"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="242913"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="244699"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="246713"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="258242"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="258270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="266213"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="268271"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="281399"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="282127"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="291141"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="291456"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="303842"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="304156"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="316571"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="317185"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="327099"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="328935"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="335463"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="335499"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="342970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="343384"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="349584"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="350056"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="353399"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="354514"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="362728"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="364456"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="373327"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="374614"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="389514"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="389828"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="403771"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="404285"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="418728"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="418985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="423256"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="423914"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="437999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="438414"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="447371"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="447885"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="453070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="453928"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="462899"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="462932"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="469607"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="469877"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="477526"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="477851"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="483216"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="483323"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="488577"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="488816"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="499689"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="500816"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="505562"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="505647"/>
+        <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="515816"/>
+        <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="516013"/>
+        <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="519943"/>
+        <TIME_SLOT TIME_SLOT_ID="ts119" TIME_VALUE="521309"/>
+        <TIME_SLOT TIME_SLOT_ID="ts120" TIME_VALUE="527435"/>
+        <TIME_SLOT TIME_SLOT_ID="ts121" TIME_VALUE="528280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts122" TIME_VALUE="540985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts123" TIME_VALUE="543196"/>
+        <TIME_SLOT TIME_SLOT_ID="ts124" TIME_VALUE="547252"/>
+        <TIME_SLOT TIME_SLOT_ID="ts125" TIME_VALUE="548520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts126" TIME_VALUE="551225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="552626"/>
+        <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="554217"/>
+        <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="554477"/>
+        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="554914"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="555660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="557872"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="557971"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="560590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="561675"/>
+        <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="563604"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="564112"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="568098"/>
+        <TIME_SLOT TIME_SLOT_ID="ts139" TIME_VALUE="569901"/>
+        <TIME_SLOT TIME_SLOT_ID="ts140" TIME_VALUE="578861"/>
+        <TIME_SLOT TIME_SLOT_ID="ts141" TIME_VALUE="580421"/>
+        <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="587534"/>
+        <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="588069"/>
+        <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="590210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="590550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="600422"/>
+        <TIME_SLOT TIME_SLOT_ID="ts147" TIME_VALUE="600718"/>
+        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="611225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="611844"/>
+        <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="620619"/>
+        <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="621224"/>
+        <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="634478"/>
+        <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="634773"/>
+        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="642872"/>
+        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="643252"/>
+        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="651548"/>
+        <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="652140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="658520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="659914"/>
+        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="666097"/>
+        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="666647"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="672422"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="673140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="682661"/>
+        <TIME_SLOT TIME_SLOT_ID="ts165" TIME_VALUE="848787"/>
+        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="853689"/>
+        <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="854950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts168" TIME_VALUE="855562"/>
+        <TIME_SLOT TIME_SLOT_ID="ts169" TIME_VALUE="855879"/>
+        <TIME_SLOT TIME_SLOT_ID="ts170" TIME_VALUE="856914"/>
+        <TIME_SLOT TIME_SLOT_ID="ts171" TIME_VALUE="857703"/>
+        <TIME_SLOT TIME_SLOT_ID="ts172" TIME_VALUE="865646"/>
+        <TIME_SLOT TIME_SLOT_ID="ts173" TIME_VALUE="866901"/>
+        <TIME_SLOT TIME_SLOT_ID="ts174" TIME_VALUE="873718"/>
+        <TIME_SLOT TIME_SLOT_ID="ts175" TIME_VALUE="874126"/>
+        <TIME_SLOT TIME_SLOT_ID="ts176" TIME_VALUE="877802"/>
+        <TIME_SLOT TIME_SLOT_ID="ts177" TIME_VALUE="878069"/>
+        <TIME_SLOT TIME_SLOT_ID="ts178" TIME_VALUE="892027"/>
+        <TIME_SLOT TIME_SLOT_ID="ts179" TIME_VALUE="892477"/>
+        <TIME_SLOT TIME_SLOT_ID="ts180" TIME_VALUE="896463"/>
+        <TIME_SLOT TIME_SLOT_ID="ts181" TIME_VALUE="896802"/>
+        <TIME_SLOT TIME_SLOT_ID="ts182" TIME_VALUE="902534"/>
+        <TIME_SLOT TIME_SLOT_ID="ts183" TIME_VALUE="903239"/>
+        <TIME_SLOT TIME_SLOT_ID="ts184" TIME_VALUE="912873"/>
+        <TIME_SLOT TIME_SLOT_ID="ts185" TIME_VALUE="913866"/>
+        <TIME_SLOT TIME_SLOT_ID="ts186" TIME_VALUE="914655"/>
+        <TIME_SLOT TIME_SLOT_ID="ts187" TIME_VALUE="915999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts188" TIME_VALUE="919971"/>
+        <TIME_SLOT TIME_SLOT_ID="ts189" TIME_VALUE="920252"/>
+        <TIME_SLOT TIME_SLOT_ID="ts190" TIME_VALUE="923956"/>
+        <TIME_SLOT TIME_SLOT_ID="ts191" TIME_VALUE="924041"/>
+        <TIME_SLOT TIME_SLOT_ID="ts192" TIME_VALUE="934492"/>
+        <TIME_SLOT TIME_SLOT_ID="ts193" TIME_VALUE="935366"/>
+        <TIME_SLOT TIME_SLOT_ID="ts194" TIME_VALUE="940929"/>
+        <TIME_SLOT TIME_SLOT_ID="ts195" TIME_VALUE="940999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts196" TIME_VALUE="945056"/>
+        <TIME_SLOT TIME_SLOT_ID="ts197" TIME_VALUE="945577"/>
+        <TIME_SLOT TIME_SLOT_ID="ts198" TIME_VALUE="951506"/>
+        <TIME_SLOT TIME_SLOT_ID="ts199" TIME_VALUE="951731"/>
+        <TIME_SLOT TIME_SLOT_ID="ts200" TIME_VALUE="962717"/>
+        <TIME_SLOT TIME_SLOT_ID="ts201" TIME_VALUE="963112"/>
+        <TIME_SLOT TIME_SLOT_ID="ts202" TIME_VALUE="968112"/>
+        <TIME_SLOT TIME_SLOT_ID="ts203" TIME_VALUE="969887"/>
+        <TIME_SLOT TIME_SLOT_ID="ts204" TIME_VALUE="975056"/>
+        <TIME_SLOT TIME_SLOT_ID="ts205" TIME_VALUE="975903"/>
+        <TIME_SLOT TIME_SLOT_ID="ts206" TIME_VALUE="987703"/>
+        <TIME_SLOT TIME_SLOT_ID="ts207" TIME_VALUE="987830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts208" TIME_VALUE="992703"/>
+        <TIME_SLOT TIME_SLOT_ID="ts209" TIME_VALUE="993900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts210" TIME_VALUE="996351"/>
+        <TIME_SLOT TIME_SLOT_ID="ts211" TIME_VALUE="996478"/>
+        <TIME_SLOT TIME_SLOT_ID="ts212" TIME_VALUE="1002252"/>
+        <TIME_SLOT TIME_SLOT_ID="ts213" TIME_VALUE="1002844"/>
+        <TIME_SLOT TIME_SLOT_ID="ts214" TIME_VALUE="1006070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts215" TIME_VALUE="1006513"/>
+        <TIME_SLOT TIME_SLOT_ID="ts216" TIME_VALUE="1013231"/>
+        <TIME_SLOT TIME_SLOT_ID="ts217" TIME_VALUE="1013802"/>
+        <TIME_SLOT TIME_SLOT_ID="ts218" TIME_VALUE="1023084"/>
+        <TIME_SLOT TIME_SLOT_ID="ts219" TIME_VALUE="1023717"/>
+        <TIME_SLOT TIME_SLOT_ID="ts220" TIME_VALUE="1029520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts221" TIME_VALUE="1029802"/>
+        <TIME_SLOT TIME_SLOT_ID="ts222" TIME_VALUE="1039055"/>
+        <TIME_SLOT TIME_SLOT_ID="ts223" TIME_VALUE="1039844"/>
+        <TIME_SLOT TIME_SLOT_ID="ts224" TIME_VALUE="1048675"/>
+        <TIME_SLOT TIME_SLOT_ID="ts225" TIME_VALUE="1049239"/>
+        <TIME_SLOT TIME_SLOT_ID="ts226" TIME_VALUE="1057027"/>
+        <TIME_SLOT TIME_SLOT_ID="ts227" TIME_VALUE="1057647"/>
+        <TIME_SLOT TIME_SLOT_ID="ts228" TIME_VALUE="1066478"/>
+        <TIME_SLOT TIME_SLOT_ID="ts229" TIME_VALUE="1066901"/>
+        <TIME_SLOT TIME_SLOT_ID="ts230" TIME_VALUE="1073098"/>
+        <TIME_SLOT TIME_SLOT_ID="ts231" TIME_VALUE="1074887"/>
+        <TIME_SLOT TIME_SLOT_ID="ts232" TIME_VALUE="1088718"/>
+        <TIME_SLOT TIME_SLOT_ID="ts233" TIME_VALUE="1089281"/>
+        <TIME_SLOT TIME_SLOT_ID="ts234" TIME_VALUE="1100408"/>
+        <TIME_SLOT TIME_SLOT_ID="ts235" TIME_VALUE="1100858"/>
+        <TIME_SLOT TIME_SLOT_ID="ts236" TIME_VALUE="1104295"/>
+        <TIME_SLOT TIME_SLOT_ID="ts237" TIME_VALUE="1104845"/>
+        <TIME_SLOT TIME_SLOT_ID="ts238" TIME_VALUE="1117169"/>
+        <TIME_SLOT TIME_SLOT_ID="ts239" TIME_VALUE="1117590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts240" TIME_VALUE="1124633"/>
+        <TIME_SLOT TIME_SLOT_ID="ts241" TIME_VALUE="1125877"/>
+        <TIME_SLOT TIME_SLOT_ID="ts242" TIME_VALUE="1130796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts243" TIME_VALUE="1130823"/>
+        <TIME_SLOT TIME_SLOT_ID="ts244" TIME_VALUE="1136702"/>
+        <TIME_SLOT TIME_SLOT_ID="ts245" TIME_VALUE="1138675"/>
+        <TIME_SLOT TIME_SLOT_ID="ts246" TIME_VALUE="1139729"/>
+        <TIME_SLOT TIME_SLOT_ID="ts247" TIME_VALUE="1139750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts248" TIME_VALUE="1140371"/>
+        <TIME_SLOT TIME_SLOT_ID="ts249" TIME_VALUE="1141864"/>
+        <TIME_SLOT TIME_SLOT_ID="ts250" TIME_VALUE="1143635"/>
+        <TIME_SLOT TIME_SLOT_ID="ts251" TIME_VALUE="1143648"/>
+        <TIME_SLOT TIME_SLOT_ID="ts252" TIME_VALUE="1146405"/>
+        <TIME_SLOT TIME_SLOT_ID="ts253" TIME_VALUE="1148350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts254" TIME_VALUE="1154728"/>
+        <TIME_SLOT TIME_SLOT_ID="ts255" TIME_VALUE="1154742"/>
+        <TIME_SLOT TIME_SLOT_ID="ts256" TIME_VALUE="1161918"/>
+        <TIME_SLOT TIME_SLOT_ID="ts257" TIME_VALUE="1162999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts258" TIME_VALUE="1172850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts259" TIME_VALUE="1173457"/>
+        <TIME_SLOT TIME_SLOT_ID="ts260" TIME_VALUE="1177257"/>
+        <TIME_SLOT TIME_SLOT_ID="ts261" TIME_VALUE="1178085"/>
+        <TIME_SLOT TIME_SLOT_ID="ts262" TIME_VALUE="1188285"/>
+        <TIME_SLOT TIME_SLOT_ID="ts263" TIME_VALUE="1188342"/>
+        <TIME_SLOT TIME_SLOT_ID="ts264" TIME_VALUE="1197699"/>
+        <TIME_SLOT TIME_SLOT_ID="ts265" TIME_VALUE="1198142"/>
+        <TIME_SLOT TIME_SLOT_ID="ts266" TIME_VALUE="1207514"/>
+        <TIME_SLOT TIME_SLOT_ID="ts267" TIME_VALUE="1207799"/>
+        <TIME_SLOT TIME_SLOT_ID="ts268" TIME_VALUE="1209299"/>
+        <TIME_SLOT TIME_SLOT_ID="ts269" TIME_VALUE="1210042"/>
+        <TIME_SLOT TIME_SLOT_ID="ts270" TIME_VALUE="1213871"/>
+        <TIME_SLOT TIME_SLOT_ID="ts271" TIME_VALUE="1214428"/>
+        <TIME_SLOT TIME_SLOT_ID="ts272" TIME_VALUE="1220556"/>
+        <TIME_SLOT TIME_SLOT_ID="ts273" TIME_VALUE="1220627"/>
+        <TIME_SLOT TIME_SLOT_ID="ts274" TIME_VALUE="1229342"/>
+        <TIME_SLOT TIME_SLOT_ID="ts275" TIME_VALUE="1229870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts276" TIME_VALUE="1236313"/>
+        <TIME_SLOT TIME_SLOT_ID="ts277" TIME_VALUE="1236728"/>
+        <TIME_SLOT TIME_SLOT_ID="ts278" TIME_VALUE="1242314"/>
+        <TIME_SLOT TIME_SLOT_ID="ts279" TIME_VALUE="1242913"/>
+        <TIME_SLOT TIME_SLOT_ID="ts280" TIME_VALUE="1247728"/>
+        <TIME_SLOT TIME_SLOT_ID="ts281" TIME_VALUE="1248285"/>
+        <TIME_SLOT TIME_SLOT_ID="ts282" TIME_VALUE="1252899"/>
+        <TIME_SLOT TIME_SLOT_ID="ts283" TIME_VALUE="1253342"/>
+        <TIME_SLOT TIME_SLOT_ID="ts284" TIME_VALUE="1257899"/>
+        <TIME_SLOT TIME_SLOT_ID="ts285" TIME_VALUE="1258727"/>
+        <TIME_SLOT TIME_SLOT_ID="ts286" TIME_VALUE="1264127"/>
+        <TIME_SLOT TIME_SLOT_ID="ts287" TIME_VALUE="1264385"/>
+        <TIME_SLOT TIME_SLOT_ID="ts288" TIME_VALUE="1268556"/>
+        <TIME_SLOT TIME_SLOT_ID="ts289" TIME_VALUE="1269385"/>
+        <TIME_SLOT TIME_SLOT_ID="ts290" TIME_VALUE="1276499"/>
+        <TIME_SLOT TIME_SLOT_ID="ts291" TIME_VALUE="1276899"/>
+        <TIME_SLOT TIME_SLOT_ID="ts292" TIME_VALUE="1284485"/>
+        <TIME_SLOT TIME_SLOT_ID="ts293" TIME_VALUE="1286205"/>
+        <TIME_SLOT TIME_SLOT_ID="ts294" TIME_VALUE="1286270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts295" TIME_VALUE="1286862"/>
+        <TIME_SLOT TIME_SLOT_ID="ts296" TIME_VALUE="1297013"/>
+        <TIME_SLOT TIME_SLOT_ID="ts297" TIME_VALUE="1297628"/>
+        <TIME_SLOT TIME_SLOT_ID="ts298" TIME_VALUE="1306185"/>
+        <TIME_SLOT TIME_SLOT_ID="ts299" TIME_VALUE="1306499"/>
+        <TIME_SLOT TIME_SLOT_ID="ts300" TIME_VALUE="1311771"/>
+        <TIME_SLOT TIME_SLOT_ID="ts301" TIME_VALUE="1313456"/>
+        <TIME_SLOT TIME_SLOT_ID="ts302" TIME_VALUE="1317771"/>
+        <TIME_SLOT TIME_SLOT_ID="ts303" TIME_VALUE="1319628"/>
+        <TIME_SLOT TIME_SLOT_ID="ts304" TIME_VALUE="1323642"/>
+        <TIME_SLOT TIME_SLOT_ID="ts305" TIME_VALUE="1324199"/>
+        <TIME_SLOT TIME_SLOT_ID="ts306" TIME_VALUE="1326456"/>
+        <TIME_SLOT TIME_SLOT_ID="ts307" TIME_VALUE="1327357"/>
+        <TIME_SLOT TIME_SLOT_ID="ts308" TIME_VALUE="1331771"/>
+        <TIME_SLOT TIME_SLOT_ID="ts309" TIME_VALUE="1333142"/>
+        <TIME_SLOT TIME_SLOT_ID="ts310" TIME_VALUE="1344428"/>
+        <TIME_SLOT TIME_SLOT_ID="ts311" TIME_VALUE="1345099"/>
+        <TIME_SLOT TIME_SLOT_ID="ts312" TIME_VALUE="1351485"/>
+        <TIME_SLOT TIME_SLOT_ID="ts313" TIME_VALUE="1352471"/>
+        <TIME_SLOT TIME_SLOT_ID="ts314" TIME_VALUE="1357328"/>
+        <TIME_SLOT TIME_SLOT_ID="ts315" TIME_VALUE="1357713"/>
+        <TIME_SLOT TIME_SLOT_ID="ts316" TIME_VALUE="1366570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts317" TIME_VALUE="1367556"/>
+        <TIME_SLOT TIME_SLOT_ID="ts318" TIME_VALUE="1377513"/>
+        <TIME_SLOT TIME_SLOT_ID="ts319" TIME_VALUE="1377856"/>
+        <TIME_SLOT TIME_SLOT_ID="ts320" TIME_VALUE="1380556"/>
+        <TIME_SLOT TIME_SLOT_ID="ts321" TIME_VALUE="1380786"/>
+        <TIME_SLOT TIME_SLOT_ID="ts322" TIME_VALUE="1391943"/>
+        <TIME_SLOT TIME_SLOT_ID="ts323" TIME_VALUE="1392342"/>
+        <TIME_SLOT TIME_SLOT_ID="ts324" TIME_VALUE="1398642"/>
+        <TIME_SLOT TIME_SLOT_ID="ts325" TIME_VALUE="1399057"/>
+        <TIME_SLOT TIME_SLOT_ID="ts326" TIME_VALUE="1405814"/>
+        <TIME_SLOT TIME_SLOT_ID="ts327" TIME_VALUE="1405999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts328" TIME_VALUE="1414484"/>
+        <TIME_SLOT TIME_SLOT_ID="ts329" TIME_VALUE="1415995"/>
+        <TIME_SLOT TIME_SLOT_ID="ts330" TIME_VALUE="1428909"/>
+        <TIME_SLOT TIME_SLOT_ID="ts331" TIME_VALUE="1428927"/>
+        <TIME_SLOT TIME_SLOT_ID="ts332" TIME_VALUE="1429413"/>
+        <TIME_SLOT TIME_SLOT_ID="ts333" TIME_VALUE="1429434"/>
+        <TIME_SLOT TIME_SLOT_ID="ts334" TIME_VALUE="1432105"/>
+        <TIME_SLOT TIME_SLOT_ID="ts335" TIME_VALUE="1432142"/>
+        <TIME_SLOT TIME_SLOT_ID="ts336" TIME_VALUE="1435114"/>
+        <TIME_SLOT TIME_SLOT_ID="ts337" TIME_VALUE="1435842"/>
+        <TIME_SLOT TIME_SLOT_ID="ts338" TIME_VALUE="1442328"/>
+        <TIME_SLOT TIME_SLOT_ID="ts339" TIME_VALUE="1442814"/>
+        <TIME_SLOT TIME_SLOT_ID="ts340" TIME_VALUE="1446685"/>
+        <TIME_SLOT TIME_SLOT_ID="ts341" TIME_VALUE="1447228"/>
+        <TIME_SLOT TIME_SLOT_ID="ts342" TIME_VALUE="1455985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts343" TIME_VALUE="1456327"/>
+        <TIME_SLOT TIME_SLOT_ID="ts344" TIME_VALUE="1462642"/>
+        <TIME_SLOT TIME_SLOT_ID="ts345" TIME_VALUE="1463200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts346" TIME_VALUE="1473128"/>
+        <TIME_SLOT TIME_SLOT_ID="ts347" TIME_VALUE="1475114"/>
+        <TIME_SLOT TIME_SLOT_ID="ts348" TIME_VALUE="1480143"/>
+        <TIME_SLOT TIME_SLOT_ID="ts349" TIME_VALUE="1480970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts350" TIME_VALUE="1485670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts351" TIME_VALUE="1486643"/>
+        <TIME_SLOT TIME_SLOT_ID="ts352" TIME_VALUE="1488900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts353" TIME_VALUE="1489100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts354" TIME_VALUE="1493085"/>
+        <TIME_SLOT TIME_SLOT_ID="ts355" TIME_VALUE="1493142"/>
+        <TIME_SLOT TIME_SLOT_ID="ts356" TIME_VALUE="1499171"/>
+        <TIME_SLOT TIME_SLOT_ID="ts357" TIME_VALUE="1499542"/>
+        <TIME_SLOT TIME_SLOT_ID="ts358" TIME_VALUE="1505599"/>
+        <TIME_SLOT TIME_SLOT_ID="ts359" TIME_VALUE="1506714"/>
+        <TIME_SLOT TIME_SLOT_ID="ts360" TIME_VALUE="1514014"/>
+        <TIME_SLOT TIME_SLOT_ID="ts361" TIME_VALUE="1514785"/>
+        <TIME_SLOT TIME_SLOT_ID="ts362" TIME_VALUE="1519957"/>
+        <TIME_SLOT TIME_SLOT_ID="ts363" TIME_VALUE="1520705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts364" TIME_VALUE="1522991"/>
+        <TIME_SLOT TIME_SLOT_ID="ts365" TIME_VALUE="1523542"/>
+        <TIME_SLOT TIME_SLOT_ID="ts366" TIME_VALUE="1531999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts367" TIME_VALUE="1534071"/>
+        <TIME_SLOT TIME_SLOT_ID="ts368" TIME_VALUE="1535557"/>
+        <TIME_SLOT TIME_SLOT_ID="ts369" TIME_VALUE="1536535"/>
+        <TIME_SLOT TIME_SLOT_ID="ts370" TIME_VALUE="1538192"/>
+        <TIME_SLOT TIME_SLOT_ID="ts371" TIME_VALUE="1539300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts372" TIME_VALUE="1540306"/>
+        <TIME_SLOT TIME_SLOT_ID="ts373" TIME_VALUE="1540849"/>
+        <TIME_SLOT TIME_SLOT_ID="ts374" TIME_VALUE="1542785"/>
+        <TIME_SLOT TIME_SLOT_ID="ts375" TIME_VALUE="1543200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts376" TIME_VALUE="1549500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts377" TIME_VALUE="1549541"/>
+        <TIME_SLOT TIME_SLOT_ID="ts378" TIME_VALUE="1550055"/>
+        <TIME_SLOT TIME_SLOT_ID="ts379" TIME_VALUE="1550074"/>
+        <TIME_SLOT TIME_SLOT_ID="ts380" TIME_VALUE="1557641"/>
+        <TIME_SLOT TIME_SLOT_ID="ts381" TIME_VALUE="1557641"/>
+        <TIME_SLOT TIME_SLOT_ID="ts382" TIME_VALUE="1557975"/>
+        <TIME_SLOT TIME_SLOT_ID="ts383" TIME_VALUE="1558733"/>
+        <TIME_SLOT TIME_SLOT_ID="ts384" TIME_VALUE="1562189"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="RAÚL QUIETA" LINGUISTIC_TYPE_REF="TRANSCRIPCION" PARTICIPANT="LUIS QUIETA" TIER_ID="palabra en a'ingae (ortografía nueva)">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>ya tsakanja jinge'sû khase ashae'ñe fae´sû kundasechu´ma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>kanje'fangi jañu 12 de noviembre'ni va 2020´ni</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>comuna Duvûnu´ni </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>ña'ngi Raúl Quieta isiañe'ngi tsunje'fa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>va Luis Quieta'ma tise atraya'e kundaseye tsunjechuma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>chigane kundase'ja mingae'ki tanda'fa atrayamaja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>un atraya'maja faese'yija ña tayu'pija ingija tsa tuinfa chû'paveyi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>tayupi'sû kuenza'dekhûja sûivupa tsakae'ñi anaema'ma tsunkha'kae'ñi tsuma'tsû tsae'kaen tsuma'tsû atraya'ja khaningae ashaen  tsa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>va kuenza'dekhû sûye va tsa ashae'thinija tsû tsa utse'chukhû'kaen tsumba'tsû tsetheja agathu'ya'u tsufema </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>ataja'tshe ñua'me thuva'si ñutshe athaja'chumaja tsû nane junde tuene'ñi ankûe'ñachu 50 u tsumbita 80 tsufe've sumba'embaki </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>tsetheja va kuenzade'khû sûye va tsa angû'vuma tsama'khe dûsia'mba tsama agathu'kamba ashaeni'maja'ki dûsiaña 10´ve</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>tse'thie tsusi'khûni'ngaeja tsakaen umentaña'kha khuangi'khukhue 12'se tsakaen fae 3 u 4 shunkendi've tsunja tsethi'gayi dûsia'ña'u tsa angi'vumaja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>tsunsi da kaen'tsû tsai'khûtsû tise'ja athaja'ñakha athaja'ñakha tse jaa nani'nga'ya'u hasta 9 cuarta've tsaka'tsû atraya´ja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>tsa'ma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>ñaja tsakae tsumba'ngi ñaja tisû'ja atrayama'ja tandam'ba tsumba tsakae'ja atrayama'ja tsumba nani'mba'ki tsethe'ngi tayupija'tsû </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>este tsa sûivufa'ye sûivupa'tsû tsa patû patûma'ki taiya ba've via'khukhu tsa'ma panshe rande'ma ta'imbe</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>tsama'ki taipa buñan'ba tsa atraya'nga patieña'chuve inja'mba tsamaja taipa khuki'ma </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>jañu'ja nene tsampi'ni japa'ki atutu'pa inzia khuki'ma tsai'khûki guathia'ñachu'tsû tsakhûkhûkhu'ma kanderu'nga tshurû'nga                  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>tsumba´ki tsan'gaki tsa patûma'ja phiña'mba tsumba'ki tsa kuye </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>kuye'jechu'matsû tsa tise thunu'hûma tsû kheshupa tsanga'tsu su'mba'bae tsa patûma'ja su'mba'bae khûiñaña'u kûin'tsû tsanga tûmbisi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>tsa'nga asi'ji khûiña'si tû'mbisi tsei keja isû'ñakhaki keja tanda'ñakha tanda'ñakha tsa prumu'kameja dûsiaña'u</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>sûivufa'khûja tandaña'kha tandaña'kha tsa anga'ki tse pakhuma'ja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>ushapa ke fae a'tayi nani'jaki naniña tsumbita usha'ta khua'ngi a'ta tsû tsa prumu'mbaja tsa patûma dûsia'ñeja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>tsakan'tsû tsumbaki nani'baki tse'i tsa tise avû indiye'yachuve'khe u'vaveja dûsiaña'u tsumba tsethie tsamaja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>dûsia'ñeja tsa sûivufa'veyiki agathupa fae cuarta'kankhue bia'sûve tsumba tsama tanda dûsiam'ba tsai'khû tsa uva'khûveja tanda dûsia'sitsû tse'i avû indiye'yachuve tsanga tsa u'vakhûnga kanija avû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>tsakaen tsumba'ki nane tse nani'mbaki tse atraye'ña avû've indiye tsakan'tsû atraya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>tayupija'tsû tansie suivufa jañuja nane kukama tsa nailo chavae'jeka'si athepa'ngi tsa vu've aiyepa'si tsa i'ngi cultura'ma akhepa'pa jañuja tansie pitanailo'khû                           </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>tsa nane kukama'dekhû tanda'khesû tsama chavapa'ngi tsama jañuja tandapa atraya'veja este tandapa nani'mba tsai'khû avû'veja thuva'khue'mba indifa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>vachupa'ja indifa avû'ma </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>tsa tanda'yachu u'faja tsû fae rolloyi tsama tsa va jufa colombia´ni jinchu tsa ñañe rande rollo tsa'tsû sumbuya fae atraya y fae'sûja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>6 tive nakhû tsangayi'tsû sefaya tsa fae rollo randeja fae atraya pakhu de 12 cuartama nani'mba tsû tse'the faesû 6 tive na'khûve agathuja tse'inga tsû sefaya tsa rolloja pa'khu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>tsaja jenda tsethe'tsû tsa plomo jañuja tsakae'gi ingi cultura'ma tayupi'kae kuenzande'khû prumue'khesû'maja patû'maja jañu patie'jefambi'gi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>jañuja  kukama tsa plomu tsa colombia'famangi ñaja chavapa i  Lagoja ji'ma tsû tsa atesû'machuvusi aiyepa'kachuvusi'ngi ñaja Colombia'nima japa chava'ya                              </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>tsa plomo tsa nane fendu´khuaka tsû chan'gupa tsa plomuja tsama agathu'pa tisû makae plomue'ñachu atraya chufe minge'tshi tsanga agathupa tsethe´ngi chathû´ya chathûpa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>sûivufa tsa pintanailo tsesûve´yi zûña'mba tsanga'yi ansha'mba tsethe ñame'ja pakuma atraya'nga dûse'pae tsakaen tsumba'ngi nanifa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>tsekhuyi'tsû tsa atraya'sû tseki nanija tse nane tisû'mbe nanija tseki nane vachupa an'ña indipa avû'ma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>tsa ingi tsa atraya'mbe</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>tsa suivufa'ja tsû na ke jusû ta'yaveyi keja tsa ñame vachuva y atraya'veyi ke tandañe tansie </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42" TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>kuenza'dekhû sûye tsa ñua'me ta'etshia tûinfa´ma tha´thapa keja tsaka'ma tutue'mba tsama'ki keja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43" TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>sûivu nani'mba tanda'mbaki tsa tsû kiña'ña titseja tsanja tsa chapia majan'tsû faenga'tsiya'mbi tsû tuinfa'ja maja chapea'tsû ke khitsani'ja tayu tsû thûin'jaya                              </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44" TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>tsakama'ki ke atesû'mbipa tsa fae'sû taya'maki tsa echhupa'pae ke sûi'vunija tsû tsa chapia'ma ke sûivuthi'tsû utieja kungukhia'kûe dapa thûya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>tsanja ju'sû ta'yaveyi tsunchu'ja tsaja'tsû vachunga'pa jipa mathi'nga singue'khû jini tsethi'ngayi dûsia'mba sanja'jeni atrayaja tsaja ûta kunguña'mbi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46" TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>tsumbi'paki ke ipa tsa sûivufa atraya'ma akhia nane juva </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47" TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>va kukama pitanailo nane juva sûivufa tisepa va pitanailo khen sûchu'makaen ipa dûsian an'thesi maki a'ta kuejesi tsa samba'jeja tsakûen samba'jeja tsû biase'mbe kungu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49" TIME_SLOT_REF1="ts97" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>tsanja'ki ke singe'khûfanga dûsiansi biase'mbe tsa singe kûfa´khû sambaje'ja tsaja'tsû kiña'u tsa atraya'ja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50" TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>tsumbi'pa khe tsipa've i thuva khûi'ñanija tsû biaseya'mbi tsaja kunguña makaen'tsû sûivufa'chu'upa </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51" TIME_SLOT_REF1="ts103" TIME_SLOT_REF2="ts104">
+                <ANNOTATION_VALUE>jun chathûpa'ki keja khesupa sirian kaña'u siria'mbaki keja upathû kaña'umaja'tsû ta'ya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52" TIME_SLOT_REF1="ts105" TIME_SLOT_REF2="ts106">
+                <ANNOTATION_VALUE>tsanja ke chathûpa tse sirian kansi tsumba'ki keja tsa sûivuya'chu nane ingineja sirian kansi tse'i tsa </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53" TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts108">
+                <ANNOTATION_VALUE>tsa ûpathûsi ta'etshi'amaja tsama tisiave ñuñaña'kha</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54" TIME_SLOT_REF1="ts109" TIME_SLOT_REF2="ts110">
+                <ANNOTATION_VALUE>tsanja tsa chapiama'ja akhia naen u'va jungae'sû akhia inja'nga</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55" TIME_SLOT_REF1="ts111" TIME_SLOT_REF2="ts112">
+                <ANNOTATION_VALUE>akhia rerikhu tuya ni fae kankhefa tsumbita 4 khuvû'khue kiña'mba usefaya'chuve tsû tsende'khûja akhia tandañe tsama'kheja isû'fa'u</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a105" TIME_SLOT_REF1="ts113" TIME_SLOT_REF2="ts114">
+                <ANNOTATION_VALUE>tsanja atraya vachuva'mbe tsakaen'ja tisepa'ja kuenzade'khûja thatha'fa jusû </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a106" TIME_SLOT_REF1="ts115" TIME_SLOT_REF2="ts116">
+                <ANNOTATION_VALUE>ta'yave ke ûpathûye ke tsunsi tsa ta'etshi tsa nairukan ta'etshi ûpatkû'mbinija tsama'tsû tisûpa'ja tse'sûveyi thathafa'ya nane tsama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a107" TIME_SLOT_REF1="ts117" TIME_SLOT_REF2="ts118">
+                <ANNOTATION_VALUE>tsa atraya y khaninga vachuva'ma tandañe </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a108" TIME_SLOT_REF1="ts119" TIME_SLOT_REF2="ts120">
+                <ANNOTATION_VALUE>tsa'tsû kiña ña sûkhaen nane ke ipa sajansi singe'khûfanga u kuejesi </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a109" TIME_SLOT_REF1="ts121" TIME_SLOT_REF2="ts122">
+                <ANNOTATION_VALUE>sanja'mbayi maki tisû avuve jaye'yi tsaken japa ipa ñutshe kuira´nija tsaja ñutshe nane ushata unos 2 o 4 kankhefa´ve tsû kiñaña tsa atraya vachuva'ja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a110" TIME_SLOT_REF1="ts130" TIME_SLOT_REF2="ts131">
+                <ANNOTATION_VALUE>jañuja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a115" TIME_SLOT_REF1="ts133" TIME_SLOT_REF2="ts134">
+                <ANNOTATION_VALUE>ñaja jañuja asithae'nge kundaseye da khû'mbane</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a116" TIME_SLOT_REF1="ts137" TIME_SLOT_REF2="ts138">
+                <ANNOTATION_VALUE>da khû'mbamakhe´te keja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a285" TIME_SLOT_REF1="ts139" TIME_SLOT_REF2="ts140">
+                <ANNOTATION_VALUE>chuma'ki isûpa sithi'ya khû'mbathia'ña'u khû'mbathinga ke khûmbathinsi tse'tinga shuyusi ke'ja atheya'u</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a118" TIME_SLOT_REF1="ts141" TIME_SLOT_REF2="ts142">
+                <ANNOTATION_VALUE>4 setsave antheya'u tansie tsa ûkhashu'mbe tsa tise teta'chu kaen'tsû kue'mba sin'chusi tsama khase ju'mbachuve isûye                 </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a119" TIME_SLOT_REF1="ts143" TIME_SLOT_REF2="ts144">
+                <ANNOTATION_VALUE>tsumbaki tsamaja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a120" TIME_SLOT_REF1="ts145" TIME_SLOT_REF2="ts146">
+                <ANNOTATION_VALUE>nasipueña khani tsumbipa ke tuethi'ngayi ke tayusû khûmbathi'ngayiki ke khase tue'thingayi nasipe'mba ke tsa khûmba'ma ju'nija</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a121" TIME_SLOT_REF1="ts147" TIME_SLOT_REF2="ts148">
+                <ANNOTATION_VALUE>panshe'tsû tsa tise ansû khû'mba yusi khen sûchu tsa'tsû pa'she a'ña ke khase kûnave tsa'ngayi tapi'sû khû'mbathingayi ju'nija</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a122" TIME_SLOT_REF1="ts149" TIME_SLOT_REF2="ts150">
+                <ANNOTATION_VALUE>tsanja'ki ke pa'she ke vanasane vana'mbeyi ke tsa fae'sû khû'mbave ju´mba</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a123" TIME_SLOT_REF1="ts151" TIME_SLOT_REF2="ts152">
+                <ANNOTATION_VALUE>ke aye'mbitsheyi ke khû'mbama tsa yusi'nga nane ufia'mbitseyi nane ke shuyaeñe ñuthse tsa naje añe'mbithse kaen'tsû kueñe</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a124" TIME_SLOT_REF1="ts153" TIME_SLOT_REF2="ts154">
+                <ANNOTATION_VALUE>tsamaja'ki faesû mathi va khûmba nasipa've ambiabithi´nga tse´thinga ke'ja nasipae'mba </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a125" TIME_SLOT_REF1="ts155" TIME_SLOT_REF2="ts156">
+                <ANNOTATION_VALUE>giya'tse tsumba u tsumbita atutu'pa pi'ka khûi'ñasi kuejefaite'je keja tsama'ja uke katiya'u</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a126" TIME_SLOT_REF1="ts157" TIME_SLOT_REF2="ts158">
+                <ANNOTATION_VALUE>uke katipa tsa'nga keja tsa khûmba'ma tayu shuyu'chue'mba tayu tsa chuma shekian'si </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a127" TIME_SLOT_REF1="ts159" TIME_SLOT_REF2="ts160">
+                <ANNOTATION_VALUE>tsa shuyu'chusi tsama keja tsa'ngaja isûjupa keja tsa'ngaja dyai'ñaña'u tsa uke'thinga</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a129" TIME_SLOT_REF1="ts161" TIME_SLOT_REF2="ts162">
+                <ANNOTATION_VALUE>tsunsi tsa tsethi'ngayi tsa kûna ande'gayi tsaja jun'chuja tsa tse'thimaja jun'sija pan´she da'ñumbi tsû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a130" TIME_SLOT_REF1="ts163" TIME_SLOT_REF2="ts164">
+                <ANNOTATION_VALUE>ke tsa, tsai´mbitshe dañuña´mbi tsû ke dos a´tani tsumbita ke tre a´tani japa kan´jenikhe´tsû zie buve añanbi naje´ma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a152" TIME_SLOT_REF1="ts168" TIME_SLOT_REF2="ts170">
+                <ANNOTATION_VALUE>khû'mbaja tsû </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a153" TIME_SLOT_REF1="ts171" TIME_SLOT_REF2="ts172">
+                <ANNOTATION_VALUE>ña mathi tise jan'gi yathija bia'seya'mbi tsû tre khuvû'ni tsû tayu keja andepa'maja tayu keja pishuye ashae'ña</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a154" TIME_SLOT_REF1="ts173" TIME_SLOT_REF2="ts174">
+                <ANNOTATION_VALUE>tsama ja'ngiya'mbi thia'ja tsa tsû nane junde shu'yuyambitsû ushata 4 khuvû tsakani </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a155" TIME_SLOT_REF1="ts175" TIME_SLOT_REF2="ts176">
+                <ANNOTATION_VALUE>tsa mathija tise ja'ngiyanija ke tsakaen chûtsheyi a'mbia'mba nane </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a156" TIME_SLOT_REF1="ts177" TIME_SLOT_REF2="ts178">
+                <ANNOTATION_VALUE>ke ña sûkhia'kûen ña kundaseje'khiakûen nane ke setsamaki inja'tse ande'ma uvipa tsakaen pakhuma uvipa ke tsakaen ñutshe kuiraje kueñachu tsaja biaseya'mbi tree khuvûni keja primer cosechama ande'pama pishuye</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a157" TIME_SLOT_REF1="ts179" TIME_SLOT_REF2="ts180">
+                <ANNOTATION_VALUE>na ke injanthsia've ushata ochenta setsa've ke jun'ja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a158" TIME_SLOT_REF1="ts181" TIME_SLOT_REF2="ts182">
+                <ANNOTATION_VALUE>tsata tsû fae cosecha tsa andepa've pishuma keja khuangi'khuveki keja findikhueña </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a159" TIME_SLOT_REF1="ts183" TIME_SLOT_REF2="ts184">
+                <ANNOTATION_VALUE>tsanja tsethieki segunda kosecha tsa tsû ñame enthinge'ma tsa'tsû ñame indûtshia findiye'yachu findia'ñachu </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a160" TIME_SLOT_REF1="ts185" TIME_SLOT_REF2="ts186">
+                <ANNOTATION_VALUE>tsakan tsû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a161" TIME_SLOT_REF1="ts189" TIME_SLOT_REF2="ts190">
+                <ANNOTATION_VALUE>va kûna khakhe'je tsa'ugaja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a162" TIME_SLOT_REF1="ts191" TIME_SLOT_REF2="ts192">
+                <ANNOTATION_VALUE>ke va ingi juva khakhe'je tsa'uga kan'jechuka'ki keja pishupa ipa keja 4 a'tave antheya tsama kue'jesi </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a163" TIME_SLOT_REF1="ts193" TIME_SLOT_REF2="ts194">
+                <ANNOTATION_VALUE>ke pishupa ejepuen'si kue'jenija tsû 4 a'tani tayu'tsû ñutshiya ke khase tse andi'dia'mba khase</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a164" TIME_SLOT_REF1="ts195" TIME_SLOT_REF2="ts196">
+                <ANNOTATION_VALUE>ke tsa thetsû'favuma siririan katipa findiañe'ja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a165" TIME_SLOT_REF1="ts197" TIME_SLOT_REF2="ts198">
+                <ANNOTATION_VALUE>tsama khen jañukûen nane khen ûn'jifapa akhia ni kue'jembi sinthia tûmbithi'anja ûta sambaya'mbi </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a166" TIME_SLOT_REF1="ts199" TIME_SLOT_REF2="ts200">
+                <ANNOTATION_VALUE>ushata 6  u 7 a'taga tsûe ñameja ñutshisi tse keja adia'mba tse thetsûfa'vuma siririan katipaki tsûe ñameja findiaña</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a167" TIME_SLOT_REF1="ts203" TIME_SLOT_REF2="ts204">
+                <ANNOTATION_VALUE>ûn na ñaja chipirikhu'maja agathu'beyi tsamaja khakheje'ma </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a168" TIME_SLOT_REF1="ts205" TIME_SLOT_REF2="ts206">
+                <ANNOTATION_VALUE>tsama'gi ñaja fae u'va nane khenchu'a uvachu'ungaki keja nane pishupa ipa tsamaki keja ejepuen sambaen tsa tsû vave khenkhu rande'sû </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a169" TIME_SLOT_REF1="ts207" TIME_SLOT_REF2="ts208">
+                <ANNOTATION_VALUE>y 50 cm bia'sû tsekhukhue keja findikhue'ña</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a173" TIME_SLOT_REF1="ts211" TIME_SLOT_REF2="ts212">
+                <ANNOTATION_VALUE>va u´fama findia´un ñaja na va tayupisûnde'khûja kanungufa'ma zûñafa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a174" TIME_SLOT_REF1="ts213" TIME_SLOT_REF2="ts214">
+                <ANNOTATION_VALUE>kanungu chûpa'matsû tayu ke pishuye tsunje'ja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a175" TIME_SLOT_REF1="ts215" TIME_SLOT_REF2="ts216">
+                <ANNOTATION_VALUE>ya kanungu chûpa'ma chathûpa ipa'ki sisiria'mba keja sa'jaña tutue'ña</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a176" TIME_SLOT_REF1="ts217" TIME_SLOT_REF2="ts218">
+                <ANNOTATION_VALUE>tsun'si tayu tse tsama tutue'mbaki tse'i ñua'meja khû'mba'ma pishupa ke findiañe tsun'jenja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a177" TIME_SLOT_REF1="ts219" TIME_SLOT_REF2="ts220">
+                <ANNOTATION_VALUE>tsa kanungufai'khû tsamaki zûña'mba tsai'khû findia'ñau khû'mbama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a178" TIME_SLOT_REF1="ts221" TIME_SLOT_REF2="ts222">
+                <ANNOTATION_VALUE>fae'seyija tsû akhia va tayupisû kuenza'dekhûja sûivufa'ma sûivupa tsû nane jañuja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a179" TIME_SLOT_REF1="ts223" TIME_SLOT_REF2="ts224">
+                <ANNOTATION_VALUE>tayupisûnde'khû ñame tuinfa'veyi sûivu'patsû tsa faeseyi'ja tsa findi tayae'ñe tsa sûivufa'ma findi tayaen'fau</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a180" TIME_SLOT_REF1="ts225" TIME_SLOT_REF2="ts226">
+                <ANNOTATION_VALUE>tsumba tsû tse'the ñameja tsa kanungufa'khû zûña'mba tse'i ñameja keja fidia'ñau tse tsangûe hasta chavae´ñe                               </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a181" TIME_SLOT_REF1="ts227" TIME_SLOT_REF2="ts228">
+                <ANNOTATION_VALUE>tsû khûpa'ñakha chhichhipa shunchhaye tsakûen'ja findia'mbaja tse tsakaen tsû findian'chufa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a182" TIME_SLOT_REF1="ts231" TIME_SLOT_REF2="ts232">
+                <ANNOTATION_VALUE>khû'mba? khû'mba'maja siempre keja tsakaen findia'mba keja juva'kaen singe'chupajaki tsambia sefathinga keja ufa'ma dûsia'mba tsanga keja dûsian antheya'u                       </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a183" TIME_SLOT_REF1="ts233" TIME_SLOT_REF2="ts234">
+                <ANNOTATION_VALUE>tsakaen a'mbiachuja tsû kiñaña hasta tsakûen singe kûfakhu tsani dûsechuja tsû dañunge'yambi tsû ushata 4 a 5 kuvû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a184" TIME_SLOT_REF1="ts235" TIME_SLOT_REF2="ts236">
+                <ANNOTATION_VALUE>tsumbita fae kankhefa tsangûe tsû nane ke tsakûen ambiani</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a185" TIME_SLOT_REF1="ts237" TIME_SLOT_REF2="ts238">
+                <ANNOTATION_VALUE>tsumbita ke findia'mbayi akhithinga'yi uthaen antheni main chandia thinga uthaen anthenija tsû kuenzan'dekhû sûye chamdi'patsû tsa atesû'mae tutupakhue tsû dañunge'ya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a188" TIME_SLOT_REF1="ts239" TIME_SLOT_REF2="ts240">
+                <ANNOTATION_VALUE>tsumba tsû tsethe tsû ke tsakaen a'mbianija tsunsi kungu'khiakûen tsû daya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a189" TIME_SLOT_REF1="ts243" TIME_SLOT_REF2="ts244">
+                <ANNOTATION_VALUE>mein'tsû ni dañuge'pue dañugeya'mbima tsû indûmbive daya tsekhuyi tsû </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a190" TIME_SLOT_REF1="ts247" TIME_SLOT_REF2="ts248">
+                <ANNOTATION_VALUE>jun</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a191" TIME_SLOT_REF1="ts251" TIME_SLOT_REF2="ts252">
+                <ANNOTATION_VALUE>tsa'tsû khû'mba ña semaña´chu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a196" TIME_SLOT_REF1="ts255" TIME_SLOT_REF2="ts256">
+                <ANNOTATION_VALUE>tsa khû'mbaja na tayupi'sû nane makan'tsû va ingi abuelon'dekhûye</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a197" TIME_SLOT_REF1="ts257" TIME_SLOT_REF2="ts258">
+                <ANNOTATION_VALUE>va nane jufae ingi abuelo Iriya'khubiyeja sûnija  da yage'ma kûi'pa shunchan dûseye </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a198" TIME_SLOT_REF1="ts259" TIME_SLOT_REF2="ts260">
+                <ANNOTATION_VALUE>y majan fensija'pave dasi tsama khû'mba mû'eñe</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a199" TIME_SLOT_REF1="ts261" TIME_SLOT_REF2="ts262">
+                <ANNOTATION_VALUE>y a'i pajisi tsa tsû tayupija da kukama've meite'ja tsû tsa khû'mbama tsû tisûpaja tisûpa ju'mba </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a200" TIME_SLOT_REF1="ts263" TIME_SLOT_REF2="ts264">
+                <ANNOTATION_VALUE>tsama tsû tisûpa'ja yage'ma kûi'pa shuncha'mba tsakaenja maja pajinija sejeye atesûnde'khû shûjûkhe'sûpaja tsaikhû tsû sejefa nane</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a201" TIME_SLOT_REF1="ts265" TIME_SLOT_REF2="ts266">
+                <ANNOTATION_VALUE>maja fensijapa've atesû'ta nane maja tsuve eña'mbasû've danija tsama tsû sûivue'mba tsaikhû tsû tisûpaja tsakûen sejepa nepiañe atesû'fa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a202" TIME_SLOT_REF1="ts267" TIME_SLOT_REF2="ts268">
+                <ANNOTATION_VALUE>tsane tsû khû'mbaja vare</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a203" TIME_SLOT_REF1="ts269" TIME_SLOT_REF2="ts270">
+                <ANNOTATION_VALUE>y tsumba ke maki a'ta ke </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a204" TIME_SLOT_REF1="ts271" TIME_SLOT_REF2="ts272">
+                <ANNOTATION_VALUE>ke anaje o maki a'ta ke kaje'mba akia nane jungae'sûve kukuyanga </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a205" TIME_SLOT_REF1="ts273" TIME_SLOT_REF2="ts274">
+                <ANNOTATION_VALUE>tsumbija'khe maki a'ta ke injamathi'khû akhia ke iñesi ke paye tsujen'ja nane ke khû'mba findia'khuma ambiaja'ki nane dyuju'mbe </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a206" TIME_SLOT_REF1="ts275" TIME_SLOT_REF2="ts276">
+                <ANNOTATION_VALUE>khûmba'ma chhiyipa ña tisû tuya ushaja ña vuve tumbû'mbija </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a207" TIME_SLOT_REF1="ts277" TIME_SLOT_REF2="ts278">
+                <ANNOTATION_VALUE>ña tsamaja khû'mbamakhe tsakhû'ma ichhuipa nane khuangi kûnde'kame tsumba tsanga'ki </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a208" TIME_SLOT_REF1="ts279" TIME_SLOT_REF2="ts280">
+                <ANNOTATION_VALUE>keja tsa khû'mba chhiyi'fuchuma chhichhipa tse tsamaja tsa tsakhûnga phiña'mba na'mbue'mba  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a209" TIME_SLOT_REF1="ts281" TIME_SLOT_REF2="ts282">
+                <ANNOTATION_VALUE>tsei tsa sin'khûe dasiki tsama kûi'ya tsama maja kûiye atesû'chu tsujan'khe</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a210" TIME_SLOT_REF1="ts283" TIME_SLOT_REF2="ts284">
+                <ANNOTATION_VALUE>nane tsei kemaja mandyipa nane tue'thinga keja usha'mbijaki ja amphiya nane papa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a211" TIME_SLOT_REF1="ts285" TIME_SLOT_REF2="ts286">
+                <ANNOTATION_VALUE>tse tsû nane tsa ja khû'mba se ja tsangûe tsû tsa iñasûja thethepa'ya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a212" TIME_SLOT_REF1="ts287" TIME_SLOT_REF2="ts288">
+                <ANNOTATION_VALUE>ña tsaken dapa u'tie tayupija tayu tsû khuangi kankhefa ña tsakaen da'chu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a213" TIME_SLOT_REF1="ts289" TIME_SLOT_REF2="ts290">
+                <ANNOTATION_VALUE>tsumba'gi ña tsakaen dapa na chiga fuitenija tsa khû'mbama kûi'pa tsakûen tsunja khaki tsangae pasanija ña akhia ñua'me               </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a214" TIME_SLOT_REF1="ts291" TIME_SLOT_REF2="ts292">
+                <ANNOTATION_VALUE>jungae'sû kukuya'nga khani'nga kaniñe'mbija ña tsakûan tsu'mbagi tsa khû'mbakhû'khe pasau tsa i'ñasûma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a215" TIME_SLOT_REF1="ts294" TIME_SLOT_REF2="ts296">
+                <ANNOTATION_VALUE>tsanekhe tsû varechu khû'mbaja y iyu'nga maki a'ta ma'kûen jaka'mba tsaiyesi tsama shûjûye'tsû tsa khû'mba indiaja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a216" TIME_SLOT_REF1="ts297" TIME_SLOT_REF2="ts298">
+                <ANNOTATION_VALUE>vareya tsa khû'mba indûtshia'ma chhichhipa tsakûen ña sûkhi'akûen tsakûen tsumba kûipa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a217" TIME_SLOT_REF1="ts299" TIME_SLOT_REF2="ts300">
+                <ANNOTATION_VALUE>tsei'tsû tsa iyu'nga iñakhachu'ma shûjûye varechu tsa khû'mbaja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a219" TIME_SLOT_REF1="ts303" TIME_SLOT_REF2="ts304">
+                <ANNOTATION_VALUE>anja jûn tsaja tsû nane maja ke khû'mbama </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a220" TIME_SLOT_REF1="ts305" TIME_SLOT_REF2="ts306">
+                <ANNOTATION_VALUE>ke yage'ma kûi'ye ke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a221" TIME_SLOT_REF1="ts307" TIME_SLOT_REF2="ts308">
+                <ANNOTATION_VALUE>ke yage'ma kûi'pa shunchhan dûseye faenga'sûkhû kundase</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a222" TIME_SLOT_REF1="ts309" TIME_SLOT_REF2="ts310">
+                <ANNOTATION_VALUE>shunchhan dyai'yejatsû tsaja'tsû ñua'me asethû'yachu tsû ni pûshesû tsakûen akhia egapa tsumbita tsandûye'khe maja tise pushe sûrisi </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a223" TIME_SLOT_REF1="ts311" TIME_SLOT_REF2="ts312">
+                <ANNOTATION_VALUE>tsa khû'mbanga jakañachu've me'in tsakande'khû jaka'mba tsa khû'mbathinga napisi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a224" TIME_SLOT_REF1="ts313" TIME_SLOT_REF2="ts314">
+                <ANNOTATION_VALUE>junchu'ye denkhûye pansha'nija tsû ke yage'ma kûi'pa shunchhanija tsû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a225" TIME_SLOT_REF1="ts315" TIME_SLOT_REF2="ts316">
+                <ANNOTATION_VALUE>tsuve'tsû iñe'mba mainja siame pajisû tsû injeñe'ña tsa khû'mbama shunchhanija tisûma injaeña </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a226" TIME_SLOT_REF1="ts317" TIME_SLOT_REF2="ts318">
+                <ANNOTATION_VALUE>tsa'kamba tsû asethuya'chu khû'mbama tsakûen ke asethûpa ke maja ke tsakûen findian'chuja tsaja ke shunchhanija ni mingûe ke'ma tsuve iñeñachu've mein'u</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a227" TIME_SLOT_REF1="ts319" TIME_SLOT_REF2="ts320">
+                <ANNOTATION_VALUE>ni yage'ma ke kûipa dûsepa ke </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a228" TIME_SLOT_REF1="ts321" TIME_SLOT_REF2="ts322">
+                <ANNOTATION_VALUE>kema ega've ke tsufe'ye tsa khû'sipa jisi ke kaña'chuve mein'uña tsû akhia ñua'me ñu'tshe makûen yage ñutshia khûsipa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a229" TIME_SLOT_REF1="ts323" TIME_SLOT_REF2="ts324">
+                <ANNOTATION_VALUE>yage ñutshia'ma kû'ipa dûsejaki pa'khuma makan yage teva'pama kaña'jeña</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a230" TIME_SLOT_REF1="ts325" TIME_SLOT_REF2="ts326">
+                <ANNOTATION_VALUE>tsumbipa'ki ke ega khû´mbama tsaka'ma shunchanija kemaja tse tsû kanjeña makan khû'mbama ke shunchha'chuma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a231" TIME_SLOT_REF1="ts327" TIME_SLOT_REF2="ts328">
+                <ANNOTATION_VALUE>tsaka'mba tsû khû'mbamaja asethûpa ke tsakûen kuirapa ke tsu´mba shunchhanija tsû ñua'me ñutshi tsû tsa khû'mbaja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a233" TIME_SLOT_REF1="ts331" TIME_SLOT_REF2="ts332">
+                <ANNOTATION_VALUE>jun</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a234" TIME_SLOT_REF1="ts335" TIME_SLOT_REF2="ts336">
+                <ANNOTATION_VALUE>jûn tsa khû'mbaja vare'u ke a'jûye </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a235" TIME_SLOT_REF1="ts337" TIME_SLOT_REF2="ts338">
+                <ANNOTATION_VALUE>ke ushata pashen ke a'ngikhu'nga setsayeja keja tsufathûye'khe khû'mba'khû nane katûya'u</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a236" TIME_SLOT_REF1="ts339" TIME_SLOT_REF2="ts340">
+                <ANNOTATION_VALUE>tsanekhe tsû varechu tsakûen panshe ke tsumbita ke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a237" TIME_SLOT_REF1="ts341" TIME_SLOT_REF2="ts342">
+                <ANNOTATION_VALUE>tsa ke ajû'ye inja'ja tsa na'jema tsa shuyuchu've tsae ke pishu nanisi shuyuchu'si tsamaki ipa utae'mba </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a241" TIME_SLOT_REF1="ts343" TIME_SLOT_REF2="ts344">
+                <ANNOTATION_VALUE>u tsu'mbija tsa andepa'ma ke pishu katije'chuma tsamaki taipa ipa keja utae'mba a'jûya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a242" TIME_SLOT_REF1="ts345" TIME_SLOT_REF2="ts346">
+                <ANNOTATION_VALUE>tsaja'tsû ñutshiya ke maki a´ta ke a'ngikhu'nga pa'shen ithuthunija'ki tsa khû'mba'ma tsakûen uta'mba na'mbûe tsu'mbaki tsama a'jû kati tse tsa'ngûe tsû ithuthu'chuja nepiya </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a243" TIME_SLOT_REF1="ts347" TIME_SLOT_REF2="ts348">
+                <ANNOTATION_VALUE>y tsakûen nane tsufathûye'khe pashen ke setsayeni</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a244" TIME_SLOT_REF1="ts349" TIME_SLOT_REF2="ts350">
+                <ANNOTATION_VALUE>tsa'manki tsama tsa'khûnga re'ri'khue tsumba tsama tsufathûye ka'tûya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a245" TIME_SLOT_REF1="ts351" TIME_SLOT_REF2="ts352">
+                <ANNOTATION_VALUE>tsunija tsû a'ngikhuja zie setsaya'mbi tsû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a246" TIME_SLOT_REF1="ts355" TIME_SLOT_REF2="ts356">
+                <ANNOTATION_VALUE>ñua'me indûtshiaja tsû nane vave'e tsû khûsi'khiakûen dapa tsû pasaya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a247" TIME_SLOT_REF1="ts357" TIME_SLOT_REF2="ts358">
+                <ANNOTATION_VALUE>tsaja tsa najema utae'mba ke ñua'me tsa sa'mbûe'chuve tsa khû'mba sa'mbuenchu khen sû'chu tsa tsû ke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a248" TIME_SLOT_REF1="ts359" TIME_SLOT_REF2="ts360">
+                <ANNOTATION_VALUE>tsama cuchara'nga vave fae kûndeve vave fae kurakan'khûe ke kûija nane dyu´u´e tsû khûsia´ña</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a249" TIME_SLOT_REF1="ts361" TIME_SLOT_REF2="ts362">
+                <ANNOTATION_VALUE>jungae'sû rande ûnjin ñua'me tûikhia'kûen tsû khûsipaja je'mba jiya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a250" TIME_SLOT_REF1="ts363" TIME_SLOT_REF2="ts364">
+                <ANNOTATION_VALUE>maja usha'mbijaki tse ki ajûya nane</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a251" TIME_SLOT_REF1="ts365" TIME_SLOT_REF2="ts366">
+                <ANNOTATION_VALUE>tsakan tsû khû'mbaja ña'khe nane tsakûen tsama khû'mbama kû'ichupa'ngi atesûya makan'tsû khû'mba khûsipa tise jenfama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a252" TIME_SLOT_REF1="ts369" TIME_SLOT_REF2="ts370">
+                <ANNOTATION_VALUE>tsane tsû varechu khû'mbaja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a253" TIME_SLOT_REF1="ts372" TIME_SLOT_REF2="ts373">
+                <ANNOTATION_VALUE>jûn</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a254" TIME_SLOT_REF1="ts377" TIME_SLOT_REF2="ts378">
+                <ANNOTATION_VALUE>jûn</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a434" TIME_SLOT_REF1="ts380" TIME_SLOT_REF2="ts384">
+                <ANNOTATION_VALUE>an ya, dasû tsakamaja,, chiga tsû afepaen ke'i tsakûen fûite'nija</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="RAÚL QUIETA" LINGUISTIC_TYPE_REF="TRANSCRIPCION" PARTICIPANT="RAÚL QUIETA" TIER_ID="S2 palabra en a'ingae (ortografía nueva)">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>atraya'maja jungae'sûkhûki tsunfa sûivufa'khû nailu'khû?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>min'getseki mañi rollo o mañi khanigabeki gastapa plomo'maja sumbae'ña o tsa pitanailo khen sûchuma'khe? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>un ya tsaka'ja tsekhuyi'ti? tsethe?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48" TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>ke'i suivufa'ma tandachu'ja mañi kankhefa've tsû kiña o mingae dapa tsû kungu dañu'nge?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56" TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>jungae'sû tsa tuinfa'makhe tiki atesûfa maka ta'yave u tiki akhia inja'nga chathupa atesûfa maja ñuthsiaa've? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a111" TIME_SLOT_REF1="ts123" TIME_SLOT_REF2="ts124">
+                <ANNOTATION_VALUE>ûn ya tsaka'ja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a112" TIME_SLOT_REF1="ts125" TIME_SLOT_REF2="ts126">
+                <ANNOTATION_VALUE>jinge'sû jañuja faesû </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a113" TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts128">
+                <ANNOTATION_VALUE>jungaes'sûmaki tsuñe atesû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a114" TIME_SLOT_REF1="ts129" TIME_SLOT_REF2="ts132">
+                <ANNOTATION_VALUE>ke jañuja jungae'sûneki kundaseye asithae'nge</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a128" TIME_SLOT_REF1="ts135" TIME_SLOT_REF2="ts136">
+                <ANNOTATION_VALUE>un ya tsaka'ja kundase'kaja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a151" TIME_SLOT_REF1="ts165" TIME_SLOT_REF2="ts166">
+                <ANNOTATION_VALUE>mañi a'tagaki tayu ûpathûya findikhue'ñeja? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a170" TIME_SLOT_REF1="ts167" TIME_SLOT_REF2="ts169">
+                <ANNOTATION_VALUE>u mañi khuvû'nga</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a171" TIME_SLOT_REF1="ts187" TIME_SLOT_REF2="ts188">
+                <ANNOTATION_VALUE>ya tsa pishuta'tiki mañi a'taveki sajanfa? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a172" TIME_SLOT_REF1="ts201" TIME_SLOT_REF2="ts202">
+                <ANNOTATION_VALUE>mañi khakhejekan tsû fae findikhu'ngaja findiyeya?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a186" TIME_SLOT_REF1="ts209" TIME_SLOT_REF2="ts210">
+                <ANNOTATION_VALUE>jungae'sûkhûki findifa u'fa?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a187" TIME_SLOT_REF1="ts229" TIME_SLOT_REF2="ts230">
+                <ANNOTATION_VALUE>mañi kankhefa o khuvû've tsû kiña tsakûen kei findipa a'mbianija?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a192" TIME_SLOT_REF1="ts241" TIME_SLOT_REF2="ts242">
+                <ANNOTATION_VALUE>tsa'kûen datati vareya shunchha'ye o ñua'me dañunge'ti mingae'tsû da?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a193" TIME_SLOT_REF1="ts245" TIME_SLOT_REF2="ts246">
+                <ANNOTATION_VALUE>ûm ya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a194" TIME_SLOT_REF1="ts249" TIME_SLOT_REF2="ts250">
+                <ANNOTATION_VALUE>tsaka´'ja tsati khû'mbane?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a195" TIME_SLOT_REF1="ts253" TIME_SLOT_REF2="ts254">
+                <ANNOTATION_VALUE>mingae'tsû jungaesûne tsû vare khû'mbaja ke'ine mingûe'ki asithaen kundase'kañe ushatiki?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a218" TIME_SLOT_REF1="ts293" TIME_SLOT_REF2="ts295">
+                <ANNOTATION_VALUE>ya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a232" TIME_SLOT_REF1="ts301" TIME_SLOT_REF2="ts302">
+                <ANNOTATION_VALUE>jungaesû khû'mbane dati asethûkhesû?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a431" TIME_SLOT_REF1="ts329" TIME_SLOT_REF2="ts330">
+                <ANNOTATION_VALUE>un ya jungûe'sû jenda siempre'ti yage'ma kui'ye o akhia'kheti shunchhan'khesû?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a240" TIME_SLOT_REF1="ts333" TIME_SLOT_REF2="ts334">
+                <ANNOTATION_VALUE>ajû'ye mingae tsû ajûpa'khûve'kheti tsunfa?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a256" TIME_SLOT_REF1="ts353" TIME_SLOT_REF2="ts354">
+                <ANNOTATION_VALUE>khûsiandi tsakaen a'jûni o tsufatû'ye tsunija o minga tsû?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a257" TIME_SLOT_REF1="ts367" TIME_SLOT_REF2="ts368">
+                <ANNOTATION_VALUE>ûn ya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a258" TIME_SLOT_REF1="ts371" TIME_SLOT_REF2="ts374">
+                <ANNOTATION_VALUE>ya tsaka'ja chiga tsû afepuen'ja ke kundasechune</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a259" TIME_SLOT_REF1="ts375" TIME_SLOT_REF2="ts376">
+                <ANNOTATION_VALUE>jungae'sû ke jañu ke ingi´ga kundasechune khe'ngi ke'ngaja reconoce´faya</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a435" TIME_SLOT_REF1="ts379" TIME_SLOT_REF2="ts381">
+                <ANNOTATION_VALUE>jungue'sû kurifindi'ma afe'faya ke jungae'sûve chavapa injen'chuma añe </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a262" TIME_SLOT_REF1="ts382" TIME_SLOT_REF2="ts383">
+                <ANNOTATION_VALUE>inje'ngesane.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="RAÚL QUIETA" LINGUISTIC_TYPE_REF="TRADUCCIÓN" PARENT_REF="palabra en a'ingae (ortografía nueva)" PARTICIPANT="LUIS QUIETA" TIER_ID="frase en Español">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Bueno empecemos otra vez un nuevo diálogo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>estamos ahora 12 de noviembre de 2020 (error es 2021)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>en la comunidad Duvûno</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>yo soy Raúl Quieta y vamos a grabar</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>a Luis Quieta que va contar de como saben tejer la atarraya</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>por favor cuentenos como tejen o amarran la atarraya?.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>si, la la primera vez; la atarraya antes nosotros haciamos con cabuya de chambira            </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>los mayores antes hilaban la fibra de chambira, y se hace igual que la hamaca pero la atarraye se empieza diferente</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>este como dice los mayores, al empezar hay que hacer los ojos o espacios productoras y de ahi se cuenta </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>desde el comiezo, ahy que empezar, si al lanzar se va ha abrir grande; hay que sacar de 50 a 80 espacios o ojos</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>de ahi como dice los mayores, hay que amarrar el ojo productora y de ahi contar 10 ojos desde inicio</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>de ahi para abajo hay que ir aumentando de dos en dos y hasta 12 y si ahace 3 a 4 vueltas, hasta ahi no mas hay poner el ojo productora</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>de ahi, se va abriendo y abriendo hasta llegar a 9 cuartas; asi es la atarraya.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>pero</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>yo, asi termino de amarrar la atarraya; despues de hacer eso termino; </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>despues de hilar la chambira, hay que ir a recoger piedras delgadas y largas pero sin recoger muy grandes</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>recoges eso pensando para poner a la atarraya y amontonas; la brea</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>ahora hay que ir a cortar y traer brea verde de la selva, eso hay que hervir en una olla vieja  </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>en eso ahi que poner las piedras y en la corteza platano</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>se pela la corteza de platano y ahi se deja sacando las piedras para que se enfrie</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>se deja sacando ahi; y cuando se enfria hay que ir cogiendo y amarrando y colgando como plomo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>con hilo de chambira, se va amarrango y amarrando todo y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>si puedes terminas en un día, si no, puede demorar dos días en colgar plomo o piedras</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>es asi, de ahi cuando se termina, se hace el espacio ovalado como shigra para coger peces y de ahi eso</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>hay que medir como una cuarta, la misma piola de chambira y a esa medida amarrar, el ovalado, si los boca chicos entran ahi se quedan atrapados. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>se hace asi, y cuando terminas vas a atarrarar para coger los boca chicos; asi es la atarraya</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>antes solo se hacia de chambira pero ahora viendo que venden los mestizos el nailo y vemos que es mas facil; nos olvidamos nuestra cultura y solo utilizamos nailo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>compramos el nailo que los mestizos saben amarrar con eso nosotros tambien amarramos la atarraya y cuando terminamos atarrayamos y cogemos los boca chicos</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>atarrayamos y cogemos los boca chicos.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a30">
+                <ANNOTATION_VALUE>para amarrar solo un rollo pero de esas bien grandes que hay en colombia con esas amarras un atarraya y </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a33">
+                <ANNOTATION_VALUE>una atarraya de 12 geme y en 6 geme mas se acaba todo el rollo grande.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a88" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>de ahi, ahora para emplomor ya no hacemos como hacian los mayores de poner las piedras; si no utilizamos el plomo ya hecho y lo adaptamos </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a89" ANNOTATION_REF="a35">
+                <ANNOTATION_VALUE>actualmente utilizamos el plomo hecho por los mestizos; yo se ir a Colombia a comprar, en Lago hay pero son mal hechos; por eso yo se ir a comprar en Colombia,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a90" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>ese plomo ya viene con huecos como flauta entonces hay medir como se va hacer la emplomada y los ojos de la atarraya; luego de contar empiezo  cortar</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a91" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>el mismo pintanailo utilizamos para lococar los plomos despues de terminar todo, las colocamos en la atarraya; asi terminamos</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a92" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>eso no mas es de la atarraya; si terminas puedes atarrayar y coger bocachico para comer.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>eso que nosotros para la atarraya</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>esa piola de chambira que es bien dura, sirve para hacer la atarraya  y la red</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a42">
+                <ANNOTATION_VALUE>como dicen los mayores, uno hay que buscar la chambira dura y encontrar para blanquear eso</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a96" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>al terminar de hilar y amarrada, esa dura mas; algunas fibras son suaves y todas no son iguales, se rompen con facilidad al momento de jalar. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a97" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>si, se hila mezclado con la fibra de chambira resistente y suave, primero se pudrira y rompera de la parte de chambira suave; luego se empezara a desgastar toda la atarraya</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a98" ANNOTATION_REF="a45">
+                <ANNOTATION_VALUE>si, se hace solo con fibra de chambira dura, y al regresar de la pesca y seca colgando a lado del fogon; esa no se pudre rapido.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a99" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>si traes y dejas la atarraya de chambira donde quiera</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a47">
+                <ANNOTATION_VALUE>si, dejan por ahi como al nailo de los mestizos y se seca solo con sol; esa se pudre rapido </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a264" ANNOTATION_REF="a49">
+                <ANNOTATION_VALUE>si, dejas colgado a lado del fogon y se seca con el calor del fuego, esa atarraya dura</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a265" ANNOTATION_REF="a50">
+                <ANNOTATION_VALUE>en cambio si traes y dejas tirado por ahi; esa se pudre porque es chambira</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a266" ANNOTATION_REF="a51">
+                <ANNOTATION_VALUE>si, despues de cortar tienes que sacar la fibra y arracar para ver cual es dura</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a267" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>despues de cortar y ven arrancando la fibra que se va hilar, si es resistente </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a268" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>al arrancar es dura, esa hay ir guardando a un lado</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a269" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE>la fibra que es suave, sirve para hacer cosas como shigra entre otras </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a270" ANNOTATION_REF="a55">
+                <ANNOTATION_VALUE>la fibra de chambira suave tambien cogen para amarrar cualquier cosa que dure tal vez un año o si no 4 meses.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a271" ANNOTATION_REF="a105">
+                <ANNOTATION_VALUE>los mayores buscan asi, solo para la atarraya y red</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a272" ANNOTATION_REF="a106">
+                <ANNOTATION_VALUE>al arrancar, si es dura como nailo, entonces solo de eso nomas buscan </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a273" ANNOTATION_REF="a107">
+                <ANNOTATION_VALUE>para amarrar la atarraya y para la red, </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a274" ANNOTATION_REF="a108">
+                <ANNOTATION_VALUE>duran las que se secan en fogon u en sol</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a275" ANNOTATION_REF="a109">
+                <ANNOTATION_VALUE>la atarraya y la red, si, al ir y regresar de la pesca y secas bien, esas duran unos 2 o 4 años</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a276" ANNOTATION_REF="a110">
+                <ANNOTATION_VALUE>ahora</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a277" ANNOTATION_REF="a115">
+                <ANNOTATION_VALUE>yo ahora estoy pensando conversar de tabaco</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a278" ANNOTATION_REF="a116">
+                <ANNOTATION_VALUE>el tabaco tambien,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a430" ANNOTATION_REF="a285">
+                <ANNOTATION_VALUE>tienes que coger las semillas y sacarlas; luego limpiar un espacio y si crece ahi tienes que dejar</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a286" ANNOTATION_REF="a118">
+                <ANNOTATION_VALUE>hay que dejar 4 matas para que cresca y las semillas se maduren y nuevamente coger las semillas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a287" ANNOTATION_REF="a119">
+                <ANNOTATION_VALUE>y de ahi eso</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a288" ANNOTATION_REF="a120">
+                <ANNOTATION_VALUE>tienes que hacer la chacra al otro lado; si heces la chacra y siembras en el mismo lugar donde tenia</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a289" ANNOTATION_REF="a121">
+                <ANNOTATION_VALUE>si, se siembra tabaco en el mismo lugar donde tenia antes; los gusanos de estas plantas comen las hojas y no dejan cresen bien</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a290" ANNOTATION_REF="a122">
+                <ANNOTATION_VALUE>si, usted no quiere sufrir sembrando; hay que sembrar en un nuevo lugar</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a291" ANNOTATION_REF="a123">
+                <ANNOTATION_VALUE>si, quieres sembrar y hacer crecer tabaco, sin hacer comer de los gusanos las hojas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a292" ANNOTATION_REF="a124">
+                <ANNOTATION_VALUE>eso tienes que limpiar o trabajar en un lugar donde no se ha cultivado tabaco </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a293" ANNOTATION_REF="a125">
+                <ANNOTATION_VALUE>dejas bien limpio o si no dejas trabajado y picado, y eso se quema en verano </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a294" ANNOTATION_REF="a126">
+                <ANNOTATION_VALUE>lo quemas todo y ahi las semilleras o las plantulas de tabaco crecen como sembrado </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a295" ANNOTATION_REF="a127">
+                <ANNOTATION_VALUE>cuando crecen las plantulas tienes que coger y sembrar en la parte quemada</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a296" ANNOTATION_REF="a129">
+                <ANNOTATION_VALUE>y si siembras en terreno nuevo los gusanos no se comen demasiado</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a297" ANNOTATION_REF="a130">
+                <ANNOTATION_VALUE>si cuidas dos o tres dias el sembrio de las plantas de tabaco, los gusanos no van a comer las hojas de tabaco.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a318" ANNOTATION_REF="a152">
+                <ANNOTATION_VALUE>el tabaco</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a319" ANNOTATION_REF="a153">
+                <ANNOTATION_VALUE>en algunos lugares donde crece rapido, en tres meses, ya empiezas a sacar o cortar las primeras hojas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a320" ANNOTATION_REF="a154">
+                <ANNOTATION_VALUE>pero en lugar donde no crece rapido se demora, al menos unos 4 meses</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a321" ANNOTATION_REF="a155">
+                <ANNOTATION_VALUE>este si tienes bien limpio siempre, estas crecen rapido  </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a322" ANNOTATION_REF="a156">
+                <ANNOTATION_VALUE>si tú haces como estoy diciendo, eso no demora en crecer, si tenes bien cuidado las matas; la primera cosecha en tres meses ya puedes estar cosechando, las hojas primeras de la parte de abajo </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a323" ANNOTATION_REF="a157">
+                <ANNOTATION_VALUE>si, usted siembra vastante, unos 80 matas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a324" ANNOTATION_REF="a158">
+                <ANNOTATION_VALUE>con esas ya puesde envolver dos mazos de tabaco, aunque coseches solo la partes de abajo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a325" ANNOTATION_REF="a159">
+                <ANNOTATION_VALUE>y despues en la segunda cosecha la parte media, esa es la que se va envulver el tabaco bien fuerte</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a326" ANNOTATION_REF="a160">
+                <ANNOTATION_VALUE>asi es</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a327" ANNOTATION_REF="a161">
+                <ANNOTATION_VALUE>en casa de hojas nueva como este </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a328" ANNOTATION_REF="a162">
+                <ANNOTATION_VALUE>si, usted vive en casa de hojas; usted puede arrancar las hojas y traer a la casa para secar unos 4 dias </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a329" ANNOTATION_REF="a163">
+                <ANNOTATION_VALUE>si tu arrancas y dejas secando las hojas en el techo; ya en 4 dias esta listo para bajar y poner otra vez otro</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a330" ANNOTATION_REF="a164">
+                <ANNOTATION_VALUE>para que bote sacando las tallos de las hojas y lo envuelva en mazo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a331" ANNOTATION_REF="a165">
+                <ANNOTATION_VALUE>si esta, el tiempo asi sombroso, sin sol, no se seca rapido</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a332" ANNOTATION_REF="a166">
+                <ANNOTATION_VALUE>tal vez entre a 6 o 7 dias, esta listo para bajar y botar arrancando los tallos de las hojas y de ahi esta listo para hacer el mazo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a333" ANNOTATION_REF="a167">
+                <ANNOTATION_VALUE>este yo, los pequeños no he contado las hojas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a334" ANNOTATION_REF="a168">
+                <ANNOTATION_VALUE>Este yo, se traer arrancando hoja en una shigra mas o menos grande para poner en el techo de la casa y secar; eso mas o meos asi de grande</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a335" ANNOTATION_REF="a169">
+                <ANNOTATION_VALUE>y eso lo envuelves un mazo de 50 cm de largo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a336" ANNOTATION_REF="a173">
+                <ANNOTATION_VALUE>La piola para envolver, los antepasados hacen de cogollo de morete</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a337" ANNOTATION_REF="a174">
+                <ANNOTATION_VALUE>El cogollo de morete, cuando ya va a arrancar </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a338" ANNOTATION_REF="a175">
+                <ANNOTATION_VALUE>Se trae cortando el cogollo de morete y se hace tiras para secar o blanquear </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a339" ANNOTATION_REF="a176">
+                <ANNOTATION_VALUE>Despues de blanquear eso; y de ahi cuando va arrancar el tabaco, si va empezar a envolver </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a340" ANNOTATION_REF="a177">
+                <ANNOTATION_VALUE>con esas tiras secas del cogollo de morete, se hace para envolver el tabaco </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a341" ANNOTATION_REF="a178">
+                <ANNOTATION_VALUE>antes por primera vez los mayores hilaban fibra de chambira pero ahora</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a342" ANNOTATION_REF="a179">
+                <ANNOTATION_VALUE>Los antepasados solo hilaban fibra de chambira para envolver y amarrar el mazo de tabaco al principio</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a343" ANNOTATION_REF="a180">
+                <ANNOTATION_VALUE>de ahi en realidad se envuelve con las tiras de morete para siempre hasta para vender</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a344" ANNOTATION_REF="a181">
+                <ANNOTATION_VALUE>Asi lo tienen para ir desevolviendo y picar para fumar; asi lo tienen evuelto hasta para vender</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a345" ANNOTATION_REF="a182">
+                <ANNOTATION_VALUE>tabaco? el tabaco siempre tienes que enolver y si tiene fogon, tienes que amarrar una piola ensima del fogon y dejar el mazo de tabaco ahi</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a346" ANNOTATION_REF="a183">
+                <ANNOTATION_VALUE>si tienes asi ensima del fogon, y con el calor de la candela no se daña, dura tal vez hasta 4 a 5 meses</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a347" ANNOTATION_REF="a184">
+                <ANNOTATION_VALUE>si no hasta un año dependiendo como lo tenga</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a348" ANNOTATION_REF="a185">
+                <ANNOTATION_VALUE>Si haces el mazo y dejas solo encima de algo, en un lugar frio, le sale el moho blanco y se daña rapido</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a349" ANNOTATION_REF="a188">
+                <ANNOTATION_VALUE>y de ahi, si tú tienes asi, se va descomponiendo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a350" ANNOTATION_REF="a189">
+                <ANNOTATION_VALUE>no, nose daña pero se debilita la escencia del tabaco, eso no mas es.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a351" ANNOTATION_REF="a190">
+                <ANNOTATION_VALUE>si</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a352" ANNOTATION_REF="a191">
+                <ANNOTATION_VALUE>eso es, para trabajar tabaco</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a353" ANNOTATION_REF="a196">
+                <ANNOTATION_VALUE>bueno el tabaco como nuestro finados abuelos </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a354" ANNOTATION_REF="a197">
+                <ANNOTATION_VALUE>este como decia nuestro finado abuelo Elia, sirve para estar fumando cuando se toma yage.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a355" ANNOTATION_REF="a198">
+                <ANNOTATION_VALUE>y tambien, sirve para poner tabaco, si alguien esta con mal viento</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a356" ANNOTATION_REF="a199">
+                <ANNOTATION_VALUE>y cuando esta enfermo una persona; antes cuando no estaban los mestizos, ellos mismo, solos sembraban</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a357" ANNOTATION_REF="a200">
+                <ANNOTATION_VALUE>con eso saben curar, si alguien esta enfermo; toman yage y fuman eso los que saben y tiene los conocimientos de curar o shaman   </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a358" ANNOTATION_REF="a201">
+                <ANNOTATION_VALUE>si alguien tiene mal viento o le da mareos de la cabeza ellos envuelven el tabaco y con eso curan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a359" ANNOTATION_REF="a202">
+                <ANNOTATION_VALUE>para eso sirve el tabaco</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a360" ANNOTATION_REF="a203">
+                <ANNOTATION_VALUE>y si algun dia tú</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a361" ANNOTATION_REF="a204">
+                <ANNOTATION_VALUE>estas durmiendo o cualquier día te topas con algun espiritu</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a362" ANNOTATION_REF="a205">
+                <ANNOTATION_VALUE>si no, si algun dia estas mal con dolor de estomago y tienes el mazo de tabaco y sin miedo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a363" ANNOTATION_REF="a206">
+                <ANNOTATION_VALUE>tienes que picar rapido el tabaco pero si aun avanzas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a364" ANNOTATION_REF="a207">
+                <ANNOTATION_VALUE>y cojes agua como para dos bocadas y pones ese tabaco ahi</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a365" ANNOTATION_REF="a208">
+                <ANNOTATION_VALUE>tu picas el tabaco y eso pones en agua y lo mezclas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a366" ANNOTATION_REF="a209">
+                <ANNOTATION_VALUE>de ahi cuando la mezcla se hace negra, tienes que tomar eso pero el que sabe tomar</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a367" ANNOTATION_REF="a210">
+                <ANNOTATION_VALUE>y tú sientes como que retuerse el estomago y si no resistes puedes caer desmayado ahi mismo </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a368" ANNOTATION_REF="a211">
+                <ANNOTATION_VALUE>de ahi el tabaco va picando o ardiendo y el dolor te pasa rapido</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a369" ANNOTATION_REF="a212">
+                <ANNOTATION_VALUE>a mi me paso eso antes y ya son dos años de lo me paso eso</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a370" ANNOTATION_REF="a213">
+                <ANNOTATION_VALUE>hice eso cuando me paso y gracias a dios, al tomar tabaco, al dia siguiente me paso, si es algo pasajero</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a371" ANNOTATION_REF="a214">
+                <ANNOTATION_VALUE>si no es hecho por espiritu malo, me he curado asi con tabaco ese dolor</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a372" ANNOTATION_REF="a215">
+                <ANNOTATION_VALUE>para eso tambien sirve el tabaco y si muerde la culebra algun dia donde andes tambien sirve para curar pero con tabaco bien fuerte </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a373" ANNOTATION_REF="a216">
+                <ANNOTATION_VALUE>el tabaco fuerte se pica y se toma como estoy diciendo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a374" ANNOTATION_REF="a217">
+                <ANNOTATION_VALUE>de ahi se cura a la persona que le mordio la culebra, el tabaco sirve para eso  </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a375" ANNOTATION_REF="a219">
+                <ANNOTATION_VALUE>si, eso si alguien,tú  tabaco</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a376" ANNOTATION_REF="a220">
+                <ANNOTATION_VALUE>para tomar tú yage</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a377" ANNOTATION_REF="a221">
+                <ANNOTATION_VALUE>al tomar el yage, para que estes en la hamaca conversando con los amigos</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a378" ANNOTATION_REF="a222">
+                <ANNOTATION_VALUE>para estar sentado fumando hay que ayunar o cuidarse bien, sin la presencia de mujer que este menstruando o hombres que tengan a la mujer embarazada </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a379" ANNOTATION_REF="a223">
+                <ANNOTATION_VALUE>no hay que andar por el sembrio de tabaco esa personas y si llegan al sembrio de tabaco</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a380" ANNOTATION_REF="a224">
+                <ANNOTATION_VALUE>si pasan por el sembrio al tomar el yage y fumas eso</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a381" ANNOTATION_REF="a225">
+                <ANNOTATION_VALUE>la cabeza te va doler y dar mareos y te debilita el cuerpo hasta puedes desmayar al fumar </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a382" ANNOTATION_REF="a226">
+                <ANNOTATION_VALUE>por eso hay que ayunar o cuidar el tabaco. El mazo envuelto despues de todo ese proceso, ya no te duele la cabeza, si fumas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a383" ANNOTATION_REF="a227">
+                <ANNOTATION_VALUE>aunque tomes yage y este en hamaca</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a384" ANNOTATION_REF="a228">
+                <ANNOTATION_VALUE>ya no veras el malestar cuando llegue la borrachera o el efecto del yage.Veras todo cosas buenas o bonitas </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a385" ANNOTATION_REF="a229">
+                <ANNOTATION_VALUE>si tomas un buen yage y estas en la hamaca puedes ver o estar viendo todos los colores o alucinaciones</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a386" ANNOTATION_REF="a230">
+                <ANNOTATION_VALUE>si no, la borrachera del yage te muestra que tipo de tabaco has fumado, te da malestar.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a387" ANNOTATION_REF="a231">
+                <ANNOTATION_VALUE>por eso hay que ayunar o cuidar bien el tabaco y si fumas eso te siente muy bien</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a388" ANNOTATION_REF="a233">
+                <ANNOTATION_VALUE>si</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a389" ANNOTATION_REF="a234">
+                <ANNOTATION_VALUE>si, ese tabaco sirve para vomitivo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a390" ANNOTATION_REF="a235">
+                <ANNOTATION_VALUE>si usted puede cuando te resfria o te da gripa tienes que inhalar por la nariz el tabaco</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a391" ANNOTATION_REF="a236">
+                <ANNOTATION_VALUE>para eso tambien sirve, si no hace eso</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a392" ANNOTATION_REF="a237">
+                <ANNOTATION_VALUE>si quiere para vomitivo, tienes que traer las hojas de los brotes que salen despues de cosechar, eso hay que hacer hervir </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a393" ANNOTATION_REF="a241">
+                <ANNOTATION_VALUE>o si no puedes traer las primeras hojas que sacas de la mata del tabaco, eso recojes y traes para hervir y tomar </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a394" ANNOTATION_REF="a242">
+                <ANNOTATION_VALUE>eso sirve, si algun dia te da gripa y tiene mucha tos. Tienes que hervir las hojas de tabco para vomitivo y botas vomitando todo. De ahi pasa rapidito la tos</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a395" ANNOTATION_REF="a243">
+                <ANNOTATION_VALUE>y tambien se inhala por la nariz, si te da mucha gripa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a396" ANNOTATION_REF="a244">
+                <ANNOTATION_VALUE>eso se pone en un poco de agua y se inhala por la nariz</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a397" ANNOTATION_REF="a245">
+                <ANNOTATION_VALUE>y no te da mucha gripa </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a398" ANNOTATION_REF="a246">
+                <ANNOTATION_VALUE>si es bien fuerte, parece que emborracha un poco y pasa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a399" ANNOTATION_REF="a247">
+                <ANNOTATION_VALUE>Eso que hierves las hojas bien y queda espeso como miel, eso es mas fuerte. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a400" ANNOTATION_REF="a248">
+                <ANNOTATION_VALUE>Si tomas una cucharada de eso, te emborracha bastante</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a401" ANNOTATION_REF="a249">
+                <ANNOTATION_VALUE>la borrachera viene como, si lluviera con grande gotas de agua</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a402" ANNOTATION_REF="a250">
+                <ANNOTATION_VALUE>el que no resiste o aguanta, ya vomita</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a403" ANNOTATION_REF="a251">
+                <ANNOTATION_VALUE>asi es el tabaco; yo tambien e tomado por eso, se como es el sonido de la borrachera del tabaco </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a404" ANNOTATION_REF="a252">
+                <ANNOTATION_VALUE>para eso sirve el tabaco</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a405" ANNOTATION_REF="a253">
+                <ANNOTATION_VALUE>si</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a406" ANNOTATION_REF="a254">
+                <ANNOTATION_VALUE>si</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a436" ANNOTATION_REF="a434">
+                <ANNOTATION_VALUE>a bueno, muchas gracias, si ustedes nos ayudan o apoya de esa manera</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="RAÚL QUIETA" LINGUISTIC_TYPE_REF="TRADUCCIÓN" PARENT_REF="S2 palabra en a'ingae (ortografía nueva)" PARTICIPANT="RAÚL QUIETA" TIER_ID="S2 frase en Español">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a31">
+                <ANNOTATION_VALUE>la atarraya con que hacen con fibra de chambira o nailo?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a102" ANNOTATION_REF="a32">
+                <ANNOTATION_VALUE>cuantos rollos de nailo o de plomo gastan o utilizan? </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a103" ANNOTATION_REF="a39">
+                <ANNOTATION_VALUE>bueno, entonces eso no mas es? y de ahy?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a104" ANNOTATION_REF="a48">
+                <ANNOTATION_VALUE>cuantos años dura la chambira hilada o porque se daña o pudre?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a263" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE>ustedes saben o conocen cual chambira es dura? o cortan cualquiera y luego ven cual es dura?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a279" ANNOTATION_REF="a111">
+                <ANNOTATION_VALUE>bueno, entonces</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a280" ANNOTATION_REF="a112">
+                <ANNOTATION_VALUE>entonces ahora otro</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a281" ANNOTATION_REF="a113">
+                <ANNOTATION_VALUE>que sabes hacer?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a282" ANNOTATION_REF="a114">
+                <ANNOTATION_VALUE>ahora usted que nos mas puedes compartir de tus experiencias?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a283" ANNOTATION_REF="a128">
+                <ANNOTATION_VALUE>bueno entonces converse.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a408" ANNOTATION_REF="a151">
+                <ANNOTATION_VALUE>en cuantos dias ya puedes sacar o cortar las hojas para embolver?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a409" ANNOTATION_REF="a170">
+                <ANNOTATION_VALUE>o en cuantos meses?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a410" ANNOTATION_REF="a171">
+                <ANNOTATION_VALUE>y cuando arancan las hojas cuantos dias secan? </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a411" ANNOTATION_REF="a172">
+                <ANNOTATION_VALUE>cuantas hojas entran o se envuelven en un mazo de tabaco? </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a412" ANNOTATION_REF="a186">
+                <ANNOTATION_VALUE>con que envuelven, piola?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a413" ANNOTATION_REF="a187">
+                <ANNOTATION_VALUE>Cuantos meses o años dura o resiste, si lo tienen asi envuelto?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a414" ANNOTATION_REF="a192">
+                <ANNOTATION_VALUE>si pasa eso, sirve para fumar o se daño y no sirve?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a415" ANNOTATION_REF="a193">
+                <ANNOTATION_VALUE>an ya</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a416" ANNOTATION_REF="a194">
+                <ANNOTATION_VALUE>entonces, eso es del tabaco</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a417" ANNOTATION_REF="a195">
+                <ANNOTATION_VALUE>como para que sirve el tabaco para ustedes, puedes comentar sobre eso?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a418" ANNOTATION_REF="a218">
+                <ANNOTATION_VALUE>ya</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a419" ANNOTATION_REF="a232">
+                <ANNOTATION_VALUE>para el tabaco se ayuna?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a432" ANNOTATION_REF="a431">
+                <ANNOTATION_VALUE>a bueno y siempre se fuma para tomar yagé o se fuma en cualquier momento?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a422" ANNOTATION_REF="a240">
+                <ANNOTATION_VALUE>para vomitar o para vomitivo tambien hacen? </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a423" ANNOTATION_REF="a256">
+                <ANNOTATION_VALUE>te emborrachas, si haces vomitivo o inhalas por la nariz o como es?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a424" ANNOTATION_REF="a257">
+                <ANNOTATION_VALUE>a bueno</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a425" ANNOTATION_REF="a258">
+                <ANNOTATION_VALUE>bueno entonces, muchas gracias por lo que has contado</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a426" ANNOTATION_REF="a259">
+                <ANNOTATION_VALUE>vamos a reconocer por lo que hoy nos has coversado</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a437" ANNOTATION_REF="a435">
+                <ANNOTATION_VALUE>le vamos a dar dinero para que puedas comprar cualquier cosa que necesite para comer</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a429" ANNOTATION_REF="a262">
+                <ANNOTATION_VALUE>por si necesita.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="RAÚL QUIETA" LINGUISTIC_TYPE_REF="NOTAS" TIER_ID="NOTAS"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="TRANSCRIPCION" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="TRADUCCIÓN" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="NOTAS" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
