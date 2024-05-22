@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-05-22T10:56:35-05:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/labandrb/Desktop/New Folder/multispeaker/2021DIC29-SQ-PATIYA.eaf" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./2021DIC29-SQ-PATIYA.eaf"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:bdbc0178-293a-4f82-b680-20402dfbdc8d</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">68</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="12960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="16060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="22930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="23910"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="33540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="37630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="45780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="47710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="50220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="52550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="58640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="58980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="63940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="64440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="67700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="67800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="69410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="70510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="75940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="76170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="81880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="82090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="89950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="91611"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="105746"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="106283"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="115955"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="116014"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="129223"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="129730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="139193"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="139790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="155044"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="155087"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="165821"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="165834"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="166979"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="167587"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="171353"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="171885"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="176746"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="176809"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="180949"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="180983"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="192037"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="192670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="198660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="200100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="206379"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="206415"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="213784"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="214138"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="221938"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="221983"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="226091"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="226226"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="226946"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="226973"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="231333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="231372"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="240252"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="242092"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="243088"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="243371"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="243786"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="243852"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="246066"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="RAÚL QUIETA" LINGUISTIC_TYPE_REF="TRANSCRIPCIÓN" PARTICIPANT="SANDRA QUIETA" TIER_ID="palabra en a'ingae (ortografía nueva)">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>ña iniseta tsû Sandra Quieta a'mbia'ngi 38 añu've ñanda'ngi comuna Duvûnu'sû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>jungaesû vatea'ma tsuñe ña atesûchu'ma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>patiya jûn patiyama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>ûnjû khani'nga tsampini japa kiniji'ma thatha'pa kiniji setsa'ma chathû'pa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>tsauni'ngae ipa bia'amaja 3 hurave andupa ipa tsa'uni i kûiñasi sa'mbasi khani'nga batea'veja ñuñuñaña'u</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>mein khani'nga sedru'ma shagathu'ma shagathu tuyakaen kanelu khen sû'chu tsesûma tsû batea'veja tsunkhesû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>jungaesû ma'inja khua'ngi a'ta u ke maja'ngae makaen ke batea've tsuñe atesûja fae a'ta tseki ikiyi tsu'mbija khua'ngi a'ta sa'ja'mba tse'the batea'veja tsuña</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>fae a'ta'nga ke atesû ñame ñua'me ñuñañe atesûja nane fae a'ta'ngayi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>tsa'ja atesû'mbija du a'ta u tre a'ta'nga demora'ya'u tsama ñuñañeja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>khani'nga jungaesû uvakhu'pakhû y sepakhu'maja uvakhuchu'khû su'mbae'ñaña ke motosierra'paja motosierra'khû tsu'mbita uvakhu'chu sepakhû'ma ñuñaña'u</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>jûn nani'mba pakhu nakhû'ma su'mbae'mba pa'khuma nani'mba ukeya'u nakhû'makhe</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>kuri'ma kashiye </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>tsa'ngae tse'khuyi nane kurima kashiye tsû batea'ja inje'nge</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>mein tsekhuyi tsû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="RAÚL QUIETA" LINGUISTIC_TYPE_REF="TRANSCRIPCIÓN" PARTICIPANT="RAÚL QUIETA" TIER_ID="S2 palabra en a'ingae (ortografía nueva)">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>kuse kuse khase'ngi ka'jaenfa Duvûnuni ña'ngi Raúl Quieta grabaye'ngi tsu'je khase va i'ngi a'ingae isia'jenchu'ma </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>jañu a'ta 29 de diciembre 2021</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>tsaka'ja chigane kundaja keja jungaesû iniseki mañikhu kankhefa'veki a'mbia y ke maja kumunasûki</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>ya tsaka'ja jungaesû</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>chigane kundase ashaenja keja jungaesû'neki kundaseye vaeyi'ja tsu'je</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>ya patiya'ma patiya'mbiti a'ingaeja </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>ya tsakanja chigane kundase'ka'ja mingae'ki tsu'mbaki tsesû patiya'ma tsunfa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>jungaesû material madera'ma makae'ki japa athefa chigane kundaseka'ja tsane</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>mañikhu jungaesû kinikhuma'ki tsakaen tsa chhathû'fa o akhia inja'ngaetiki cualquier kinikhu'ma chhathûfa batea've u patiya've ñuña'ne </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>an ya, tsakanda'tiki mañi a'taveki sa'janfa i'ta patiya've ñuña ashaeñe tsu'jenda</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>ûnjû jungaesû jenda mañi ata'ngaeki naniña tsa ñuñaña'chuma u fae ata'ngayitiki nani</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts38" TIME_SLOT_REF2="ts39">
+                <ANNOTATION_VALUE>ûn</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>ûn jungaesûkhû'ki su'mbae'fa tsakaen patiya've </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts46" TIME_SLOT_REF2="ts47">
+                <ANNOTATION_VALUE>ûn</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>ya y jendatiki tayu nanija ukefatiki mi'ngaeki ukekhesû'ti mi'ngae tsû tsunkhe'sû </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>ûn ya y tse'the khani'nga jungaesûne'ki utiliza'ye atesûfa patiya'ma kei </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>ûn</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>ûn ya tsaka'ja tsekhuyi'ti patiyane tsa jungaesû'veki ke kundase'ye </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts64" TIME_SLOT_REF2="ts65">
+                <ANNOTATION_VALUE>tsayiti?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>ya tsaka'ja chiga tsû afepue'nja ke kundase'chune</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="RAÚL QUIETA" LINGUISTIC_TYPE_REF="TRADUCCIÓN" PARENT_REF="palabra en a'ingae (ortografía nueva)" PARTICIPANT="SANDRA QUIETA" TIER_ID="frase en Español">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Mi nombre es Sandra Quieta, tengo 38 años, y soy de comuna Duvûno</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>Voy a coversar sobre como se hacer o elaborar una batea</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a37" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>si, asi se dice</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>a bueno; ir al bosque buscar la madera y cortar la pampa de arbol</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>se trae a la casa y a veces se camina hasta 3 horas; se deja que se seque y de ahi se hace la batea</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>no, cortan de cedro y canelo para hacer la batea</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>dependiendo, se hace de difentes formas; hay algunos que hacen el mismo dia, sin dejar secar. Hay otros que hacen pasando o secando de 1 a 2 dias; de ahi hacen la batea</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>en un solo dia; si usted en realidad sabe hacer, en un solo dia se hace</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>si ni sabes como hacer, te demoras de 2 a 3 dias en elaborar  eso</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>se hace con azuela y la parte exterior con hacha se saca; o si tiene motosierra con motosierra o si no con hacha se saca la parte exterior de la batea</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>si, al terminar de hacer todo; ya sacado la parte interna, hay que quemar </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a46" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>para minar</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>para eso no mas; la batea sirve para lavar oro</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>no, solo eso no mas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="RAÚL QUIETA" LINGUISTIC_TYPE_REF="TRADUCCIÓN" PARENT_REF="S2 palabra en a'ingae (ortografía nueva)" PARTICIPANT="RAÚL QUIETA" TIER_ID="S2 frase en Español">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Buenas tardes, estamos nuevamente en Duvûno; soy Raúl Quieta; vamos nuevamente la grabación en Kofan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>hoy dia, 29 de diciembre del 2021</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>entonces por favor dime su nombre, cuantos años tiene y de que comuna es?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>ya entonces</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>por favor empiece hablando sobre de que vas a hablar ahorita</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>en cofan se dice patiya?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>ya, ahora nos puedes contar como sabes elaborar bateas?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>que material o madera utilizas; por favor cuente donde o como lo encuentran?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>que palo o madera cortan para hacer la batea? o cortan cualquier madera?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>an ya, entonces cuantos dias saben secar el trozo de madera cuando traen para hacer la batea?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>an ya, y en cuantos dias terminas de elaborar o en un solo dia se hace todo eso?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>an</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>an, y con que sacan o hacen la batea?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>an</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>ya, y cuando terminan de hacer o elaborar eso se quema?; o como se hace?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a30">
+                <ANNOTATION_VALUE>an ya, y de ahi para que saben utilizar la batea ustedes?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a31">
+                <ANNOTATION_VALUE>an</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a32">
+                <ANNOTATION_VALUE>an ya, entonces solo eso es de la batea que nos puedes contar?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a33">
+                <ANNOTATION_VALUE>eso no mas es?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>ya entonces, muchas gracias la experiecias que has contado.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="NOTAS" TIER_ID="NOTAS"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="TRANSCRIPCIÓN" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="TRADUCCIÓN" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="NOTAS" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

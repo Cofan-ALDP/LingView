@@ -7532,5 +7532,1228 @@
         "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
+  },
+  "3f0f9b9c-fe82-43fa-9958-ecaba4c4f688": {
+    "timed": false,
+    "story ID": "3f0f9b9c-fe82-43fa-9958-ecaba4c4f688",
+    "title": {
+      "_default": "2021DIC23-EQ-EQV-KÛVUE_KANKHE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Marco Aquinda",
+      "Raúl Quieta",
+      "Marco Aguinda"
+    ],
+    "xml_file_name": "2021DIC23-EQ-EQV-KÛVUE_KANKHE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Marco Aquinda",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "Raúl Quieta",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "b457b52e-7324-4fec-9456-2c78c6c82bbb": {
+    "timed": false,
+    "story ID": "b457b52e-7324-4fec-9456-2c78c6c82bbb",
+    "title": {
+      "_default": "2021DIC23-EQ-EQV-VARIOS"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "ENMA QUINAMA VAPORE",
+      "RAÚL QUIETA",
+      "EMA QUINAMA VAPORE",
+      "EMILIANO QUIETA"
+    ],
+    "xml_file_name": "2021DIC23-EQ-EQV-VARIOS.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      },
+      "S3 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S3 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "ENMA QUINAMA VAPORE",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAÚL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      },
+      "S3": {
+        "name": "EMILIANO QUIETA",
+        "tier": "S3 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "827f6d5a-5b1a-412d-b424-0024f1557299": {
+    "timed": false,
+    "story ID": "827f6d5a-5b1a-412d-b424-0024f1557299",
+    "title": {
+      "_default": "2021DIC23-EQ-EQV-UMAKHU"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "EMILIANO QUETA",
+      "RAÚL QUIETA",
+      "ENMA QUINAMA VAPORE"
+    ],
+    "xml_file_name": "2021DIC23-EQ-EQV-UMAKHU.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      },
+      "S3 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S3 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "EMILIANO QUETA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAÚL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      },
+      "S3": {
+        "name": "ENMA QUINAMA VAPORE",
+        "tier": "S3 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "50d7a59c-c565-49df-9354-573cfc937d3b": {
+    "timed": false,
+    "story ID": "50d7a59c-c565-49df-9354-573cfc937d3b",
+    "title": {
+      "_default": "2021DIC23-EQ-EQV-VARIAS_HISTORIAS"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "EMILIANO QUETA",
+      "RAUL QUIETA",
+      "EMILIANO QUIETA",
+      "ENMA QUINAMA VAPORE"
+    ],
+    "xml_file_name": "2021DIC23-EQ-EQV-VARIAS_HISTORIAS.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      },
+      "S3 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S3 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "EMILIANO QUETA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAUL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      },
+      "S3": {
+        "name": "ENMA QUINAMA VAPORE",
+        "tier": "S3 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "a840c6fa-9a3f-484f-85e4-812e3dab5ad5": {
+    "timed": false,
+    "story ID": "a840c6fa-9a3f-484f-85e4-812e3dab5ad5",
+    "title": {
+      "_default": "2021DIC23-EQ-EQV-ÛFAKHUKHU_SHAVU"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "EMILIANO QUETA",
+      "RAUL QUIETA",
+      "ENMA QUINAMA VAPORE"
+    ],
+    "xml_file_name": "2021DIC23-EQ-EQV-ÛFAKHUKHU_SHAVU.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      },
+      "S3 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S3 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "EMILIANO QUETA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAUL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      },
+      "S3": {
+        "name": "ENMA QUINAMA VAPORE",
+        "tier": "S3 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "bdbc0178-293a-4f82-b680-20402dfbdc8d": {
+    "timed": false,
+    "story ID": "bdbc0178-293a-4f82-b680-20402dfbdc8d",
+    "title": {
+      "_default": "2021DIC29-SQ-PATIYA"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "SANDRA QUIETA",
+      "RAÚL QUIETA"
+    ],
+    "xml_file_name": "2021DIC29-SQ-PATIYA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "SANDRA QUIETA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAÚL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "9ba441fd-f405-4c24-b5cf-ace4d613830e": {
+    "timed": false,
+    "story ID": "9ba441fd-f405-4c24-b5cf-ace4d613830e",
+    "title": {
+      "_default": "2021DIC29-SQ-SAPUJE-TSA'U"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "SANDRA QUIETA",
+      "RAÚL QUIETA"
+    ],
+    "xml_file_name": "2021DIC29-SQ-SAPUJE-TSA'U.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "SANDRA QUIETA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAÚL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "1901be54-c50f-460d-a642-6ceb91eb4729": {
+    "timed": false,
+    "story ID": "1901be54-c50f-460d-a642-6ceb91eb4729",
+    "title": {
+      "_default": "2021DIC29-SQ-TSATSAPECHA"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "SADRA QUIETA",
+      "RAÚL QUIETA",
+      "SANDRA QUIETA"
+    ],
+    "xml_file_name": "2021DIC29-SQ-TSATSAPECHA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "SADRA QUIETA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAÚL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "6a3faf17-85d9-4542-a824-3e730d617090": {
+    "timed": false,
+    "story ID": "6a3faf17-85d9-4542-a824-3e730d617090",
+    "title": {
+      "_default": "2021NOV12-LQ-RQ-ANAEMA"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LUIS QUIETA",
+      "RAÚL QUIETA"
+    ],
+    "xml_file_name": "2021NOV12-LQ-RQ-ANAEMA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LUIS QUIETA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAÚL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "970a3278-ff9a-4ec8-8209-dedd87201dd3": {
+    "timed": false,
+    "story ID": "970a3278-ff9a-4ec8-8209-dedd87201dd3",
+    "title": {
+      "_default": "2021NOV12-DL-RQ-U'VA"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "DIOCELONA LUCITANTE",
+      "RAUL QUIETA",
+      "DIOCELINA LUCITANTE"
+    ],
+    "xml_file_name": "2021NOV12-DL-RQ-U'VA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "DIOCELONA LUCITANTE",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAUL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "331767b9-7003-45b4-8858-0132ca92a50f": {
+    "timed": false,
+    "story ID": "331767b9-7003-45b4-8858-0132ca92a50f",
+    "title": {
+      "_default": "2021NOV12-LQ-RQ-ATRAYA_TABACO"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LUIS QUIETA",
+      "RAÚL QUIETA"
+    ],
+    "xml_file_name": "2021NOV12-LQ-RQ-ATRAYA_TABACO.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LUIS QUIETA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAÚL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "fba0b77a-39be-4435-ab33-5713ade80fd9": {
+    "timed": false,
+    "story ID": "fba0b77a-39be-4435-ab33-5713ade80fd9",
+    "title": {
+      "_default": "2021NOV14-CL-RQ-KANJANSI"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "CESARIO LUCITANTE",
+      "RAÚL QUIETA"
+    ],
+    "xml_file_name": "2021NOV14-CL-RQ-KANJANSI.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "CESARIO LUCITANTE",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAÚL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "95cfb533-7067-432d-9cff-559680038963": {
+    "timed": false,
+    "story ID": "95cfb533-7067-432d-9cff-559680038963",
+    "title": {
+      "_default": "2021NOV14-CL-HISTORIETAS-VARIAS"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "CESARIO LUCITANTE",
+      "RAUL QUIETA",
+      "RAUL QUIETA "
+    ],
+    "xml_file_name": "2021NOV14-CL-HISTORIETAS-VARIAS.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "CESARIO LUCITANTE",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAUL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "f9b44faf-27f3-41dd-9a5b-4338e826ee78": {
+    "timed": false,
+    "story ID": "f9b44faf-27f3-41dd-9a5b-4338e826ee78",
+    "title": {
+      "_default": "2021NOV14-EA-HISTORIETAS-VARIAS"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "EUGENIO AGUINDA",
+      "RAUL QUIETA"
+    ],
+    "xml_file_name": "2021NOV14-EA-HISTORIETAS-VARIAS.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "EUGENIO AGUINDA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "RAUL QUIETA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "23113c9e-202e-4cbc-b00d-b979224022c5": {
+    "timed": false,
+    "story ID": "23113c9e-202e-4cbc-b00d-b979224022c5",
+    "title": {
+      "_default": "2021Nov17-OM-Ansha'fane"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Thalya Mendua",
+      "Olivia Mendua"
+    ],
+    "xml_file_name": "2021Nov17-OM-Ansha'fane.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Thalya Mendua",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "Olivia Mendua",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "bba6c3eb-45dd-43f5-9219-ec3a7640b648": {
+    "timed": false,
+    "story ID": "bba6c3eb-45dd-43f5-9219-ec3a7640b648",
+    "title": {
+      "_default": "2021Nov30-SV-Asociacion_Suku"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Sandra Vargas",
+      "Martin Criollo"
+    ],
+    "xml_file_name": "2021Nov30-SV-Asociacion_Suku.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Sandra Vargas",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "Martin Criollo",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "69062c50-1d7d-439d-9484-476604f3c1a9": {
+    "timed": false,
+    "story ID": "69062c50-1d7d-439d-9484-476604f3c1a9",
+    "title": {
+      "_default": "2022ABR28-RA-RQ-DIALOGO_MALANGA"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Roberth Aguinda",
+      "Raúl Quieta"
+    ],
+    "xml_file_name": "2022ABR28-RA-RQ-DIALOGO_MALANGA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Roberth Aguinda",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "Raúl Quieta",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "aece3f50-b153-4cc3-aacb-f6eb670fe04d": {
+    "timed": false,
+    "story ID": "aece3f50-b153-4cc3-aacb-f6eb670fe04d",
+    "title": {
+      "_default": "2022FEB12-RU-TISE_KANSECHUNE"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "LEIDY QUENAMA",
+      "ROSALINA UMENDA"
+    ],
+    "xml_file_name": "2022FEB12-RU-TISE_KANSECHUNE.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "LEIDY QUENAMA",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "ROSALINA UMENDA",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "3b03da94-2132-407a-86e6-a8dc6d7226d2": {
+    "timed": false,
+    "story ID": "3b03da94-2132-407a-86e6-a8dc6d7226d2",
+    "title": {
+      "_default": "2022Jun14-CQ-Dialogo_Malanga"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Clemente Quenamá",
+      "Raúl Quieta"
+    ],
+    "xml_file_name": "2022Jun14-CQ-Dialogo_Malanga.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Clemente Quenamá",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "Raúl Quieta",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "dfab157e-d7c1-4426-adcf-0f59fb4df4df": {
+    "timed": false,
+    "story ID": "dfab157e-d7c1-4426-adcf-0f59fb4df4df",
+    "title": {
+      "_default": "2022MAR21-GQ-RQ-DIALOGO_MALANGA"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Gervacio Quenamá",
+      "Raúl Quieta"
+    ],
+    "xml_file_name": "2022MAR21-GQ-RQ-DIALOGO_MALANGA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Gervacio Quenamá",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "Raúl Quieta",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "630395ac-a317-4b19-a83f-d47605f306ba": {
+    "timed": false,
+    "story ID": "630395ac-a317-4b19-a83f-d47605f306ba",
+    "title": {
+      "_default": "Diálogo Malanga (HQ RQ)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Humberto Quieta",
+      "Raúl Quieta"
+    ],
+    "xml_file_name": "2022MAR21-HQ-RQ-DIALOGO_MALANGA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Humberto Quieta",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "Raúl Quieta",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "e667c37c-f5f4-4221-9c59-7b2ef73277c8": {
+    "timed": false,
+    "story ID": "e667c37c-f5f4-4221-9c59-7b2ef73277c8",
+    "title": {
+      "_default": "Diálogo Malanga (JA RQ)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Josefina Aguinda",
+      "Raúl Quieta"
+    ],
+    "xml_file_name": "2022MAR21-JA-RQ-DIALOGO_MALANGA.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Josefina Aguinda",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "Raúl Quieta",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "671e1f12-75e4-44be-98a2-2ad2066eb341": {
+    "timed": false,
+    "story ID": "671e1f12-75e4-44be-98a2-2ad2066eb341",
+    "title": {
+      "_default": "Varios (JA RQ)"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/22/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Josefina Aguinda",
+      "Raúl Quieta"
+    ],
+    "xml_file_name": "2022MAR21-JA-RQ-VARIOS.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "S2 palabra en a'ingae (ortografía nueva)": {
+        "subdivided": false
+      },
+      "frase en Español": {
+        "subdivided": false
+      },
+      "S2 frase en Español": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Josefina Aguinda",
+        "tier": "palabra en a'ingae (ortografía nueva)"
+      },
+      "S2": {
+        "name": "Raúl Quieta",
+        "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
   }
 }
