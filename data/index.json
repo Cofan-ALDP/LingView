@@ -8,7 +8,7 @@
       "con-Latn-EC-x-dureno": "Athembi a'i kundasepa",
       "en": "Invisible people story",
       "es": "Historia de la gente invisible",
-      "_default": "Athembi a'i kundasepa (MM)"
+      "_default": "Athembi a'i - Gente invisible (MM)"
     },
     "media": {
       "audio": "",
@@ -68,7 +68,7 @@
       "con-Latn-EC-x-dureno": "Apicha pûshesû kundasepa",
       "en": "Mud woman story",
       "es": "Historia de la mujer barro",
-      "_default": "Apicha pûshesû kundasepa (BRCA)"
+      "_default": "Apicha pûshesû - La mujer barro (BRCA)"
     },
     "media": {
       "audio": "",
@@ -131,7 +131,7 @@
     "title": {
       "en": "Autobiography of MMEMQ and JC",
       "es": "Autobiografía de MMEMQ y JC",
-      "_default": "Autobiografía de MMEMQ y JC"
+      "_default": "Tise kansechu - Autobiografía (MMEMQ, JC)"
     },
     "media": {
       "audio": "",
@@ -189,7 +189,7 @@
     "title": {
       "en": "Autobiography of RA 2",
       "es": "Autobiografía of RA 2",
-      "_default": "Autobiografía de RA 2"
+      "_default": "Tise kansechu - Autobiografía (RA) 2"
     },
     "media": {
       "audio": "",
@@ -252,7 +252,7 @@
     "title": {
       "en": "Building a yagua palm house",
       "es": "Construir una casa de conambo",
-      "_default": "Construir una casa de conambo"
+      "_default": "Sapuje'khû tsau'ñañe - Construir una casa de conambo "
     },
     "media": {
       "audio": "",
@@ -315,7 +315,7 @@
     "title": {
       "en": "The garden and medicinal plants",
       "es": "El jardín y las plantas medicinales",
-      "_default": "El jardín y las plantas medicinales"
+      "_default": "Sejepa'si - El jardín y las plantas medicinales"
     },
     "media": {
       "audio": "",
@@ -378,7 +378,7 @@
     "title": {
       "en": "Making casave 2",
       "es": "Preparar casave 2",
-      "_default": "Preparar casave 2"
+      "_default": "Kasvaiañe - Preparar casave"
     },
     "media": {
       "audio": "",
@@ -442,7 +442,7 @@
     "title": {
       "en": "Drying cocoa seeds",
       "es": "Secar las semillas de cacao",
-      "_default": "Secar las semillas de cacao"
+      "_default": "Kakvuma sambaeñe - Secar las semillas de cacao"
     },
     "media": {
       "audio": "",
@@ -505,7 +505,7 @@
     "title": {
       "en": "Mastermind game 4",
       "es": "Juego de Mastermind 4",
-      "_default": "Juego de Mastermind 4"
+      "_default": "Mastermind - Juego de Mastermind"
     },
     "media": {
       "audio": "",
@@ -572,7 +572,7 @@
       "con-Latn-EC-x-dureno": "Tshararukuku kundasepa",
       "en": "Tshararococo story",
       "es": "Historia de Tssararococo",
-      "_default": "Tshararukuku kundasepa (RJCL)"
+      "_default": "Tshararukuku - Demonio Tsharara (RJCL)"
     },
     "media": {
       "audio": "",
@@ -635,7 +635,7 @@
     "title": {
       "en": "A day in the community",
       "es": "Un día en la comunidad",
-      "_default": "Un día en la comunidad"
+      "_default": "Fae a'ta comunidadni - Un día en la comunidad"
     },
     "media": {
       "audio": "",
@@ -700,7 +700,7 @@
       "con-Latn-EC-x-borman": "Yaje tsa'o projecto",
       "con-Latn-EC-x-dureno": "Yaje tsa'u proyecto",
       "en": "Yaje house project",
-      "_default": "Yaje tsa'u proyecto"
+      "_default": "Yaje tsa'u - Casa de yaje"
     },
     "media": {
       "audio": "",
@@ -763,7 +763,7 @@
     "title": {
       "en": "Autobiography of RA 1",
       "es": "Autobiografía of RA 1",
-      "_default": "Autobiografía de RA 1"
+      "_default": "Tise kansechu - Autobiografía (RA) 1"
     },
     "media": {
       "audio": "",
@@ -830,7 +830,7 @@
       "con-Latn-EC-x-dureno": "Aya'fa tuya'kaen atesûjechune",
       "en": "Language and education",
       "es": "Lenguage y educación",
-      "_default": "Aya'fa tuya'kaen atesûjechune"
+      "_default": "Aya'fa tuya'kaen atesûjechune - Lenguaje y educación"
     },
     "media": {
       "audio": "",
@@ -893,7 +893,7 @@
     "title": {
       "en": "Hunting",
       "es": "Caza",
-      "_default": "Caza (CLC)"
+      "_default": "Panzaye - Caza (CLC)"
     },
     "media": {
       "audio": "",
@@ -956,7 +956,7 @@
     "title": {
       "en": "Sociolinguistic survey",
       "es": "Encuesta sociolingüística",
-      "_default": "Encuesta sociolingüística"
+      "_default": "Encuesta sociolingüística - Encuesta sociolingüística"
     },
     "media": {
       "audio": "",
@@ -1014,7 +1014,7 @@
     "title": {
       "en": "The Cofán territory",
       "es": "El territorio cofán",
-      "_default": "El territorio cofán"
+      "_default": "Ingi ande - El territorio cofán"
     },
     "media": {
       "audio": "",
@@ -1077,7 +1077,7 @@
     "title": {
       "en": "Oil company work",
       "es": "El trabajo de la petrolera",
-      "_default": "El trabajo de la petrolera"
+      "_default": "Companiambe semañe - El trabajo de la petrolera"
     },
     "media": {
       "audio": "",
@@ -1140,7 +1140,7 @@
     "title": {
       "en": "Hammocks and fishing nets",
       "es": "Hamacas y redes de pesca",
-      "_default": "Hamacas y redes de pesca"
+      "_default": "Anae'ma tuya'kaen va'chuva - Hamacas y redes de pesca"
     },
     "media": {
       "audio": "",
@@ -1206,7 +1206,7 @@
       "con-Latn-EC-x-dureno": "Flor Flanca chiste",
       "en": "Flor Flanca joke",
       "es": "Chiste sobre Flor Flanca",
-      "_default": "Flor Flanca chiste"
+      "_default": "Flor Flanca - Flor Flanca"
     },
     "media": {
       "audio": "",
@@ -1272,7 +1272,7 @@
       "con-Latn-EC-x-dureno": "Ishuakinikhu kundasepa",
       "en": "Ishoaquinicco story",
       "es": "Historia de Ishoaquinicco",
-      "_default": "Ishuakinikhu kundasepa"
+      "_default": "Ishuakinikhu - Ishuakinikhu"
     },
     "media": {
       "audio": "",
@@ -1337,7 +1337,7 @@
       "con-Latn-EC-x-dureno": "Panzaye",
       "en": "Hunting",
       "es": "Caza",
-      "_default": "Panzaye (FACQ)"
+      "_default": "Panzaye - Caza (FACQ)"
     },
     "media": {
       "audio": "",
@@ -1400,7 +1400,7 @@
     "title": {
       "en": "Fishing",
       "es": "Pesca",
-      "_default": "Pesca"
+      "_default": "Simbaye - Pesca"
     },
     "media": {
       "audio": "",
@@ -1463,7 +1463,7 @@
     "title": {
       "en": "Being a community member",
       "es": "Ser un miembro de la comunidad",
-      "_default": "Ser un miembro de la comunidad"
+      "_default": "Comuna'sû socio - Ser un miembro de la comunidad"
     },
     "media": {
       "audio": "",
@@ -1526,7 +1526,7 @@
       "con-Latn-EC-x-dureno": "Vaju kundasepa",
       "en": "Vajo story",
       "es": "Historia de Vajo",
-      "_default": "Vaju kundasepa (MMEMQ)"
+      "_default": "Vaju - Vajo (MMEMQ)"
     },
     "media": {
       "audio": "",
@@ -1589,7 +1589,7 @@
     "title": {
       "en": "Autobiography of CLC",
       "es": "Autobiografía de CLC",
-      "_default": "Autobiografía de CLC"
+      "_default": "Tise kansechu - Autobiografía (CLC)"
     },
     "media": {
       "audio": "",
@@ -1655,7 +1655,7 @@
       "con-Latn-EC-x-dureno": "Yaje 3",
       "en": "Yaje 3",
       "es": "Yaje 3",
-      "_default": "Yaje 3"
+      "_default": "Yaje - Yaje (ayahuasca) (MM) 3"
     },
     "media": {
       "audio": "",
@@ -1717,7 +1717,7 @@
     "title": {
       "en": "Autobiography of MM 1",
       "es": "Autobiografía de MM 1",
-      "_default": "Autobiografía de MM 1"
+      "_default": "Tise kansechu - Autobiografía (MM)"
     },
     "media": {
       "audio": "",
@@ -1780,7 +1780,7 @@
     "title": {
       "en": "Autobiography of OCQ",
       "es": "Autobiografía de OCQ",
-      "_default": "Autobiografía de OCQ"
+      "_default": "Tise kansechu - Autobiografía (OCQ)"
     },
     "media": {
       "audio": "",
@@ -1844,7 +1844,7 @@
     "title": {
       "en": "Hunting and fishing",
       "es": "Caza y pesca",
-      "_default": "Caza y pesca"
+      "_default": "Panzaye tuya'kaen simbaye - Caza y pesca"
     },
     "media": {
       "audio": "",
@@ -1908,7 +1908,7 @@
     "title": {
       "en": "Tech development",
       "es": "Desarrollo de tecnología",
-      "_default": "Desarrollo de tecnología"
+      "_default": "Eskuerani kanjañe - Estudiando en la escuela"
     },
     "media": {
       "audio": "",
@@ -1974,7 +1974,7 @@
       "con-Latn-EC-x-dureno": "Dyandyakhû",
       "en": "The headdress",
       "es": "La corona de plumas",
-      "_default": "Dyandyakhû"
+      "_default": "Dyandyakhû - La corona de plumas"
     },
     "media": {
       "audio": "",
@@ -2037,7 +2037,7 @@
     "title": {
       "en": "River contamination",
       "es": "Contaminación del río",
-      "_default": "Contaminación del río"
+      "_default": "Amûndetshia na'en - Contaminación del río"
     },
     "media": {
       "audio": "",
@@ -2103,7 +2103,7 @@
       "con-Latn-EC-x-dureno": "Kûikhû, chicha",
       "en": "Cuiccu and chicha",
       "es": "Cuiccu y chicha",
-      "_default": "Kûikhû, chicha"
+      "_default": "Tsetse'pa - Chicha (ARLQ)"
     },
     "media": {
       "audio": "",
@@ -2167,7 +2167,7 @@
       "con-Latn-EC-x-dureno": "Kuke chiste",
       "en": "Hare joke",
       "es": "Chiste sobre la liebre",
-      "_default": "Kuke chiste"
+      "_default": "Kuke chiste - Chiste sobre la liebre"
     },
     "media": {
       "audio": "",
@@ -2233,7 +2233,7 @@
       "con-Latn-EC-x-dureno": "Kunsiana kundasepa",
       "en": "Consiana story",
       "es": "Historia de Consiana",
-      "_default": "Kunsiana kundasepa (VC)"
+      "_default": "Kunsiana - Kunsiana (VC)"
     },
     "media": {
       "audio": "",
@@ -2299,7 +2299,7 @@
       "con-Latn-EC-x-dureno": "Yaje 1",
       "en": "Yaje 1",
       "es": "Yaje 1",
-      "_default": "Yaje 1"
+      "_default": "Yaje - Yaje (ayahuasca) (MM) 1"
     },
     "media": {
       "audio": "",
@@ -2359,7 +2359,7 @@
       "con-Latn-EC-x-dureno": "Yaje 2",
       "en": "Yaje 2",
       "es": "Yaje 2",
-      "_default": "Yaje 2"
+      "_default": "Yaje - Yaje (ayahuasca) (MM) 2"
     },
     "media": {
       "audio": "",
@@ -2425,7 +2425,7 @@
       "con-Latn-EC-x-dureno": "Erision kundasepa",
       "en": "Erision story",
       "es": "Historia de Erision",
-      "_default": "Erision kundasepa (FACQ)"
+      "_default": "Erision - Erisión (FACQ)"
     },
     "media": {
       "audio": "",
@@ -2488,7 +2488,7 @@
     "title": {
       "en": "School",
       "es": "Escuela",
-      "_default": "Escuela"
+      "_default": "Eskuera - Escuela"
     },
     "media": {
       "audio": "",
@@ -2554,7 +2554,7 @@
       "con-Latn-EC-x-dureno": "Kuankuan kundasepa",
       "en": "Coancoan story",
       "es": "Historia de Coancoan",
-      "_default": "Kuankuan kundasepa (OCQ)"
+      "_default": "Kuankuan - Kuankuan (OCQ)"
     },
     "media": {
       "audio": "",
@@ -2616,7 +2616,7 @@
     "title": {
       "en": "Autobiography of ARLQ",
       "es": "Autobiografía de ARLQ",
-      "_default": "Autobiografía de ARLQ"
+      "_default": "Tise kansechu - Autobiografía (ARLQ)"
     },
     "media": {
       "audio": "",
@@ -2678,7 +2678,7 @@
     "title": {
       "en": "Autobiography of JWC",
       "es": "Autobiografía de JWC",
-      "_default": "Autobiografía de JWC"
+      "_default": "Tise kansechu - Autobiografía (JWC)"
     },
     "media": {
       "audio": "",
@@ -2744,7 +2744,7 @@
       "con-Latn-EC-x-dureno": "Charapa proyecto",
       "en": "Charapa project",
       "es": "Proyecto Charapa",
-      "_default": "Charapa proyecto"
+      "_default": "Charapa proyecto - Proyecto Charapa"
     },
     "media": {
       "audio": "",
@@ -2805,7 +2805,7 @@
     "title": {
       "en": "The weekend",
       "es": "El fin de semana",
-      "_default": "El fin de semana"
+      "_default": "El fin de semana - El fin de semana"
     },
     "media": {
       "audio": "",
@@ -2868,7 +2868,7 @@
     "title": {
       "en": "Autobiography of EQ",
       "es": "Autobiografía de EQ",
-      "_default": "Autobiografía de EQ"
+      "_default": "Tise kansechu - Autobiografía (EQ)"
     },
     "media": {
       "audio": "",
@@ -2931,7 +2931,7 @@
     "title": {
       "en": "Autobiography of LY",
       "es": "Autobiografía de LY",
-      "_default": "Autobiografía de LY"
+      "_default": "Tise kansechu - Autobiografía (LY)"
     },
     "media": {
       "audio": "",
@@ -2994,7 +2994,7 @@
     "title": {
       "en": "How to prepare kuikhu",
       "es": "Como preparar kuikhu",
-      "_default": "Como preparar kûikhû"
+      "_default": "Kûi'khûma otaeñe - Como preparar kûikhû"
     },
     "media": {
       "audio": "",
@@ -3057,7 +3057,7 @@
     "title": {
       "en": "Plans for the future",
       "es": "Planes para futuro",
-      "_default": "Planes para el futuro"
+      "_default": "Ja'ingaema asithaen'chu - Planes para el futuro"
     },
     "media": {
       "audio": "",
@@ -3118,7 +3118,7 @@
     "title": {
       "en": "Chicha preparation",
       "es": "Como preparar chicha",
-      "_default": "Como preparar chicha"
+      "_default": "Tsatse'paeñe - Como preparar chicha (DEMQ)"
     },
     "media": {
       "audio": "",
@@ -3181,7 +3181,7 @@
     "title": {
       "en": "Childhood in Zábalo",
       "es": "La infancia en Zábalo",
-      "_default": "La infancia en Zábalo"
+      "_default": "Zabaloni chûite - La niñez en Zábalo"
     },
     "media": {
       "audio": "",
@@ -3241,7 +3241,7 @@
     "title": {
       "en": "A commentary on language",
       "es": "Un comentario sobre la lengua",
-      "_default": "Un comentario sobre la lengua"
+      "_default": "Ingi aya'fa - Un comentario sobre la lengua"
     },
     "media": {
       "audio": "",
@@ -3309,7 +3309,7 @@
       "con-Latn-EC-x-dureno": "Tururu",
       "en": "Tururu",
       "es": "Tururu",
-      "_default": "Tûrûrû (VM)"
+      "_default": "Tûrûrû - Tûrûrû (VM)"
     },
     "media": {
       "audio": "2022Feb07-VM-Tururu.mp3",
@@ -3372,7 +3372,7 @@
       "con-Latn-EC-x-dureno": "Kunsi",
       "en": "Kunsi",
       "es": "Kunsi",
-      "_default": "Kunsi"
+      "_default": "Kunsi - El mono"
     },
     "media": {
       "audio": "",
@@ -3430,7 +3430,7 @@
     "timed": false,
     "story ID": "c68f0592-e4b9-4e1d-b1d3-17c0084adb28",
     "title": {
-      "_default": "Autobiografía de SA"
+      "_default": "Tise kansechu - Autobiografía (SA)"
     },
     "media": {
       "audio": "",
@@ -3470,7 +3470,7 @@
     "timed": false,
     "story ID": "2933c4e3-7a84-4634-a930-2c7298eb4d39",
     "title": {
-      "_default": "Drinking Yaje"
+      "_default": "Yajema kui'ye - Tomando yaje"
     },
     "media": {
       "audio": "",
@@ -3510,7 +3510,7 @@
     "timed": false,
     "story ID": "e7eae900-02f1-445a-a650-b3864d65fed4",
     "title": {
-      "_default": "Erision kundasepa (DC)"
+      "_default": "Erision - Erisión (DC)"
     },
     "media": {
       "audio": "",
@@ -3550,7 +3550,7 @@
     "timed": false,
     "story ID": "62e76dec-1687-4941-b0f0-4010f4d8294e",
     "title": {
-      "_default": "Autobiografía de RU"
+      "_default": "Tise kansechu - Autobiografía (RU)"
     },
     "media": {
       "audio": "",
@@ -3590,7 +3590,7 @@
     "timed": false,
     "story ID": "18ad039f-b78f-4838-99b1-751e231a9b5a",
     "title": {
-      "_default": "Autobiografía de LL"
+      "_default": "Tise kansechu - Autobiografía (LL)"
     },
     "media": {
       "audio": "",
@@ -3630,7 +3630,7 @@
     "timed": false,
     "story ID": "c16643b5-08ab-4611-86d7-523045de1618",
     "title": {
-      "_default": "Historia de Familia"
+      "_default": "Tisû familia - Historia de familia"
     },
     "media": {
       "audio": "",
@@ -3710,7 +3710,7 @@
     "timed": false,
     "story ID": "a1e7958f-edbc-45e3-b2e2-5723bc9bd8fa",
     "title": {
-      "_default": "Fiesta de la Chonta"
+      "_default": "U'ma khu'ndyu - Fiesta de la Chonta (MU)"
     },
     "media": {
       "audio": "",
@@ -3753,7 +3753,7 @@
       "con-Latn-EC-x-dureno": "Chimbi Chan",
       "en": "Mother of the bats",
       "es": "Madre de los murciélagos",
-      "_default": "Chimbi Chan"
+      "_default": "Chimbi chan - Madre de los murciélagos"
     },
     "media": {
       "audio": "",
@@ -3811,7 +3811,7 @@
     "timed": false,
     "story ID": "326a148e-4c80-4aa0-aa01-d5d2569d7d33",
     "title": {
-      "_default": "Kansechune (EU)"
+      "_default": "Tise kansechu - Autobiografía (EU)"
     },
     "media": {
       "audio": "",
@@ -3851,7 +3851,7 @@
     "timed": false,
     "story ID": "a4d332e2-2b47-4573-9326-4719ede5a2a7",
     "title": {
-      "_default": "Tsampisû añachune (EU)"
+      "_default": "Tsampi'sû aña'chu - Carne del monte (EU)"
     },
     "media": {
       "audio": "",
@@ -3891,7 +3891,7 @@
     "timed": false,
     "story ID": "bb46e259-8752-4b11-bac7-da9c599c9f64",
     "title": {
-      "_default": "U'ma fiestane"
+      "_default": "U'ma khu'ndyu - Fiesta de chontaduro (EU)"
     },
     "media": {
       "audio": "",
@@ -3932,7 +3932,7 @@
     "timed": false,
     "story ID": "d41b883b-87e5-4ae2-b303-35fe8cbfd069",
     "title": {
-      "_default": "Kanjansi kundasepa (LL)"
+      "_default": "Kanjansi - Boa (LL)"
     },
     "media": {
       "audio": "",
@@ -3972,7 +3972,7 @@
     "timed": false,
     "story ID": "04d63fa4-4bac-4d73-966e-c7011aa69d39",
     "title": {
-      "_default": "Athiambi a'indekhû (SQ)"
+      "_default": "Athiambi a'i - Gente invisible (SQ)"
     },
     "media": {
       "audio": "",
@@ -4012,7 +4012,7 @@
     "timed": false,
     "story ID": "220e3ab7-e4db-4884-aa52-1e4c7a32ef01",
     "title": {
-      "_default": "Shavune"
+      "_default": "Shavune - Elaboración de canoas"
     },
     "media": {
       "audio": "",
@@ -4052,7 +4052,7 @@
     "timed": false,
     "story ID": "fa2f87d6-6478-4fab-aef8-3f38aca118e4",
     "title": {
-      "_default": "Apicha pûshesû (MQ)"
+      "_default": "Apicha pûshesû - La mujer barro (MQ)"
     },
     "media": {
       "audio": "",
@@ -4092,7 +4092,7 @@
     "timed": false,
     "story ID": "7e8b6bf9-e4d7-4e10-89a2-41e142180a44",
     "title": {
-      "_default": "Kansechune (GQ)"
+      "_default": "Tise kansechu - Autobiografía (GQ)"
     },
     "media": {
       "audio": "",
@@ -4132,7 +4132,7 @@
     "timed": false,
     "story ID": "3bef4858-1d9b-4e2d-88bf-62b49aabfe9e",
     "title": {
-      "_default": "Apicha pûshesûne (AQ)"
+      "_default": "Apicha pûshesû - La mujer barro (AQ)"
     },
     "media": {
       "audio": "",
@@ -4172,7 +4172,7 @@
     "timed": false,
     "story ID": "f887d8a5-e984-43d8-a87e-5af1f09f6290",
     "title": {
-      "_default": "Athiambi a'ine (AQ)"
+      "_default": "Athiambi a'i - Gente invisible (AQ)"
     },
     "media": {
       "audio": "",
@@ -4212,7 +4212,7 @@
     "timed": false,
     "story ID": "b59ed44f-263b-400f-8d46-56fded8fe176",
     "title": {
-      "_default": "Tise kansechune (AQ)"
+      "_default": "Tise kansechu - Autobiografía (AQ)"
     },
     "media": {
       "audio": "",
@@ -4252,7 +4252,7 @@
     "timed": false,
     "story ID": "80b09dc7-889e-4cf9-a623-02723fbca994",
     "title": {
-      "_default": "Guardiane (AQ)"
+      "_default": "Guardia - La guardía de la comunidad Cofán (AQ)"
     },
     "media": {
       "audio": "",
@@ -4292,7 +4292,7 @@
     "timed": false,
     "story ID": "26d55bb3-422f-419c-af17-abe8da033875",
     "title": {
-      "_default": "Tsampisû añachune (AQ)"
+      "_default": "Tsampi'sû aña'chu - Carne del monte (AQ)"
     },
     "media": {
       "audio": "",
@@ -4332,7 +4332,7 @@
     "timed": false,
     "story ID": "f4c3f221-ad51-4725-af1d-1e420b6eb027",
     "title": {
-      "_default": "Tise dûsûngûetene"
+      "_default": "Tise dûsûngûite - Sobre su juventud"
     },
     "media": {
       "audio": "",
@@ -4372,7 +4372,7 @@
     "timed": false,
     "story ID": "9a96e373-954e-4817-a8c3-9a5c8f2f2470",
     "title": {
-      "_default": "Yajene (AQ)"
+      "_default": "Yaje - Yaje (ayahuasca) (AQ)"
     },
     "media": {
       "audio": "",
@@ -4412,7 +4412,7 @@
     "timed": false,
     "story ID": "cbfa52b6-c6bf-482d-a215-c660c3e3904c",
     "title": {
-      "_default": "Aitsuve (DC)"
+      "_default": "Aitsuve - Cráneo humano (DC)"
     },
     "media": {
       "audio": "",
@@ -4452,7 +4452,7 @@
     "timed": false,
     "story ID": "54409408-74c6-499d-aaf6-58c19790df60",
     "title": {
-      "_default": "Vaju kundasepa (CA)"
+      "_default": "Vaju - Vajo (CA)"
     },
     "media": {
       "audio": "",
@@ -4492,7 +4492,7 @@
     "timed": false,
     "story ID": "028e07b8-670f-46c7-9138-08519d122374",
     "title": {
-      "_default": "Tise kansechune (CA)"
+      "_default": "Tise kansechu - Autobiografía (CA)"
     },
     "media": {
       "audio": "",
@@ -4532,7 +4532,7 @@
     "timed": false,
     "story ID": "0c071b65-6372-4094-8517-19c1d97281f3",
     "title": {
-      "_default": "Tayupisû kuenzandekhûne (EN)"
+      "_default": "Tayupi'sû kuenzandekhûne - De los abuelos ancestros (EN)"
     },
     "media": {
       "audio": "",
@@ -4572,7 +4572,7 @@
     "timed": false,
     "story ID": "8022d944-e6e1-4a40-80c9-68318c835b2f",
     "title": {
-      "_default": "Tayupisû kuenzandekhûne (CA)"
+      "_default": "Tayupi'sû kuenzandekhûne - De los abuelos ancestros (CA)"
     },
     "media": {
       "audio": "",
@@ -4612,7 +4612,7 @@
     "timed": false,
     "story ID": "81abe27a-e9f1-4fd5-9b84-e6035c768392",
     "title": {
-      "_default": "Pûshesûndekhûne"
+      "_default": "Pûshesûndekhû - Las mujeres"
     },
     "media": {
       "audio": "",
@@ -4652,7 +4652,7 @@
     "timed": false,
     "story ID": "ec4d0bc8-938c-4540-a3ad-55f730db0177",
     "title": {
-      "_default": "Guardiane (EN)"
+      "_default": "Guardia - La guardía de la comunidad Cofán (EN)"
     },
     "media": {
       "audio": "",
@@ -4692,7 +4692,7 @@
     "timed": false,
     "story ID": "6e8b2fa2-405c-4dd3-81c0-c124023ac3f4",
     "title": {
-      "_default": "Shameccone"
+      "_default": "Shamecco - La organización Shamecco"
     },
     "media": {
       "audio": "",
@@ -4732,7 +4732,7 @@
     "timed": false,
     "story ID": "87a30162-8c17-4c54-9c01-4379c2406017",
     "title": {
-      "_default": "Tayupisû kuenzandekhûne (RU)"
+      "_default": "Tayupi'sû kuenzandekhûne - De los abuelos ancestros (RU)"
     },
     "media": {
       "audio": "",
@@ -4773,7 +4773,7 @@
     "timed": false,
     "story ID": "9723c125-cfff-4a69-8c26-e67a34507a84",
     "title": {
-      "_default": "Tise kansechune (EN)"
+      "_default": "Tise kansechu - Autobiografía (EN)"
     },
     "media": {
       "audio": "",
@@ -4813,7 +4813,7 @@
     "timed": false,
     "story ID": "7f2834e8-f003-4822-9fef-595c773495dc",
     "title": {
-      "_default": "Sapo Gota"
+      "_default": "Gota sapo - Gota sapo"
     },
     "media": {
       "audio": "",
@@ -4853,7 +4853,7 @@
     "timed": false,
     "story ID": "b8b782d6-fd4a-4305-b27a-a3b4d127175a",
     "title": {
-      "_default": "Kanjansi (LQ)"
+      "_default": "Kanjansi - Boa (LQ)"
     },
     "media": {
       "audio": "",
@@ -4893,7 +4893,7 @@
     "timed": false,
     "story ID": "0f820b92-6303-4123-acbf-771b924c32bb",
     "title": {
-      "_default": "Zunzue'une (LQ)"
+      "_default": "Zunzue'u - Zunzue'u (LQ)"
     },
     "media": {
       "audio": "",
@@ -4933,7 +4933,7 @@
     "timed": false,
     "story ID": "6e8f1279-2de1-4b6e-a059-4d0cffdfcadf",
     "title": {
-      "_default": "Asethûchune"
+      "_default": "Asethû'chu - Costumbre de prohibiciones"
     },
     "media": {
       "audio": "",
@@ -4973,7 +4973,7 @@
     "timed": false,
     "story ID": "88103ad3-5de9-4457-9c49-0750f4b76b64",
     "title": {
-      "_default": "Tshararakuku (MC)"
+      "_default": "Tshararukuku - Demonio Tsharara (MC)"
     },
     "media": {
       "audio": "",
@@ -5013,7 +5013,7 @@
     "timed": false,
     "story ID": "b08f5745-dc6a-4f4c-9209-2801dd58d215",
     "title": {
-      "_default": "Erision (AC)"
+      "_default": "Erision - Erisión (AC)"
     },
     "media": {
       "audio": "",
@@ -5053,7 +5053,7 @@
     "timed": false,
     "story ID": "d9c59610-1355-45c0-bab3-65c53a3cfc2a",
     "title": {
-      "_default": "Kuankuan kundasepa (JC)"
+      "_default": "Kuankuan - Kuankuan (JC)"
     },
     "media": {
       "audio": "",
@@ -5093,7 +5093,7 @@
     "timed": false,
     "story ID": "4dbb3019-257e-4ea1-8e5b-edb60e6a7a8e",
     "title": {
-      "_default": "Yaje (VM)"
+      "_default": "Yaje - Yaje (ayahuasca) (VM)"
     },
     "media": {
       "audio": "",
@@ -5133,7 +5133,7 @@
     "timed": false,
     "story ID": "6d0d31ec-9867-44dd-80b2-6d663b8e397a",
     "title": {
-      "_default": "Autobiografía de SV"
+      "_default": "Tise kansechu - Autobiografía (SV)"
     },
     "media": {
       "audio": "",
@@ -5173,7 +5173,7 @@
     "timed": false,
     "story ID": "2120a0cf-e29b-40a1-bdb4-eef66f459ce9",
     "title": {
-      "_default": "Furûkhû'khû"
+      "_default": "Fûrûkû'kû - Ave de mal agüeros (SV)"
     },
     "media": {
       "audio": "",
@@ -5213,7 +5213,7 @@
     "timed": false,
     "story ID": "68fdcf4a-8c32-4598-99d8-1c71a0385bf4",
     "title": {
-      "_default": "Tsanda"
+      "_default": "Tsanda - Trueno"
     },
     "media": {
       "audio": "",
@@ -5254,7 +5254,7 @@
     "timed": false,
     "story ID": "babcde7e-f908-4296-97ad-671953d211f5",
     "title": {
-      "_default": "Aitsuve (VQ)"
+      "_default": "Aitsuve - Cráneo humano (VQ)"
     },
     "media": {
       "audio": "",
@@ -5294,7 +5294,7 @@
     "timed": false,
     "story ID": "537f0690-66db-4c75-a9b6-a3ef4f4a1ffd",
     "title": {
-      "_default": "Autobiografía de VQ"
+      "_default": "Tise kansechu - Autobiografía (VQ)"
     },
     "media": {
       "audio": "",
@@ -5334,7 +5334,7 @@
     "timed": false,
     "story ID": "96bb2c76-4e0e-45e3-aa07-e7fad98c64cd",
     "title": {
-      "_default": "Tshararakuku (RC)"
+      "_default": "Tshararukuku - Demonio Tsharara (RC)"
     },
     "media": {
       "audio": "",
@@ -5374,7 +5374,7 @@
     "timed": false,
     "story ID": "b1002a7e-b9d9-466b-9a27-25616f07ed29",
     "title": {
-      "_default": "Ufikhû"
+      "_default": "Ufikhû - Cedazo"
     },
     "media": {
       "audio": "",
@@ -5414,7 +5414,7 @@
     "timed": false,
     "story ID": "20c79310-70cd-46ee-8581-e6b9287aa079",
     "title": {
-      "_default": "Kanjansi (VQ)"
+      "_default": "Kanjansi - Boa (VQ)"
     },
     "media": {
       "audio": "",
@@ -5454,7 +5454,7 @@
     "timed": false,
     "story ID": "4c956141-5f34-4932-8a16-448de58fe5a1",
     "title": {
-      "_default": "Kuankuan (VQ)"
+      "_default": "Kuankuan - Kuankuan (VQ)"
     },
     "media": {
       "audio": "",
@@ -5494,7 +5494,7 @@
     "timed": false,
     "story ID": "d1a0c27a-010b-4984-b15c-a9376bd58346",
     "title": {
-      "_default": "Kuankuan (DC)"
+      "_default": "Kuankuan - Kuankuan (DC)"
     },
     "media": {
       "audio": "",
@@ -5534,7 +5534,7 @@
     "timed": false,
     "story ID": "4275ce81-3e6d-48bb-8969-f6ce00571888",
     "title": {
-      "_default": "Tayupisû a'i mane jifachu"
+      "_default": "Tayupi'sû a'i mane ji'fachu - Los lugares de donde venían los antepasados"
     },
     "media": {
       "audio": "",
@@ -5574,7 +5574,7 @@
     "timed": false,
     "story ID": "cd6d90f7-6922-4e10-a468-4a44920ca240",
     "title": {
-      "_default": "Kuentsuve"
+      "_default": "Kuentsuve - Kuentsuve (pájaro)"
     },
     "media": {
       "audio": "",
@@ -5614,7 +5614,7 @@
     "timed": false,
     "story ID": "c22d7010-519b-4868-8086-8823b04b8daf",
     "title": {
-      "_default": "Kanjansi pûshesûnga pichu"
+      "_default": "Kanjansi pûshesûnga pichu - La mujer que se casó con una boa"
     },
     "media": {
       "audio": "",
@@ -5654,7 +5654,7 @@
     "timed": false,
     "story ID": "d2aad936-9388-4394-b8e1-5c59064246fe",
     "title": {
-      "_default": "Chimbiraku pûshesûnga pichu"
+      "_default": "Chimbirakunga pûshesû pi'chu - La mujer que se unió con un murciélago"
     },
     "media": {
       "audio": "",
@@ -5694,7 +5694,7 @@
     "timed": false,
     "story ID": "5b17d54a-144e-4b76-b547-863ec56960df",
     "title": {
-      "_default": "Ukavati a'indekhu"
+      "_default": "Ukavati a'indekhû - Gente de Ukavati"
     },
     "media": {
       "audio": "",
@@ -5734,7 +5734,7 @@
     "timed": false,
     "story ID": "64411c5e-b906-4e8f-93d0-e6de5f40176c",
     "title": {
-      "_default": "Vaju (RC)"
+      "_default": "Vaju - Vajo (RC)"
     },
     "media": {
       "audio": "",
@@ -5774,7 +5774,7 @@
     "timed": false,
     "story ID": "cb486503-4057-49c9-b7a3-5ce2021c65f6",
     "title": {
-      "_default": "Tsandanga pichu"
+      "_default": "Tsandanga pi'chu - Unión al trueno"
     },
     "media": {
       "audio": "",
@@ -5814,7 +5814,7 @@
     "timed": false,
     "story ID": "7f2ee77b-e6a9-475c-b1a0-6bfe8cea5396",
     "title": {
-      "_default": "Tûtûkhuchu tuyakaen shankhu"
+      "_default": "Tûtûkhu'chu tuya'kaen shan'khu - La tortuga y el venado"
     },
     "media": {
       "audio": "",
@@ -5854,7 +5854,7 @@
     "timed": false,
     "story ID": "af254c3b-ed8b-4df3-a82a-cf87b2b47249",
     "title": {
-      "_default": "Kanjansine kundasechu (LQ)"
+      "_default": "Kanjansi - Boa (LQ)"
     },
     "media": {
       "audio": "",
@@ -5894,7 +5894,7 @@
     "timed": false,
     "story ID": "31c20811-071f-468e-b714-67a547e842b9",
     "title": {
-      "_default": "Mûndane kundasechu"
+      "_default": "Mûnda - La huangana"
     },
     "media": {
       "audio": "",
@@ -5934,7 +5934,7 @@
     "timed": false,
     "story ID": "21ce2cde-d28f-4d8c-99bc-4919d563b6d0",
     "title": {
-      "_default": "Vajune kundasechu (LQ)"
+      "_default": "Vaju - Vajo (LQ)"
     },
     "media": {
       "audio": "",
@@ -5974,7 +5974,7 @@
     "timed": false,
     "story ID": "2f244817-4f27-475b-ace7-0f1c9de92617",
     "title": {
-      "_default": "Ûfambi ne kundasechu"
+      "_default": "Ûfambi - El que no podía usar cerbatana"
     },
     "media": {
       "audio": "",
@@ -6014,7 +6014,7 @@
     "timed": false,
     "story ID": "59fa3628-d22c-486f-8f9c-2fb8223ed91b",
     "title": {
-      "_default": "Ambu (VM)"
+      "_default": "Ambu - Ambo (VM)"
     },
     "media": {
       "audio": "",
@@ -6054,7 +6054,7 @@
     "timed": false,
     "story ID": "41212995-d637-41d2-afdb-47f05516d5fa",
     "title": {
-      "_default": "Furûkhû'khûne kundasechu"
+      "_default": "Fûrûkû'kû - Ave de mal agüeros (LQ)"
     },
     "media": {
       "audio": "",
@@ -6094,7 +6094,7 @@
     "timed": false,
     "story ID": "e4535a66-0831-4de2-a825-327ee271bf04",
     "title": {
-      "_default": "Jujuvûne kundasechu"
+      "_default": "Jujuvû - Rata de bambú"
     },
     "media": {
       "audio": "",
@@ -6134,7 +6134,7 @@
     "timed": false,
     "story ID": "44fa8071-7e3f-4b4c-a173-ef871cf8a8cf",
     "title": {
-      "_default": "Pa'un tsandiene kundasechu"
+      "_default": "Pa'un tsandie - El hombre guan"
     },
     "media": {
       "audio": "",
@@ -6174,7 +6174,7 @@
     "timed": false,
     "story ID": "eeee3107-15b9-4012-9877-23e586fd5b79",
     "title": {
-      "_default": "Ansine"
+      "_default": "Ansi - Sal"
     },
     "media": {
       "audio": "",
@@ -6214,7 +6214,7 @@
     "timed": false,
     "story ID": "2eab5023-b317-4a11-87e1-f40305e89887",
     "title": {
-      "_default": "Si'an thesine kundasechu"
+      "_default": "Si'an thesi - La pantera negra"
     },
     "media": {
       "audio": "",
@@ -6254,7 +6254,7 @@
     "timed": false,
     "story ID": "f7b9bc5b-9330-4be7-a16b-94bdcbacd436",
     "title": {
-      "_default": "Tetetes"
+      "_default": "Tetete - Los tetetes"
     },
     "media": {
       "audio": "",
@@ -6294,7 +6294,7 @@
     "timed": false,
     "story ID": "966acd06-9d18-4835-9390-499b37e3130b",
     "title": {
-      "_default": "Tûrûrûne kundasechu (LQ)"
+      "_default": "Tûrûrû - Tûrûrû (LQ)"
     },
     "media": {
       "audio": "",
@@ -6334,7 +6334,7 @@
     "timed": false,
     "story ID": "027a0e23-fa74-4af4-a2c7-69f06bcc88d7",
     "title": {
-      "_default": "Mingae tayupisu a'i kansefachuma"
+      "_default": "Mingae tayupi'sû a'i kansefachu - Como vivían los cofanes antes"
     },
     "media": {
       "audio": "",
@@ -6374,7 +6374,7 @@
     "timed": false,
     "story ID": "b00b9b38-99f8-4360-b790-5decf86cecf9",
     "title": {
-      "_default": "Tsandie sapo pûshesûnga pichu"
+      "_default": "Tsandie sapo pûshesûnga pi'chu - El hombre que se casó con la mujer sapo"
     },
     "media": {
       "audio": "",
@@ -6414,7 +6414,7 @@
     "timed": false,
     "story ID": "01ec846e-4f97-4bf3-9e93-e7c6f4c4d7b9",
     "title": {
-      "_default": "Zunzue (MC)"
+      "_default": "Zunzue - Zunzue (MC)"
     },
     "media": {
       "audio": "",
@@ -6454,7 +6454,7 @@
     "timed": false,
     "story ID": "bbb3bc10-9ed1-4eb4-8860-15defe00cb61",
     "title": {
-      "_default": "Apicha Pûshesû (DC)"
+      "_default": "Apicha pûshesû - La mujer barro (DC)"
     },
     "media": {
       "audio": "",
@@ -6494,7 +6494,7 @@
     "timed": false,
     "story ID": "0e443086-69c3-435c-a376-af45a115ffef",
     "title": {
-      "_default": "Ûfakhukhu ne kundasechu"
+      "_default": "Ûfakhu'khu - La cerbatana"
     },
     "media": {
       "audio": "",
@@ -6534,7 +6534,7 @@
     "timed": false,
     "story ID": "3c1604c4-03e7-4a44-80a4-953937c091e3",
     "title": {
-      "_default": "Kanjansi dû'shû (DC)"
+      "_default": "Kanjansi dû'shû - El niño boa (DC)"
     },
     "media": {
       "audio": "",
@@ -6574,7 +6574,7 @@
     "timed": false,
     "story ID": "d423674b-f9d9-4f45-a021-750fa86588bd",
     "title": {
-      "_default": "Kunsiana (DC)"
+      "_default": "Kunsiana - Kunsiana (DC) 1"
     },
     "media": {
       "audio": "",
@@ -6614,7 +6614,7 @@
     "timed": false,
     "story ID": "624d1312-4c40-47b1-9ade-e7a2ab3bb7ee",
     "title": {
-      "_default": "Kuankuani jachu"
+      "_default": "Kuankuan - Kuankuan (DC)"
     },
     "media": {
       "audio": "",
@@ -6654,7 +6654,7 @@
     "timed": false,
     "story ID": "b44c1c93-9413-4aa0-8def-73f47df56bc0",
     "title": {
-      "_default": "Ambune kundasechu (DC)"
+      "_default": "Ambu - Ambo (DC)"
     },
     "media": {
       "audio": "",
@@ -6694,7 +6694,7 @@
     "timed": false,
     "story ID": "d4c6cb36-4ca2-418f-a7f8-42e013b85914",
     "title": {
-      "_default": "Kunsianane kundasechu (DC)"
+      "_default": "Kunsiana - Kunsiana (DC)"
     },
     "media": {
       "audio": "",
@@ -6734,7 +6734,7 @@
     "timed": false,
     "story ID": "038a237b-ad40-473c-af31-67ee0a2fe856",
     "title": {
-      "_default": "Sukû"
+      "_default": "Sukû - El túcan"
     },
     "media": {
       "audio": "",
@@ -6774,7 +6774,7 @@
     "timed": false,
     "story ID": "03bb157a-aba5-4ef1-a736-a6b0ccb70525",
     "title": {
-      "_default": "Kanjansi dû'shû (MC)"
+      "_default": "Kanjansi dû'shû - El niño boa (MC)"
     },
     "media": {
       "audio": "",
@@ -6814,7 +6814,7 @@
     "timed": false,
     "story ID": "38742696-1c41-4ae3-9418-10965c250bb0",
     "title": {
-      "_default": "Savarurane kundasechu"
+      "_default": "Savarura - Cuento de la Savarura"
     },
     "media": {
       "audio": "",
@@ -6855,7 +6855,7 @@
     "timed": false,
     "story ID": "03bde6e2-e8bc-4beb-8800-1a025a611864",
     "title": {
-      "_default": "Ambu (VQ)"
+      "_default": "Ambu - Ambo (VQ)"
     },
     "media": {
       "audio": "",
@@ -6895,7 +6895,7 @@
     "timed": false,
     "story ID": "a0ad47d4-4915-4534-bb20-1c1fbdf80fa1",
     "title": {
-      "_default": "A'i Singuve Kanjaenchu"
+      "_default": "A'i singuve kanjaen'chu - Una demonstración sobre persona de piel oscura"
     },
     "media": {
       "audio": "",
@@ -6935,7 +6935,7 @@
     "timed": false,
     "story ID": "73e993ab-4302-457f-a91d-cc646e714180",
     "title": {
-      "_default": "Ansi Pindune Kundasechu"
+      "_default": "Ansi pindu - Águila de sal"
     },
     "media": {
       "audio": "",
@@ -6975,7 +6975,7 @@
     "timed": false,
     "story ID": "dfa17b9e-97a9-47be-8a60-fb56bbfae9c2",
     "title": {
-      "_default": "Firipi'une Kundasechu"
+      "_default": "Firipi'u - Persona que no caza"
     },
     "media": {
       "audio": "",
@@ -7015,7 +7015,7 @@
     "timed": false,
     "story ID": "67e25278-ff0c-43c5-92f5-77ae74e93a32",
     "title": {
-      "_default": "Pûshesû Khuvive Dachune"
+      "_default": "Pûshesû khuvive da'chu - La mujer que se convirtió en una danta"
     },
     "media": {
       "audio": "",
@@ -7055,7 +7055,7 @@
     "timed": false,
     "story ID": "1c10650d-fb90-4f3a-b708-849c0c2e703c",
     "title": {
-      "_default": "Pûshesû Dûshûne Kundasechu"
+      "_default": "Pûshesû dû'shû - La niña"
     },
     "media": {
       "audio": "",
@@ -7096,7 +7096,7 @@
     "timed": false,
     "story ID": "389d4ea6-6399-459a-8cab-e64a836949b9",
     "title": {
-      "_default": "Thûnsindi Tsandiene Kundasechu"
+      "_default": "Tûsindi tsandie - El hombre libélula"
     },
     "media": {
       "audio": "",
@@ -7137,7 +7137,7 @@
     "timed": false,
     "story ID": "0e74de94-2289-4d07-a022-d1673dd4e728",
     "title": {
-      "_default": "Tsandie Ayai'khû Iyikhuchune"
+      "_default": "Tsandie ayai'khû iyikhu'chune - Pelea del hombre y fantasma"
     },
     "media": {
       "audio": "",
@@ -7177,7 +7177,7 @@
     "timed": false,
     "story ID": "5bbc4ebb-db0a-40f6-8c98-b63dcdbba098",
     "title": {
-      "_default": "Tsandie simbasû japa pachune"
+      "_default": "Tsandie simba'sû japa pa'chu - El hombre que murió pescando"
     },
     "media": {
       "audio": "",
@@ -7217,7 +7217,7 @@
     "timed": false,
     "story ID": "e0089b68-dbc2-4c7e-90ae-1be88ad11a91",
     "title": {
-      "_default": "Tshararakukune Kundasechu"
+      "_default": "Tshararukuku - Demonio Tsharara (LQ)"
     },
     "media": {
       "audio": "",
@@ -7257,7 +7257,7 @@
     "timed": false,
     "story ID": "af7b937a-cc05-4642-9cdd-98207ced16ce",
     "title": {
-      "_default": "Erision (VQ)"
+      "_default": "Erision - Erisión (VQ)"
     },
     "media": {
       "audio": "",
@@ -7297,7 +7297,7 @@
     "timed": false,
     "story ID": "9acacdad-e294-4dd5-8fe5-1a669730252a",
     "title": {
-      "_default": "A'i Churu Kanjansive Dachu"
+      "_default": "A'i churu kanjansive da'chu - El hombre que se convirtió en una boa"
     },
     "media": {
       "audio": "",
@@ -7337,7 +7337,7 @@
     "timed": false,
     "story ID": "5c01499b-a67f-465f-b7b6-94545afac40b",
     "title": {
-      "_default": "Chhiririanga Tsandie Pichu"
+      "_default": "Chhiririanga tsandie pichu - El hombre que se unió con un pájaro"
     },
     "media": {
       "audio": "",
@@ -7377,7 +7377,7 @@
     "timed": false,
     "story ID": "0e6c5216-0e87-4699-ae1b-1ec106b9a471",
     "title": {
-      "_default": "Chimbi Tuyakaen Pûshesû"
+      "_default": "Chimbi tuya'kaen pûshesû - El murciélago y la mujer"
     },
     "media": {
       "audio": "",
@@ -7417,7 +7417,7 @@
     "timed": false,
     "story ID": "a97cfa2a-0adf-458c-805f-07c54f59fa6d",
     "title": {
-      "_default": "Chiga a'ive agathuenchu"
+      "_default": "Chiga a'ive agathuen'chu - Dios que creó a los humanos"
     },
     "media": {
       "audio": "",
@@ -7457,7 +7457,7 @@
     "timed": false,
     "story ID": "086219b2-9d0b-4cd0-8ca5-0d9de6b7ce34",
     "title": {
-      "_default": "Thesi chan ne kundasechu"
+      "_default": "Thesi chan - Cuento sobre la madre de los tigres"
     },
     "media": {
       "audio": "",
@@ -7497,7 +7497,7 @@
     "timed": false,
     "story ID": "29740b62-a755-4f46-ac8e-f97a75eb7045",
     "title": {
-      "_default": "Tsandie Apicha Pûshesûnga Pichu"
+      "_default": "Tsandie apicha pûshesûnga pi'chu - El hombre que se casó con la mujer barro"
     },
     "media": {
       "audio": "",
@@ -7537,7 +7537,7 @@
     "timed": false,
     "story ID": "3f0f9b9c-fe82-43fa-9958-ecaba4c4f688",
     "title": {
-      "_default": "Kûvue kankhe"
+      "_default": "Kûvue kan'khe - El pueblo de Kûvue"
     },
     "media": {
       "audio": "",
@@ -7589,7 +7589,7 @@
     "timed": false,
     "story ID": "b457b52e-7324-4fec-9456-2c78c6c82bbb",
     "title": {
-      "_default": "Varios (EQ EQV)"
+      "_default": "Khaninga kundasechu - Varias historias (EQ, EQV) 2"
     },
     "media": {
       "audio": "",
@@ -7652,7 +7652,7 @@
     "timed": false,
     "story ID": "827f6d5a-5b1a-412d-b424-0024f1557299",
     "title": {
-      "_default": "Umakhu"
+      "_default": "Uma'khu - Lanza"
     },
     "media": {
       "audio": "",
@@ -7714,7 +7714,7 @@
     "timed": false,
     "story ID": "50d7a59c-c565-49df-9354-573cfc937d3b",
     "title": {
-      "_default": "Varias historias (EQ EQV)"
+      "_default": "Khaninga kundasechu - Varias historias (EQ, EQV) 1"
     },
     "media": {
       "audio": "",
@@ -7777,7 +7777,7 @@
     "timed": false,
     "story ID": "a840c6fa-9a3f-484f-85e4-812e3dab5ad5",
     "title": {
-      "_default": "Ûfakhukhu shavu"
+      "_default": "Ûfakhu'khu, shavu - Cerbatana y canoa"
     },
     "media": {
       "audio": "",
@@ -7839,7 +7839,7 @@
     "timed": false,
     "story ID": "bdbc0178-293a-4f82-b680-20402dfbdc8d",
     "title": {
-      "_default": "Patiya"
+      "_default": "Patiya - Batea"
     },
     "media": {
       "audio": "",
@@ -7890,7 +7890,7 @@
     "timed": false,
     "story ID": "9ba441fd-f405-4c24-b5cf-ace4d613830e",
     "title": {
-      "_default": "Sapuje tsa'u"
+      "_default": "Sapuje tsa'u - Casa de palma conambo"
     },
     "media": {
       "audio": "",
@@ -7941,7 +7941,7 @@
     "timed": false,
     "story ID": "1901be54-c50f-460d-a642-6ceb91eb4729",
     "title": {
-      "_default": "Tsatsapecha"
+      "_default": "Tshatshape'cha - Mazamorra"
     },
     "media": {
       "audio": "",
@@ -7993,7 +7993,7 @@
     "timed": false,
     "story ID": "6a3faf17-85d9-4542-a824-3e730d617090",
     "title": {
-      "_default": "Anae'ma"
+      "_default": "Anae'ma - Hamaca"
     },
     "media": {
       "audio": "",
@@ -8044,7 +8044,7 @@
     "timed": false,
     "story ID": "970a3278-ff9a-4ec8-8209-dedd87201dd3",
     "title": {
-      "_default": "U'va"
+      "_default": "U'va - Shigra"
     },
     "media": {
       "audio": "",
@@ -8096,7 +8096,7 @@
     "timed": false,
     "story ID": "331767b9-7003-45b4-8858-0132ca92a50f",
     "title": {
-      "_default": "Atraya tabaco"
+      "_default": "Atraya, tabaco - Red y tabaco"
     },
     "media": {
       "audio": "",
@@ -8147,7 +8147,7 @@
     "timed": false,
     "story ID": "fba0b77a-39be-4435-ab33-5713ade80fd9",
     "title": {
-      "_default": "Kanjansi (CL y RQ)"
+      "_default": "Kanjansi - Boa (CL, RQ)"
     },
     "media": {
       "audio": "",
@@ -8198,7 +8198,7 @@
     "timed": false,
     "story ID": "95cfb533-7067-432d-9cff-559680038963",
     "title": {
-      "_default": "Historietas varias (CL)"
+      "_default": "Khaninga kundasechu - Historietas varias (CL)"
     },
     "media": {
       "audio": "",
@@ -8250,7 +8250,7 @@
     "timed": false,
     "story ID": "f9b44faf-27f3-41dd-9a5b-4338e826ee78",
     "title": {
-      "_default": "Historietas varias (EA)"
+      "_default": "Khaninga kundasechu - Historietas varias (EA)"
     },
     "media": {
       "audio": "",
@@ -8301,7 +8301,7 @@
     "timed": false,
     "story ID": "23113c9e-202e-4cbc-b00d-b979224022c5",
     "title": {
-      "_default": "Anshan'fane"
+      "_default": "Anshan'fa - Artesanías"
     },
     "media": {
       "audio": "",
@@ -8352,7 +8352,7 @@
     "timed": false,
     "story ID": "bba6c3eb-45dd-43f5-9219-ec3a7640b648",
     "title": {
-      "_default": "Asociacion Sukû"
+      "_default": "Asociación sukû - Asociación sukû"
     },
     "media": {
       "audio": "",
@@ -8403,7 +8403,7 @@
     "timed": false,
     "story ID": "69062c50-1d7d-439d-9484-476604f3c1a9",
     "title": {
-      "_default": "Diálogo Malanga (RA y RQ)"
+      "_default": "Malanga - Malanga (RA, RQ)"
     },
     "media": {
       "audio": "",
@@ -8454,7 +8454,7 @@
     "timed": false,
     "story ID": "aece3f50-b153-4cc3-aacb-f6eb670fe04d",
     "title": {
-      "_default": "Tise kansechune (RU)"
+      "_default": "Tise kansechu - Autobiografía (RU)"
     },
     "media": {
       "audio": "",
@@ -8505,7 +8505,7 @@
     "timed": false,
     "story ID": "3b03da94-2132-407a-86e6-a8dc6d7226d2",
     "title": {
-      "_default": "Diálogo Malanga (CQ)"
+      "_default": "Malanga - Malanga (CQ)"
     },
     "media": {
       "audio": "",
@@ -8556,7 +8556,7 @@
     "timed": false,
     "story ID": "dfab157e-d7c1-4426-adcf-0f59fb4df4df",
     "title": {
-      "_default": "Diálogo Malanga (GQ y RQ)"
+      "_default": "Malanga - Malanga (GQ, RQ)"
     },
     "media": {
       "audio": "",
@@ -8607,7 +8607,7 @@
     "timed": false,
     "story ID": "630395ac-a317-4b19-a83f-d47605f306ba",
     "title": {
-      "_default": "Diálogo Malanga (HQ y RQ)"
+      "_default": "Malanga - Malanga (HQ, RQ)"
     },
     "media": {
       "audio": "",
@@ -8658,7 +8658,7 @@
     "timed": false,
     "story ID": "e667c37c-f5f4-4221-9c59-7b2ef73277c8",
     "title": {
-      "_default": "Diálogo Malanga (JA y RQ)"
+      "_default": "Malanga - Malanga (JA, RQ)"
     },
     "media": {
       "audio": "",
@@ -8709,7 +8709,7 @@
     "timed": false,
     "story ID": "671e1f12-75e4-44be-98a2-2ad2066eb341",
     "title": {
-      "_default": "Varios (JA y RQ)"
+      "_default": "Khaninga kundasechu - Varias historias (JA, RQ)"
     },
     "media": {
       "audio": "",
@@ -8753,6 +8753,57 @@
       "S2": {
         "name": "Raúl Quieta",
         "tier": "S2 palabra en a'ingae (ortografía nueva)"
+      }
+    }
+  },
+  "b2e01304-4331-4ee0-a5f0-9c4c5937b5de": {
+    "timed": false,
+    "story ID": "b2e01304-4331-4ee0-a5f0-9c4c5937b5de",
+    "title": {
+      "_default": "Unfendyundyu - Unfendyundyu"
+    },
+    "media": {
+      "audio": "",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "5/24/2024",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Jorge Mendua",
+      "Delfín Criollo"
+    ],
+    "xml_file_name": "2022Feb03-DC-Unfendyundyu.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "JM-COM": {
+        "subdivided": false
+      },
+      "DC-COM": {
+        "subdivided": false
+      },
+      "JM_SPA": {
+        "subdivided": false
+      },
+      "DC_SPA": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Jorge Mendua",
+        "tier": "JM-COM"
+      },
+      "S2": {
+        "name": "Delfín Criollo",
+        "tier": "DC-COM"
       }
     }
   }
