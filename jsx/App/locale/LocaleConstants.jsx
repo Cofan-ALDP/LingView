@@ -67,7 +67,7 @@ export const searchPagePrevButtonText = {
 // Materials page text
 export const curatedCategoryName = {
   [ENGLISH]: "Curated",
-  [ESPANOL]: "Curado",
+  [ESPANOL]: "Seleccionado",
 };
 
 export const curatedCategoryDescription = {
@@ -253,3 +253,18 @@ export const footerText = {
   [ENGLISH]: "This website is powered by ",
   [ESPANOL]: "Este sitio web funciona con ",
 };
+
+export const aldpMaterialsButton = {
+  [ENGLISH]: "ALDP Materials",
+  [ESPANOL]: "Materiales de ALDP",
+}
+
+export const allMaterialsButton = {
+  [ENGLISH]: "All A'ingae Materials",
+  [ESPANOL]: "Todas los materiales a'ingae",
+}
+
+export const materialsPageHeader = {
+  [ENGLISH]: "Selected Materials",
+  [ESPANOL]: "Materiales seleccionados",
+}

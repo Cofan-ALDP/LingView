@@ -6,6 +6,8 @@ import { GlossaryPage } from "./GlossaryPage.jsx";
 import { ResourcesPage } from "./ResourcesPage.jsx";
 import { MaterialIndex } from "./MaterialIndex.jsx";
 import { StoryIndex } from "./StoryIndex.jsx";
+import { AllMaterialsPage } from "./AllMaterialsPage.jsx";
+import { AldpMaterialsPage } from "./AldpMaterialsPage.jsx";
 import { Search } from "./Search.jsx";
 import { Stories } from "./Stories/Stories.jsx";
 import { TranslatableText } from "./locale/TranslatableText.jsx";
@@ -34,9 +36,6 @@ export function Header() {
           </NavLink>
           <NavLink to="/about">
             <TranslatableText dictionary={navBarAboutText} />
-          </NavLink>
-          <NavLink to="/resources">
-            <TranslatableText dictionary={navBarResourcesText} />
           </NavLink>
           <NavLink to="/materials">
             <TranslatableText dictionary={navBarMaterialsText} />
@@ -73,6 +72,12 @@ export function Header() {
         </Route>
         <Route exact path="/glossary">
           <GlossaryPage />
+        </Route>
+        <Route exact path="/all-materials">
+          <AllMaterialsPage />
+        </Route>
+        <Route exact path="/aldp-materials">
+          <AldpMaterialsPage />
         </Route>
       </div>
     </Router>

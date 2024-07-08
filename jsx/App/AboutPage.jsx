@@ -1,7 +1,6 @@
 import React from "react";
 import { ENGLISH, ESPANOL } from "./locale/LocaleConstants.jsx";
 import { TranslatableText } from "./locale/TranslatableText.jsx";
-import { StudentNames } from "./StudentNames.jsx";
 
 const aboutPageJSX = {
   [ENGLISH]: (
@@ -10,192 +9,110 @@ const aboutPageJSX = {
         About ALDP <br />
       </h2>
       <p>
-        <b>A’ingae Language Documentation Project</b> is an interdisciplinary
-        effort which aims to document, investigate, and revitalize A’ingae
-        (Cofán), a language isolate spoken by approximately 2,000 Cofán (A’i)
-        people in the Amazonian region of Northeast Ecuador and Southern
-        Colombia. The project is directed by Scott AnderBois (Brown University)
-        and Wilson de Lima Silva (University of Arizona) and carried out in
-        close collaboration with members of the Zábalo, Dureno, Dovuno, and
-        Sinangoé communities in Ecuador.
+        The <b>A’ingae Language Documentation Project</b> is an interdisciplinary
+        effort which aims to document, investigate, and revitalize the A’ingae
+        (also known as Cofán) language. A'ingae is spoken in Northeast Ecuador 
+        and southern Colombia by the A'i (or Cofán) people, and currently has 
+        approximately 1,500 speakers.
       </p>
-
-      <h3>The Cofán people</h3>
-
       <p>
-        The Cofán people have long lived at the intersection of two distinct
-        cultural and geographic regions: the Andes and Amazonia. While they
-        presently live in what is now the province of Sucumbíos in northeast
-        Ecuador and southern Colombia, they have historically made use of a much
-        larger territory as a primarily hunter-gatherer people. Although their
-        numbers have been greatly reduced since the arrival of Spanish in the
-        16th century—down at one point to 350 people from an estimated
-        pre-colonial population of 15,000—the Cofán now are about 2,000 strong
-        and growing, a success they often credit to social cohesion enabled by
-        their distinct linguistic identity. New archeological findings casting
-        light on their material culture, its geographical extent, and the
-        diachronic changes thereof are still being made.
-      </p>
-
-      <p>
-        Despite this, the Cofán currently face a variety of challenges to their
-        traditional lands and ways of life. Since the discovery of large oil
-        reserves in and around Cofán territories, oil exploration and drilling
-        has caused substantial environmental damage. Beyond its direct impacts,
-        the discovery has led to the construction of roads and an influx of
-        colonists from other parts of Ecuador into the region and along with it
-        new threats like mining, logging, and poaching.
-      </p>
-
-      <p>
-        In response to these challenges, they took direct action and bravely
-        campaigned for land rights, often achieving success unparalleled in the
-        region. They championed the Cofán Ranger Park Guard Program, using Cofán
-        people’s knowledge of the land to defend their territory, and launched
-        the Charapa Turtle Project to study and manage river turtle population
-        in order to preserve the diversity of the local fauna. In January 2019,
-        the Cofán signed a binding agreement with the Ecuadorian government that
-        gave them permanent control over 343,750 acres of Amazonian forests—an
-        area larger than the United States’ Rocky Mountain National Park. In
-        total, the Cofán are stewards of over 1 million acres of land, working
-        to keep pristine an area of the Amazon basin roughly the size of the
-        U.S. State of Delaware.
-      </p>
-
-      <h3>The A’ingae language</h3>
-
-      <p>
-        While the language has more commonly been referred to by the name
-        “Cofán” or “Kofán” in scholarly literature, “A’ingae” is the name
-        speakers use for their language (<i>a’ingae</i> literally means “in the
-        way of the A’i/people”). A’ingae is a language isolate, which means that
-        it is believed to be unrelated to any other known language on earth.
-        Despite having no genetic relationship to other languages, A'ingae has
-        many typological features characteristic of other languages of the
-        region, including SOV basic word order, nominal classifiers, presence of
-        frustative, apprehensive, and evidential morphology, highly complex
-        agglutinative morphology, contrastive nasality on vowels and other
-        prototypically Amazonian phonological features.
-      </p>
-
-      <p>
-        A’ingae is an endangered language thought to have around 2,000 native
-        speakers in Ecuador and Colombia. The national borders are thought to
-        demarcate a linguistic divide: of the two major dialects, one is spoken
-        along the Aguarico River in Ecuador; the other—on the San Miguel,
-        Guamués, and Putumayo rivers in Colombia. As the Cofán population nearly
-        quintupled since the 1960s and A’ingae is still used vigorously, the
-        language is classified as developing. In Ecuador, A’ingae is spoken
-        widely though not universally across registers, by all social groups and
-        in all domains of life, with the attitudes towards the language being
-        positive. In communities with stronger Kichwa and colonial influences,
-        especially in Colombia, the prominence of Spanish and other languages
-        may be more prominent.{" "}
-      </p>
-
-      <p>
-        An orthography for the language was first developed by the SIL
-        missionaries Marlytte and Roberta Borman, and more recently revised by
-        members of the Cofán communities, which we follow here. Our team is
-        currently in the process of conducting a sociolinguistic survey to
-        assess the vitality of the language in written and spoken forms across
-        different social settings.
+        The project is led by Scott AnderBois (Brown University)
+        and Wilson de Lima Silva (University of Arizona) and is primarily
+        based out of Brown University. It is carried out in close 
+        collaboration with members of the Cofán communities in Ecuador 
+        including the communities of Zábalo, Dureno, Dovuno, and Sinangoe.
       </p>
 
       <h3>The A’ingae Language Documentation Project</h3>
 
       <p>
-        ALDP came about as a collaboration between Scott AnderBois, a professor
-        at Brown University, and Hugo Lucitante, a native speaker of A’ingae
-        from Zábalo who did his BA at Brown from 2015-2019 (currently a PhD
-        student in Anthropology at the University of Texas at San Antonio).
-        Through thinking about the importance of his language both through his
-        coursework as well as in conversations outside the classroom, Hugo
-        recognized the need for community-engaged language documentation.
-        Together with Wilson Silva, a professor at the University of Arizona,
-        the ALDP was born.
-      </p>
-      <p>
-        Our project aims to document the A’ingae language, investigate
-        scientific questions about its grammar and usage, and to promote
-        community capacity building in service of the production of
-        community-oriented materials.
-      </p>
-
-      <p>
-        In addition to being available via the Texts tab at the top, primary
-        language materials are also archived at the California Language Archive
-        at UC Berkeley and the{" "}
-        <a href="https://elar.soas.ac.uk/Collection/MPI1079687">
-          Endangered Languages Archive
+      The A’ingae Language Documentation project started from a collaboration between 
+      Scott AnderBois, Wilson Silva, and Hugo Lucitante, a native speaker of A’ingae 
+      and a then-student at Brown (class of 2019). Through Hugo’s coursework, including a 
+      linguistics field methods course taught by AnderBois in the spring 2017 semester, 
+      as well as conversations outside the classroom, Hugo recognized the need for 
+      community-engaged language documentation of his language. Members of AnderBois’ 
+      field methods class had the opportunity to travel to Ecuador and work with A’ingae 
+      community members directly, collecting primary sources in the form of recorded stories. 
+      An{" "}
+        <a href="https://www.browndailyherald.com/article/2019/02/professor-students-help-to-preserve-cofan-language">
+          article
         </a>{" "}
-        at SOAS.
+        by the Brown Daily Herald reports on student experiences from the field methods 
+        class and the resulting Ecuador trip.
+      </p>
+      <p>
+      The ALDP presently aims to create a diverse multimedia database of A’ingae across 
+      different cultural contexts and use this database to create pedagogical materials 
+      of practical use to the Cofán nation as well as investigating research questions 
+      about the language.
+      At present, the project has collected over 30 hours of audio/video, which includes 
+      over 220 stories. These primary texts are archived at the{" "}
+      <a href="https://cla.berkeley.edu/">
+        California Language Archive at UC Berkeley
+      </a>{" "} and the {" "}
+      <a href="https://elar.soas.ac.uk/Collection/MPI1079687">
+        Endangered Languages Archive
+      </a>{" "} at SOAS.  In addition to collecting primary sources, researchers have 
+      written a host of formal research papers on the various linguistic aspects of 
+      A’ingae, which can be read and downloaded from the{" "}
+      <a href="#/materials">Materials</a> tab.
       </p>
 
       <h4>Funding</h4>
 
       <p>
-        In 2017, ALDP received funding from Endangered Language Documentation
-        Programme (ELDP <span style={{ fontFamily: "monospace" }}>#SG0481</span>
-        ,{" "}
-        <i>
-          Kofán Collaborative Project: Collection of Audio-Video Materials and
-          Texts)
-        </i>
-        .
+      The ALDP is currently funded by National Science Foundation DEL/DLI grant 
+      #BCS-1911348/1911428 “Perspective taking and reported speech in an evidentially-rich 
+      language.” Our work has previously been funded by internal support at Brown, 
+      including the I-Team UTRA program, and external support from the Endangered Language 
+      Documentation Programme (ELDP #SG0481, Kofán Collaborative Project: Collection of 
+      Audio-Video Materials and Texts).
+      </p>
+
+      <h3>The A’ingae language</h3>
+
+      <p>
+        Though in scholarly literature the language is most commonly referred 
+        to as “Cofán” (or “Kofán”), the native speakers call their language A’ingae, 
+        which means “in the way of the A’i/people” (the name consists of the stem 
+        aʼi ('person, Cofán person, civilized person') and the manner clitic =ngae, 
+        means 'in the manner of the people'). A’ingae is a language isolate, which 
+        means that it is believed to be unrelated to any other known language on Earth. 
+        Despite having no genetic relationship to other languages, A'ingae has many 
+        typological features characteristic of other languages of the region, including 
+        SOV basic word order, nominal classifiers, presence of frustative, apprehensive, 
+        and evidential morphology, highly complex agglutinative morphology, contrastive 
+        nasality on vowels and other prototypically Amazonian phonological features.
       </p>
 
       <p>
-        In the same year, ALDP (Kofán language documentation: building a
-        multi-purpose text collection) received funding from Interdisciplinary
-        Team (I-Team) UTRA, a Brown University program initiated by Brown
-        faculty and executed by the Office of the Dean of the College. For more
-        information on the I-Team UTRA program, click{" "}
-        <a href="https://www.brown.edu/academics/college/fellowships/utra/types-utra-awards/interdisciplinary-team-i-team-utra">
-          here
-        </a>
-        .
+        A’ingae is an endangered language thought to have around 1,500 native
+        speakers in Ecuador and Colombia. 
       </p>
 
       <p>
-        In 2019, ALDP received a National Science Foundation DEL grant (
-        <span style={{ fontFamily: "monospace" }}>#BCS-1911348/1911428</span>)
-        for the research project{" "}
-        <i>
-          Perspective taking and reported speech in an evidentially-rich
-          language
-        </i>
-        , in order to specifically investigate the grammar of reported speech in
-        the language, including the language’s unique use of falsetto realized
-        on a single syllable to signal perspective shifts in narrative. For more
-        information on the NSF grant, click{" "}
-        <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1911348&HistoricalAwards=false">
-          here
-        </a>
-        .
+        More about the language can be found{" "}
+        <a href="https://en.wikipedia.org/wiki/Cof%C3%A1n_language">here</a>,{" "}
+        <a href="https://lddjournal.org/articles/10.25894/ldd28">here</a>, and in the{" "}
+        <a href="#/materials">Materials</a> tab.
+      </p>
+
+      <h3>The People</h3>
+
+      <p>
+        The A’i people have long lived at the intersection of the Andes and Amazonia. 
+        While they presently live in what is now the province of Sucumbíos in 
+        northeast Ecuador and southern Colombia, they have historically made use of 
+        a much larger territory as a primarily hunter-gatherer people. The A’i now are 
+        about 1,500 strong and growing, a success they often credit to social cohesion 
+        enabled by their distinct linguistic identity.
       </p>
 
       <p>
-        In 2019, Maksymilian Dąbkowski receieved the Royce Fellowship grant for
-        project <i>A'ingae Language Preservation.</i> For more information on
-        the Royce Fellowship grant, click{" "}
-        <a href="https://www.brown.edu/academics/college/swearer/programs/royce-fellowship/48/fellows/maksymilian-d%C4%85bkowski">
-          here
-        </a>
-        .
-      </p>
-
-      <h4>Research output</h4>
-
-      <p>[This section will be completed in the coding phase]</p>
-
-      <h4>Publicity</h4>
-
-      <p>
-        <a href="https://www.browndailyherald.com/2019/02/20/professor-students-help-preserve-cofan-language/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+BrownDailyHerald+%28The+Brown+Daily+Herald+RSS%29">
-          Professor, students help to preserve Cofán language | The Brown Daily
-          Herald
-        </a>
+        The A’i have been negatively impacted by environmental threats such as oil 
+        exploration and drilling, mining, logging, and poaching, as well as an influx 
+        of people from other regions of Ecuador.
       </p>
 
       <h2>Members</h2>
@@ -212,18 +129,18 @@ const aboutPageJSX = {
         scott_anderbois at brown.edu
       </p>
       <p>
-        Scott is an Associate Professor in the Department of Cognitive,
-        Linguistic, and Psychological Sciences (CLPS) at Brown University. His
-        research is focused on issues in semantics and pragmatics, especially
-        those concerning non-truth conditional meanings and the way they
-        interact with sentence type. Beyond A’ingae, his work has explored these
-        issues through primary fieldwork on Yucatec Maya (Mayan, Mexico) and
-        Tagalog (Austronesian, Philippines). Additionally, he co-directs with
-        Miguel Oscar Chan Dzul (Universidad de Oriente){" "}
-        <a href="https://yucatecmaya.github.io/LingView/#/">
-          U koorpusil maaya t'aan
-        </a>
-        , a multipurpose digital corpus of Yucatec Maya.
+        Scott is an Associate Professor in the Department of Linguistics at 
+        Brown University and Director of the {" "}
+        <a href="https://linguistics.brown.edu/">
+        Program in Linguistics
+        </a>.
+        In addition to the language documentation work of the ALDP, his research 
+        is focused on the semantics and pragmatics and in particular the ways 
+        that (non-truth conditional) assumptions about discourse context and 
+        speaker attitudes are encoded and inferred cross-linguistically.
+        Beyond A’ingae, his work has explored these issues through primary 
+        fieldwork on Yucatec Maya (Mayan, Mexico) and Tagalog (Austronesian, 
+        Philippines).
       </p>
 
       <p style={{ marginBottom: "-.7em" }}>
@@ -239,103 +156,6 @@ const aboutPageJSX = {
         endangered Eastern Tukanoan languages spoken in the Vaupés Region of
         Brazil and Colombia.
       </p>
-
-      <h3>Community partners</h3>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Hugo Lucitante</b>
-      </p>
-      <p>
-        Hugo Lucitante is a PhD student in Anthropology at UT San Antonio and a
-        Brown University graduate from Zábalo, a small Cofán community in
-        Ecuador. He received the Royce Fellowship in 2016 and developed the.
-        Hugo's work was immensely important in starting this project.
-      </p>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Sadie Lucitante</b>
-      </p>
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Shen Aguinda</b>
-      </p>
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Leidy Quenamá</b>
-      </p>
-      <p>
-        <b>Jorge Mendua</b>
-      </p>
-
-      <h3>Other outside collaborators</h3>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Chelsea Sanker, PhD</b>
-        <br />
-        <a href="https://www.chelseasanker.com/">chelseasanker.com</a>
-        <br />
-        chelsea.sanker at yale.edu
-      </p>
-      <p>
-        Chelsea Sanker is a lecturer at Yale University. Her research focuses on
-        synchronic patterns of details in perception and production, and
-        reconstructions of how shifts in cue usage can lead to diachronic
-        change.
-      </p>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Nick Emlen, PhD</b>
-        <br />
-        n.q.emlen at hum.leidenuniv.nl
-      </p>
-      <p>
-        Nick Emlen is a postdoc at Leiden University. He studies linguistic,
-        social, economic, and historical relationships that link the Andes and
-        Amazonia, and is currently a part of the Linguistic Past of Mesoamerica
-        and the Andes project.
-      </p>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Irina Wang, MID</b>
-        <br />
-        <a href="https://irinavw.xyz/">irinavw.xyz</a>
-        <br />
-        hello at irinawang.com
-      </p>
-      <p>
-        Irina is a designer and writer that has combined an interest in
-        typography, literature, and environmental theory to design alongside
-        native communities and academic linguists to revitalize endangered
-        languages such as Marma (Chittagong Hill Tracts), Unangam Tunuu
-        (Aleutian Islands), and A’ingae (Sucumbíos Province). Recognizing that
-        language justice, environmental justice, and social justice are one
-        demand arising from structural issues, she pursued a Master of
-        Industrial Design at RISD to develop transdisciplinary approaches for
-        ethical and urgent systems-shifting. She currently practices as Entropy
-        Studio, where she works on and writes about design philosophy, nuclear
-        non-proliferation, language sovereignty, energy democracy, agricultural
-        carbon sequestration, circular food systems, urban air mobility, and
-        post-growth governance.
-      </p>
-
-      <h3>Lead research assistant</h3>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Maksymilian Dąbkowski</b>
-        <br />
-        <a href="https://maksymilian-dabkowski.github.io/">
-          maksymilian-dabkowski.github.io
-        </a>
-        <br />
-        maksymilian.michal.dabkowski at gmail.com
-      </p>
-      <p>
-        Maksymilian is a linguistics lead research assistant at Brown
-        University. He holds B.A. degrees in Linguistics and Logic from Brown
-        University. He works predominantly on A'ingae. Maksymilian's research
-        interests include phonology and its interfaces, semantics, language
-        documentation, language revitalization, logic, and psycholinguistics.
-      </p>
-
-      <StudentNames />
     </div>
   ),
   [ESPANOL]: (
@@ -345,134 +165,117 @@ const aboutPageJSX = {
       </h2>
       <p>
         <b>A’ingae Language Documentation Project</b> (esp.{" "}
-        <i>el Proyecto de Documentación del Lenguaje A’ingae</i>) es un esfuerzo
-        interdisciplinario que tiene como objetivo documentar, investigar, y
-        revitalizar a’ingae (cofán), una lengua aislada que hablan
-        aproximadamente 2,000 cofanes (gente a’i) en la región Amazónica del
-        noreste de Ecuador y del sur de Colombia. El proyecto es dirigido por
-        Scott AnderBois (Brown University) y Wilson de Lima Silva (University of
-        Arizona), y es actualizado en colaboración con miembros de las
-        comunidades Zábalo, Dureno, Dovuno, y Sinangoé de Ecuador.{" "}
+        <i>el Proyecto de Documentación del Lenguaje A’ingae</i>) 
+        es un esfuerzo interdisciplinar cuyo objetivo es documentar, 
+        investigar y revitalizar la lengua a'ingae (también conocida 
+        como cofán). La lengua a'ingae es hablada en el noreste de 
+        Ecuador y el sur de Colombia por el pueblo a'i (o cofán), 
+        y cuenta actualmente con unos 1.500 hablantes.
       </p>
-
-      <h3>Los cofanes</h3>
-
       <p>
-        Los cofanes (la gente a’i) ha vivido, por mucho tiempo, en el cruce de
-        dos distintas regiones culturales y geográficas: los Andes y la
-        Amazonia. Mientras que viven presentemente en lo que es ahora la
-        provincia de Sucumbíos en el noreste de Ecuador y el sur de Colombia,
-        ellos han, históricamente, ocupado más territorio como cazadores y
-        recolectores. Aunque la población se ha reducido desde la llegada de los
-        Españoles en el siglo XVI—a cierto punto llegó a ser tan bajo como 350
-        personas, desde un estimado pre-colonial de 15,000—los cofanes ahora
-        componen 2,000 personas. Este crecimiento sigue firme, lo cual es un
-        suceso que ellos atribuyen a la cohesión social que les acede su
-        identidad lingüística distinta. Al momento se siguen formando también
-        nuevos encuentros arqueológicos que destacan la cultura material de los
-        cofanes, su alcance geográfico, y los cambios diacrónicos de lo mismo.
-      </p>
-
-      <p>
-        Sin embargo, los cofanes enfrentan varios desafíos para sostener su
-        territorio tradicional y su estilo de vida. Desde el descubrimiento de
-        grandes reservas de petróleo dentro y alrededor del territorio cofán, la
-        exploración de petróleo y la perforación ha causado un daño ambiental
-        sustancial. Más allá de impactos directos, el descubrimiento ha llevado
-        a cabo la construcción de carreteras y un influjo de colonizadores de
-        otras partes de Ecuador, y junto con ello nuevas amenazas como la
-        minería, la explotación forestal, y la caza furtiva.{" "}
-      </p>
-
-      <p>
-        Como respuesta, los cofanes tomaron acción directa y valientemente
-        hicieron campaña para sus derechos sobre la tierra, lo cual los llevó a
-        unos logros sin precedentes en esa región. Ellos defendieron el Cofán
-        Ranger Park Guard Program, un programa de protección que moviliza el
-        conocimiento propio de la gente cofán sobre su territorio para
-        defenderlo, y lanzaron el Charapa Turtle Project para estudiar y manejar
-        la población de tortugas de río con fines de preservar la diversidad de
-        la fauna local. En enero del 2019, los cofanes firmaron un acuerdo
-        vinculante con el gobierno ecuatoriano que les dio control permanente de
-        1,391 kilómetros cuadrados del Bosque Amazónico–una área más grande que
-        el Parque Nacional Rocky Mountain en los Estados Unidos. En total, los
-        cofanes administran más de 4,046 kilómetros cuadrados de terreno, y
-        siguen trabajando para mantener una área de la Amazona que viene a ser
-        casi el tamaño del estado de Delaware.
-      </p>
-
-      <h3>El idioma a'ingae</h3>
-
-      <p>
-        Aunque muchos conocen a la lengua como “cofán” o “kofán” en literatura
-        académica, los propios hablantes usan “a’ingae” para referirse a su
-        idioma (<i>a’ingae</i> literalmente significa “en la manera de los
-        a’i/la gente). A’ingae es un lenguaje aislado, es decir que se piensa
-        ser no relacionado con ningún otro lenguaje en el mundo. A pesar de no
-        tener ningún linaje parentesco, a’ingae tiene varias características
-        topológicas que comparten otros idiomas de la región: el orden de
-        palabras SOV, los clasificadores nominales, la presencia del
-        frustrative, el apprehensive, y el evidential en su morfología (lo cual
-        es complejamente aglutinante), una nasalización contrastiva entre
-        vocales, y otras características fonológicas prototípicamente
-        amazónicas.
-      </p>
-
-      <p>
-        A’ingae es un idioma amenazado con 2,000 hablantes en Ecuador y
-        Colombia. Las fronteras nacionales se piensan ser demarcadores
-        lingüísticas: de los dos dialectos principales, uno se habla a lo largo
-        del Río Aguarico en Ecuador; el otro–a lo largo del Río San Miguel, el
-        Río Guamués, y el Río Putumayo en Colombia. Ya que la población cofán se
-        ha quintuplicado desde los años ‘60, y el a’ingae sigue siendo usado, el
-        idioma se clasifica como “en desarrollo”. En Ecuador, a’ingae es hablado
-        extensamente (pero no universalmente entre registros) por gente de
-        varios grupos sociales y dominios. La actitud hacia el lenguaje es
-        positiva. Dentro de comunidades con influencias Kichwa y/o coloniales,
-        especialmente en Colombia, el español u otras lenguas pueden ser más
-        prominentes.
-      </p>
-
-      <p>
-        Una ortografía del lenguaje fue desarrollada por los misionarios del
-        SIL, Marlytte y Roberta Borman, y recientemente fue revisada por
-        miembros de la comunidad cofán, lo cual seguimos actualmente. Nuestro
-        equipo está en el proceso de conducir una encuesta sociolingüística para
-        evaluar la vitalidad del idioma en su forma escrita y hablada entre
-        diferentes contextos sociales.
+        El proyecto está dirigido por Scott AnderBois (Brown Universidad) 
+        y Wilson de Lima Silva (Universidad de Arizona) y tiene su sede 
+        principal en Brown Universidad. Se lleva a cabo en estrecha 
+        colaboración con miembros de las comunidades zábalo, dureno, 
+        dovuno y sinangoé de Ecuador.
       </p>
 
       <h3>Proyecto de Documentación del Lenguaje A’ingae</h3>
 
       <p>
-        ALDP se produjo de una colaboración entre Scott AnderBois, un profesor
-        en Brown University, y Hugo Lucitante, un a’ingae-hablante de Zábalo
-        quien recibió su BA en Brown en el año 2019 (actualmente es un
-        estudiante de doctorado en Antropología en la Universidad de Texas en
-        San Antonio). Al pensar en la importancia de su lenguaje en sus estudios
-        y en sus conversaciones fuera del salón, Hugo reconoció la necesidad de
-        documentar su lenguaje en un esfuerzo comprometido a su comunidad. Junto
-        con WIlson Silva, un profesor de la Universidad de Arizona, nació el
-        proyecto.
+        El proyecto de documentación de la lengua A'ingae comenzó a partir 
+        de una colaboración entre Scott AnderBois, Wilson Silva y Hugo Lucitante, 
+        hablante nativo de A'ingae y estudiante en Brown (clase de 2019). A través 
+        del trabajo de curso de Hugo, incluido un curso de métodos de campo de 
+        lingüística impartido por AnderBois en el semestre de primavera de 2017, 
+        así como conversaciones fuera del aula, Hugo reconoció la necesidad de una 
+        documentación lingüística de su idioma comprometida con la comunidad. Los 
+        miembros de la clase de métodos de campo de AnderBois tuvieron la oportunidad 
+        de viajar a Ecuador y trabajar directamente con miembros de la comunidad 
+        a'ingae, recopilando fuentes primarias en forma de historias grabadas. Un{" "}
+        <a href="https://www.browndailyherald.com/article/2019/02/professor-students-help-to-preserve-cofan-language">
+          artículo
+        </a> {" "} del Brown Daily Herald informa sobre las experiencias de los 
+        estudiantes de la clase de métodos de campo y el consiguiente viaje a Ecuador.
       </p>
 
       <p>
-        Nuestro proyecto tiene como objetivo documentar el lenguaje a’ingae,
-        investigar cuestiones científicas sobre su gramática y su uso, y
-        promover el desarrollo de capacidad comunitaria en nombre de producir
-        material que sea orientado a la comunidad.
+        Los actuales investigadores del ALDP, entre los que se encuentran estudiantes de 
+        Brown y de la Universidad de Arizona (cuya lista puede consultarse más abajo), se 
+        dedican a diversas tareas de documentación lingüística, muchas de las cuales incluyen 
+        el trabajo directo o indirecto con colaboradores de la comunidad A'i. La investigación 
+        incluye la recopilación de transcripciones de relatos hablados, la glosa de estos 
+        *textos que pueden consultarse en la pestaña Textos*, la creación de material 
+        bibliográfico y pedagógico y, cuando las condiciones lo permiten, la realización de 
+        viajes a Ecuador para participar en talleres lingüísticos y recopilar más fuentes 
+        primarias. En la actualidad, el proyecto ha recopilado más de 30 horas de audio, que 
+        incluyen más de 220 relatos. Estos textos primarios están archivados en el {" "}
+        <a href="https://cla.berkeley.edu/">California Language Archive de la UC Berkeley</a>{" "}
+        y en el <a href="https://elar.soas.ac.uk/Collection/MPI1079687">Endangered Languages Archive</a> 
+        {" "}de SOAS. Además de recopilar fuentes primarias, los investigadores han escrito multitud de 
+        trabajos de investigación formales sobre los diversos aspectos lingüísticos del 
+        a'ingae, que pueden leerse y descargarse en la pestaña {" "}<a href="#/materials">Materiales</a>.
+      </p>
+
+      <h3>El idioma a'ingae</h3>
+
+      <p>
+        Aunque en la literatura académica se suele hacer referencia a esta lengua como 
+        "cofán" (o "kofán"), los hablantes nativos la denominan a'ingae, que significa 
+        "a la manera del pueblo a'i" (el nombre se compone de la raíz aʼi ('persona, 
+        persona cofán, persona civilizada') y el clítico de modo =ngae, que significa 
+        'a la manera del pueblo'). El a'ingae es una lengua aislada, lo que significa 
+        que se cree que no está relacionada con ninguna otra lengua conocida en la Tierra. 
+        A pesar de no tener ninguna relación genética con otras lenguas, el a'ingae 
+        presenta muchos rasgos tipológicos característicos de otras lenguas de la región, 
+        como el orden básico de las palabras SOV, los clasificadores nominales, la 
+        presencia de morfología frustrativa, aprehensiva y evidencial, una morfología 
+        aglutinativa muy compleja, nasalidad contrastiva en las vocales y otros rasgos 
+        fonológicos prototípicamente amazónicos.
       </p>
 
       <p>
-        Además de estar disponibles a través de la pestaña de Texts en la parte
-        superior, los materiales primarios del idioma también están archivados
-        en California Language Archive en UC Berkeley y{" "}
-        <a href="https://elar.soas.ac.uk/Collection/MPI1079687">
-          Endangered Languages Archive
-        </a>{" "}
-        en SOAS.
+        El a'ingae es una lengua en peligro de extinción que cuenta con unos 1.500 hablantes 
+        nativos en Ecuador y Colombia.
       </p>
-      
+
+      <p>
+        Encontrará más información sobre la lengua {" "}
+        <a href="https://en.wikipedia.org/wiki/Cof%C3%A1n_language">aquí</a>, {" "}
+        <a href="https://lddjournal.org/articles/10.25894/ldd28">aquí</a>{" "} y en 
+        la pestaña {" "}<a href="#/materials">Materiales</a>.
+      </p>
+
+      <h3>Los cofanes</h3>
+
+      <p>
+        El pueblo A'i ha vivido durante mucho tiempo en la intersección de los Andes 
+        y la Amazonia. Aunque actualmente viven en lo que hoy es la provincia de 
+        Sucumbíos, en el noreste de Ecuador y el sur de Colombia, históricamente han 
+        utilizado un territorio mucho más extenso como pueblo cazador-recolector. En 
+        la actualidad, los a'i son unos 1.500 y siguen creciendo, un éxito que suelen 
+        atribuir a la cohesión social que les proporciona su identidad lingüística 
+        diferenciada.
+      </p>
+
+      <p>
+        La tradición religiosa a'i es chamanista, y un valor cultural clave de los 
+        a'i es la convivencia armoniosa. Además, la participación en prácticas 
+        culturales como beber yaje y en oficios tradicionales como la caza y la 
+        construcción de casas, más que la ascendencia o la etnia, desempeña un papel 
+        importante a la hora de determinar la condición de a'i (Cepek 2012). Los cofán 
+        atribuyen a su fuerte identidad lingüística su capacidad para resistir la 
+        opresión colonial y proteger su modo de vida tradicional.
+      </p>
+
+      <p>
+        Los A'i se han visto afectados negativamente por amenazas medioambientales 
+        como la prospección y perforación petrolífera, la minería, la tala de árboles 
+        y la caza furtiva, así como por la afluencia de colonos de otras regiones de 
+        Ecuador. Más información sobre el pueblo A'i{" "} 
+        <a href="https://en.wikipedia.org/wiki/Cof%C3%A1n_people">aquí</a>.
+      </p>
+
       <h2>Miembros</h2>
 
       <h3>Codirectores</h3>
@@ -487,7 +290,14 @@ const aboutPageJSX = {
         scott_anderbois en brown.edu
       </p>
       <p>
-        Scott es profesor asociado en el Departamento de Ciencias Cognitivas, Lingüísticas y Psicológicas (CLPS) de la Universidad de Brown. Su investigación se centra en cuestiones de semántica y pragmática, especialmente aquellas relacionadas con los significados condicionales que no son de verdad y la forma en que interactúan con el tipo de oración. Más allá de A'ingae, su trabajo ha explorado estos temas a través del trabajo de campo primario en maya yucateco (maya, México) y tagalo (austronesio, Filipinas). Además, codirige con Miguel Oscar Chan Dzul (Universidad de Oriente){" "}
+        Scott es profesor asociado en el Departamento de Ciencias Cognitivas, 
+        Lingüísticas y Psicológicas (CLPS) de la Universidad de Brown. Su investigación 
+        se centra en cuestiones de semántica y pragmática, especialmente aquellas 
+        relacionadas con los significados condicionales que no son de verdad y la forma 
+        en que interactúan con el tipo de oración. Más allá de A'ingae, su trabajo ha 
+        explorado estos temas a través del trabajo de campo primario en maya yucateco 
+        (maya, México) y tagalo (austronesio, Filipinas). Además, codirige con Miguel 
+        Oscar Chan Dzul (Universidad de Oriente){" "}
         <a href="https://yucatecmaya.github.io/LingView/#/">
           U koorpusil maaya t'aan
         </a>, un corpus digital multipropósito de la cultura maya yucateca.
@@ -499,80 +309,13 @@ const aboutPageJSX = {
         wdelimasilva en email.arizona.edu
       </p>
       <p>
-        Wilson es profesor asistente en el Departamento de Lingüística de la Universidad de Arizona. Es un lingüista de campo con formación formal en lingüística teórica y documentación y revitalización de idiomas. Más allá de A'ingae, ha realizado investigaciones en Desano y Siriano; dos lenguas tukanoanas orientales en peligro de extinción que se hablan en la región de Vaupés de Brasil y Colombia.
+        Wilson es profesor asistente en el Departamento de Lingüística de la 
+        Universidad de Arizona. Es un lingüista de campo con formación formal 
+        en lingüística teórica y documentación y revitalización de idiomas. Más 
+        allá de A'ingae, ha realizado investigaciones en Desano y Siriano; dos 
+        lenguas tukanoanas orientales en peligro de extinción que se hablan en 
+        la región de Vaupés de Brasil y Colombia.
       </p>
-
-      <h3>Socios comunitarios</h3>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Hugo Lucitante</b>
-      </p>
-      <p>
-        Hugo Lucitante es estudiante de doctorado en Antropología en la UT San Antonio y egresado de la Universidad Brown de Zábalo, una pequeña comunidad Cofán en Ecuador. Recibió la Beca Royce en 2016 y desarrolló el. El trabajo de Hugo fue inmensamente importante para iniciar este proyecto.
-      </p>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Sadie Lucitante</b>
-      </p>
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Shen Aguinda</b>
-      </p>
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Leidy Quenamá</b>
-      </p>
-      <p>
-        <b>Jorge Mendua</b>
-      </p>
-
-      <h3>Otros colaboradores externos</h3>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Chelsea Sanker, doctorada</b>
-        <br />
-        <a href="https://www.chelseasanker.com/">chelseasanker.com</a>
-        <br />
-        chelsea.sanker en yale.edu
-      </p>
-      <p>
-        Chelsea Sanker es profesora en la Universidad de Yale. Su investigación se centra en los patrones sincrónicos de detalles en la percepción y la producción, y reconstrucciones de cómo los cambios en el uso de señales pueden conducir a un cambio diacrónico.
-      </p>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Nick Emlen, doctorado</b>
-        <br />
-        n.q.emlen en hum.leidenuniv.nl
-      </p>
-      <p>
-        Nick Emlen es un postdoctorado en la Universidad de Leiden. Estudia las relaciones lingüísticas, sociales, económicas e históricas que unen los Andes y la Amazonía, y actualmente es parte del proyecto Pasado Lingüístico de Mesoamérica y los Andes.
-      </p>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Irina Wang, MID</b>
-        <br />
-        <a href="https://irinavw.xyz/">irinavw.xyz</a>
-        <br />
-        hello en irinawang.com
-      </p>
-      <p>
-        Irina es una diseñadora y escritora que ha combinado su interés en la tipografía, la literatura y la teoría ambiental para diseñar junto con comunidades nativas y lingüistas académicos para revitalizar idiomas en peligro de extinción como Marma (Chittagong Hill Tracts), Unangam Tunuu (Islas Aleutianas) y A ' ingae (provincia de Sucumbíos). Reconociendo que la justicia del lenguaje, la justicia ambiental y la justicia social son una demanda que surge de problemas estructurales, realizó una Maestría en Diseño Industrial en RISD para desarrollar enfoques transdisciplinarios para el cambio de sistemas éticos y urgentes. Actualmente ejerce como Entropy Studio, donde trabaja y escribe sobre filosofía de diseño, no proliferación nuclear, soberanía del lenguaje, democracia energética, secuestro de carbono agrícola, sistemas alimentarios circulares, movilidad aérea urbana y gobernanza posterior al crecimiento.
-      </p>
-
-      <h3>Asistente principal de investigación</h3>
-
-      <p style={{ marginBottom: "-.7em" }}>
-        <b>Maksymilian Dąbkowski</b>
-        <br />
-        <a href="https://maksymilian-dabkowski.github.io/">
-          maksymilian-dabkowski.github.io
-        </a>
-        <br />
-        maksymilian.michal.dabkowski en gmail.com
-      </p>
-      <p>
-        Maksymilian es asistente de investigación líder en lingüística en la Universidad de Brown. Tiene un B.A. Licenciados en Lingüística y Lógica de Brown University. Trabaja predominantemente en A'ingae. Los intereses de investigación de Maksymilian incluyen fonología y sus interfaces, semántica, documentación del lenguaje, revitalización del lenguaje, lógica y psicolingüística.
-      </p>
-
-      <StudentNames />
     </div>
   ),
 };

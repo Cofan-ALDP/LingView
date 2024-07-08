@@ -8777,33 +8777,22 @@
     "author": "",
     "glosser": "",
     "speakers": [
-      "Jorge Mendua",
       "Delfín Criollo"
     ],
     "xml_file_name": "2022Feb03-DC-Unfendyundyu.eaf",
     "source_filetype": "ELAN",
     "tier IDs": {
-      "JM-COM": {
+      "palabra en a'ingae (ortografía nueva)": {
         "subdivided": false
       },
-      "DC-COM": {
-        "subdivided": false
-      },
-      "JM_SPA": {
-        "subdivided": false
-      },
-      "DC_SPA": {
+      "frase en Español": {
         "subdivided": false
       }
     },
     "speaker IDs": {
       "S1": {
-        "name": "Jorge Mendua",
-        "tier": "JM-COM"
-      },
-      "S2": {
         "name": "Delfín Criollo",
-        "tier": "DC-COM"
+        "tier": "palabra en a'ingae (ortografía nueva)"
       }
     }
   }
