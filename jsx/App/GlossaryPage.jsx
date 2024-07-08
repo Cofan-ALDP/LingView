@@ -1,5 +1,5 @@
 import React from "react";
-import { ENGLISH } from "./locale/LocaleConstants.jsx";
+import { ENGLISH, ESPANOL } from "./locale/LocaleConstants.jsx";
 import { TranslatableText } from "./locale/TranslatableText.jsx";
 
 const glossaryPageJSX = {
