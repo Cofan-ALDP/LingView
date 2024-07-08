@@ -1,31 +1,29 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Link } from 'react-router-dom';
 import { MaterialCard } from './Materials/MaterialCard.jsx';
 import { Tag } from './Materials/Components/Tag.jsx';
 import { NotFound } from './Materials/NotFound.jsx';
 import { TranslatableText } from './locale/TranslatableText.jsx';
 import { 
-  navBarMaterialsText, 
-  curatedCategoryName, 
-  curatedCategoryDescription, 
   currentCategoryText, 
   chooseCategoryPrompt, 
   materialsLinkInstructions, 
   returnToMaterialsIndexLinkText,
+  aldpMaterialsButton,
+  allMaterialsButton,
+  materialsPageHeader
 } from './locale/LocaleConstants.jsx';
 
 export class MaterialIndex extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      materialsIndex: [],
-      materialsCategories: [],
+      materialsIndex: []
     };
   }
   async componentDidMount() {
     const index = (await import('~./data/materials_index.json')).default;
-    const categories = this.getCategories(index);
-    this.setState({ materialsIndex: index, materialsCategories: categories });
+    this.setState({ materialsIndex: index });
   }
 
   getCategories(materials) {
@@ -41,39 +39,37 @@ export class MaterialIndex extends React.Component {
   render() {
     return (
       <main className="wide-content-wrapper">
-        <header>
-          <h1><TranslatableText dictionary={navBarMaterialsText} /></h1>
-          <p></p>
-        </header>
-        <Route component={scrollToTop} />
-        <Switch>
-          <Route
-            key={-1}
-            exact path="/materials"
-            render={_ => (
-              <div>
-                <Curated index={this.state.materialsIndex} />
-                <ChooseCategory categories={this.state.materialsCategories} />
+        <div className='sidenav'>
+            <div className="material-buttons-container">
+                    <Link to="/materials"  className="material-button">
+                      <TranslatableText dictionary={materialsPageHeader} />
+                    </Link>
+                    <Link to="/aldp-materials">
+                      <TranslatableText dictionary={aldpMaterialsButton} />
+                    </Link>
+                    <Link to="/all-materials" className="material-button">
+                      <TranslatableText dictionary={allMaterialsButton} />
+                    </Link>
               </div>
-            )}
-          />
-          {this.state.materialsCategories && this.state.materialsCategories.map((category, i) => (
+        </div>
+        <div className="header-content-container">
+          <header>
+              <h1><TranslatableText dictionary={materialsPageHeader} /></h1>
+          </header>
+          <Route component={scrollToTop} />
+          <Switch>
             <Route
-              key={i}
-              exact path={`/materials/${category}`}
-              render={_ =>
-                <CategoryView
-                  category={category}
-                  items={
-                    this.state.materialsIndex
-                      .filter(materialInfo => materialInfo.categories.includes(category))
-                  }
-                />
-              }
+              key={-1}
+              exact path="/materials"
+              render={_ => (
+                <div>
+                <Curated index={this.state.materialsIndex} />
+                </div>
+              )}
             />
-          ))}
-          <Route component={NotFound} />
-        </Switch>
+            <Route component={NotFound} />
+          </Switch>
+        </div>
       </main>
     );
   }
@@ -91,8 +87,6 @@ function Curated({ index }) {
   return (
     <article>
       <header>
-        <h2><TranslatableText dictionary={curatedCategoryName} /></h2>
-        <p><TranslatableText dictionary={curatedCategoryDescription} /></p>
         <div className="material-card-list">
           {index.filter(m => m.isCurated).map((materialInfo, i) => (
             <MaterialCard key={i} metadata={materialInfo} />
