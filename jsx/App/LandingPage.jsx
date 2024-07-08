@@ -52,14 +52,14 @@ const landingPageJSX = {
           <img src={image2} alt="Nasality recording session" className="image" />
           <span className="caption-bar">Nasality recording session</span>
         </div>
-        <div className="image-container">
+        {/*<div className="image-container">
           <img src={image1} alt="2023 Workshop" className="image" />
           <span className="caption-bar">2023 Workshop</span>
         </div>
         <div className="image-container">
           <img src={image3} alt="Recording session by the river" className="image" />
           <span className="caption-bar">Recording session by the river</span>
-        </div>
+        </div>*/}
       </div>
     </div>
   ),
@@ -108,14 +108,14 @@ const landingPageJSX = {
           <img src={image2} alt="Sesión de grabación de la nasalidad" className="image" />
           <span className="caption-bar">Sesión de grabación de la nasalidad</span>
         </div>
-        <div className="image-container">
+        {/*<div className="image-container">
           <img src={image1} alt="Taller de 2023" className="image" />
           <span className="caption-bar">Taller de 2023</span>
         </div>
         <div className="image-container">
           <img src={image3} alt="Sesión de grabación junto al río" className="image" />
           <span className="caption-bar">Sesión de grabación junto al río</span>
-        </div>
+        </div>*/}
       </div>
     </div>
   )
