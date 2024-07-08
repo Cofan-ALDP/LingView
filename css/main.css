@@ -412,3 +412,75 @@ video {
 	align-items: center;
 	height: 10em;
 }
+.sidenav {
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 48;
+	left: 0;
+	background-color: #479efc;
+	overflow-x: hidden;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 1.4em;
+	color: white;
+	display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+	background-color: #397bc2;
+  }
+  
+  /* Style page content */
+  .header-content-container {
+	margin-left: 180px;
+	padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+
+/* Styles for horizontal row of images */
+.image-row {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+  }
+  
+  .image-container {
+	position: relative;
+	width: 30%;
+  }
+  
+  .image {
+	width: 100%;
+	height: auto;
+	display: block;
+  }
+  
+
+/* Caption bar styles */
+.caption-bar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+  }
+  
+  .image-container:hover .caption-bar {
+	opacity: 1;
+  }
